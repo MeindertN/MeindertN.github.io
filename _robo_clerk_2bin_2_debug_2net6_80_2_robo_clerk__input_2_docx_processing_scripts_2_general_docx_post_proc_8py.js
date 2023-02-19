@@ -1,0 +1,6 @@
+var _robo_clerk_2bin_2_debug_2net6_80_2_robo_clerk__input_2_docx_processing_scripts_2_general_docx_post_proc_8py =
+[
+    [ "AddTOCToDocument", "_robo_clerk_2bin_2_debug_2net6_80_2_robo_clerk__input_2_docx_processing_scripts_2_general_docx_post_proc_8py.html#a739b7419d746b54f935773a4fcae26ac", null ],
+    [ "DeleteLineFromDocument", "_robo_clerk_2bin_2_debug_2net6_80_2_robo_clerk__input_2_docx_processing_scripts_2_general_docx_post_proc_8py.html#a3416639620b6e45c5b8e51e215ff2866", null ],
+    [ "InsertPageBreak", "_robo_clerk_2bin_2_debug_2net6_80_2_robo_clerk__input_2_docx_processing_scripts_2_general_docx_post_proc_8py.html#a065fb855c62de68c1e0512aa0a6bc86b", null ]
+];
