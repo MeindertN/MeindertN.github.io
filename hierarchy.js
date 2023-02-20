@@ -21,7 +21,7 @@ var hierarchy =
     ] ],
     [ "RoboClerk.ExternalDependency", "class_robo_clerk_1_1_external_dependency.html", null ],
     [ "RoboClerk.Redmine.FixedVersion", "class_robo_clerk_1_1_redmine_1_1_fixed_version.html", null ],
-    [ "HtmlToTextConverter", "class_html_to_text_converter.html", null ],
+    [ "RoboClerk.AzureDevOps.HtmlToTextConverter", "class_robo_clerk_1_1_azure_dev_ops_1_1_html_to_text_converter.html", null ],
     [ "RoboClerk.Configuration.IConfiguration", "interface_robo_clerk_1_1_configuration_1_1_i_configuration.html", [
       [ "RoboClerk.Configuration.Configuration", "class_robo_clerk_1_1_configuration_1_1_configuration.html", null ]
     ] ],
@@ -58,25 +58,16 @@ var hierarchy =
       [ "RoboClerk.RoboClerkOrderedDictionary< TKey, TValue >", "class_robo_clerk_1_1_robo_clerk_ordered_dictionary.html", null ]
     ] ],
     [ "RoboClerk.IPlugin", "interface_robo_clerk_1_1_i_plugin.html", [
-      [ "RoboClerk.IDependencyManagementPlugin", "interface_robo_clerk_1_1_i_dependency_management_plugin.html", [
-        [ "RoboClerk.DependenciesFile.DependenciesFilePlugin", "class_robo_clerk_1_1_dependencies_file_1_1_dependencies_file_plugin.html", null ]
-      ] ],
-      [ "RoboClerk.ISLMSPlugin", "interface_robo_clerk_1_1_i_s_l_m_s_plugin.html", [
+      [ "RoboClerk.PluginBase", "class_robo_clerk_1_1_plugin_base.html", [
+        [ "RoboClerk.DependenciesFile.DependenciesFilePlugin", "class_robo_clerk_1_1_dependencies_file_1_1_dependencies_file_plugin.html", null ],
         [ "RoboClerk.SLMSPluginBase", "class_robo_clerk_1_1_s_l_m_s_plugin_base.html", [
           [ "RoboClerk.AzureDevOps.AzureDevOpsSLMSPlugin", "class_robo_clerk_1_1_azure_dev_ops_1_1_azure_dev_ops_s_l_m_s_plugin.html", null ],
           [ "RoboClerk.Redmine.RedmineSLMSPlugin", "class_robo_clerk_1_1_redmine_1_1_redmine_s_l_m_s_plugin.html", null ]
-        ] ]
-      ] ],
-      [ "RoboClerk.ISourceCodeAnalysisPlugin", "interface_robo_clerk_1_1_i_source_code_analysis_plugin.html", [
+        ] ],
         [ "RoboClerk.SourceCodeAnalysisPluginBase", "class_robo_clerk_1_1_source_code_analysis_plugin_base.html", [
           [ "RoboClerk.AnnotatedUnitTests.AnnotatedUnitTestsPlugin", "class_robo_clerk_1_1_annotated_unit_tests_1_1_annotated_unit_tests_plugin.html", null ],
-          [ "RoboClerk.SourceCode.UnitTestFNPlugin", "class_robo_clerk_1_1_source_code_1_1_unit_test_f_n_plugin.html", null ]
+          [ "RoboClerk.UnitTestFNPlugin", "class_robo_clerk_1_1_unit_test_f_n_plugin.html", null ]
         ] ]
-      ] ],
-      [ "RoboClerk.PluginBase", "class_robo_clerk_1_1_plugin_base.html", [
-        [ "RoboClerk.DependenciesFile.DependenciesFilePlugin", "class_robo_clerk_1_1_dependencies_file_1_1_dependencies_file_plugin.html", null ],
-        [ "RoboClerk.SLMSPluginBase", "class_robo_clerk_1_1_s_l_m_s_plugin_base.html", null ],
-        [ "RoboClerk.SourceCodeAnalysisPluginBase", "class_robo_clerk_1_1_source_code_analysis_plugin_base.html", null ]
       ] ]
     ] ],
     [ "RoboClerk.IPluginLoader", "interface_robo_clerk_1_1_i_plugin_loader.html", [

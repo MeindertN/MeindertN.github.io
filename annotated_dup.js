@@ -5,7 +5,8 @@ var annotated_dup =
         [ "AnnotatedUnitTestsPlugin", "class_robo_clerk_1_1_annotated_unit_tests_1_1_annotated_unit_tests_plugin.html", "class_robo_clerk_1_1_annotated_unit_tests_1_1_annotated_unit_tests_plugin" ]
       ] ],
       [ "AzureDevOps", "namespace_robo_clerk_1_1_azure_dev_ops.html", [
-        [ "AzureDevOpsSLMSPlugin", "class_robo_clerk_1_1_azure_dev_ops_1_1_azure_dev_ops_s_l_m_s_plugin.html", "class_robo_clerk_1_1_azure_dev_ops_1_1_azure_dev_ops_s_l_m_s_plugin" ]
+        [ "AzureDevOpsSLMSPlugin", "class_robo_clerk_1_1_azure_dev_ops_1_1_azure_dev_ops_s_l_m_s_plugin.html", "class_robo_clerk_1_1_azure_dev_ops_1_1_azure_dev_ops_s_l_m_s_plugin" ],
+        [ "HtmlToTextConverter", "class_robo_clerk_1_1_azure_dev_ops_1_1_html_to_text_converter.html", null ]
       ] ],
       [ "Configuration", "namespace_robo_clerk_1_1_configuration.html", [
         [ "CheckpointConfig", "class_robo_clerk_1_1_configuration_1_1_checkpoint_config.html", "class_robo_clerk_1_1_configuration_1_1_checkpoint_config" ],
@@ -59,9 +60,6 @@ var annotated_dup =
         [ "Relation", "class_robo_clerk_1_1_redmine_1_1_relation.html", "class_robo_clerk_1_1_redmine_1_1_relation" ],
         [ "Status", "class_robo_clerk_1_1_redmine_1_1_status.html", "class_robo_clerk_1_1_redmine_1_1_status" ]
       ] ],
-      [ "SourceCode", "namespace_robo_clerk_1_1_source_code.html", [
-        [ "UnitTestFNPlugin", "class_robo_clerk_1_1_source_code_1_1_unit_test_f_n_plugin.html", "class_robo_clerk_1_1_source_code_1_1_unit_test_f_n_plugin" ]
-      ] ],
       [ "AnomalyItem", "class_robo_clerk_1_1_anomaly_item.html", "class_robo_clerk_1_1_anomaly_item" ],
       [ "CheckpointDataSources", "class_robo_clerk_1_1_checkpoint_data_sources.html", "class_robo_clerk_1_1_checkpoint_data_sources" ],
       [ "CheckpointDataStorage", "class_robo_clerk_1_1_checkpoint_data_storage.html", "class_robo_clerk_1_1_checkpoint_data_storage" ],
@@ -72,11 +70,8 @@ var annotated_dup =
       [ "ExternalDependency", "class_robo_clerk_1_1_external_dependency.html", "class_robo_clerk_1_1_external_dependency" ],
       [ "GitRepoInformation", "class_robo_clerk_1_1_git_repo_information.html", "class_robo_clerk_1_1_git_repo_information" ],
       [ "IDataSources", "interface_robo_clerk_1_1_i_data_sources.html", "interface_robo_clerk_1_1_i_data_sources" ],
-      [ "IDependencyManagementPlugin", "interface_robo_clerk_1_1_i_dependency_management_plugin.html", "interface_robo_clerk_1_1_i_dependency_management_plugin" ],
       [ "IPlugin", "interface_robo_clerk_1_1_i_plugin.html", "interface_robo_clerk_1_1_i_plugin" ],
       [ "IPluginLoader", "interface_robo_clerk_1_1_i_plugin_loader.html", "interface_robo_clerk_1_1_i_plugin_loader" ],
-      [ "ISLMSPlugin", "interface_robo_clerk_1_1_i_s_l_m_s_plugin.html", "interface_robo_clerk_1_1_i_s_l_m_s_plugin" ],
-      [ "ISourceCodeAnalysisPlugin", "interface_robo_clerk_1_1_i_source_code_analysis_plugin.html", "interface_robo_clerk_1_1_i_source_code_analysis_plugin" ],
       [ "Item", "class_robo_clerk_1_1_item.html", "class_robo_clerk_1_1_item" ],
       [ "ItemLink", "class_robo_clerk_1_1_item_link.html", "class_robo_clerk_1_1_item_link" ],
       [ "ItemTemplateRenderer", "class_robo_clerk_1_1_item_template_renderer.html", "class_robo_clerk_1_1_item_template_renderer" ],
@@ -107,7 +102,7 @@ var annotated_dup =
       [ "TraceLink", "class_robo_clerk_1_1_trace_link.html", "class_robo_clerk_1_1_trace_link" ],
       [ "TraceSpecification", "class_robo_clerk_1_1_trace_specification.html", "class_robo_clerk_1_1_trace_specification" ],
       [ "UnitTestAttribute", "class_robo_clerk_1_1_unit_test_attribute.html", "class_robo_clerk_1_1_unit_test_attribute" ],
+      [ "UnitTestFNPlugin", "class_robo_clerk_1_1_unit_test_f_n_plugin.html", "class_robo_clerk_1_1_unit_test_f_n_plugin" ],
       [ "UnitTestItem", "class_robo_clerk_1_1_unit_test_item.html", "class_robo_clerk_1_1_unit_test_item" ]
-    ] ],
-    [ "HtmlToTextConverter", "class_html_to_text_converter.html", null ]
+    ] ]
 ];

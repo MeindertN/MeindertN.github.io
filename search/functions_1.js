@@ -3,7 +3,7 @@ var searchData=
   ['checkpointdatasources_0',['CheckpointDataSources',['../class_robo_clerk_1_1_checkpoint_data_sources.html#a5cc95e80036a300fb303138975b82c0e',1,'RoboClerk::CheckpointDataSources']]],
   ['checkupdatedatetime_1',['CheckUpdateDateTime',['../class_robo_clerk_1_1_content_creators_1_1_content_creator_base.html#aa8100c1ac31c9d84b5526a596f908515',1,'RoboClerk::ContentCreators::ContentCreatorBase']]],
   ['clear_2',['Clear',['../class_robo_clerk_1_1_robo_clerk_ordered_dictionary.html#a5d09fb354933de246588d9afee137c82',1,'RoboClerk::RoboClerkOrderedDictionary']]],
-  ['clearallslmsitems_3',['ClearAllSLMSItems',['../class_robo_clerk_1_1_s_l_m_s_plugin_base.html#ae92b64d0d6d796957f3c67d1ee6e157d',1,'RoboClerk::SLMSPluginBase']]],
+  ['clearallitems_3',['ClearAllItems',['../class_robo_clerk_1_1_plugin_base.html#a8f51ba33a5fda8a690737e3a454b28d6',1,'RoboClerk::PluginBase']]],
   ['cleartestcasesteps_4',['ClearTestCaseSteps',['../class_robo_clerk_1_1_test_case_item.html#a61e5212bb4524f529bf6716d30626f8c',1,'RoboClerk::TestCaseItem']]],
   ['commandlineoptionordefault_5',['CommandLineOptionOrDefault',['../class_robo_clerk_1_1_configuration_1_1_configuration.html#af2a07691a7ae69061a20b2df547429e3',1,'RoboClerk.Configuration.Configuration.CommandLineOptionOrDefault()'],['../interface_robo_clerk_1_1_configuration_1_1_i_configuration.html#ad8e6c4733e3818ae6327338f0e9d78b0',1,'RoboClerk.Configuration.IConfiguration.CommandLineOptionOrDefault()']]],
   ['commands_6',['Commands',['../class_robo_clerk_1_1_commands.html#ac2738adaad2b946b2a79b23453f6485a',1,'RoboClerk::Commands']]],

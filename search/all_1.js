@@ -16,7 +16,7 @@ var searchData=
   ['analysis_13',['analysis',['../class_robo_clerk_1_1_content_creators_1_1_content_creator_base.html#a53422fdbb8256d208ac4ed4f9f87fc47',1,'RoboClerk::ContentCreators::ContentCreatorBase']]],
   ['annotatedunittestsplugin_14',['AnnotatedUnitTestsPlugin',['../class_robo_clerk_1_1_annotated_unit_tests_1_1_annotated_unit_tests_plugin.html#ae29227541228ba57fa6384093f0c4dd9',1,'RoboClerk.AnnotatedUnitTests.AnnotatedUnitTestsPlugin.AnnotatedUnitTestsPlugin()'],['../class_robo_clerk_1_1_annotated_unit_tests_1_1_annotated_unit_tests_plugin.html',1,'RoboClerk.AnnotatedUnitTests.AnnotatedUnitTestsPlugin']]],
   ['annotatedunittestsplugin_2ecs_15',['AnnotatedUnitTestsPlugin.cs',['../_annotated_unit_tests_plugin_8cs.html',1,'']]],
-  ['anomalies_16',['anomalies',['../class_robo_clerk_1_1_s_l_m_s_plugin_base.html#a61633794f3a38eb2fa5a1e4d3193f853',1,'RoboClerk::SLMSPluginBase']]],
+  ['anomalies_16',['anomalies',['../class_robo_clerk_1_1_plugin_base.html#a8a7de712709103569669099b8867f662',1,'RoboClerk::PluginBase']]],
   ['anomalies_17',['Anomalies',['../class_robo_clerk_1_1_checkpoint_data_storage.html#aa5d5a4e88d2c68cdbbb9bed3e679ac8c',1,'RoboClerk::CheckpointDataStorage']]],
   ['anomaly_18',['Anomaly',['../class_robo_clerk_1_1_content_creators_1_1_anomaly.html#af401d240d16f6a36dfee94e1f688451f',1,'RoboClerk.ContentCreators.Anomaly.Anomaly()'],['../class_robo_clerk_1_1_content_creators_1_1_anomaly.html',1,'RoboClerk.ContentCreators.Anomaly']]],
   ['anomaly_2ecs_19',['Anomaly.cs',['../_anomaly_8cs.html',1,'']]],

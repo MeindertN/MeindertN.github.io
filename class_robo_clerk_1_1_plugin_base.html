@@ -113,7 +113,7 @@ Inheritance diagram for RoboClerk.PluginBase:</div>
 <area href="class_robo_clerk_1_1_azure_dev_ops_1_1_azure_dev_ops_s_l_m_s_plugin.html" alt="RoboClerk.AzureDevOps.AzureDevOpsSLMSPlugin" shape="rect" coords="169,168,497,192"/>
 <area href="class_robo_clerk_1_1_redmine_1_1_redmine_s_l_m_s_plugin.html" alt="RoboClerk.Redmine.RedmineSLMSPlugin" shape="rect" coords="507,168,835,192"/>
 <area href="class_robo_clerk_1_1_annotated_unit_tests_1_1_annotated_unit_tests_plugin.html" alt="RoboClerk.AnnotatedUnitTests.AnnotatedUnitTestsPlugin" shape="rect" coords="845,168,1173,192"/>
-<area href="class_robo_clerk_1_1_source_code_1_1_unit_test_f_n_plugin.html" alt="RoboClerk.SourceCode.UnitTestFNPlugin" shape="rect" coords="1183,168,1511,192"/>
+<area href="class_robo_clerk_1_1_unit_test_f_n_plugin.html" alt="RoboClerk.UnitTestFNPlugin" shape="rect" coords="1183,168,1511,192"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -123,11 +123,57 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a59673c91725a54cce4b130d92f3de4ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa574926d44212a3a2736e15fbbae62e7"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_robo_clerk_1_1_plugin_base.html#aa574926d44212a3a2736e15fbbae62e7">Initialize</a> (<a class="el" href="interface_robo_clerk_1_1_configuration_1_1_i_configuration.html">IConfiguration</a> config)</td></tr>
 <tr class="separator:aa574926d44212a3a2736e15fbbae62e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a971392386cb08a2eed87cc73c959df00"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_robo_clerk_1_1_plugin_base.html#a971392386cb08a2eed87cc73c959df00">RefreshItems</a> ()</td></tr>
+<tr class="separator:a971392386cb08a2eed87cc73c959df00"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e54d1223a8c4f4f5482e6b3eead2334"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_robo_clerk_1_1_anomaly_item.html">AnomalyItem</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_robo_clerk_1_1_plugin_base.html#a9e54d1223a8c4f4f5482e6b3eead2334">GetAnomalies</a> ()</td></tr>
+<tr class="separator:a9e54d1223a8c4f4f5482e6b3eead2334"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a567f2a2f054fb712d059a82013234ef1"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_robo_clerk_1_1_requirement_item.html">RequirementItem</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_robo_clerk_1_1_plugin_base.html#a567f2a2f054fb712d059a82013234ef1">GetSystemRequirements</a> ()</td></tr>
+<tr class="separator:a567f2a2f054fb712d059a82013234ef1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49bc7311998c78f457dfe9bd3ce4d687"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_robo_clerk_1_1_requirement_item.html">RequirementItem</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_robo_clerk_1_1_plugin_base.html#a49bc7311998c78f457dfe9bd3ce4d687">GetSoftwareRequirements</a> ()</td></tr>
+<tr class="separator:a49bc7311998c78f457dfe9bd3ce4d687"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab817317368ef9c516d9783fa33431e56"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_robo_clerk_1_1_requirement_item.html">RequirementItem</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_robo_clerk_1_1_plugin_base.html#ab817317368ef9c516d9783fa33431e56">GetDocumentationRequirements</a> ()</td></tr>
+<tr class="separator:ab817317368ef9c516d9783fa33431e56"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac747434fd37eafc4f77e6a69a0134f75"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_robo_clerk_1_1_doc_content_item.html">DocContentItem</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_robo_clerk_1_1_plugin_base.html#ac747434fd37eafc4f77e6a69a0134f75">GetDocContents</a> ()</td></tr>
+<tr class="separator:ac747434fd37eafc4f77e6a69a0134f75"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac82da61b37947676da2bc07eff275259"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_robo_clerk_1_1_test_case_item.html">TestCaseItem</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_robo_clerk_1_1_plugin_base.html#ac82da61b37947676da2bc07eff275259">GetSoftwareSystemTests</a> ()</td></tr>
+<tr class="separator:ac82da61b37947676da2bc07eff275259"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9695394ab954d5850ac8210aa6b222f"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_robo_clerk_1_1_risk_item.html">RiskItem</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_robo_clerk_1_1_plugin_base.html#af9695394ab954d5850ac8210aa6b222f">GetRisks</a> ()</td></tr>
+<tr class="separator:af9695394ab954d5850ac8210aa6b222f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e15ac1806808579c4a32e09d23ab63f"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_robo_clerk_1_1_s_o_u_p_item.html">SOUPItem</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_robo_clerk_1_1_plugin_base.html#a2e15ac1806808579c4a32e09d23ab63f">GetSOUP</a> ()</td></tr>
+<tr class="separator:a2e15ac1806808579c4a32e09d23ab63f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85279fca7ba2ab29cf61f59c57ed9895"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_robo_clerk_1_1_unit_test_item.html">UnitTestItem</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_robo_clerk_1_1_plugin_base.html#a85279fca7ba2ab29cf61f59c57ed9895">GetUnitTests</a> ()</td></tr>
+<tr class="separator:a85279fca7ba2ab29cf61f59c57ed9895"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05b46f665a4fd187c099630b9e91e2e1"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_robo_clerk_1_1_external_dependency.html">ExternalDependency</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_robo_clerk_1_1_plugin_base.html#a05b46f665a4fd187c099630b9e91e2e1">GetDependencies</a> ()</td></tr>
+<tr class="separator:a05b46f665a4fd187c099630b9e91e2e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2e013faf0c2a191dd6190486916dbc42"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_robo_clerk_1_1_i_plugin.html#a2e013faf0c2a191dd6190486916dbc42">Initialize</a> (<a class="el" href="interface_robo_clerk_1_1_configuration_1_1_i_configuration.html">IConfiguration</a> config)</td></tr>
 <tr class="separator:a2e013faf0c2a191dd6190486916dbc42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac989f419f44b9bd2eec0e8a8efede069"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_robo_clerk_1_1_i_plugin.html#ac989f419f44b9bd2eec0e8a8efede069">RefreshItems</a> ()</td></tr>
+<tr class="separator:ac989f419f44b9bd2eec0e8a8efede069"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63c80e62adc03894c6c0a5dba4188b40"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_robo_clerk_1_1_requirement_item.html">RequirementItem</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_robo_clerk_1_1_i_plugin.html#a63c80e62adc03894c6c0a5dba4188b40">GetSystemRequirements</a> ()</td></tr>
+<tr class="separator:a63c80e62adc03894c6c0a5dba4188b40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61c289ffe38382d5008a24c1662cb8db"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_robo_clerk_1_1_requirement_item.html">RequirementItem</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_robo_clerk_1_1_i_plugin.html#a61c289ffe38382d5008a24c1662cb8db">GetSoftwareRequirements</a> ()</td></tr>
+<tr class="separator:a61c289ffe38382d5008a24c1662cb8db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a201ad0592294752076831c62f6f79433"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_robo_clerk_1_1_requirement_item.html">RequirementItem</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_robo_clerk_1_1_i_plugin.html#a201ad0592294752076831c62f6f79433">GetDocumentationRequirements</a> ()</td></tr>
+<tr class="separator:a201ad0592294752076831c62f6f79433"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe5afb1724876cb6016298122183dc71"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_robo_clerk_1_1_doc_content_item.html">DocContentItem</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_robo_clerk_1_1_i_plugin.html#afe5afb1724876cb6016298122183dc71">GetDocContents</a> ()</td></tr>
+<tr class="separator:afe5afb1724876cb6016298122183dc71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab41a6015c570294f8a46997355b1483e"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_robo_clerk_1_1_anomaly_item.html">AnomalyItem</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_robo_clerk_1_1_i_plugin.html#ab41a6015c570294f8a46997355b1483e">GetAnomalies</a> ()</td></tr>
+<tr class="separator:ab41a6015c570294f8a46997355b1483e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42e5f0bcf73612c3fdadd20dee4be626"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_robo_clerk_1_1_test_case_item.html">TestCaseItem</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_robo_clerk_1_1_i_plugin.html#a42e5f0bcf73612c3fdadd20dee4be626">GetSoftwareSystemTests</a> ()</td></tr>
+<tr class="separator:a42e5f0bcf73612c3fdadd20dee4be626"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae23cfadd1ccdef406ded108b97b6b836"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_robo_clerk_1_1_risk_item.html">RiskItem</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_robo_clerk_1_1_i_plugin.html#ae23cfadd1ccdef406ded108b97b6b836">GetRisks</a> ()</td></tr>
+<tr class="separator:ae23cfadd1ccdef406ded108b97b6b836"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8cdfc18071512dcb6a6eb29f909397a"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_robo_clerk_1_1_s_o_u_p_item.html">SOUPItem</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_robo_clerk_1_1_i_plugin.html#ab8cdfc18071512dcb6a6eb29f909397a">GetSOUP</a> ()</td></tr>
+<tr class="separator:ab8cdfc18071512dcb6a6eb29f909397a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a393a5228733ebc1abcca34d414484134"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_robo_clerk_1_1_unit_test_item.html">UnitTestItem</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_robo_clerk_1_1_i_plugin.html#a393a5228733ebc1abcca34d414484134">GetUnitTests</a> ()</td></tr>
+<tr class="separator:a393a5228733ebc1abcca34d414484134"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9db4fa03594cbe0a31fba307ddbb1247"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_robo_clerk_1_1_external_dependency.html">ExternalDependency</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_robo_clerk_1_1_i_plugin.html#a9db4fa03594cbe0a31fba307ddbb1247">GetDependencies</a> ()</td></tr>
+<tr class="separator:a9db4fa03594cbe0a31fba307ddbb1247"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
+<tr class="memitem:a8f51ba33a5fda8a690737e3a454b28d6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_robo_clerk_1_1_plugin_base.html#a8f51ba33a5fda8a690737e3a454b28d6">ClearAllItems</a> ()</td></tr>
+<tr class="separator:a8f51ba33a5fda8a690737e3a454b28d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8a25954ed5231bfb5f2473a01562395f"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_robo_clerk_1_1_plugin_base.html#a8a25954ed5231bfb5f2473a01562395f">GetStringForKey</a> (TomlTable config, string keyName, bool required)</td></tr>
 <tr class="separator:a8a25954ed5231bfb5f2473a01562395f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aebc82557dfee648bd0d0982eee1d47d5"><td class="memItemLeft" align="right" valign="top">TomlTable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_robo_clerk_1_1_plugin_base.html#aebc82557dfee648bd0d0982eee1d47d5">GetConfigurationTable</a> (string pluginConfDir, string confFileName)</td></tr>
@@ -141,6 +187,26 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a24e9e84ac416a100c29c4d59c2fea63f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a14c422135c3d38aee621c408400543f1"><td class="memItemLeft" align="right" valign="top">IFileSystem&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_robo_clerk_1_1_plugin_base.html#a14c422135c3d38aee621c408400543f1">fileSystem</a> = null</td></tr>
 <tr class="separator:a14c422135c3d38aee621c408400543f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4dfe717b702ae58249fa422fd4cd4016"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_robo_clerk_1_1_requirement_item.html">RequirementItem</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_robo_clerk_1_1_plugin_base.html#a4dfe717b702ae58249fa422fd4cd4016">systemRequirements</a> = new List&lt;<a class="el" href="class_robo_clerk_1_1_requirement_item.html">RequirementItem</a>&gt;()</td></tr>
+<tr class="separator:a4dfe717b702ae58249fa422fd4cd4016"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad37ca4c81a65ee8481ca6a030a05e009"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_robo_clerk_1_1_requirement_item.html">RequirementItem</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_robo_clerk_1_1_plugin_base.html#ad37ca4c81a65ee8481ca6a030a05e009">softwareRequirements</a> = new List&lt;<a class="el" href="class_robo_clerk_1_1_requirement_item.html">RequirementItem</a>&gt;()</td></tr>
+<tr class="separator:ad37ca4c81a65ee8481ca6a030a05e009"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5933e88a693255053af2b6c29165ce35"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_robo_clerk_1_1_requirement_item.html">RequirementItem</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_robo_clerk_1_1_plugin_base.html#a5933e88a693255053af2b6c29165ce35">documentationRequirements</a> = new List&lt;<a class="el" href="class_robo_clerk_1_1_requirement_item.html">RequirementItem</a>&gt;()</td></tr>
+<tr class="separator:a5933e88a693255053af2b6c29165ce35"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a164716dcb969848be3b626328e248809"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_robo_clerk_1_1_test_case_item.html">TestCaseItem</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_robo_clerk_1_1_plugin_base.html#a164716dcb969848be3b626328e248809">testCases</a> = new List&lt;<a class="el" href="class_robo_clerk_1_1_test_case_item.html">TestCaseItem</a>&gt;()</td></tr>
+<tr class="separator:a164716dcb969848be3b626328e248809"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a7de712709103569669099b8867f662"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_robo_clerk_1_1_anomaly_item.html">AnomalyItem</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_robo_clerk_1_1_plugin_base.html#a8a7de712709103569669099b8867f662">anomalies</a> = new List&lt;<a class="el" href="class_robo_clerk_1_1_anomaly_item.html">AnomalyItem</a>&gt;()</td></tr>
+<tr class="separator:a8a7de712709103569669099b8867f662"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa12ba09f15e40b4bd19e85737af261a"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_robo_clerk_1_1_risk_item.html">RiskItem</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_robo_clerk_1_1_plugin_base.html#aaa12ba09f15e40b4bd19e85737af261a">risks</a> = new List&lt;<a class="el" href="class_robo_clerk_1_1_risk_item.html">RiskItem</a>&gt;()</td></tr>
+<tr class="separator:aaa12ba09f15e40b4bd19e85737af261a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2721de2c54b672134b8dc512d21fa660"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_robo_clerk_1_1_s_o_u_p_item.html">SOUPItem</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_robo_clerk_1_1_plugin_base.html#a2721de2c54b672134b8dc512d21fa660">soup</a> = new List&lt;<a class="el" href="class_robo_clerk_1_1_s_o_u_p_item.html">SOUPItem</a>&gt;()</td></tr>
+<tr class="separator:a2721de2c54b672134b8dc512d21fa660"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a2221e03b0162846f62107af0a14038"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_robo_clerk_1_1_doc_content_item.html">DocContentItem</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_robo_clerk_1_1_plugin_base.html#a8a2221e03b0162846f62107af0a14038">docContents</a> = new List&lt;<a class="el" href="class_robo_clerk_1_1_doc_content_item.html">DocContentItem</a>&gt;()</td></tr>
+<tr class="separator:a8a2221e03b0162846f62107af0a14038"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13a40322452956b33dcfb1ea4e9a668b"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_robo_clerk_1_1_unit_test_item.html">UnitTestItem</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_robo_clerk_1_1_plugin_base.html#a13a40322452956b33dcfb1ea4e9a668b">unitTests</a> = new List&lt;<a class="el" href="class_robo_clerk_1_1_unit_test_item.html">UnitTestItem</a>&gt;()</td></tr>
+<tr class="separator:a13a40322452956b33dcfb1ea4e9a668b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af68499f0997d52893cc2963841f1d407"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_robo_clerk_1_1_external_dependency.html">ExternalDependency</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_robo_clerk_1_1_plugin_base.html#af68499f0997d52893cc2963841f1d407">dependencies</a> = new List&lt;<a class="el" href="class_robo_clerk_1_1_external_dependency.html">ExternalDependency</a>&gt;()</td></tr>
+<tr class="separator:af68499f0997d52893cc2963841f1d407"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-static-attribs" name="pro-static-attribs"></a>
 Static Protected Attributes</h2></td></tr>
@@ -161,7 +227,7 @@ Properties</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="_plugin_base_8cs_source.html#l00010">10</a> of file <a class="el" href="_plugin_base_8cs_source.html">PluginBase.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_plugin_base_8cs_source.html#l00011">11</a> of file <a class="el" href="_plugin_base_8cs_source.html">PluginBase.cs</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a59673c91725a54cce4b130d92f3de4ce" name="a59673c91725a54cce4b130d92f3de4ce"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a59673c91725a54cce4b130d92f3de4ce">&#9670;&#160;</a></span>PluginBase()</h2>
@@ -179,11 +245,59 @@ Properties</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_plugin_base_8cs_source.html#l00017">17</a> of file <a class="el" href="_plugin_base_8cs_source.html">PluginBase.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_plugin_base_8cs_source.html#l00029">29</a> of file <a class="el" href="_plugin_base_8cs_source.html">PluginBase.cs</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a8f51ba33a5fda8a690737e3a454b28d6" name="a8f51ba33a5fda8a690737e3a454b28d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f51ba33a5fda8a690737e3a454b28d6">&#9670;&#160;</a></span>ClearAllItems()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RoboClerk.PluginBase.ClearAllItems </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_plugin_base_8cs_source.html#l00104">104</a> of file <a class="el" href="_plugin_base_8cs_source.html">PluginBase.cs</a>.</p>
+
+</div>
+</div>
+<a id="a9e54d1223a8c4f4f5482e6b3eead2334" name="a9e54d1223a8c4f4f5482e6b3eead2334"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e54d1223a8c4f4f5482e6b3eead2334">&#9670;&#160;</a></span>GetAnomalies()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt; <a class="el" href="class_robo_clerk_1_1_anomaly_item.html">AnomalyItem</a> &gt; RoboClerk.PluginBase.GetAnomalies </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="interface_robo_clerk_1_1_i_plugin.html#ab41a6015c570294f8a46997355b1483e">RoboClerk.IPlugin</a>.</p>
+
+<p class="definition">Definition at line <a class="el" href="_plugin_base_8cs_source.html#l00054">54</a> of file <a class="el" href="_plugin_base_8cs_source.html">PluginBase.cs</a>.</p>
+
+</div>
+</div>
 <a id="aebc82557dfee648bd0d0982eee1d47d5" name="aebc82557dfee648bd0d0982eee1d47d5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aebc82557dfee648bd0d0982eee1d47d5">&#9670;&#160;</a></span>GetConfigurationTable()</h2>
 
@@ -218,7 +332,154 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_plugin_base_8cs_source.html#l00061">61</a> of file <a class="el" href="_plugin_base_8cs_source.html">PluginBase.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_plugin_base_8cs_source.html#l00139">139</a> of file <a class="el" href="_plugin_base_8cs_source.html">PluginBase.cs</a>.</p>
+
+</div>
+</div>
+<a id="a05b46f665a4fd187c099630b9e91e2e1" name="a05b46f665a4fd187c099630b9e91e2e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05b46f665a4fd187c099630b9e91e2e1">&#9670;&#160;</a></span>GetDependencies()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt; <a class="el" href="class_robo_clerk_1_1_external_dependency.html">ExternalDependency</a> &gt; RoboClerk.PluginBase.GetDependencies </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="interface_robo_clerk_1_1_i_plugin.html#a9db4fa03594cbe0a31fba307ddbb1247">RoboClerk.IPlugin</a>.</p>
+
+<p class="definition">Definition at line <a class="el" href="_plugin_base_8cs_source.html#l00099">99</a> of file <a class="el" href="_plugin_base_8cs_source.html">PluginBase.cs</a>.</p>
+
+</div>
+</div>
+<a id="ac747434fd37eafc4f77e6a69a0134f75" name="ac747434fd37eafc4f77e6a69a0134f75"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac747434fd37eafc4f77e6a69a0134f75">&#9670;&#160;</a></span>GetDocContents()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt; <a class="el" href="class_robo_clerk_1_1_doc_content_item.html">DocContentItem</a> &gt; RoboClerk.PluginBase.GetDocContents </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="interface_robo_clerk_1_1_i_plugin.html#afe5afb1724876cb6016298122183dc71">RoboClerk.IPlugin</a>.</p>
+
+<p class="definition">Definition at line <a class="el" href="_plugin_base_8cs_source.html#l00074">74</a> of file <a class="el" href="_plugin_base_8cs_source.html">PluginBase.cs</a>.</p>
+
+</div>
+</div>
+<a id="ab817317368ef9c516d9783fa33431e56" name="ab817317368ef9c516d9783fa33431e56"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab817317368ef9c516d9783fa33431e56">&#9670;&#160;</a></span>GetDocumentationRequirements()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt; <a class="el" href="class_robo_clerk_1_1_requirement_item.html">RequirementItem</a> &gt; RoboClerk.PluginBase.GetDocumentationRequirements </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="interface_robo_clerk_1_1_i_plugin.html#a201ad0592294752076831c62f6f79433">RoboClerk.IPlugin</a>.</p>
+
+<p class="definition">Definition at line <a class="el" href="_plugin_base_8cs_source.html#l00069">69</a> of file <a class="el" href="_plugin_base_8cs_source.html">PluginBase.cs</a>.</p>
+
+</div>
+</div>
+<a id="af9695394ab954d5850ac8210aa6b222f" name="af9695394ab954d5850ac8210aa6b222f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9695394ab954d5850ac8210aa6b222f">&#9670;&#160;</a></span>GetRisks()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt; <a class="el" href="class_robo_clerk_1_1_risk_item.html">RiskItem</a> &gt; RoboClerk.PluginBase.GetRisks </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="interface_robo_clerk_1_1_i_plugin.html#ae23cfadd1ccdef406ded108b97b6b836">RoboClerk.IPlugin</a>.</p>
+
+<p class="definition">Definition at line <a class="el" href="_plugin_base_8cs_source.html#l00084">84</a> of file <a class="el" href="_plugin_base_8cs_source.html">PluginBase.cs</a>.</p>
+
+</div>
+</div>
+<a id="a49bc7311998c78f457dfe9bd3ce4d687" name="a49bc7311998c78f457dfe9bd3ce4d687"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a49bc7311998c78f457dfe9bd3ce4d687">&#9670;&#160;</a></span>GetSoftwareRequirements()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt; <a class="el" href="class_robo_clerk_1_1_requirement_item.html">RequirementItem</a> &gt; RoboClerk.PluginBase.GetSoftwareRequirements </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="interface_robo_clerk_1_1_i_plugin.html#a61c289ffe38382d5008a24c1662cb8db">RoboClerk.IPlugin</a>.</p>
+
+<p class="definition">Definition at line <a class="el" href="_plugin_base_8cs_source.html#l00064">64</a> of file <a class="el" href="_plugin_base_8cs_source.html">PluginBase.cs</a>.</p>
+
+</div>
+</div>
+<a id="ac82da61b37947676da2bc07eff275259" name="ac82da61b37947676da2bc07eff275259"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac82da61b37947676da2bc07eff275259">&#9670;&#160;</a></span>GetSoftwareSystemTests()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt; <a class="el" href="class_robo_clerk_1_1_test_case_item.html">TestCaseItem</a> &gt; RoboClerk.PluginBase.GetSoftwareSystemTests </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="interface_robo_clerk_1_1_i_plugin.html#a42e5f0bcf73612c3fdadd20dee4be626">RoboClerk.IPlugin</a>.</p>
+
+<p class="definition">Definition at line <a class="el" href="_plugin_base_8cs_source.html#l00079">79</a> of file <a class="el" href="_plugin_base_8cs_source.html">PluginBase.cs</a>.</p>
+
+</div>
+</div>
+<a id="a2e15ac1806808579c4a32e09d23ab63f" name="a2e15ac1806808579c4a32e09d23ab63f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e15ac1806808579c4a32e09d23ab63f">&#9670;&#160;</a></span>GetSOUP()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt; <a class="el" href="class_robo_clerk_1_1_s_o_u_p_item.html">SOUPItem</a> &gt; RoboClerk.PluginBase.GetSOUP </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="interface_robo_clerk_1_1_i_plugin.html#ab8cdfc18071512dcb6a6eb29f909397a">RoboClerk.IPlugin</a>.</p>
+
+<p class="definition">Definition at line <a class="el" href="_plugin_base_8cs_source.html#l00089">89</a> of file <a class="el" href="_plugin_base_8cs_source.html">PluginBase.cs</a>.</p>
 
 </div>
 </div>
@@ -262,7 +523,49 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_plugin_base_8cs_source.html#l00040">40</a> of file <a class="el" href="_plugin_base_8cs_source.html">PluginBase.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_plugin_base_8cs_source.html#l00118">118</a> of file <a class="el" href="_plugin_base_8cs_source.html">PluginBase.cs</a>.</p>
+
+</div>
+</div>
+<a id="a567f2a2f054fb712d059a82013234ef1" name="a567f2a2f054fb712d059a82013234ef1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a567f2a2f054fb712d059a82013234ef1">&#9670;&#160;</a></span>GetSystemRequirements()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt; <a class="el" href="class_robo_clerk_1_1_requirement_item.html">RequirementItem</a> &gt; RoboClerk.PluginBase.GetSystemRequirements </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="interface_robo_clerk_1_1_i_plugin.html#a63c80e62adc03894c6c0a5dba4188b40">RoboClerk.IPlugin</a>.</p>
+
+<p class="definition">Definition at line <a class="el" href="_plugin_base_8cs_source.html#l00059">59</a> of file <a class="el" href="_plugin_base_8cs_source.html">PluginBase.cs</a>.</p>
+
+</div>
+</div>
+<a id="a85279fca7ba2ab29cf61f59c57ed9895" name="a85279fca7ba2ab29cf61f59c57ed9895"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a85279fca7ba2ab29cf61f59c57ed9895">&#9670;&#160;</a></span>GetUnitTests()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt; <a class="el" href="class_robo_clerk_1_1_unit_test_item.html">UnitTestItem</a> &gt; RoboClerk.PluginBase.GetUnitTests </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="interface_robo_clerk_1_1_i_plugin.html#a393a5228733ebc1abcca34d414484134">RoboClerk.IPlugin</a>.</p>
+
+<p class="definition">Definition at line <a class="el" href="_plugin_base_8cs_source.html#l00094">94</a> of file <a class="el" href="_plugin_base_8cs_source.html">PluginBase.cs</a>.</p>
 
 </div>
 </div>
@@ -292,11 +595,88 @@ Properties</h2></td></tr>
 
 <p>Implements <a class="el" href="interface_robo_clerk_1_1_i_plugin.html#a2e013faf0c2a191dd6190486916dbc42">RoboClerk.IPlugin</a>.</p>
 
-<p>Implemented in <a class="el" href="class_robo_clerk_1_1_annotated_unit_tests_1_1_annotated_unit_tests_plugin.html#a06daf1adfd55496484df1b7053704236">RoboClerk.AnnotatedUnitTests.AnnotatedUnitTestsPlugin</a>, <a class="el" href="class_robo_clerk_1_1_azure_dev_ops_1_1_azure_dev_ops_s_l_m_s_plugin.html#a95cab0f1f9f3e94c53e02a4874bb5994">RoboClerk.AzureDevOps.AzureDevOpsSLMSPlugin</a>, <a class="el" href="class_robo_clerk_1_1_dependencies_file_1_1_dependencies_file_plugin.html#a158dae2dab4ab9a0a11da9eaebff5c8c">RoboClerk.DependenciesFile.DependenciesFilePlugin</a>, <a class="el" href="class_robo_clerk_1_1_redmine_1_1_redmine_s_l_m_s_plugin.html#a557d325a5c810f153ccf284c9d73d453">RoboClerk.Redmine.RedmineSLMSPlugin</a>, <a class="el" href="class_robo_clerk_1_1_source_code_1_1_unit_test_f_n_plugin.html#a86f5ed4d429a14f6b587d400c10a416a">RoboClerk.SourceCode.UnitTestFNPlugin</a>, <a class="el" href="class_robo_clerk_1_1_s_l_m_s_plugin_base.html#ab936f50f9a6854a871e8ee22fbbe44c8">RoboClerk.SLMSPluginBase</a>, and <a class="el" href="class_robo_clerk_1_1_source_code_analysis_plugin_base.html#ab7681aeee4f5697183a729926b02d079">RoboClerk.SourceCodeAnalysisPluginBase</a>.</p>
+<p>Implemented in <a class="el" href="class_robo_clerk_1_1_annotated_unit_tests_1_1_annotated_unit_tests_plugin.html#a06daf1adfd55496484df1b7053704236">RoboClerk.AnnotatedUnitTests.AnnotatedUnitTestsPlugin</a>, <a class="el" href="class_robo_clerk_1_1_azure_dev_ops_1_1_azure_dev_ops_s_l_m_s_plugin.html#a95cab0f1f9f3e94c53e02a4874bb5994">RoboClerk.AzureDevOps.AzureDevOpsSLMSPlugin</a>, <a class="el" href="class_robo_clerk_1_1_dependencies_file_1_1_dependencies_file_plugin.html#a158dae2dab4ab9a0a11da9eaebff5c8c">RoboClerk.DependenciesFile.DependenciesFilePlugin</a>, <a class="el" href="class_robo_clerk_1_1_redmine_1_1_redmine_s_l_m_s_plugin.html#a557d325a5c810f153ccf284c9d73d453">RoboClerk.Redmine.RedmineSLMSPlugin</a>, <a class="el" href="class_robo_clerk_1_1_unit_test_f_n_plugin.html#a2b95c64e2df9f3b895e16abdd4f186bf">RoboClerk.UnitTestFNPlugin</a>, <a class="el" href="class_robo_clerk_1_1_s_l_m_s_plugin_base.html#ab936f50f9a6854a871e8ee22fbbe44c8">RoboClerk.SLMSPluginBase</a>, and <a class="el" href="class_robo_clerk_1_1_source_code_analysis_plugin_base.html#ab7681aeee4f5697183a729926b02d079">RoboClerk.SourceCodeAnalysisPluginBase</a>.</p>
+
+</div>
+</div>
+<a id="a971392386cb08a2eed87cc73c959df00" name="a971392386cb08a2eed87cc73c959df00"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a971392386cb08a2eed87cc73c959df00">&#9670;&#160;</a></span>RefreshItems()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">abstract void RoboClerk.PluginBase.RefreshItems </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="interface_robo_clerk_1_1_i_plugin.html#ac989f419f44b9bd2eec0e8a8efede069">RoboClerk.IPlugin</a>.</p>
+
+<p>Implemented in <a class="el" href="class_robo_clerk_1_1_annotated_unit_tests_1_1_annotated_unit_tests_plugin.html#ae6b2edd44ef0a07c470d27af73510dca">RoboClerk.AnnotatedUnitTests.AnnotatedUnitTestsPlugin</a>, <a class="el" href="class_robo_clerk_1_1_azure_dev_ops_1_1_azure_dev_ops_s_l_m_s_plugin.html#aa92c459007b9578c2eaf7da9b1ed9fae">RoboClerk.AzureDevOps.AzureDevOpsSLMSPlugin</a>, <a class="el" href="class_robo_clerk_1_1_dependencies_file_1_1_dependencies_file_plugin.html#a5e7755853cfda44521d3adfb2d9f906e">RoboClerk.DependenciesFile.DependenciesFilePlugin</a>, <a class="el" href="class_robo_clerk_1_1_redmine_1_1_redmine_s_l_m_s_plugin.html#a2719922d29b85cc77a7e42c881d26413">RoboClerk.Redmine.RedmineSLMSPlugin</a>, and <a class="el" href="class_robo_clerk_1_1_unit_test_f_n_plugin.html#a0a0f6efa0f71dc487efd4634a75f3ee6">RoboClerk.UnitTestFNPlugin</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a8a7de712709103569669099b8867f662" name="a8a7de712709103569669099b8867f662"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a7de712709103569669099b8867f662">&#9670;&#160;</a></span>anomalies</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;<a class="el" href="class_robo_clerk_1_1_anomaly_item.html">AnomalyItem</a>&gt; RoboClerk.PluginBase.anomalies = new List&lt;<a class="el" href="class_robo_clerk_1_1_anomaly_item.html">AnomalyItem</a>&gt;()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_plugin_base_8cs_source.html#l00022">22</a> of file <a class="el" href="_plugin_base_8cs_source.html">PluginBase.cs</a>.</p>
+
+</div>
+</div>
+<a id="af68499f0997d52893cc2963841f1d407" name="af68499f0997d52893cc2963841f1d407"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af68499f0997d52893cc2963841f1d407">&#9670;&#160;</a></span>dependencies</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;<a class="el" href="class_robo_clerk_1_1_external_dependency.html">ExternalDependency</a>&gt; RoboClerk.PluginBase.dependencies = new List&lt;<a class="el" href="class_robo_clerk_1_1_external_dependency.html">ExternalDependency</a>&gt;()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_plugin_base_8cs_source.html#l00027">27</a> of file <a class="el" href="_plugin_base_8cs_source.html">PluginBase.cs</a>.</p>
+
+</div>
+</div>
 <a id="a24e9e84ac416a100c29c4d59c2fea63f" name="a24e9e84ac416a100c29c4d59c2fea63f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a24e9e84ac416a100c29c4d59c2fea63f">&#9670;&#160;</a></span>description</h2>
 
@@ -317,7 +697,55 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_plugin_base_8cs_source.html#l00013">13</a> of file <a class="el" href="_plugin_base_8cs_source.html">PluginBase.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_plugin_base_8cs_source.html#l00014">14</a> of file <a class="el" href="_plugin_base_8cs_source.html">PluginBase.cs</a>.</p>
+
+</div>
+</div>
+<a id="a8a2221e03b0162846f62107af0a14038" name="a8a2221e03b0162846f62107af0a14038"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a2221e03b0162846f62107af0a14038">&#9670;&#160;</a></span>docContents</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;<a class="el" href="class_robo_clerk_1_1_doc_content_item.html">DocContentItem</a>&gt; RoboClerk.PluginBase.docContents = new List&lt;<a class="el" href="class_robo_clerk_1_1_doc_content_item.html">DocContentItem</a>&gt;()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_plugin_base_8cs_source.html#l00025">25</a> of file <a class="el" href="_plugin_base_8cs_source.html">PluginBase.cs</a>.</p>
+
+</div>
+</div>
+<a id="a5933e88a693255053af2b6c29165ce35" name="a5933e88a693255053af2b6c29165ce35"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5933e88a693255053af2b6c29165ce35">&#9670;&#160;</a></span>documentationRequirements</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;<a class="el" href="class_robo_clerk_1_1_requirement_item.html">RequirementItem</a>&gt; RoboClerk.PluginBase.documentationRequirements = new List&lt;<a class="el" href="class_robo_clerk_1_1_requirement_item.html">RequirementItem</a>&gt;()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_plugin_base_8cs_source.html#l00020">20</a> of file <a class="el" href="_plugin_base_8cs_source.html">PluginBase.cs</a>.</p>
 
 </div>
 </div>
@@ -341,7 +769,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_plugin_base_8cs_source.html#l00015">15</a> of file <a class="el" href="_plugin_base_8cs_source.html">PluginBase.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_plugin_base_8cs_source.html#l00016">16</a> of file <a class="el" href="_plugin_base_8cs_source.html">PluginBase.cs</a>.</p>
 
 </div>
 </div>
@@ -365,7 +793,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_plugin_base_8cs_source.html#l00014">14</a> of file <a class="el" href="_plugin_base_8cs_source.html">PluginBase.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_plugin_base_8cs_source.html#l00015">15</a> of file <a class="el" href="_plugin_base_8cs_source.html">PluginBase.cs</a>.</p>
 
 </div>
 </div>
@@ -389,7 +817,151 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_plugin_base_8cs_source.html#l00012">12</a> of file <a class="el" href="_plugin_base_8cs_source.html">PluginBase.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_plugin_base_8cs_source.html#l00013">13</a> of file <a class="el" href="_plugin_base_8cs_source.html">PluginBase.cs</a>.</p>
+
+</div>
+</div>
+<a id="aaa12ba09f15e40b4bd19e85737af261a" name="aaa12ba09f15e40b4bd19e85737af261a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa12ba09f15e40b4bd19e85737af261a">&#9670;&#160;</a></span>risks</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;<a class="el" href="class_robo_clerk_1_1_risk_item.html">RiskItem</a>&gt; RoboClerk.PluginBase.risks = new List&lt;<a class="el" href="class_robo_clerk_1_1_risk_item.html">RiskItem</a>&gt;()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_plugin_base_8cs_source.html#l00023">23</a> of file <a class="el" href="_plugin_base_8cs_source.html">PluginBase.cs</a>.</p>
+
+</div>
+</div>
+<a id="ad37ca4c81a65ee8481ca6a030a05e009" name="ad37ca4c81a65ee8481ca6a030a05e009"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad37ca4c81a65ee8481ca6a030a05e009">&#9670;&#160;</a></span>softwareRequirements</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;<a class="el" href="class_robo_clerk_1_1_requirement_item.html">RequirementItem</a>&gt; RoboClerk.PluginBase.softwareRequirements = new List&lt;<a class="el" href="class_robo_clerk_1_1_requirement_item.html">RequirementItem</a>&gt;()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_plugin_base_8cs_source.html#l00019">19</a> of file <a class="el" href="_plugin_base_8cs_source.html">PluginBase.cs</a>.</p>
+
+</div>
+</div>
+<a id="a2721de2c54b672134b8dc512d21fa660" name="a2721de2c54b672134b8dc512d21fa660"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2721de2c54b672134b8dc512d21fa660">&#9670;&#160;</a></span>soup</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;<a class="el" href="class_robo_clerk_1_1_s_o_u_p_item.html">SOUPItem</a>&gt; RoboClerk.PluginBase.soup = new List&lt;<a class="el" href="class_robo_clerk_1_1_s_o_u_p_item.html">SOUPItem</a>&gt;()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_plugin_base_8cs_source.html#l00024">24</a> of file <a class="el" href="_plugin_base_8cs_source.html">PluginBase.cs</a>.</p>
+
+</div>
+</div>
+<a id="a4dfe717b702ae58249fa422fd4cd4016" name="a4dfe717b702ae58249fa422fd4cd4016"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4dfe717b702ae58249fa422fd4cd4016">&#9670;&#160;</a></span>systemRequirements</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;<a class="el" href="class_robo_clerk_1_1_requirement_item.html">RequirementItem</a>&gt; RoboClerk.PluginBase.systemRequirements = new List&lt;<a class="el" href="class_robo_clerk_1_1_requirement_item.html">RequirementItem</a>&gt;()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_plugin_base_8cs_source.html#l00018">18</a> of file <a class="el" href="_plugin_base_8cs_source.html">PluginBase.cs</a>.</p>
+
+</div>
+</div>
+<a id="a164716dcb969848be3b626328e248809" name="a164716dcb969848be3b626328e248809"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a164716dcb969848be3b626328e248809">&#9670;&#160;</a></span>testCases</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;<a class="el" href="class_robo_clerk_1_1_test_case_item.html">TestCaseItem</a>&gt; RoboClerk.PluginBase.testCases = new List&lt;<a class="el" href="class_robo_clerk_1_1_test_case_item.html">TestCaseItem</a>&gt;()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_plugin_base_8cs_source.html#l00021">21</a> of file <a class="el" href="_plugin_base_8cs_source.html">PluginBase.cs</a>.</p>
+
+</div>
+</div>
+<a id="a13a40322452956b33dcfb1ea4e9a668b" name="a13a40322452956b33dcfb1ea4e9a668b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a13a40322452956b33dcfb1ea4e9a668b">&#9670;&#160;</a></span>unitTests</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;<a class="el" href="class_robo_clerk_1_1_unit_test_item.html">UnitTestItem</a>&gt; RoboClerk.PluginBase.unitTests = new List&lt;<a class="el" href="class_robo_clerk_1_1_unit_test_item.html">UnitTestItem</a>&gt;()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_plugin_base_8cs_source.html#l00026">26</a> of file <a class="el" href="_plugin_base_8cs_source.html">PluginBase.cs</a>.</p>
 
 </div>
 </div>
@@ -416,7 +988,7 @@ Properties</h2></td></tr>
 
 <p>Implements <a class="el" href="interface_robo_clerk_1_1_i_plugin.html#ae5edc6f0391f0b86420c672b4c8f4423">RoboClerk.IPlugin</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="_plugin_base_8cs_source.html#l00030">30</a> of file <a class="el" href="_plugin_base_8cs_source.html">PluginBase.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_plugin_base_8cs_source.html#l00042">42</a> of file <a class="el" href="_plugin_base_8cs_source.html">PluginBase.cs</a>.</p>
 
 </div>
 </div>
@@ -442,7 +1014,7 @@ Properties</h2></td></tr>
 
 <p>Implements <a class="el" href="interface_robo_clerk_1_1_i_plugin.html#a053aa89e20529a4c4fca8c5c89bc902b">RoboClerk.IPlugin</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="_plugin_base_8cs_source.html#l00022">22</a> of file <a class="el" href="_plugin_base_8cs_source.html">PluginBase.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_plugin_base_8cs_source.html#l00034">34</a> of file <a class="el" href="_plugin_base_8cs_source.html">PluginBase.cs</a>.</p>
 
 </div>
 </div>

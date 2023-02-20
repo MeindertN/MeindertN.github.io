@@ -5,7 +5,7 @@ var searchData=
   ['testcaseitem_2',['TestCaseItem',['../class_robo_clerk_1_1_test_case_item.html#af9307639e79765f1c2587028c7e82907',1,'RoboClerk::TestCaseItem']]],
   ['teststep_3',['TestStep',['../class_robo_clerk_1_1_test_step.html#a10f5f5b39d211032b70942fd8d14c8ff',1,'RoboClerk::TestStep']]],
   ['tojson_4',['ToJSON',['../class_robo_clerk_1_1_data_sources_base.html#a95adf5ce5879a09da3384b663492e5e9',1,'RoboClerk.DataSourcesBase.ToJSON()'],['../interface_robo_clerk_1_1_i_data_sources.html#a9cae246d8eee74d9e0c00890e26a8d7e',1,'RoboClerk.IDataSources.ToJSON()']]],
-  ['toplaintext_5',['ToPlainText',['../class_html_to_text_converter.html#abd60a863c62152890dec6ac099037ab5',1,'HtmlToTextConverter']]],
+  ['toplaintext_5',['ToPlainText',['../class_robo_clerk_1_1_azure_dev_ops_1_1_html_to_text_converter.html#adeb605c8fa7aff2cbf764f911ceb7e27',1,'RoboClerk::AzureDevOps::HtmlToTextConverter']]],
   ['totext_6',['ToText',['../class_robo_clerk_1_1_document.html#ac4d3cddc2c5d07bf135e47c44219fc99',1,'RoboClerk::Document']]],
   ['trace_7',['Trace',['../class_robo_clerk_1_1_content_creators_1_1_trace.html#a6bf61bae69abb87575bb83ec8469127c',1,'RoboClerk::ContentCreators::Trace']]],
   ['traceabilityanalysis_8',['TraceabilityAnalysis',['../class_robo_clerk_1_1_traceability_analysis.html#ac7155368a1326e3d64e18e90540ea2e6',1,'RoboClerk::TraceabilityAnalysis']]],

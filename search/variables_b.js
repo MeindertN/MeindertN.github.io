@@ -6,6 +6,6 @@ var searchData=
   ['requirements_3',['requirements',['../class_robo_clerk_1_1_content_creators_1_1_requirement_base.html#a08f4d39836224d5b489edb6755d1c098',1,'RoboClerk::ContentCreators::RequirementBase']]],
   ['revision_4',['revision',['../class_robo_clerk_1_1_item.html#ab24a4c7f9cdb38bd693add0c2113acc4',1,'RoboClerk::Item']]],
   ['riskname_5',['riskName',['../class_robo_clerk_1_1_s_l_m_s_plugin_base.html#aa7e17b825005919fb7d5f3b862069fec',1,'RoboClerk::SLMSPluginBase']]],
-  ['risks_6',['risks',['../class_robo_clerk_1_1_s_l_m_s_plugin_base.html#ade4d7fd4a2dfbdf6c719249aeae71010',1,'RoboClerk::SLMSPluginBase']]],
+  ['risks_6',['risks',['../class_robo_clerk_1_1_plugin_base.html#aaa12ba09f15e40b4bd19e85737af261a',1,'RoboClerk::PluginBase']]],
   ['roboclerktags_7',['roboclerkTags',['../class_robo_clerk_1_1_document.html#a96e27d130bbd56357158739bf296bc0b',1,'RoboClerk::Document']]]
 ];

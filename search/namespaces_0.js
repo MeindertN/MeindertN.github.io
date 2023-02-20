@@ -6,6 +6,5 @@ var searchData=
   ['contentcreators_3',['ContentCreators',['../namespace_robo_clerk_1_1_content_creators.html',1,'RoboClerk']]],
   ['dependenciesfile_4',['DependenciesFile',['../namespace_robo_clerk_1_1_dependencies_file.html',1,'RoboClerk']]],
   ['redmine_5',['Redmine',['../namespace_robo_clerk_1_1_redmine.html',1,'RoboClerk']]],
-  ['roboclerk_6',['RoboClerk',['../namespace_robo_clerk.html',1,'']]],
-  ['sourcecode_7',['SourceCode',['../namespace_robo_clerk_1_1_source_code.html',1,'RoboClerk']]]
+  ['roboclerk_6',['RoboClerk',['../namespace_robo_clerk.html',1,'']]]
 ];

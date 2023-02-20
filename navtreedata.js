@@ -58,13 +58,13 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "_annotated_unit_tests_plugin_8cs.html",
-"_robo_clerk_core_8cs.html#a2b8f88396f5ebb3d8f662226e123c227",
-"class_robo_clerk_1_1_configuration_1_1_configuration.html#a12f15e05df9912303cc2e1c1da4f443d",
-"class_robo_clerk_1_1_data_sources_base.html#aaf4fcdca899a0536f32e5473993bdf77",
-"class_robo_clerk_1_1_redmine_1_1_parent.html#a5793ec1e520b50ee254c65db5c1d95b4",
-"class_robo_clerk_1_1_s_l_m_s_plugin_base.html#a61633794f3a38eb2fa5a1e4d3193f853",
-"class_robo_clerk_1_1_traceability_analysis.html#a3d045bb8e0fc7126b33004a4bc8d3ec8",
-"interface_robo_clerk_1_1_i_data_sources.html#ad06268180fbaf0877d71282d80cc45ce"
+"_robo_clerk_ordered_dictionary_8cs_source.html",
+"class_robo_clerk_1_1_configuration_1_1_configuration.html#a4e854a647a9b277810cbaa3a6c5364d1",
+"class_robo_clerk_1_1_data_sources_base.html#ad01f051f8d9ad58a891ae9baebb31f23",
+"class_robo_clerk_1_1_redmine_1_1_assigned_to.html",
+"class_robo_clerk_1_1_robo_clerk_tag.html#a565ef9779c30f17a84c953a9ada378a1",
+"class_robo_clerk_1_1_traceability_analysis.html#ac7155368a1326e3d64e18e90540ea2e6",
+"interface_robo_clerk_1_1_i_data_sources.html#ae5d0c7fd116ecbf7da242ad5b4fcde9d"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
