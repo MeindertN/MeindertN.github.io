@@ -80,7 +80,7 @@ var hierarchy =
         [ "RoboClerk.RequirementItem", "class_robo_clerk_1_1_requirement_item.html", null ],
         [ "RoboClerk.RiskItem", "class_robo_clerk_1_1_risk_item.html", null ],
         [ "RoboClerk.SOUPItem", "class_robo_clerk_1_1_s_o_u_p_item.html", null ],
-        [ "RoboClerk.TestCaseItem", "class_robo_clerk_1_1_test_case_item.html", null ],
+        [ "RoboClerk.SoftwareSystemTestItem", "class_robo_clerk_1_1_software_system_test_item.html", null ],
         [ "RoboClerk.UnitTestItem", "class_robo_clerk_1_1_unit_test_item.html", null ]
       ] ],
       [ "RoboClerk.PlaceholderItem", "class_robo_clerk_1_1_placeholder_item.html", null ]
