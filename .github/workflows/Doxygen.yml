@@ -35,10 +35,10 @@ jobs:
           doxyfile-path: ./Doxyfile
           working-directory: .
           
-      - name: Upload GitHub Pages artifact
-        uses: actions/upload-pages-artifact@v1.0.7
+      - name: GitHub Pages v3
+        uses: peaceiris/actions-github-pages@v3.1.12
         with:
-          path: ./Documentation/html
-      
-      - name: Deploy GitHub Pages site
-        uses: actions/deploy-pages@v1.2.4
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: main
+          publish_dir: ./Documentation/html
+          external_repository: MeindertN/MeindertN.github.io
