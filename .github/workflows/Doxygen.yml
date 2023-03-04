@@ -36,4 +36,3 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: main
           publish_dir: ./Documentation/html
-          external_repository: MeindertN/MeindertN.github.io
