@@ -4,9 +4,10 @@ name: ScheduledUpdate
 
 # Controls when the workflow will run
 on:
+
   # Triggers the workflow on push or pull request events but only for the "main" branch
   schedule:
-    - cron:  '30 5,17 * * *'
+    - cron:  '12 5,17 * * *'
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
