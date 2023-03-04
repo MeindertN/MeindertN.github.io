@@ -1,0 +1,19 @@
+var namespaceRoboClerk_1_1Redmine =
+[
+    [ "AssignedTo", "classRoboClerk_1_1Redmine_1_1AssignedTo.html", "classRoboClerk_1_1Redmine_1_1AssignedTo" ],
+    [ "Author", "classRoboClerk_1_1Redmine_1_1Author.html", "classRoboClerk_1_1Redmine_1_1Author" ],
+    [ "CustomField", "classRoboClerk_1_1Redmine_1_1CustomField.html", "classRoboClerk_1_1Redmine_1_1CustomField" ],
+    [ "DefaultStatus", "classRoboClerk_1_1Redmine_1_1DefaultStatus.html", "classRoboClerk_1_1Redmine_1_1DefaultStatus" ],
+    [ "FixedVersion", "classRoboClerk_1_1Redmine_1_1FixedVersion.html", "classRoboClerk_1_1Redmine_1_1FixedVersion" ],
+    [ "Parent", "classRoboClerk_1_1Redmine_1_1Parent.html", "classRoboClerk_1_1Redmine_1_1Parent" ],
+    [ "Priority", "classRoboClerk_1_1Redmine_1_1Priority.html", "classRoboClerk_1_1Redmine_1_1Priority" ],
+    [ "RedmineIssue", "classRoboClerk_1_1Redmine_1_1RedmineIssue.html", "classRoboClerk_1_1Redmine_1_1RedmineIssue" ],
+    [ "RedmineIssues", "classRoboClerk_1_1Redmine_1_1RedmineIssues.html", "classRoboClerk_1_1Redmine_1_1RedmineIssues" ],
+    [ "RedmineProject", "classRoboClerk_1_1Redmine_1_1RedmineProject.html", "classRoboClerk_1_1Redmine_1_1RedmineProject" ],
+    [ "RedmineProjects", "classRoboClerk_1_1Redmine_1_1RedmineProjects.html", "classRoboClerk_1_1Redmine_1_1RedmineProjects" ],
+    [ "RedmineSLMSPlugin", "classRoboClerk_1_1Redmine_1_1RedmineSLMSPlugin.html", "classRoboClerk_1_1Redmine_1_1RedmineSLMSPlugin" ],
+    [ "RedmineTracker", "classRoboClerk_1_1Redmine_1_1RedmineTracker.html", "classRoboClerk_1_1Redmine_1_1RedmineTracker" ],
+    [ "RedmineTrackers", "classRoboClerk_1_1Redmine_1_1RedmineTrackers.html", "classRoboClerk_1_1Redmine_1_1RedmineTrackers" ],
+    [ "Relation", "classRoboClerk_1_1Redmine_1_1Relation.html", "classRoboClerk_1_1Redmine_1_1Relation" ],
+    [ "Status", "classRoboClerk_1_1Redmine_1_1Status.html", "classRoboClerk_1_1Redmine_1_1Status" ]
+];
