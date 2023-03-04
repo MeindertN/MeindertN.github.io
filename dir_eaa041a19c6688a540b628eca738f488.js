@@ -5,7 +5,6 @@ var dir_eaa041a19c6688a540b628eca738f488 =
     [ "DataSources", "dir_86e7caaf7c7f492029be55eca0affc3e.html", "dir_86e7caaf7c7f492029be55eca0affc3e" ],
     [ "Items", "dir_6e3f47eabe569cc8d10b366e68b6d76b.html", "dir_6e3f47eabe569cc8d10b366e68b6d76b" ],
     [ "ItemTemplateSupport", "dir_193bd7be5d30aa01bf0730fae2ed254c.html", "dir_193bd7be5d30aa01bf0730fae2ed254c" ],
-    [ "obj", "dir_3f8884a525a583b6b9a641ad48a399b4.html", "dir_3f8884a525a583b6b9a641ad48a399b4" ],
     [ "PluginSupport", "dir_4a32cb94a0bd474746a60996ada79e03.html", "dir_4a32cb94a0bd474746a60996ada79e03" ],
     [ "Trace", "dir_465ddc2a53347b1d27bbc811363e433b.html", "dir_465ddc2a53347b1d27bbc811363e433b" ],
     [ "CommandlineOptions.cs", "CommandlineOptions_8cs.html", null ],

@@ -1,4 +1,8 @@
 var searchData=
 [
-  ['_2enetcoreapp_2cversion_3dv6_2e0_2eassemblyattributes_2ecs_0',['.NETCoreApp,Version=v6.0.AssemblyAttributes.cs',['../RoboClerk_8AnnotatedUnitTests_2obj_2Release_2net6_80_2_8NETCoreApp_00Version_0av6_80_8AssemblyAttributes_8cs.html',1,'(Global Namespace)'],['../RoboClerk_8AzureDevOps_2obj_2Release_2net6_80_2_8NETCoreApp_00Version_0av6_80_8AssemblyAttributes_8cs.html',1,'(Global Namespace)'],['../RoboClerk_8DependenciesFile_2obj_2Release_2net6_80_2_8NETCoreApp_00Version_0av6_80_8AssemblyAttributes_8cs.html',1,'(Global Namespace)'],['../RoboClerk_8Redmine_2obj_2Release_2net6_80_2_8NETCoreApp_00Version_0av6_80_8AssemblyAttributes_8cs.html',1,'(Global Namespace)'],['../RoboClerk_8UnitTestFN_2obj_2Release_2net6_80_2_8NETCoreApp_00Version_0av6_80_8AssemblyAttributes_8cs.html',1,'(Global Namespace)'],['../RoboClerk_2obj_2Debug_2net6_80_2_8NETCoreApp_00Version_0av6_80_8AssemblyAttributes_8cs.html',1,'(Global Namespace)'],['../RoboClerk_2obj_2Release_2net6_80_2_8NETCoreApp_00Version_0av6_80_8AssemblyAttributes_8cs.html',1,'(Global Namespace)']]]
+  ['annotatedunittestsplugin_2ecs_0',['AnnotatedUnitTestsPlugin.cs',['../AnnotatedUnitTestsPlugin_8cs.html',1,'']]],
+  ['anomaly_2ecs_1',['Anomaly.cs',['../Anomaly_8cs.html',1,'']]],
+  ['anomalyitem_2ecs_2',['AnomalyItem.cs',['../AnomalyItem_8cs.html',1,'']]],
+  ['azuredevopsslmsplugin_2ecs_3',['AzureDevOpsSLMSPlugin.cs',['../AzureDevOpsSLMSPlugin_8cs.html',1,'']]],
+  ['azuredevopsutilities_2ecs_4',['AzureDevOpsUtilities.cs',['../AzureDevOpsUtilities_8cs.html',1,'']]]
 ];

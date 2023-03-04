@@ -1,11 +1,12 @@
 var searchData=
 [
-  ['entitytype_0',['EntityType',['../classRoboClerk_1_1TraceEntity.html#a338c3d6387859f61959513bb7ba04f31',1,'RoboClerk::TraceEntity']]],
-  ['equals_1',['Equals',['../classRoboClerk_1_1TraceEntity.html#a5c1018b69319031d6db61335b42ee9dc',1,'RoboClerk.TraceEntity.Equals()'],['../classRoboClerk_1_1TraceIssue.html#a6464d29071ab4dfd2697e8ad597db3f9',1,'RoboClerk.TraceIssue.Equals()'],['../classRoboClerk_1_1TraceLink.html#af562354d52f5462b578a960a72675b8f',1,'RoboClerk.TraceLink.Equals()']]],
-  ['estimatedhours_2',['EstimatedHours',['../classRoboClerk_1_1Redmine_1_1RedmineIssue.html#a9195b6d029fb18a0f7622f0cfd249d05',1,'RoboClerk::Redmine::RedmineIssue']]],
-  ['exceltable_3',['ExcelTable',['../classRoboClerk_1_1ContentCreators_1_1ExcelTable.html#aac9ae424f88e7740fd9bc554284e877a',1,'RoboClerk.ContentCreators.ExcelTable.ExcelTable()'],['../classRoboClerk_1_1ContentCreators_1_1ExcelTable.html',1,'RoboClerk.ContentCreators.ExcelTable']]],
-  ['exceltable_2ecs_4',['ExcelTable.cs',['../ExcelTable_8cs.html',1,'']]],
-  ['expectedresult_5',['ExpectedResult',['../classRoboClerk_1_1TestStep.html#a62d31176745fae912935aab40efcf999',1,'RoboClerk::TestStep']]],
-  ['externaldependency_6',['ExternalDependency',['../classRoboClerk_1_1ExternalDependency.html#a628bf6fcc71641a5716148376a26798a',1,'RoboClerk.ExternalDependency.ExternalDependency()'],['../classRoboClerk_1_1ExternalDependency.html',1,'RoboClerk.ExternalDependency']]],
-  ['externaldependency_2ecs_7',['ExternalDependency.cs',['../ExternalDependency_8cs.html',1,'']]]
+  ['filemasks_0',['fileMasks',['../classRoboClerk_1_1SourceCodeAnalysisPluginBase.html#a0c1aa50e43f4794df50a206c6f989c3d',1,'RoboClerk::SourceCodeAnalysisPluginBase']]],
+  ['filesystem_1',['fileSystem',['../classRoboClerk_1_1DataSourcesBase.html#a34557d3b6e7faed5b775c21599e77dba',1,'RoboClerk.DataSourcesBase.fileSystem()'],['../classRoboClerk_1_1PluginBase.html#a14c422135c3d38aee621c408400543f1',1,'RoboClerk.PluginBase.fileSystem()']]],
+  ['fixedversion_2',['FixedVersion',['../classRoboClerk_1_1Redmine_1_1RedmineIssue.html#adab067b679241b7fa6521bb3a46cfd24',1,'RoboClerk.Redmine.RedmineIssue.FixedVersion()'],['../classRoboClerk_1_1Redmine_1_1FixedVersion.html',1,'RoboClerk.Redmine.FixedVersion']]],
+  ['forwardfilters_3',['ForwardFilters',['../classRoboClerk_1_1Configuration_1_1TraceConfigElement.html#a168a780c99fb6de957d6d464fd5d8881',1,'RoboClerk::Configuration::TraceConfigElement']]],
+  ['forwardlink_4',['ForwardLink',['../classRoboClerk_1_1TraceSpecification.html#adb84604a826fb2a641ddd8c89c5d7623',1,'RoboClerk::TraceSpecification']]],
+  ['forwardlinktype_5',['ForwardLinkType',['../classRoboClerk_1_1Configuration_1_1TraceConfigElement.html#a5be7af954dd59ac69e8cfbb9db9b1940',1,'RoboClerk::Configuration::TraceConfigElement']]],
+  ['fromstream_6',['FromStream',['../classRoboClerk_1_1Document.html#a3643af7ec6844cbbbb21c858655a2d29',1,'RoboClerk::Document']]],
+  ['fromstring_7',['FromString',['../classRoboClerk_1_1Document.html#a3e337fbf21170bb784b003149c9ca525',1,'RoboClerk::Document']]],
+  ['fromtoml_8',['FromToml',['../classRoboClerk_1_1Configuration_1_1CheckpointConfig.html#a349f46b0cb421ae34a3666678247e852',1,'RoboClerk.Configuration.CheckpointConfig.FromToml()'],['../classRoboClerk_1_1Configuration_1_1ConfigurationValues.html#a8a755bc3d6cc5dd43ead9eef56242325',1,'RoboClerk.Configuration.ConfigurationValues.FromToml()']]]
 ];
