@@ -16,6 +16,7 @@ var classRoboClerk_1_1PluginBase =
     [ "GetUnitTests", "classRoboClerk_1_1PluginBase.html#a3550e1444356cdd3167cfea8cd630649", null ],
     [ "Initialize", "classRoboClerk_1_1PluginBase.html#aa574926d44212a3a2736e15fbbae62e7", null ],
     [ "RefreshItems", "classRoboClerk_1_1PluginBase.html#a971392386cb08a2eed87cc73c959df00", null ],
+    [ "ScrubItemContents", "classRoboClerk_1_1PluginBase.html#a1a52f427075e2da99d69210b59ff7a29", null ],
     [ "anomalies", "classRoboClerk_1_1PluginBase.html#a8a7de712709103569669099b8867f662", null ],
     [ "dependencies", "classRoboClerk_1_1PluginBase.html#af68499f0997d52893cc2963841f1d407", null ],
     [ "description", "classRoboClerk_1_1PluginBase.html#a24e9e84ac416a100c29c4d59c2fea63f", null ],
