@@ -93,6 +93,7 @@ $(document).ready(function(){initNavTree('classRoboClerk_1_1ContentCreators_1_1C
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pro-static-methods">Static Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="#pro-static-attribs">Static Protected Attributes</a> &#124;
 <a href="classRoboClerk_1_1ContentCreators_1_1ContentCreatorBase-members.html">List of all members</a>  </div>
@@ -123,8 +124,8 @@ Inheritance diagram for RoboClerk.ContentCreators.ContentCreatorBase:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aef3fe80672717b7fd7c3c905d72d27eb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRoboClerk_1_1ContentCreators_1_1ContentCreatorBase.html#aef3fe80672717b7fd7c3c905d72d27eb">ContentCreatorBase</a> (<a class="el" href="interfaceRoboClerk_1_1IDataSources.html">IDataSources</a> <a class="el" href="classRoboClerk_1_1ContentCreators_1_1ContentCreatorBase.html#a8b9147e5af2537d2636424952386863e">data</a>, <a class="el" href="interfaceRoboClerk_1_1ITraceabilityAnalysis.html">ITraceabilityAnalysis</a> <a class="el" href="classRoboClerk_1_1ContentCreators_1_1ContentCreatorBase.html#a53422fdbb8256d208ac4ed4f9f87fc47">analysis</a>)</td></tr>
-<tr class="separator:aef3fe80672717b7fd7c3c905d72d27eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79c76be364326bd23948e010d077c685"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRoboClerk_1_1ContentCreators_1_1ContentCreatorBase.html#a79c76be364326bd23948e010d077c685">ContentCreatorBase</a> (<a class="el" href="interfaceRoboClerk_1_1IDataSources.html">IDataSources</a> <a class="el" href="classRoboClerk_1_1ContentCreators_1_1ContentCreatorBase.html#a8b9147e5af2537d2636424952386863e">data</a>, <a class="el" href="interfaceRoboClerk_1_1ITraceabilityAnalysis.html">ITraceabilityAnalysis</a> <a class="el" href="classRoboClerk_1_1ContentCreators_1_1ContentCreatorBase.html#a53422fdbb8256d208ac4ed4f9f87fc47">analysis</a>, <a class="el" href="interfaceRoboClerk_1_1Configuration_1_1IConfiguration.html">IConfiguration</a> <a class="el" href="classRoboClerk_1_1ContentCreators_1_1ContentCreatorBase.html#a25f474d73ac251f77405917a45e6af5c">configuration</a>)</td></tr>
+<tr class="separator:a79c76be364326bd23948e010d077c685"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6b9d80f0bb655eb748c781c5a4148a3c"><td class="memItemLeft" align="right" valign="top">abstract string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRoboClerk_1_1ContentCreators_1_1ContentCreatorBase.html#a6b9d80f0bb655eb748c781c5a4148a3c">GetContent</a> (<a class="el" href="classRoboClerk_1_1RoboClerkTag.html">RoboClerkTag</a> tag, <a class="el" href="classRoboClerk_1_1Configuration_1_1DocumentConfig.html">DocumentConfig</a> doc)</td></tr>
 <tr class="separator:a6b9d80f0bb655eb748c781c5a4148a3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a350affccef1003def58831ad30dab55c"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceRoboClerk_1_1ContentCreators_1_1IContentCreator.html#a350affccef1003def58831ad30dab55c">GetContent</a> (<a class="el" href="classRoboClerk_1_1RoboClerkTag.html">RoboClerkTag</a> tag, <a class="el" href="classRoboClerk_1_1Configuration_1_1DocumentConfig.html">DocumentConfig</a> doc)</td></tr>
@@ -132,12 +133,19 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:a70f6c01b14cfc3b1fc578c296cabc67f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRoboClerk_1_1ContentCreators_1_1ContentCreatorBase.html#a70f6c01b14cfc3b1fc578c296cabc67f">ShouldBeIncluded&lt; T &gt;</a> (<a class="el" href="classRoboClerk_1_1RoboClerkTag.html">RoboClerkTag</a> tag, T item, PropertyInfo[] properties)</td></tr>
-<tr class="separator:a70f6c01b14cfc3b1fc578c296cabc67f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa8100c1ac31c9d84b5526a596f908515"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRoboClerk_1_1ContentCreators_1_1ContentCreatorBase.html#aa8100c1ac31c9d84b5526a596f908515">CheckUpdateDateTime</a> (<a class="el" href="classRoboClerk_1_1RoboClerkTag.html">RoboClerkTag</a> tag, <a class="el" href="classRoboClerk_1_1Item.html">Item</a> item)</td></tr>
-<tr class="separator:aa8100c1ac31c9d84b5526a596f908515"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa9c11143413e18c22ba21811c0f11eb0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRoboClerk_1_1ContentCreators_1_1ContentCreatorBase.html#aa9c11143413e18c22ba21811c0f11eb0">ProcessTraces</a> (<a class="el" href="classRoboClerk_1_1TraceEntity.html">TraceEntity</a> docTE, <a class="el" href="classRoboClerk_1_1ScriptingBridge.html">ScriptingBridge</a> dataShare)</td></tr>
 <tr class="separator:aa9c11143413e18c22ba21811c0f11eb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37dcbca46bce4e9a2f037cbe1daaff3c"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRoboClerk_1_1ContentCreators_1_1ContentCreatorBase.html#a37dcbca46bce4e9a2f037cbe1daaff3c">TagFieldWithAIComment</a> (string itemID, string input)</td></tr>
+<tr class="separator:a37dcbca46bce4e9a2f037cbe1daaff3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf64d6ec4a8b4c77a97ed49183028d9d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRoboClerk_1_1ContentCreators_1_1ContentCreatorBase.html#acf64d6ec4a8b4c77a97ed49183028d9d">AddAITagsToContent</a> (StringBuilder result, string input, string teID, string itemID)</td></tr>
+<tr class="separator:acf64d6ec4a8b4c77a97ed49183028d9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-static-methods" name="pro-static-methods"></a>
+Static Protected Member Functions</h2></td></tr>
+<tr class="memitem:ae027fe093e9c13573ee9fccf4794f45d"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRoboClerk_1_1ContentCreators_1_1ContentCreatorBase.html#ae027fe093e9c13573ee9fccf4794f45d">ShouldBeIncluded&lt; T &gt;</a> (<a class="el" href="classRoboClerk_1_1RoboClerkTag.html">RoboClerkTag</a> tag, T item, PropertyInfo[] properties)</td></tr>
+<tr class="separator:ae027fe093e9c13573ee9fccf4794f45d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e682c5778b570a19221f57e5ca2c385"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRoboClerk_1_1ContentCreators_1_1ContentCreatorBase.html#a6e682c5778b570a19221f57e5ca2c385">CheckUpdateDateTime</a> (<a class="el" href="classRoboClerk_1_1RoboClerkTag.html">RoboClerkTag</a> tag, <a class="el" href="classRoboClerk_1_1Item.html">Item</a> item)</td></tr>
+<tr class="separator:a6e682c5778b570a19221f57e5ca2c385"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -145,6 +153,8 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a53422fdbb8256d208ac4ed4f9f87fc47"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8b9147e5af2537d2636424952386863e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceRoboClerk_1_1IDataSources.html">IDataSources</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRoboClerk_1_1ContentCreators_1_1ContentCreatorBase.html#a8b9147e5af2537d2636424952386863e">data</a> = null</td></tr>
 <tr class="separator:a8b9147e5af2537d2636424952386863e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25f474d73ac251f77405917a45e6af5c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceRoboClerk_1_1Configuration_1_1IConfiguration.html">IConfiguration</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRoboClerk_1_1ContentCreators_1_1ContentCreatorBase.html#a25f474d73ac251f77405917a45e6af5c">configuration</a> = null</td></tr>
+<tr class="separator:a25f474d73ac251f77405917a45e6af5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-static-attribs" name="pro-static-attribs"></a>
 Static Protected Attributes</h2></td></tr>
@@ -153,10 +163,10 @@ Static Protected Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="ContentCreatorBase_8cs_source.html#l00007">7</a> of file <a class="el" href="ContentCreatorBase_8cs_source.html">ContentCreatorBase.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ContentCreatorBase_8cs_source.html#l00012">12</a> of file <a class="el" href="ContentCreatorBase_8cs_source.html">ContentCreatorBase.cs</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="aef3fe80672717b7fd7c3c905d72d27eb" name="aef3fe80672717b7fd7c3c905d72d27eb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aef3fe80672717b7fd7c3c905d72d27eb">&#9670;&#160;</a></span>ContentCreatorBase()</h2>
+<a id="a79c76be364326bd23948e010d077c685" name="a79c76be364326bd23948e010d077c685"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79c76be364326bd23948e010d077c685">&#9670;&#160;</a></span>ContentCreatorBase()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -171,7 +181,13 @@ Static Protected Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="interfaceRoboClerk_1_1ITraceabilityAnalysis.html">ITraceabilityAnalysis</a>&#160;</td>
-          <td class="paramname"><em>analysis</em>&#160;</td>
+          <td class="paramname"><em>analysis</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="interfaceRoboClerk_1_1Configuration_1_1IConfiguration.html">IConfiguration</a>&#160;</td>
+          <td class="paramname"><em>configuration</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -181,13 +197,13 @@ Static Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ContentCreatorBase_8cs_source.html#l00013">13</a> of file <a class="el" href="ContentCreatorBase_8cs_source.html">ContentCreatorBase.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ContentCreatorBase_8cs_source.html#l00019">19</a> of file <a class="el" href="ContentCreatorBase_8cs_source.html">ContentCreatorBase.cs</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="aa8100c1ac31c9d84b5526a596f908515" name="aa8100c1ac31c9d84b5526a596f908515"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa8100c1ac31c9d84b5526a596f908515">&#9670;&#160;</a></span>CheckUpdateDateTime()</h2>
+<a id="acf64d6ec4a8b4c77a97ed49183028d9d" name="acf64d6ec4a8b4c77a97ed49183028d9d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf64d6ec4a8b4c77a97ed49183028d9d">&#9670;&#160;</a></span>AddAITagsToContent()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -196,7 +212,57 @@ Static Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool RoboClerk.ContentCreators.ContentCreatorBase.CheckUpdateDateTime </td>
+          <td class="memname">void RoboClerk.ContentCreators.ContentCreatorBase.AddAITagsToContent </td>
+          <td>(</td>
+          <td class="paramtype">StringBuilder&#160;</td>
+          <td class="paramname"><em>result</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>input</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>teID</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>itemID</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="ContentCreatorBase_8cs_source.html#l00104">104</a> of file <a class="el" href="ContentCreatorBase_8cs_source.html">ContentCreatorBase.cs</a>.</p>
+
+</div>
+</div>
+<a id="a6e682c5778b570a19221f57e5ca2c385" name="a6e682c5778b570a19221f57e5ca2c385"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e682c5778b570a19221f57e5ca2c385">&#9670;&#160;</a></span>CheckUpdateDateTime()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool RoboClerk.ContentCreators.ContentCreatorBase.CheckUpdateDateTime </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classRoboClerk_1_1RoboClerkTag.html">RoboClerkTag</a>&#160;</td>
           <td class="paramname"><em>tag</em>, </td>
@@ -215,12 +281,12 @@ Static Protected Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ContentCreatorBase_8cs_source.html#l00039">39</a> of file <a class="el" href="ContentCreatorBase_8cs_source.html">ContentCreatorBase.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ContentCreatorBase_8cs_source.html#l00046">46</a> of file <a class="el" href="ContentCreatorBase_8cs_source.html">ContentCreatorBase.cs</a>.</p>
 
 </div>
 </div>
@@ -298,12 +364,12 @@ Static Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ContentCreatorBase_8cs_source.html#l00055">55</a> of file <a class="el" href="ContentCreatorBase_8cs_source.html">ContentCreatorBase.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ContentCreatorBase_8cs_source.html#l00062">62</a> of file <a class="el" href="ContentCreatorBase_8cs_source.html">ContentCreatorBase.cs</a>.</p>
 
 </div>
 </div>
-<a id="a70f6c01b14cfc3b1fc578c296cabc67f" name="a70f6c01b14cfc3b1fc578c296cabc67f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a70f6c01b14cfc3b1fc578c296cabc67f">&#9670;&#160;</a></span>ShouldBeIncluded&lt; T &gt;()</h2>
+<a id="ae027fe093e9c13573ee9fccf4794f45d" name="ae027fe093e9c13573ee9fccf4794f45d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae027fe093e9c13573ee9fccf4794f45d">&#9670;&#160;</a></span>ShouldBeIncluded&lt; T &gt;()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -312,7 +378,7 @@ Static Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool RoboClerk.ContentCreators.ContentCreatorBase.ShouldBeIncluded&lt; T &gt; </td>
+          <td class="memname">static bool RoboClerk.ContentCreators.ContentCreatorBase.ShouldBeIncluded&lt; T &gt; </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classRoboClerk_1_1RoboClerkTag.html">RoboClerkTag</a>&#160;</td>
           <td class="paramname"><em>tag</em>, </td>
@@ -337,12 +403,50 @@ Static Protected Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="ContentCreatorBase_8cs_source.html#l00028">28</a> of file <a class="el" href="ContentCreatorBase_8cs_source.html">ContentCreatorBase.cs</a>.</p>
+
+</div>
+</div>
+<a id="a37dcbca46bce4e9a2f037cbe1daaff3c" name="a37dcbca46bce4e9a2f037cbe1daaff3c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a37dcbca46bce4e9a2f037cbe1daaff3c">&#9670;&#160;</a></span>TagFieldWithAIComment()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string RoboClerk.ContentCreators.ContentCreatorBase.TagFieldWithAIComment </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>itemID</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>input</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ContentCreatorBase_8cs_source.html#l00021">21</a> of file <a class="el" href="ContentCreatorBase_8cs_source.html">ContentCreatorBase.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ContentCreatorBase_8cs_source.html#l00080">80</a> of file <a class="el" href="ContentCreatorBase_8cs_source.html">ContentCreatorBase.cs</a>.</p>
 
 </div>
 </div>
@@ -367,7 +471,31 @@ Static Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ContentCreatorBase_8cs_source.html#l00010">10</a> of file <a class="el" href="ContentCreatorBase_8cs_source.html">ContentCreatorBase.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ContentCreatorBase_8cs_source.html#l00015">15</a> of file <a class="el" href="ContentCreatorBase_8cs_source.html">ContentCreatorBase.cs</a>.</p>
+
+</div>
+</div>
+<a id="a25f474d73ac251f77405917a45e6af5c" name="a25f474d73ac251f77405917a45e6af5c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a25f474d73ac251f77405917a45e6af5c">&#9670;&#160;</a></span>configuration</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceRoboClerk_1_1Configuration_1_1IConfiguration.html">IConfiguration</a> RoboClerk.ContentCreators.ContentCreatorBase.configuration = null</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="ContentCreatorBase_8cs_source.html#l00017">17</a> of file <a class="el" href="ContentCreatorBase_8cs_source.html">ContentCreatorBase.cs</a>.</p>
 
 </div>
 </div>
@@ -391,7 +519,7 @@ Static Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ContentCreatorBase_8cs_source.html#l00011">11</a> of file <a class="el" href="ContentCreatorBase_8cs_source.html">ContentCreatorBase.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ContentCreatorBase_8cs_source.html#l00016">16</a> of file <a class="el" href="ContentCreatorBase_8cs_source.html">ContentCreatorBase.cs</a>.</p>
 
 </div>
 </div>
@@ -415,7 +543,7 @@ Static Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ContentCreatorBase_8cs_source.html#l00009">9</a> of file <a class="el" href="ContentCreatorBase_8cs_source.html">ContentCreatorBase.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ContentCreatorBase_8cs_source.html#l00014">14</a> of file <a class="el" href="ContentCreatorBase_8cs_source.html">ContentCreatorBase.cs</a>.</p>
 
 </div>
 </div>

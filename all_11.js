@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['unittest_0',['UnitTest',['../classRoboClerk_1_1ContentCreators_1_1UnitTest.html',1,'RoboClerk.ContentCreators.UnitTest'],['../classRoboClerk_1_1ContentCreators_1_1UnitTest.html#ada72d02f43c21cd3fabf46aec6af0fe8',1,'RoboClerk.ContentCreators.UnitTest.UnitTest()']]],
+  ['unittest_0',['UnitTest',['../classRoboClerk_1_1ContentCreators_1_1UnitTest.html',1,'RoboClerk.ContentCreators.UnitTest'],['../classRoboClerk_1_1ContentCreators_1_1UnitTest.html#abba72008461863b3223e0209caafdb96',1,'RoboClerk.ContentCreators.UnitTest.UnitTest()']]],
   ['unittest_2ecs_1',['UnitTest.cs',['../UnitTest_8cs.html',1,'']]],
   ['unittestacceptancecriteria_2',['UnitTestAcceptanceCriteria',['../classRoboClerk_1_1UnitTestItem.html#a8a034a952a0b0ff4ba0f8a50e1cad843',1,'RoboClerk::UnitTestItem']]],
   ['unittestattribute_3',['UnitTestAttribute',['../classRoboClerk_1_1UnitTestAttribute.html',1,'RoboClerk.UnitTestAttribute'],['../classRoboClerk_1_1UnitTestAttribute.html#ae8afd0eadbb97788e10dcbf3f09b30dd',1,'RoboClerk.UnitTestAttribute.UnitTestAttribute()']]],
@@ -11,7 +11,7 @@ var searchData=
   ['unittestitem_8',['UnitTestItem',['../classRoboClerk_1_1UnitTestItem.html',1,'RoboClerk.UnitTestItem'],['../classRoboClerk_1_1UnitTestItem.html#a4487c7a3fa197e5ff65a560e475c9b5e',1,'RoboClerk.UnitTestItem.UnitTestItem()']]],
   ['unittestitem_2ecs_9',['UnitTestItem.cs',['../UnitTestItem_8cs.html',1,'']]],
   ['unittestpurpose_10',['UnitTestPurpose',['../classRoboClerk_1_1UnitTestItem.html#ac00af126f0e3f40cd0d4468b31dbfa20',1,'RoboClerk::UnitTestItem']]],
-  ['unittests_11',['unitTests',['../classRoboClerk_1_1PluginBase.html#a13a40322452956b33dcfb1ea4e9a668b',1,'RoboClerk::PluginBase']]],
+  ['unittests_11',['unitTests',['../classRoboClerk_1_1DataSourcePluginBase.html#a91f08b32e499e10aa91092098371eb7f',1,'RoboClerk::DataSourcePluginBase']]],
   ['unittests_12',['UnitTests',['../classRoboClerk_1_1CheckpointDataStorage.html#afa3b92455231fbb9fcdd50e494f3a593',1,'RoboClerk::CheckpointDataStorage']]],
   ['unitteststate_13',['UnitTestState',['../classRoboClerk_1_1UnitTestItem.html#a25ef54b9ea432b937ea71b1c7bb1729b',1,'RoboClerk::UnitTestItem']]],
   ['updateanomaly_14',['UpdateAnomaly',['../classRoboClerk_1_1CheckpointDataStorage.html#ac69d9e29f7bbdfc52ca4706ffe303eb1',1,'RoboClerk::CheckpointDataStorage']]],
