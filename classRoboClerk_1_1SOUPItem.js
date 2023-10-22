@@ -10,6 +10,7 @@ var classRoboClerk_1_1SOUPItem =
     [ "SOUPInstalledByUserText", "classRoboClerk_1_1SOUPItem.html#a3cbfbae186526391d6d7bd0c5c6156fe", null ],
     [ "SOUPLicense", "classRoboClerk_1_1SOUPItem.html#ae77d03e2eb58da0c135d575a93cfc5d5", null ],
     [ "SOUPLinkedLib", "classRoboClerk_1_1SOUPItem.html#aa40054e3e39f3ed9721e5f131a260acf", null ],
+    [ "SOUPManufacturer", "classRoboClerk_1_1SOUPItem.html#a6f8e2c4996b53a8bbe454cf312312a9a", null ],
     [ "SOUPName", "classRoboClerk_1_1SOUPItem.html#a98bef98e187a0c1f2d38f7ae928d907e", null ],
     [ "SOUPPerformanceCritical", "classRoboClerk_1_1SOUPItem.html#a3ca5c1d923481657354f16e2f4b2d8c5", null ],
     [ "SOUPPerformanceCriticalText", "classRoboClerk_1_1SOUPItem.html#a3244ced05ff2bc2025d4ecffb52e1c83", null ],

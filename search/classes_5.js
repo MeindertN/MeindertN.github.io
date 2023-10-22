@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['gitrepoinformation_0',['GitRepoInformation',['../classRoboClerk_1_1GitRepoInformation.html',1,'RoboClerk']]]
+  ['gitrepository_0',['GitRepository',['../classRoboClerk_1_1GitRepository.html',1,'RoboClerk']]]
 ];
