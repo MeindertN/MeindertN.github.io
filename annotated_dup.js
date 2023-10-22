@@ -68,7 +68,7 @@ var annotated_dup =
       [ "DocContentItem", "classRoboClerk_1_1DocContentItem.html", "classRoboClerk_1_1DocContentItem" ],
       [ "Document", "classRoboClerk_1_1Document.html", "classRoboClerk_1_1Document" ],
       [ "ExternalDependency", "classRoboClerk_1_1ExternalDependency.html", "classRoboClerk_1_1ExternalDependency" ],
-      [ "GitRepository", "classRoboClerk_1_1GitRepository.html", "classRoboClerk_1_1GitRepository" ],
+      [ "GitRepoInformation", "classRoboClerk_1_1GitRepoInformation.html", "classRoboClerk_1_1GitRepoInformation" ],
       [ "IDataSources", "interfaceRoboClerk_1_1IDataSources.html", "interfaceRoboClerk_1_1IDataSources" ],
       [ "IPlugin", "interfaceRoboClerk_1_1IPlugin.html", "interfaceRoboClerk_1_1IPlugin" ],
       [ "IPluginLoader", "interfaceRoboClerk_1_1IPluginLoader.html", "interfaceRoboClerk_1_1IPluginLoader" ],

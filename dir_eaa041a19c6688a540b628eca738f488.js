@@ -11,7 +11,7 @@ var dir_eaa041a19c6688a540b628eca738f488 =
     [ "Commands.cs", "Commands_8cs.html", "Commands_8cs" ],
     [ "Document.cs", "Document_8cs.html", "Document_8cs" ],
     [ "ExternalDependency.cs", "ExternalDependency_8cs.html", "ExternalDependency_8cs" ],
-    [ "GitRepository.cs", "GitRepository_8cs.html", "GitRepository_8cs" ],
+    [ "GitRepoInformation.cs", "GitRepoInformation_8cs.html", "GitRepoInformation_8cs" ],
     [ "IRoboClerkCore.cs", "IRoboClerkCore_8cs.html", null ],
     [ "Program.cs", "Program_8cs.html", "Program_8cs" ],
     [ "RoboClerkAsciiDoc.cs", "RoboClerkAsciiDoc_8cs.html", null ],

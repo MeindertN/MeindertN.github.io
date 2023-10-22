@@ -24,10 +24,10 @@ var searchData=
   ['getdocumentationrequirement_21',['GetDocumentationRequirement',['../classRoboClerk_1_1DataSourcesBase.html#ad9c8b90d0baf068b915ba566b574a8a0',1,'RoboClerk.DataSourcesBase.GetDocumentationRequirement()'],['../interfaceRoboClerk_1_1IDataSources.html#a371e9d06b4b242b12d251b6f2dff758d',1,'RoboClerk.IDataSources.GetDocumentationRequirement()']]],
   ['getdocumentationrequirements_22',['GetDocumentationRequirements',['../interfaceRoboClerk_1_1IPlugin.html#a7145e1ea2d1a9bad9e6d9f21c05fb49e',1,'RoboClerk.IPlugin.GetDocumentationRequirements()'],['../classRoboClerk_1_1PluginBase.html#adc129415e55b6661d2be0d13ffd93ffa',1,'RoboClerk.PluginBase.GetDocumentationRequirements()']]],
   ['getenumerator_23',['GetEnumerator',['../classRoboClerk_1_1RoboClerkOrderedDictionary.html#a8ec24f88e181b7ba5325fa32fb95ecc7',1,'RoboClerk::RoboClerkOrderedDictionary']]],
-  ['getfilelastupdated_24',['GetFileLastUpdated',['../classRoboClerk_1_1GitRepository.html#a4eee14491a92a00e91434b7c956a7d59',1,'RoboClerk::GitRepository']]],
-  ['getfilelocallyupdated_25',['GetFileLocallyUpdated',['../classRoboClerk_1_1GitRepository.html#aa900db685bddda99501dfe3db2392d8d',1,'RoboClerk::GitRepository']]],
+  ['getfilelastupdated_24',['GetFileLastUpdated',['../classRoboClerk_1_1GitRepoInformation.html#af1d279ecf201db0730d283469db1ac74',1,'RoboClerk::GitRepoInformation']]],
+  ['getfilelocallyupdated_25',['GetFileLocallyUpdated',['../classRoboClerk_1_1GitRepoInformation.html#a585345a078ded475434cad7d9adf1049',1,'RoboClerk::GitRepoInformation']]],
   ['getfilestreamfromtemplatedir_26',['GetFileStreamFromTemplateDir',['../classRoboClerk_1_1DataSourcesBase.html#a8f5ed421d8a4a16a4fc82b27e3437767',1,'RoboClerk.DataSourcesBase.GetFileStreamFromTemplateDir()'],['../interfaceRoboClerk_1_1IDataSources.html#aa538935b5a97f52489820bb665de392a',1,'RoboClerk.IDataSources.GetFileStreamFromTemplateDir()']]],
-  ['getfileversion_27',['GetFileVersion',['../classRoboClerk_1_1GitRepository.html#ac594497396d493399349ba224dec66e8',1,'RoboClerk::GitRepository']]],
+  ['getfileversion_27',['GetFileVersion',['../classRoboClerk_1_1GitRepoInformation.html#a380431afbb4cf2ab1d735f2b7023e8b8',1,'RoboClerk::GitRepoInformation']]],
   ['gethashcode_28',['GetHashCode',['../classRoboClerk_1_1TraceEntity.html#abf4fffa3c384f506249eb7c46e73b39a',1,'RoboClerk.TraceEntity.GetHashCode()'],['../classRoboClerk_1_1TraceIssue.html#ae8da3199f79db6dbdacaa19b5b1386c1',1,'RoboClerk.TraceIssue.GetHashCode()'],['../classRoboClerk_1_1TraceLink.html#a52ee0671220ef6a4fcce59a7d4583094',1,'RoboClerk.TraceLink.GetHashCode()']]],
   ['getitem_29',['GetItem',['../interfaceRoboClerk_1_1IDataSources.html#ab104a80203be74819b62261c55b866df',1,'RoboClerk.IDataSources.GetItem()'],['../classRoboClerk_1_1DataSourcesBase.html#ad1c60ae16541d84bd3b50f3d3de5d482',1,'RoboClerk.DataSourcesBase.GetItem()']]],
   ['getitemlinkstring_30',['GetItemLinkString',['../classRoboClerk_1_1ScriptingBridge.html#a2c12d5d14b5264ee6c8f98d231b835e0',1,'RoboClerk::ScriptingBridge']]],
@@ -59,5 +59,5 @@ var searchData=
   ['getunittests_56',['GetUnitTests',['../interfaceRoboClerk_1_1IPlugin.html#af79c78a9981e32d7cafe1c9154f37daf',1,'RoboClerk.IPlugin.GetUnitTests()'],['../classRoboClerk_1_1PluginBase.html#a3550e1444356cdd3167cfea8cd630649',1,'RoboClerk.PluginBase.GetUnitTests()']]],
   ['getvalordef_57',['GetValOrDef',['../classRoboClerk_1_1ScriptingBridge.html#a1346898db6621ad20fdb0bddb47aa3e9',1,'RoboClerk::ScriptingBridge']]],
   ['getvalue_58',['GetValue',['../classRoboClerk_1_1Configuration_1_1ConfigurationValues.html#a9700b5246df76570676186dd2a4b5bb1',1,'RoboClerk::Configuration::ConfigurationValues']]],
-  ['gitrepository_59',['GitRepository',['../classRoboClerk_1_1GitRepository.html#a3d14ef25383075fdb8740439ba29896a',1,'RoboClerk::GitRepository']]]
+  ['gitrepoinformation_59',['GitRepoInformation',['../classRoboClerk_1_1GitRepoInformation.html#abd20efae5f961c270f990e882064433e',1,'RoboClerk::GitRepoInformation']]]
 ];

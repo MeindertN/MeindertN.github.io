@@ -21,7 +21,6 @@ var hierarchy =
     ] ],
     [ "RoboClerk.ExternalDependency", "classRoboClerk_1_1ExternalDependency.html", null ],
     [ "RoboClerk.Redmine.FixedVersion", "classRoboClerk_1_1Redmine_1_1FixedVersion.html", null ],
-    [ "RoboClerk.GitRepository", "classRoboClerk_1_1GitRepository.html", null ],
     [ "RoboClerk.AzureDevOps.HtmlToTextConverter", "classRoboClerk_1_1AzureDevOps_1_1HtmlToTextConverter.html", null ],
     [ "RoboClerk.Configuration.IConfiguration", "interfaceRoboClerk_1_1Configuration_1_1IConfiguration.html", [
       [ "RoboClerk.Configuration.Configuration", "classRoboClerk_1_1Configuration_1_1Configuration.html", null ]
@@ -57,6 +56,9 @@ var hierarchy =
         [ "RoboClerk.PluginDataSources", "classRoboClerk_1_1PluginDataSources.html", null ]
       ] ],
       [ "RoboClerk.PluginDataSources", "classRoboClerk_1_1PluginDataSources.html", null ]
+    ] ],
+    [ "IDisposable", null, [
+      [ "RoboClerk.GitRepoInformation", "classRoboClerk_1_1GitRepoInformation.html", null ]
     ] ],
     [ "IEnumerable", null, [
       [ "RoboClerk.RoboClerkOrderedDictionary< TKey, TValue >", "classRoboClerk_1_1RoboClerkOrderedDictionary.html", null ]
