@@ -2,9 +2,6 @@ var classRoboClerk_1_1Configuration_1_1Configuration =
 [
     [ "Configuration", "classRoboClerk_1_1Configuration_1_1Configuration.html#a5beea8af32bf0df3c62ef42fed6a9475", null ],
     [ "CommandLineOptionOrDefault", "classRoboClerk_1_1Configuration_1_1Configuration.html#af2a07691a7ae69061a20b2df547429e3", null ],
-    [ "AICheckTemplateContents", "classRoboClerk_1_1Configuration_1_1Configuration.html#abb244c4aa67260ff5bda88d9d59a2656", null ],
-    [ "AICheckTraceEntities", "classRoboClerk_1_1Configuration_1_1Configuration.html#a5fd9528383734c6452c288f4eb2c4209", null ],
-    [ "AIPlugin", "classRoboClerk_1_1Configuration_1_1Configuration.html#af4a21f3bce16bfb58a444829aeb6cc89", null ],
     [ "CheckpointConfig", "classRoboClerk_1_1Configuration_1_1Configuration.html#a69e8c5437a74f52e5857e104bee34225", null ],
     [ "ClearOutputDir", "classRoboClerk_1_1Configuration_1_1Configuration.html#a488bd5f8fa2ccaa719373cab25abbe9c", null ],
     [ "ConfigVals", "classRoboClerk_1_1Configuration_1_1Configuration.html#afd83da78b2fa4542e85e09e3c3e18184", null ],

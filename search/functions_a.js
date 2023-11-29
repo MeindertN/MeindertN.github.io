@@ -5,6 +5,5 @@ var searchData=
   ['pluginbase_2',['PluginBase',['../classRoboClerk_1_1PluginBase.html#a59673c91725a54cce4b130d92f3de4ce',1,'RoboClerk::PluginBase']]],
   ['plugindatasources_3',['PluginDataSources',['../classRoboClerk_1_1PluginDataSources.html#a0d089431272da8a253b2d707ea2aaf1f',1,'RoboClerk::PluginDataSources']]],
   ['pluginloadcontext_4',['PluginLoadContext',['../classRoboClerk_1_1PluginLoadContext.html#a817126796b5107aa8a74cd264fd27631',1,'RoboClerk::PluginLoadContext']]],
-  ['processtraces_5',['ProcessTraces',['../classRoboClerk_1_1ContentCreators_1_1ContentCreatorBase.html#aa9c11143413e18c22ba21811c0f11eb0',1,'RoboClerk::ContentCreators::ContentCreatorBase']]],
-  ['prompttemplate_6',['PromptTemplate',['../classRoboClerk_1_1PromptTemplate.html#a2df5ff2b1632cb9f5ce96dcc716eb2ae',1,'RoboClerk::PromptTemplate']]]
+  ['processtraces_5',['ProcessTraces',['../classRoboClerk_1_1ContentCreators_1_1ContentCreatorBase.html#aa9c11143413e18c22ba21811c0f11eb0',1,'RoboClerk::ContentCreators::ContentCreatorBase']]]
 ];

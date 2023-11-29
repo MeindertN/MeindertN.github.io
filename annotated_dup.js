@@ -1,9 +1,6 @@
 var annotated_dup =
 [
     [ "RoboClerk", "namespaceRoboClerk.html", [
-      [ "AISystem", "namespaceRoboClerk_1_1AISystem.html", [
-        [ "IAISystemPlugin", "interfaceRoboClerk_1_1AISystem_1_1IAISystemPlugin.html", "interfaceRoboClerk_1_1AISystem_1_1IAISystemPlugin" ]
-      ] ],
       [ "AnnotatedUnitTests", "namespaceRoboClerk_1_1AnnotatedUnitTests.html", [
         [ "AnnotatedUnitTestsPlugin", "classRoboClerk_1_1AnnotatedUnitTests_1_1AnnotatedUnitTestsPlugin.html", "classRoboClerk_1_1AnnotatedUnitTests_1_1AnnotatedUnitTestsPlugin" ]
       ] ],
@@ -21,7 +18,6 @@ var annotated_dup =
         [ "TraceConfigElement", "classRoboClerk_1_1Configuration_1_1TraceConfigElement.html", "classRoboClerk_1_1Configuration_1_1TraceConfigElement" ]
       ] ],
       [ "ContentCreators", "namespaceRoboClerk_1_1ContentCreators.html", [
-        [ "AIContentCreator", "classRoboClerk_1_1ContentCreators_1_1AIContentCreator.html", "classRoboClerk_1_1ContentCreators_1_1AIContentCreator" ],
         [ "Anomaly", "classRoboClerk_1_1ContentCreators_1_1Anomaly.html", "classRoboClerk_1_1ContentCreators_1_1Anomaly" ],
         [ "ContentCreatorBase", "classRoboClerk_1_1ContentCreators_1_1ContentCreatorBase.html", "classRoboClerk_1_1ContentCreators_1_1ContentCreatorBase" ],
         [ "DocumentationRequirement", "classRoboClerk_1_1ContentCreators_1_1DocumentationRequirement.html", "classRoboClerk_1_1ContentCreators_1_1DocumentationRequirement" ],
@@ -64,18 +60,15 @@ var annotated_dup =
         [ "Relation", "classRoboClerk_1_1Redmine_1_1Relation.html", "classRoboClerk_1_1Redmine_1_1Relation" ],
         [ "Status", "classRoboClerk_1_1Redmine_1_1Status.html", "classRoboClerk_1_1Redmine_1_1Status" ]
       ] ],
-      [ "AISystemPluginBase", "classRoboClerk_1_1AISystemPluginBase.html", "classRoboClerk_1_1AISystemPluginBase" ],
       [ "AnomalyItem", "classRoboClerk_1_1AnomalyItem.html", "classRoboClerk_1_1AnomalyItem" ],
       [ "CheckpointDataSources", "classRoboClerk_1_1CheckpointDataSources.html", "classRoboClerk_1_1CheckpointDataSources" ],
       [ "CheckpointDataStorage", "classRoboClerk_1_1CheckpointDataStorage.html", "classRoboClerk_1_1CheckpointDataStorage" ],
       [ "Commands", "classRoboClerk_1_1Commands.html", "classRoboClerk_1_1Commands" ],
-      [ "DataSourcePluginBase", "classRoboClerk_1_1DataSourcePluginBase.html", "classRoboClerk_1_1DataSourcePluginBase" ],
       [ "DataSourcesBase", "classRoboClerk_1_1DataSourcesBase.html", "classRoboClerk_1_1DataSourcesBase" ],
       [ "DocContentItem", "classRoboClerk_1_1DocContentItem.html", "classRoboClerk_1_1DocContentItem" ],
       [ "Document", "classRoboClerk_1_1Document.html", "classRoboClerk_1_1Document" ],
       [ "ExternalDependency", "classRoboClerk_1_1ExternalDependency.html", "classRoboClerk_1_1ExternalDependency" ],
       [ "GitRepository", "classRoboClerk_1_1GitRepository.html", "classRoboClerk_1_1GitRepository" ],
-      [ "IDataSourcePlugin", "interfaceRoboClerk_1_1IDataSourcePlugin.html", "interfaceRoboClerk_1_1IDataSourcePlugin" ],
       [ "IDataSources", "interfaceRoboClerk_1_1IDataSources.html", "interfaceRoboClerk_1_1IDataSources" ],
       [ "IPlugin", "interfaceRoboClerk_1_1IPlugin.html", "interfaceRoboClerk_1_1IPlugin" ],
       [ "IPluginLoader", "interfaceRoboClerk_1_1IPluginLoader.html", "interfaceRoboClerk_1_1IPluginLoader" ],
@@ -90,7 +83,6 @@ var annotated_dup =
       [ "PluginLoadContext", "classRoboClerk_1_1PluginLoadContext.html", "classRoboClerk_1_1PluginLoadContext" ],
       [ "PluginLoader", "classRoboClerk_1_1PluginLoader.html", "classRoboClerk_1_1PluginLoader" ],
       [ "Program", "classRoboClerk_1_1Program.html", null ],
-      [ "PromptTemplate", "classRoboClerk_1_1PromptTemplate.html", "classRoboClerk_1_1PromptTemplate" ],
       [ "RequirementItem", "classRoboClerk_1_1RequirementItem.html", "classRoboClerk_1_1RequirementItem" ],
       [ "RiskItem", "classRoboClerk_1_1RiskItem.html", "classRoboClerk_1_1RiskItem" ],
       [ "RoboClerkCore", "classRoboClerk_1_1RoboClerkCore.html", "classRoboClerk_1_1RoboClerkCore" ],

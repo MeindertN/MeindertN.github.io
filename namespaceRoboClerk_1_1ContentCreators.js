@@ -1,6 +1,5 @@
 var namespaceRoboClerk_1_1ContentCreators =
 [
-    [ "AIContentCreator", "classRoboClerk_1_1ContentCreators_1_1AIContentCreator.html", "classRoboClerk_1_1ContentCreators_1_1AIContentCreator" ],
     [ "Anomaly", "classRoboClerk_1_1ContentCreators_1_1Anomaly.html", "classRoboClerk_1_1ContentCreators_1_1Anomaly" ],
     [ "ContentCreatorBase", "classRoboClerk_1_1ContentCreators_1_1ContentCreatorBase.html", "classRoboClerk_1_1ContentCreators_1_1ContentCreatorBase" ],
     [ "DocumentationRequirement", "classRoboClerk_1_1ContentCreators_1_1DocumentationRequirement.html", "classRoboClerk_1_1ContentCreators_1_1DocumentationRequirement" ],

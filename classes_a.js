@@ -7,6 +7,5 @@ var searchData=
   ['pluginloadcontext_4',['PluginLoadContext',['../classRoboClerk_1_1PluginLoadContext.html',1,'RoboClerk']]],
   ['pluginloader_5',['PluginLoader',['../classRoboClerk_1_1PluginLoader.html',1,'RoboClerk']]],
   ['priority_6',['Priority',['../classRoboClerk_1_1Redmine_1_1Priority.html',1,'RoboClerk::Redmine']]],
-  ['program_7',['Program',['../classRoboClerk_1_1Program.html',1,'RoboClerk']]],
-  ['prompttemplate_8',['PromptTemplate',['../classRoboClerk_1_1PromptTemplate.html',1,'RoboClerk']]]
+  ['program_7',['Program',['../classRoboClerk_1_1Program.html',1,'RoboClerk']]]
 ];
