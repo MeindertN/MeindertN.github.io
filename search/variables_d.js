@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['unittests_0',['unitTests',['../classRoboClerk_1_1PluginBase.html#a13a40322452956b33dcfb1ea4e9a668b',1,'RoboClerk::PluginBase']]]
+  ['unittests_0',['unitTests',['../classRoboClerk_1_1DataSourcePluginBase.html#a91f08b32e499e10aa91092098371eb7f',1,'RoboClerk::DataSourcePluginBase']]]
 ];

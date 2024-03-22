@@ -1,0 +1,27 @@
+var classRoboClerk_1_1DataSourcePluginBase =
+[
+    [ "DataSourcePluginBase", "classRoboClerk_1_1DataSourcePluginBase.html#a62764595003f0eb33143db4ffef88da3", null ],
+    [ "ClearAllItems", "classRoboClerk_1_1DataSourcePluginBase.html#ae463413c5f144c3e553a6f98b4570afb", null ],
+    [ "GetAnomalies", "classRoboClerk_1_1DataSourcePluginBase.html#a0b6e6cdf6e3bf8aab0f2abe27bba7f15", null ],
+    [ "GetDependencies", "classRoboClerk_1_1DataSourcePluginBase.html#a347cd92fe3107ecdb1980191193d0d9c", null ],
+    [ "GetDocContents", "classRoboClerk_1_1DataSourcePluginBase.html#ae6013b6b67607f7e722c1bd4d59e1a00", null ],
+    [ "GetDocumentationRequirements", "classRoboClerk_1_1DataSourcePluginBase.html#a190a7e9c3709377921e3af3282586a51", null ],
+    [ "GetRisks", "classRoboClerk_1_1DataSourcePluginBase.html#aa5e77899f7a9693241fc2de353dd8c1b", null ],
+    [ "GetSoftwareRequirements", "classRoboClerk_1_1DataSourcePluginBase.html#af738fe27bd0f64095ef4fb4a2753b0a0", null ],
+    [ "GetSoftwareSystemTests", "classRoboClerk_1_1DataSourcePluginBase.html#a3f3a18717484eb725b87ea7bf2cfb4e5", null ],
+    [ "GetSOUP", "classRoboClerk_1_1DataSourcePluginBase.html#ae9136f9ec5fd65354a64ec0efceb3492", null ],
+    [ "GetSystemRequirements", "classRoboClerk_1_1DataSourcePluginBase.html#a8282db92b265e93602f88016024fd143", null ],
+    [ "GetUnitTests", "classRoboClerk_1_1DataSourcePluginBase.html#a042190a359cf82f294188f1334bb1172", null ],
+    [ "RefreshItems", "classRoboClerk_1_1DataSourcePluginBase.html#a1b89be56c6e09e6d187eff170db02e4a", null ],
+    [ "ScrubItemContents", "classRoboClerk_1_1DataSourcePluginBase.html#a55bed6db85fc46b5a917ecb69461612e", null ],
+    [ "anomalies", "classRoboClerk_1_1DataSourcePluginBase.html#a59741e1c98b19adc4a22f90ddaf542d1", null ],
+    [ "dependencies", "classRoboClerk_1_1DataSourcePluginBase.html#ac930570c94ccabde9ec4861c3d2c9f02", null ],
+    [ "docContents", "classRoboClerk_1_1DataSourcePluginBase.html#a7a7729b0eb4a23ace577b67c8f0a48eb", null ],
+    [ "documentationRequirements", "classRoboClerk_1_1DataSourcePluginBase.html#a91a60f9c73b0487a54dae8bc08dd8cc8", null ],
+    [ "risks", "classRoboClerk_1_1DataSourcePluginBase.html#a31df688ecc24a7fec9becd76d69e1aa9", null ],
+    [ "softwareRequirements", "classRoboClerk_1_1DataSourcePluginBase.html#aae31c22e5b0d47474fbd43ae4329a53d", null ],
+    [ "soup", "classRoboClerk_1_1DataSourcePluginBase.html#a547aa9994295305b754024239a8f2d6a", null ],
+    [ "systemRequirements", "classRoboClerk_1_1DataSourcePluginBase.html#a96edee620e39f8711d45163fe503244b", null ],
+    [ "testCases", "classRoboClerk_1_1DataSourcePluginBase.html#afa9b9d8ff7314a09fa2c2b496c993189", null ],
+    [ "unitTests", "classRoboClerk_1_1DataSourcePluginBase.html#a91f08b32e499e10aa91092098371eb7f", null ]
+];
