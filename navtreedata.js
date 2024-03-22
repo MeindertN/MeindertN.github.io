@@ -56,9 +56,9 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "AIContentCreator_8cs.html",
-"classRoboClerk_1_1CheckpointDataSources.html#a938c930f2a55c3f29fdbe5124b3c24a1",
-"classRoboClerk_1_1ContentCreators_1_1RequirementBase.html#a8ec6a013e27d4a00c9ecd9e152379def",
-"classRoboClerk_1_1GitRepository.html#a4eee14491a92a00e91434b7c956a7d59",
+"classRoboClerk_1_1CheckpointDataSources.html#a5cc95e80036a300fb303138975b82c0e",
+"classRoboClerk_1_1ContentCreators_1_1RequirementBase.html",
+"classRoboClerk_1_1ExternalDependency.html#accd0d10a61dbead47d2c78e3b4ea1722",
 "classRoboClerk_1_1Redmine_1_1RedmineProject.html#a3a90b08474ba1b8818c51bfb9d782c9f",
 "classRoboClerk_1_1SoftwareSystemTestItem.html#a309af00d3d4883c843fef4a2bbf42881",
 "functions_prop_r.html"

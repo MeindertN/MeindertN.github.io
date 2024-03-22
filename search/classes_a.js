@@ -8,5 +8,5 @@ var searchData=
   ['pluginloader_5',['PluginLoader',['../classRoboClerk_1_1PluginLoader.html',1,'RoboClerk']]],
   ['priority_6',['Priority',['../classRoboClerk_1_1Redmine_1_1Priority.html',1,'RoboClerk::Redmine']]],
   ['program_7',['Program',['../classRoboClerk_1_1Program.html',1,'RoboClerk']]],
-  ['prompttemplate_8',['PromptTemplate',['../classRoboClerk_1_1PromptTemplate.html',1,'RoboClerk']]]
+  ['prompttemplate_8',['PromptTemplate',['../classRoboClerk_1_1AISystem_1_1PromptTemplate.html',1,'RoboClerk::AISystem']]]
 ];

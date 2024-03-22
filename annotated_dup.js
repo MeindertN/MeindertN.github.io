@@ -2,7 +2,9 @@ var annotated_dup =
 [
     [ "RoboClerk", "namespaceRoboClerk.html", [
       [ "AISystem", "namespaceRoboClerk_1_1AISystem.html", [
-        [ "IAISystemPlugin", "interfaceRoboClerk_1_1AISystem_1_1IAISystemPlugin.html", "interfaceRoboClerk_1_1AISystem_1_1IAISystemPlugin" ]
+        [ "AISystemPluginBase", "classRoboClerk_1_1AISystem_1_1AISystemPluginBase.html", "classRoboClerk_1_1AISystem_1_1AISystemPluginBase" ],
+        [ "IAISystemPlugin", "interfaceRoboClerk_1_1AISystem_1_1IAISystemPlugin.html", "interfaceRoboClerk_1_1AISystem_1_1IAISystemPlugin" ],
+        [ "PromptTemplate", "classRoboClerk_1_1AISystem_1_1PromptTemplate.html", "classRoboClerk_1_1AISystem_1_1PromptTemplate" ]
       ] ],
       [ "AnnotatedUnitTests", "namespaceRoboClerk_1_1AnnotatedUnitTests.html", [
         [ "AnnotatedUnitTestsPlugin", "classRoboClerk_1_1AnnotatedUnitTests_1_1AnnotatedUnitTestsPlugin.html", "classRoboClerk_1_1AnnotatedUnitTests_1_1AnnotatedUnitTestsPlugin" ]
@@ -64,7 +66,6 @@ var annotated_dup =
         [ "Relation", "classRoboClerk_1_1Redmine_1_1Relation.html", "classRoboClerk_1_1Redmine_1_1Relation" ],
         [ "Status", "classRoboClerk_1_1Redmine_1_1Status.html", "classRoboClerk_1_1Redmine_1_1Status" ]
       ] ],
-      [ "AISystemPluginBase", "classRoboClerk_1_1AISystemPluginBase.html", "classRoboClerk_1_1AISystemPluginBase" ],
       [ "AnomalyItem", "classRoboClerk_1_1AnomalyItem.html", "classRoboClerk_1_1AnomalyItem" ],
       [ "CheckpointDataSources", "classRoboClerk_1_1CheckpointDataSources.html", "classRoboClerk_1_1CheckpointDataSources" ],
       [ "CheckpointDataStorage", "classRoboClerk_1_1CheckpointDataStorage.html", "classRoboClerk_1_1CheckpointDataStorage" ],
@@ -90,7 +91,6 @@ var annotated_dup =
       [ "PluginLoadContext", "classRoboClerk_1_1PluginLoadContext.html", "classRoboClerk_1_1PluginLoadContext" ],
       [ "PluginLoader", "classRoboClerk_1_1PluginLoader.html", "classRoboClerk_1_1PluginLoader" ],
       [ "Program", "classRoboClerk_1_1Program.html", null ],
-      [ "PromptTemplate", "classRoboClerk_1_1PromptTemplate.html", "classRoboClerk_1_1PromptTemplate" ],
       [ "RequirementItem", "classRoboClerk_1_1RequirementItem.html", "classRoboClerk_1_1RequirementItem" ],
       [ "RiskItem", "classRoboClerk_1_1RiskItem.html", "classRoboClerk_1_1RiskItem" ],
       [ "RoboClerkCore", "classRoboClerk_1_1RoboClerkCore.html", "classRoboClerk_1_1RoboClerkCore" ],

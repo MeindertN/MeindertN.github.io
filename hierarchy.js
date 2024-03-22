@@ -24,7 +24,7 @@ var hierarchy =
     [ "RoboClerk.GitRepository", "classRoboClerk_1_1GitRepository.html", null ],
     [ "RoboClerk.AzureDevOps.HtmlToTextConverter", "classRoboClerk_1_1AzureDevOps_1_1HtmlToTextConverter.html", null ],
     [ "RoboClerk.AISystem.IAISystemPlugin", "interfaceRoboClerk_1_1AISystem_1_1IAISystemPlugin.html", [
-      [ "RoboClerk.AISystemPluginBase", "classRoboClerk_1_1AISystemPluginBase.html", null ]
+      [ "RoboClerk.AISystem.AISystemPluginBase", "classRoboClerk_1_1AISystem_1_1AISystemPluginBase.html", null ]
     ] ],
     [ "RoboClerk.Configuration.IConfiguration", "interfaceRoboClerk_1_1Configuration_1_1IConfiguration.html", [
       [ "RoboClerk.Configuration.Configuration", "classRoboClerk_1_1Configuration_1_1Configuration.html", null ]
@@ -58,6 +58,10 @@ var hierarchy =
     [ "RoboClerk.IDataSourcePlugin", "interfaceRoboClerk_1_1IDataSourcePlugin.html", [
       [ "RoboClerk.DataSourcePluginBase", "classRoboClerk_1_1DataSourcePluginBase.html", [
         [ "RoboClerk.DependenciesFile.DependenciesFilePlugin", "classRoboClerk_1_1DependenciesFile_1_1DependenciesFilePlugin.html", null ],
+        [ "RoboClerk.SLMSPluginBase", "classRoboClerk_1_1SLMSPluginBase.html", [
+          [ "RoboClerk.AzureDevOps.AzureDevOpsSLMSPlugin", "classRoboClerk_1_1AzureDevOps_1_1AzureDevOpsSLMSPlugin.html", null ],
+          [ "RoboClerk.Redmine.RedmineSLMSPlugin", "classRoboClerk_1_1Redmine_1_1RedmineSLMSPlugin.html", null ]
+        ] ],
         [ "RoboClerk.SourceCodeAnalysisPluginBase", "classRoboClerk_1_1SourceCodeAnalysisPluginBase.html", [
           [ "RoboClerk.AnnotatedUnitTests.AnnotatedUnitTestsPlugin", "classRoboClerk_1_1AnnotatedUnitTests_1_1AnnotatedUnitTestsPlugin.html", null ],
           [ "RoboClerk.UnitTestFNPlugin", "classRoboClerk_1_1UnitTestFNPlugin.html", null ]
@@ -76,12 +80,8 @@ var hierarchy =
     ] ],
     [ "RoboClerk.IPlugin", "interfaceRoboClerk_1_1IPlugin.html", [
       [ "RoboClerk.PluginBase", "classRoboClerk_1_1PluginBase.html", [
-        [ "RoboClerk.AISystemPluginBase", "classRoboClerk_1_1AISystemPluginBase.html", null ],
-        [ "RoboClerk.DataSourcePluginBase", "classRoboClerk_1_1DataSourcePluginBase.html", null ],
-        [ "RoboClerk.SLMSPluginBase", "classRoboClerk_1_1SLMSPluginBase.html", [
-          [ "RoboClerk.AzureDevOps.AzureDevOpsSLMSPlugin", "classRoboClerk_1_1AzureDevOps_1_1AzureDevOpsSLMSPlugin.html", null ],
-          [ "RoboClerk.Redmine.RedmineSLMSPlugin", "classRoboClerk_1_1Redmine_1_1RedmineSLMSPlugin.html", null ]
-        ] ]
+        [ "RoboClerk.AISystem.AISystemPluginBase", "classRoboClerk_1_1AISystem_1_1AISystemPluginBase.html", null ],
+        [ "RoboClerk.DataSourcePluginBase", "classRoboClerk_1_1DataSourcePluginBase.html", null ]
       ] ]
     ] ],
     [ "RoboClerk.IPluginLoader", "interfaceRoboClerk_1_1IPluginLoader.html", [
@@ -107,7 +107,7 @@ var hierarchy =
     [ "RoboClerk.Redmine.Parent", "classRoboClerk_1_1Redmine_1_1Parent.html", null ],
     [ "RoboClerk.Redmine.Priority", "classRoboClerk_1_1Redmine_1_1Priority.html", null ],
     [ "RoboClerk.Program", "classRoboClerk_1_1Program.html", null ],
-    [ "RoboClerk.PromptTemplate", "classRoboClerk_1_1PromptTemplate.html", null ],
+    [ "RoboClerk.AISystem.PromptTemplate", "classRoboClerk_1_1AISystem_1_1PromptTemplate.html", null ],
     [ "RoboClerk.Redmine.RedmineIssue", "classRoboClerk_1_1Redmine_1_1RedmineIssue.html", null ],
     [ "RoboClerk.Redmine.RedmineIssues", "classRoboClerk_1_1Redmine_1_1RedmineIssues.html", null ],
     [ "RoboClerk.Redmine.RedmineProject", "classRoboClerk_1_1Redmine_1_1RedmineProject.html", null ],

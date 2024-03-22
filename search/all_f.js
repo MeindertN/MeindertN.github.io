@@ -9,7 +9,7 @@ var searchData=
   ['selectedcategoriesforward_6',['SelectedCategoriesForward',['../classRoboClerk_1_1TraceSpecification.html#a3001e30914fd88f0cbf921730d9d8075',1,'RoboClerk::TraceSpecification']]],
   ['setfilesource_7',['SetFileSource',['../classRoboClerk_1_1CheckpointDataSources.html#a938c930f2a55c3f29fdbe5124b3c24a1',1,'RoboClerk::CheckpointDataSources']]],
   ['setlocation_8',['SetLocation',['../classRoboClerk_1_1TagInvalidException.html#af3e2e5508083213c3040a3c090142d87',1,'RoboClerk::TagInvalidException']]],
-  ['setprompts_9',['SetPrompts',['../classRoboClerk_1_1AISystemPluginBase.html#a09d2943fc261441e82e03ec00d4e378a',1,'RoboClerk.AISystemPluginBase.SetPrompts()'],['../interfaceRoboClerk_1_1AISystem_1_1IAISystemPlugin.html#a2e9f71b19b317e86fb771f7cdb4e3483',1,'RoboClerk.AISystem.IAISystemPlugin.SetPrompts()']]],
+  ['setprompts_9',['SetPrompts',['../classRoboClerk_1_1AISystem_1_1AISystemPluginBase.html#aaaf7b42706395ad039bf80dbccf108cb',1,'RoboClerk.AISystem.AISystemPluginBase.SetPrompts()'],['../interfaceRoboClerk_1_1AISystem_1_1IAISystemPlugin.html#a2e9f71b19b317e86fb771f7cdb4e3483',1,'RoboClerk.AISystem.IAISystemPlugin.SetPrompts()']]],
   ['shouldbeincluded_3c_20t_20_3e_10',['ShouldBeIncluded&lt; T &gt;',['../classRoboClerk_1_1ContentCreators_1_1ContentCreatorBase.html#ae027fe093e9c13573ee9fccf4794f45d',1,'RoboClerk::ContentCreators::ContentCreatorBase']]],
   ['slmspluginbase_11',['SLMSPluginBase',['../classRoboClerk_1_1SLMSPluginBase.html',1,'RoboClerk.SLMSPluginBase'],['../classRoboClerk_1_1SLMSPluginBase.html#a71240533400fc645eed397ca1eae32e5',1,'RoboClerk.SLMSPluginBase.SLMSPluginBase()']]],
   ['slmspluginbase_2ecs_12',['SLMSPluginBase.cs',['../SLMSPluginBase_8cs.html',1,'']]],
