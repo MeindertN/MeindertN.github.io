@@ -61,7 +61,7 @@ var NAVTREEINDEX =
 "classRoboClerk_1_1PluginBase.html#a2db85ff85051179b1401aafca6505f26",
 "classRoboClerk_1_1Redmine_1_1Relation.html#abaf6e91f2e0794288c04509e7710eeed",
 "classRoboClerk_1_1TraceBase.html#a0217e92dd8abc480eabe15dcbc578898",
-"interfaceRoboClerk_1_1IDataSources.html#a40f5c6affb0aeffe79fd0dbbbe5aac9f"
+"interfaceRoboClerk_1_1IDataSources.html#a35eeb774a7afa1ac7f666b043eeeb51d"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

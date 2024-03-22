@@ -159,7 +159,7 @@ $(document).ready(function(){initNavTree('SLMSPluginBase_8cs_source.html',''); i
 <div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>                {</div>
 <div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>                    <span class="keywordflow">if</span> (!retrievedIDs.Contains(itemLink.TargetID))</div>
 <div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>                    {</div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>                        <a class="code hl_variable" href="classRoboClerk_1_1PluginBase.html#a58bae95a1d070a51bbc8a909cd17f27c">logger</a>.Warn($<span class="stringliteral">&quot;Removing a {itemLink.LinkType} link to item with ID \&quot;{itemLink.TargetID}\&quot; because that item has a status that causes it to be ignored.&quot;</span>);</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>                        <a class="code hl_variable" href="classRoboClerk_1_1PluginBase.html#a58bae95a1d070a51bbc8a909cd17f27c">logger</a>.Warn($<span class="stringliteral">&quot;Removing a {itemLink.LinkType} link from item \&quot;{linkedItem.ItemID}\&quot; to item with ID \&quot;{itemLink.TargetID}\&quot; because that item has a status that causes it to be ignored.&quot;</span>);</div>
 <div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>                        linkedItemsToRemove.Add(itemLink);</div>
 <div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>                    }</div>
 <div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>                }</div>
