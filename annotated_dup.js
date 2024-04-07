@@ -20,7 +20,8 @@ var annotated_dup =
         [ "DocumentConfig", "classRoboClerk_1_1Configuration_1_1DocumentConfig.html", "classRoboClerk_1_1Configuration_1_1DocumentConfig" ],
         [ "IConfiguration", "interfaceRoboClerk_1_1Configuration_1_1IConfiguration.html", "interfaceRoboClerk_1_1Configuration_1_1IConfiguration" ],
         [ "TraceConfig", "classRoboClerk_1_1Configuration_1_1TraceConfig.html", "classRoboClerk_1_1Configuration_1_1TraceConfig" ],
-        [ "TraceConfigElement", "classRoboClerk_1_1Configuration_1_1TraceConfigElement.html", "classRoboClerk_1_1Configuration_1_1TraceConfigElement" ]
+        [ "TraceConfigElement", "classRoboClerk_1_1Configuration_1_1TraceConfigElement.html", "classRoboClerk_1_1Configuration_1_1TraceConfigElement" ],
+        [ "TruthItemConfig", "classRoboClerk_1_1Configuration_1_1TruthItemConfig.html", "classRoboClerk_1_1Configuration_1_1TruthItemConfig" ]
       ] ],
       [ "ContentCreators", "namespaceRoboClerk_1_1ContentCreators.html", [
         [ "AIContentCreator", "classRoboClerk_1_1ContentCreators_1_1AIContentCreator.html", "classRoboClerk_1_1ContentCreators_1_1AIContentCreator" ],

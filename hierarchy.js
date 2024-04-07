@@ -129,5 +129,6 @@ var hierarchy =
     ] ],
     [ "RoboClerk.Configuration.TraceConfig", "classRoboClerk_1_1Configuration_1_1TraceConfig.html", null ],
     [ "RoboClerk.Configuration.TraceConfigElement", "classRoboClerk_1_1Configuration_1_1TraceConfigElement.html", null ],
-    [ "RoboClerk.TraceEntity", "classRoboClerk_1_1TraceEntity.html", null ]
+    [ "RoboClerk.TraceEntity", "classRoboClerk_1_1TraceEntity.html", null ],
+    [ "RoboClerk.Configuration.TruthItemConfig", "classRoboClerk_1_1Configuration_1_1TruthItemConfig.html", null ]
 ];

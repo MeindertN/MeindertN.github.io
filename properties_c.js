@@ -9,5 +9,6 @@ var searchData=
   ['project_6',['Project',['../classRoboClerk_1_1Redmine_1_1RedmineIssue.html#aed024a67e4103b71764fdae1d9e238e2',1,'RoboClerk::Redmine::RedmineIssue']]],
   ['projectroot_7',['ProjectRoot',['../classRoboClerk_1_1Configuration_1_1Configuration.html#ab782edeab7453beb3095d63fcd371295',1,'RoboClerk.Configuration.Configuration.ProjectRoot()'],['../interfaceRoboClerk_1_1Configuration_1_1IConfiguration.html#ae28be4f8b62a124ad27e42b033204189',1,'RoboClerk.Configuration.IConfiguration.ProjectRoot()']]],
   ['projects_8',['Projects',['../classRoboClerk_1_1Redmine_1_1RedmineProjects.html#a32f9d6829be41f30ceb8be1ea8408b79',1,'RoboClerk::Redmine::RedmineProjects']]],
-  ['purpose_9',['Purpose',['../classRoboClerk_1_1UnitTestAttribute.html#a5e88e6829a75ef1c6d4e880143441a99',1,'RoboClerk::UnitTestAttribute']]]
+  ['prsconfig_9',['PrsConfig',['../classRoboClerk_1_1SLMSPluginBase.html#a6fdb4e4351d204206cb438ff95c89e76',1,'RoboClerk::SLMSPluginBase']]],
+  ['purpose_10',['Purpose',['../classRoboClerk_1_1UnitTestAttribute.html#a5e88e6829a75ef1c6d4e880143441a99',1,'RoboClerk::UnitTestAttribute']]]
 ];

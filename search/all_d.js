@@ -26,6 +26,6 @@ var searchData=
   ['projects_23',['Projects',['../classRoboClerk_1_1Redmine_1_1RedmineProjects.html#a32f9d6829be41f30ceb8be1ea8408b79',1,'RoboClerk::Redmine::RedmineProjects']]],
   ['prompttemplate_24',['PromptTemplate',['../classRoboClerk_1_1AISystem_1_1PromptTemplate.html#ae4c955af30e17937748463b7f15bd0f7',1,'RoboClerk.AISystem.PromptTemplate.PromptTemplate()'],['../classRoboClerk_1_1AISystem_1_1PromptTemplate.html',1,'RoboClerk.AISystem.PromptTemplate']]],
   ['prompttemplate_2ecs_25',['PromptTemplate.cs',['../PromptTemplate_8cs.html',1,'']]],
-  ['prsname_26',['prsName',['../classRoboClerk_1_1SLMSPluginBase.html#a450ae672db5856b19cd3527282336701',1,'RoboClerk::SLMSPluginBase']]],
+  ['prsconfig_26',['PrsConfig',['../classRoboClerk_1_1SLMSPluginBase.html#a6fdb4e4351d204206cb438ff95c89e76',1,'RoboClerk::SLMSPluginBase']]],
   ['purpose_27',['Purpose',['../classRoboClerk_1_1UnitTestAttribute.html#a5e88e6829a75ef1c6d4e880143441a99',1,'RoboClerk::UnitTestAttribute']]]
 ];

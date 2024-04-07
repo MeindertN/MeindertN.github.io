@@ -13,5 +13,6 @@ var searchData=
   ['traceissue_10',['TraceIssue',['../classRoboClerk_1_1TraceIssue.html',1,'RoboClerk']]],
   ['tracelink_11',['TraceLink',['../classRoboClerk_1_1TraceLink.html',1,'RoboClerk']]],
   ['tracematrix_12',['TraceMatrix',['../classRoboClerk_1_1ContentCreators_1_1TraceMatrix.html',1,'RoboClerk::ContentCreators']]],
-  ['tracespecification_13',['TraceSpecification',['../classRoboClerk_1_1TraceSpecification.html',1,'RoboClerk']]]
+  ['tracespecification_13',['TraceSpecification',['../classRoboClerk_1_1TraceSpecification.html',1,'RoboClerk']]],
+  ['truthitemconfig_14',['TruthItemConfig',['../classRoboClerk_1_1Configuration_1_1TruthItemConfig.html',1,'RoboClerk::Configuration']]]
 ];

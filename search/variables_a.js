@@ -1,10 +1,11 @@
 var searchData=
 [
-  ['rawtext_0',['rawText',['../classRoboClerk_1_1Document.html#a2b50aa1743da3be83c60d1d0e2b86129',1,'RoboClerk::Document']]],
-  ['requirementname_1',['requirementName',['../classRoboClerk_1_1ContentCreators_1_1RequirementBase.html#a8ec6a013e27d4a00c9ecd9e152379def',1,'RoboClerk::ContentCreators::RequirementBase']]],
-  ['requirements_2',['requirements',['../classRoboClerk_1_1ContentCreators_1_1RequirementBase.html#a08f4d39836224d5b489edb6755d1c098',1,'RoboClerk::ContentCreators::RequirementBase']]],
-  ['revision_3',['revision',['../classRoboClerk_1_1Item.html#ab24a4c7f9cdb38bd693add0c2113acc4',1,'RoboClerk::Item']]],
-  ['riskname_4',['riskName',['../classRoboClerk_1_1SLMSPluginBase.html#aa7e17b825005919fb7d5f3b862069fec',1,'RoboClerk::SLMSPluginBase']]],
-  ['risks_5',['risks',['../classRoboClerk_1_1DataSourcePluginBase.html#a31df688ecc24a7fec9becd76d69e1aa9',1,'RoboClerk::DataSourcePluginBase']]],
-  ['roboclerktags_6',['roboclerkTags',['../classRoboClerk_1_1Document.html#a96e27d130bbd56357158739bf296bc0b',1,'RoboClerk::Document']]]
+  ['target_0',['target',['../classRoboClerk_1_1TraceBase.html#aa13052c85031c0b025feb64a0996fc92',1,'RoboClerk::TraceBase']]],
+  ['targetid_1',['targetID',['../classRoboClerk_1_1TraceLink.html#aae4a8218d6b16e66e2cb74a6028817ba',1,'RoboClerk::TraceLink']]],
+  ['targetversion_2',['targetVersion',['../classRoboClerk_1_1Item.html#a9915a3e9d32cea978f711f41deed0ba4',1,'RoboClerk::Item']]],
+  ['templatefile_3',['templateFile',['../classRoboClerk_1_1Document.html#a7111e6aabc3005209e859317c82afc15',1,'RoboClerk::Document']]],
+  ['testcases_4',['testCases',['../classRoboClerk_1_1DataSourcePluginBase.html#afa9b9d8ff7314a09fa2c2b496c993189',1,'RoboClerk::DataSourcePluginBase']]],
+  ['title_5',['title',['../classRoboClerk_1_1Document.html#a965170f67171769b3f7aa83cb92aad9b',1,'RoboClerk.Document.title()'],['../classRoboClerk_1_1Item.html#ad7932c5c9058ffcfc390b7deb679f325',1,'RoboClerk.Item.title()']]],
+  ['truthsource_6',['truthSource',['../classRoboClerk_1_1ContentCreators_1_1TraceabilityMatrixBase.html#aa45bc21f8744346f0fcab74500f7167b',1,'RoboClerk::ContentCreators::TraceabilityMatrixBase']]],
+  ['type_7',['type',['../classRoboClerk_1_1Item.html#a2c721f2b74b9d12a86b71a592fa1ad86',1,'RoboClerk::Item']]]
 ];
