@@ -76,7 +76,7 @@ var searchData=
   ['roboclerkordereddictionary_3c_20string_2c_20roboclerk_3a_3aconfiguration_3a_3atraceconfigelement_20_3e_73',['RoboClerkOrderedDictionary&lt; string, RoboClerk::Configuration::TraceConfigElement &gt;',['../classRoboClerk_1_1RoboClerkOrderedDictionary.html',1,'RoboClerk']]],
   ['roboclerktag_74',['RoboClerkTag',['../classRoboClerk_1_1RoboClerkTag.html',1,'RoboClerk.RoboClerkTag'],['../classRoboClerk_1_1RoboClerkTag.html#a565ef9779c30f17a84c953a9ada378a1',1,'RoboClerk.RoboClerkTag.RoboClerkTag()']]],
   ['roboclerktag_2ecs_75',['RoboClerkTag.cs',['../RoboClerkTag_8cs.html',1,'']]],
-  ['roboclerktags_76',['RoboClerkTags',['../classRoboClerk_1_1Document.html#a91220d8f947486f7a072f12c962bf4a1',1,'RoboClerk::Document']]],
-  ['roboclerktags_77',['roboclerkTags',['../classRoboClerk_1_1Document.html#a96e27d130bbd56357158739bf296bc0b',1,'RoboClerk::Document']]],
+  ['roboclerktags_76',['roboclerkTags',['../classRoboClerk_1_1Document.html#a96e27d130bbd56357158739bf296bc0b',1,'RoboClerk::Document']]],
+  ['roboclerktags_77',['RoboClerkTags',['../classRoboClerk_1_1Document.html#a91220d8f947486f7a072f12c962bf4a1',1,'RoboClerk::Document']]],
   ['runcommands_78',['RunCommands',['../classRoboClerk_1_1Commands.html#adceec2ce4ffa1750f440358a79d2cae2',1,'RoboClerk::Commands']]]
 ];

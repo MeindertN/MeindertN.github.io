@@ -286,7 +286,7 @@ $(document).ready(function(){initNavTree('UnitTestFNPlugin_8cs_source.html','');
 <div class="line"><a id="l00191" name="l00191"></a><span class="lineno">  191</span>            <span class="keywordflow">return</span> resultingElements;</div>
 <div class="line"><a id="l00192" name="l00192"></a><span class="lineno">  192</span>        }</div>
 <div class="line"><a id="l00193" name="l00193"></a><span class="lineno">  193</span> </div>
-<div class="line"><a id="l00194" name="l00194"></a><span class="lineno">  194</span>        <span class="keyword">private</span> <span class="keywordtype">void</span> AddUnitTest(List&lt;(<span class="keywordtype">string</span>, <span class="keywordtype">string</span>)&gt; els, <span class="keywordtype">string</span> fileName, <span class="keywordtype">int</span> lineNumber)</div>
+<div class="line"><a id="l00194" name="l00194"></a><span class="lineno">  194</span>        <span class="keyword">private</span> <span class="keywordtype">void</span> AddUnitTest(List&lt;(<span class="keywordtype">string</span>, <span class="keywordtype">string</span>)&gt; els, <span class="keywordtype">string</span> fileName, <span class="keywordtype">int</span> lineNumber, <span class="keywordtype">string</span> functionName)</div>
 <div class="line"><a id="l00195" name="l00195"></a><span class="lineno">  195</span>        {</div>
 <div class="line"><a id="l00196" name="l00196"></a><span class="lineno">  196</span>            var unitTest = <span class="keyword">new</span> <a class="code hl_class" href="classRoboClerk_1_1UnitTestItem.html">UnitTestItem</a>();</div>
 <div class="line"><a id="l00197" name="l00197"></a><span class="lineno">  197</span>            <span class="keywordtype">bool</span> identified = <span class="keyword">false</span>;</div>
@@ -304,69 +304,80 @@ $(document).ready(function(){initNavTree('UnitTestFNPlugin_8cs_source.html','');
 <div class="line"><a id="l00209" name="l00209"></a><span class="lineno">  209</span>                }</div>
 <div class="line"><a id="l00210" name="l00210"></a><span class="lineno">  210</span>            }</div>
 <div class="line"><a id="l00211" name="l00211"></a><span class="lineno">  211</span>            unitTest.UnitTestFileName = shortFileName;</div>
-<div class="line"><a id="l00212" name="l00212"></a><span class="lineno">  212</span>            <span class="keywordflow">if</span> (!identified)</div>
-<div class="line"><a id="l00213" name="l00213"></a><span class="lineno">  213</span>            {</div>
-<div class="line"><a id="l00214" name="l00214"></a><span class="lineno">  214</span>                unitTest.ItemID = $<span class="stringliteral">&quot;{shortFileName}:{lineNumber}&quot;</span>;</div>
-<div class="line"><a id="l00215" name="l00215"></a><span class="lineno">  215</span>            }</div>
-<div class="line"><a id="l00216" name="l00216"></a><span class="lineno">  216</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="classRoboClerk_1_1SourceCodeAnalysisPluginBase.html#a798647bb6b5b344da1c88319558dc96b">gitRepo</a> != <span class="keyword">null</span> &amp;&amp; !<a class="code hl_variable" href="classRoboClerk_1_1SourceCodeAnalysisPluginBase.html#a798647bb6b5b344da1c88319558dc96b">gitRepo</a>.<a class="code hl_function" href="classRoboClerk_1_1GitRepository.html#aa900db685bddda99501dfe3db2392d8d">GetFileLocallyUpdated</a>(fileName))</div>
-<div class="line"><a id="l00217" name="l00217"></a><span class="lineno">  217</span>            {</div>
-<div class="line"><a id="l00218" name="l00218"></a><span class="lineno">  218</span>                <span class="comment">//if gitInfo is not null, this means some item data elements should be collected through git</span></div>
-<div class="line"><a id="l00219" name="l00219"></a><span class="lineno">  219</span>                unitTest.ItemLastUpdated = <a class="code hl_variable" href="classRoboClerk_1_1SourceCodeAnalysisPluginBase.html#a798647bb6b5b344da1c88319558dc96b">gitRepo</a>.<a class="code hl_function" href="classRoboClerk_1_1GitRepository.html#a4eee14491a92a00e91434b7c956a7d59">GetFileLastUpdated</a>(fileName);</div>
-<div class="line"><a id="l00220" name="l00220"></a><span class="lineno">  220</span>                unitTest.ItemRevision = <a class="code hl_variable" href="classRoboClerk_1_1SourceCodeAnalysisPluginBase.html#a798647bb6b5b344da1c88319558dc96b">gitRepo</a>.<a class="code hl_function" href="classRoboClerk_1_1GitRepository.html#ac594497396d493399349ba224dec66e8">GetFileVersion</a>(fileName);</div>
-<div class="line"><a id="l00221" name="l00221"></a><span class="lineno">  221</span>            }</div>
-<div class="line"><a id="l00222" name="l00222"></a><span class="lineno">  222</span>            <span class="keywordflow">else</span></div>
-<div class="line"><a id="l00223" name="l00223"></a><span class="lineno">  223</span>            {</div>
-<div class="line"><a id="l00224" name="l00224"></a><span class="lineno">  224</span>                <span class="comment">//the last time the local file was updated is our best guess</span></div>
-<div class="line"><a id="l00225" name="l00225"></a><span class="lineno">  225</span>                unitTest.ItemLastUpdated = File.GetLastWriteTime(fileName);</div>
-<div class="line"><a id="l00226" name="l00226"></a><span class="lineno">  226</span>                unitTest.ItemRevision = File.GetLastWriteTime(fileName).ToString(<span class="stringliteral">&quot;yyyy/MM/dd HH:mm:ss&quot;</span>);</div>
-<div class="line"><a id="l00227" name="l00227"></a><span class="lineno">  227</span>            }</div>
-<div class="line"><a id="l00228" name="l00228"></a><span class="lineno">  228</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="classRoboClerk_1_1DataSourcePluginBase.html#a91f08b32e499e10aa91092098371eb7f">unitTests</a>.FindIndex(x =&gt; x.ItemID == unitTest.ItemID) != -1)</div>
-<div class="line"><a id="l00229" name="l00229"></a><span class="lineno">  229</span>            {</div>
-<div class="line"><a id="l00230" name="l00230"></a><span class="lineno">  230</span>                <span class="keywordflow">throw</span> <span class="keyword">new</span> Exception($<span class="stringliteral">&quot;Duplicate unit test identifier detected in {shortFileName} in the annotation starting on line {lineNumber}. Check other unit tests to ensure all unit tests have a unique identifier.&quot;</span>);</div>
-<div class="line"><a id="l00231" name="l00231"></a><span class="lineno">  231</span>            }</div>
-<div class="line"><a id="l00232" name="l00232"></a><span class="lineno">  232</span>            <a class="code hl_variable" href="classRoboClerk_1_1DataSourcePluginBase.html#a91f08b32e499e10aa91092098371eb7f">unitTests</a>.Add(unitTest);</div>
-<div class="line"><a id="l00233" name="l00233"></a><span class="lineno">  233</span>        }</div>
-<div class="line"><a id="l00234" name="l00234"></a><span class="lineno">  234</span> </div>
-<div class="line"><a id="l00235" name="l00235"></a><span class="lineno">  235</span>        <span class="keyword">private</span> <span class="keywordtype">void</span> FindAndProcessFunctions(<span class="keywordtype">string</span>[] lines, <span class="keywordtype">string</span> fileName)</div>
-<div class="line"><a id="l00236" name="l00236"></a><span class="lineno">  236</span>        {</div>
-<div class="line"><a id="l00237" name="l00237"></a><span class="lineno">  237</span>            <span class="keywordtype">bool</span> nextLineIsFunction = testFunctionDecoration == <span class="keywordtype">string</span>.Empty;</div>
-<div class="line"><a id="l00238" name="l00238"></a><span class="lineno">  238</span>            <span class="keywordtype">int</span> currentLineNumber = 0;</div>
-<div class="line"><a id="l00239" name="l00239"></a><span class="lineno">  239</span>            <span class="keywordflow">foreach</span> (var line <span class="keywordflow">in</span> lines)</div>
-<div class="line"><a id="l00240" name="l00240"></a><span class="lineno">  240</span>            {</div>
-<div class="line"><a id="l00241" name="l00241"></a><span class="lineno">  241</span>                currentLineNumber++;</div>
-<div class="line"><a id="l00242" name="l00242"></a><span class="lineno">  242</span>                <span class="keywordflow">if</span> (nextLineIsFunction)</div>
-<div class="line"><a id="l00243" name="l00243"></a><span class="lineno">  243</span>                {</div>
-<div class="line"><a id="l00244" name="l00244"></a><span class="lineno">  244</span>                    <span class="keywordflow">if</span> (line.Trim().Length &gt; 3)</div>
-<div class="line"><a id="l00245" name="l00245"></a><span class="lineno">  245</span>                    {</div>
-<div class="line"><a id="l00246" name="l00246"></a><span class="lineno">  246</span>                        var els = ApplyFunctionNameMask(line);</div>
-<div class="line"><a id="l00247" name="l00247"></a><span class="lineno">  247</span>                        <span class="keywordflow">if</span> (els.Count &gt; 0)</div>
-<div class="line"><a id="l00248" name="l00248"></a><span class="lineno">  248</span>                        {</div>
-<div class="line"><a id="l00249" name="l00249"></a><span class="lineno">  249</span>                            <span class="comment">//Create unit test</span></div>
-<div class="line"><a id="l00250" name="l00250"></a><span class="lineno">  250</span>                            AddUnitTest(els, fileName, currentLineNumber);</div>
-<div class="line"><a id="l00251" name="l00251"></a><span class="lineno">  251</span>                        }</div>
-<div class="line"><a id="l00252" name="l00252"></a><span class="lineno">  252</span>                        nextLineIsFunction = <span class="keyword">false</span> || testFunctionDecoration == <span class="keywordtype">string</span>.Empty;</div>
-<div class="line"><a id="l00253" name="l00253"></a><span class="lineno">  253</span>                    }</div>
-<div class="line"><a id="l00254" name="l00254"></a><span class="lineno">  254</span>                }</div>
-<div class="line"><a id="l00255" name="l00255"></a><span class="lineno">  255</span>                <span class="keywordflow">else</span></div>
-<div class="line"><a id="l00256" name="l00256"></a><span class="lineno">  256</span>                {</div>
-<div class="line"><a id="l00257" name="l00257"></a><span class="lineno">  257</span>                    <span class="keywordflow">if</span> (line.Contains(testFunctionDecoration))</div>
-<div class="line"><a id="l00258" name="l00258"></a><span class="lineno">  258</span>                    {</div>
-<div class="line"><a id="l00259" name="l00259"></a><span class="lineno">  259</span>                        nextLineIsFunction = <span class="keyword">true</span>;</div>
-<div class="line"><a id="l00260" name="l00260"></a><span class="lineno">  260</span>                    }</div>
-<div class="line"><a id="l00261" name="l00261"></a><span class="lineno">  261</span>                }</div>
-<div class="line"><a id="l00262" name="l00262"></a><span class="lineno">  262</span>            }</div>
-<div class="line"><a id="l00263" name="l00263"></a><span class="lineno">  263</span>        }</div>
-<div class="line"><a id="l00264" name="l00264"></a><span class="lineno">  264</span> </div>
-<div class="line"><a id="l00265" name="l00265"></a><span class="lineno"><a class="line" href="classRoboClerk_1_1UnitTestFNPlugin.html#a0a0f6efa0f71dc487efd4634a75f3ee6">  265</a></span>        <span class="keyword">public</span> <span class="keyword">override</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classRoboClerk_1_1UnitTestFNPlugin.html#a0a0f6efa0f71dc487efd4634a75f3ee6">RefreshItems</a>()</div>
-<div class="line"><a id="l00266" name="l00266"></a><span class="lineno">  266</span>        {</div>
-<div class="line"><a id="l00267" name="l00267"></a><span class="lineno">  267</span>            <span class="keywordflow">foreach</span> (var sourceFile <span class="keywordflow">in</span> <a class="code hl_variable" href="classRoboClerk_1_1SourceCodeAnalysisPluginBase.html#aa1209add10fcc186af4c5d173dfd64c6">sourceFiles</a>)</div>
-<div class="line"><a id="l00268" name="l00268"></a><span class="lineno">  268</span>            {</div>
-<div class="line"><a id="l00269" name="l00269"></a><span class="lineno">  269</span>                var lines = <a class="code hl_variable" href="classRoboClerk_1_1PluginBase.html#a14c422135c3d38aee621c408400543f1">fileSystem</a>.File.ReadAllLines(sourceFile);</div>
-<div class="line"><a id="l00270" name="l00270"></a><span class="lineno">  270</span>                FindAndProcessFunctions(lines, sourceFile);</div>
-<div class="line"><a id="l00271" name="l00271"></a><span class="lineno">  271</span>            }</div>
-<div class="line"><a id="l00272" name="l00272"></a><span class="lineno">  272</span>        }</div>
-<div class="line"><a id="l00273" name="l00273"></a><span class="lineno">  273</span>    }</div>
-<div class="line"><a id="l00274" name="l00274"></a><span class="lineno">  274</span>}</div>
+<div class="line"><a id="l00212" name="l00212"></a><span class="lineno">  212</span>            unitTest.UnitTestFunctionName = functionName;</div>
+<div class="line"><a id="l00213" name="l00213"></a><span class="lineno">  213</span>            <span class="keywordflow">if</span> (!identified)</div>
+<div class="line"><a id="l00214" name="l00214"></a><span class="lineno">  214</span>            {</div>
+<div class="line"><a id="l00215" name="l00215"></a><span class="lineno">  215</span>                unitTest.ItemID = $<span class="stringliteral">&quot;{shortFileName}:{lineNumber}&quot;</span>;</div>
+<div class="line"><a id="l00216" name="l00216"></a><span class="lineno">  216</span>            }</div>
+<div class="line"><a id="l00217" name="l00217"></a><span class="lineno">  217</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="classRoboClerk_1_1SourceCodeAnalysisPluginBase.html#a798647bb6b5b344da1c88319558dc96b">gitRepo</a> != <span class="keyword">null</span> &amp;&amp; !<a class="code hl_variable" href="classRoboClerk_1_1SourceCodeAnalysisPluginBase.html#a798647bb6b5b344da1c88319558dc96b">gitRepo</a>.<a class="code hl_function" href="classRoboClerk_1_1GitRepository.html#aa900db685bddda99501dfe3db2392d8d">GetFileLocallyUpdated</a>(fileName))</div>
+<div class="line"><a id="l00218" name="l00218"></a><span class="lineno">  218</span>            {</div>
+<div class="line"><a id="l00219" name="l00219"></a><span class="lineno">  219</span>                <span class="comment">//if gitInfo is not null, this means some item data elements should be collected through git</span></div>
+<div class="line"><a id="l00220" name="l00220"></a><span class="lineno">  220</span>                unitTest.ItemLastUpdated = <a class="code hl_variable" href="classRoboClerk_1_1SourceCodeAnalysisPluginBase.html#a798647bb6b5b344da1c88319558dc96b">gitRepo</a>.<a class="code hl_function" href="classRoboClerk_1_1GitRepository.html#a4eee14491a92a00e91434b7c956a7d59">GetFileLastUpdated</a>(fileName);</div>
+<div class="line"><a id="l00221" name="l00221"></a><span class="lineno">  221</span>                unitTest.ItemRevision = <a class="code hl_variable" href="classRoboClerk_1_1SourceCodeAnalysisPluginBase.html#a798647bb6b5b344da1c88319558dc96b">gitRepo</a>.<a class="code hl_function" href="classRoboClerk_1_1GitRepository.html#ac594497396d493399349ba224dec66e8">GetFileVersion</a>(fileName);</div>
+<div class="line"><a id="l00222" name="l00222"></a><span class="lineno">  222</span>            }</div>
+<div class="line"><a id="l00223" name="l00223"></a><span class="lineno">  223</span>            <span class="keywordflow">else</span></div>
+<div class="line"><a id="l00224" name="l00224"></a><span class="lineno">  224</span>            {</div>
+<div class="line"><a id="l00225" name="l00225"></a><span class="lineno">  225</span>                <span class="comment">//the last time the local file was updated is our best guess</span></div>
+<div class="line"><a id="l00226" name="l00226"></a><span class="lineno">  226</span>                unitTest.ItemLastUpdated = File.GetLastWriteTime(fileName);</div>
+<div class="line"><a id="l00227" name="l00227"></a><span class="lineno">  227</span>                unitTest.ItemRevision = File.GetLastWriteTime(fileName).ToString(<span class="stringliteral">&quot;yyyy/MM/dd HH:mm:ss&quot;</span>);</div>
+<div class="line"><a id="l00228" name="l00228"></a><span class="lineno">  228</span>            }</div>
+<div class="line"><a id="l00229" name="l00229"></a><span class="lineno">  229</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="classRoboClerk_1_1DataSourcePluginBase.html#a91f08b32e499e10aa91092098371eb7f">unitTests</a>.FindIndex(x =&gt; x.ItemID == unitTest.ItemID) != -1)</div>
+<div class="line"><a id="l00230" name="l00230"></a><span class="lineno">  230</span>            {</div>
+<div class="line"><a id="l00231" name="l00231"></a><span class="lineno">  231</span>                <span class="keywordflow">throw</span> <span class="keyword">new</span> Exception($<span class="stringliteral">&quot;Duplicate unit test identifier detected in {shortFileName} in the annotation starting on line {lineNumber}. Check other unit tests to ensure all unit tests have a unique identifier.&quot;</span>);</div>
+<div class="line"><a id="l00232" name="l00232"></a><span class="lineno">  232</span>            }</div>
+<div class="line"><a id="l00233" name="l00233"></a><span class="lineno">  233</span>            <a class="code hl_variable" href="classRoboClerk_1_1DataSourcePluginBase.html#a91f08b32e499e10aa91092098371eb7f">unitTests</a>.Add(unitTest);</div>
+<div class="line"><a id="l00234" name="l00234"></a><span class="lineno">  234</span>        }</div>
+<div class="line"><a id="l00235" name="l00235"></a><span class="lineno">  235</span> </div>
+<div class="line"><a id="l00236" name="l00236"></a><span class="lineno">  236</span>        <span class="keyword">private</span> <span class="keywordtype">string</span> GetFunctionName(<span class="keywordtype">string</span> line)</div>
+<div class="line"><a id="l00237" name="l00237"></a><span class="lineno">  237</span>        {</div>
+<div class="line"><a id="l00238" name="l00238"></a><span class="lineno">  238</span>            var strings = line.Trim().Split(<span class="charliteral">&#39; &#39;</span>);</div>
+<div class="line"><a id="l00239" name="l00239"></a><span class="lineno">  239</span>            var longestString = strings.OrderByDescending(s =&gt; s.Length).First(); <span class="comment">//we assume that the function name is the longest element</span></div>
+<div class="line"><a id="l00240" name="l00240"></a><span class="lineno">  240</span>            <span class="comment">//we also assume the function parameters start with (</span></div>
+<div class="line"><a id="l00241" name="l00241"></a><span class="lineno">  241</span>            <span class="keywordtype">int</span> index = longestString.IndexOf(<span class="charliteral">&#39;(&#39;</span>);</div>
+<div class="line"><a id="l00242" name="l00242"></a><span class="lineno">  242</span>            <span class="keywordflow">return</span> longestString.Substring(0, index);</div>
+<div class="line"><a id="l00243" name="l00243"></a><span class="lineno">  243</span>        }</div>
+<div class="line"><a id="l00244" name="l00244"></a><span class="lineno">  244</span> </div>
+<div class="line"><a id="l00245" name="l00245"></a><span class="lineno">  245</span>        <span class="keyword">private</span> <span class="keywordtype">void</span> FindAndProcessFunctions(<span class="keywordtype">string</span>[] lines, <span class="keywordtype">string</span> fileName)</div>
+<div class="line"><a id="l00246" name="l00246"></a><span class="lineno">  246</span>        {</div>
+<div class="line"><a id="l00247" name="l00247"></a><span class="lineno">  247</span>            <span class="keywordtype">bool</span> nextLineIsFunction = testFunctionDecoration == <span class="keywordtype">string</span>.Empty;</div>
+<div class="line"><a id="l00248" name="l00248"></a><span class="lineno">  248</span>            <span class="keywordtype">int</span> currentLineNumber = 0;</div>
+<div class="line"><a id="l00249" name="l00249"></a><span class="lineno">  249</span>            <span class="keywordflow">foreach</span> (var line <span class="keywordflow">in</span> lines)</div>
+<div class="line"><a id="l00250" name="l00250"></a><span class="lineno">  250</span>            {</div>
+<div class="line"><a id="l00251" name="l00251"></a><span class="lineno">  251</span>                currentLineNumber++;</div>
+<div class="line"><a id="l00252" name="l00252"></a><span class="lineno">  252</span>                <span class="keywordflow">if</span> (nextLineIsFunction)</div>
+<div class="line"><a id="l00253" name="l00253"></a><span class="lineno">  253</span>                {</div>
+<div class="line"><a id="l00254" name="l00254"></a><span class="lineno">  254</span>                    <span class="keywordflow">if</span> (line.Trim().Length &gt; 3)</div>
+<div class="line"><a id="l00255" name="l00255"></a><span class="lineno">  255</span>                    {</div>
+<div class="line"><a id="l00256" name="l00256"></a><span class="lineno">  256</span>                        var els = ApplyFunctionNameMask(line);</div>
+<div class="line"><a id="l00257" name="l00257"></a><span class="lineno">  257</span>                        <span class="keywordflow">if</span> (els.Count &gt; 0)</div>
+<div class="line"><a id="l00258" name="l00258"></a><span class="lineno">  258</span>                        {</div>
+<div class="line"><a id="l00259" name="l00259"></a><span class="lineno">  259</span> </div>
+<div class="line"><a id="l00260" name="l00260"></a><span class="lineno">  260</span>                            <span class="comment">//Create unit test</span></div>
+<div class="line"><a id="l00261" name="l00261"></a><span class="lineno">  261</span>                            AddUnitTest(els, fileName, currentLineNumber, GetFunctionName(line));</div>
+<div class="line"><a id="l00262" name="l00262"></a><span class="lineno">  262</span>                        }</div>
+<div class="line"><a id="l00263" name="l00263"></a><span class="lineno">  263</span>                        nextLineIsFunction = <span class="keyword">false</span> || testFunctionDecoration == <span class="keywordtype">string</span>.Empty;</div>
+<div class="line"><a id="l00264" name="l00264"></a><span class="lineno">  264</span>                    }</div>
+<div class="line"><a id="l00265" name="l00265"></a><span class="lineno">  265</span>                }</div>
+<div class="line"><a id="l00266" name="l00266"></a><span class="lineno">  266</span>                <span class="keywordflow">else</span></div>
+<div class="line"><a id="l00267" name="l00267"></a><span class="lineno">  267</span>                {</div>
+<div class="line"><a id="l00268" name="l00268"></a><span class="lineno">  268</span>                    <span class="keywordflow">if</span> (line.Contains(testFunctionDecoration))</div>
+<div class="line"><a id="l00269" name="l00269"></a><span class="lineno">  269</span>                    {</div>
+<div class="line"><a id="l00270" name="l00270"></a><span class="lineno">  270</span>                        nextLineIsFunction = <span class="keyword">true</span>;</div>
+<div class="line"><a id="l00271" name="l00271"></a><span class="lineno">  271</span>                    }</div>
+<div class="line"><a id="l00272" name="l00272"></a><span class="lineno">  272</span>                }</div>
+<div class="line"><a id="l00273" name="l00273"></a><span class="lineno">  273</span>            }</div>
+<div class="line"><a id="l00274" name="l00274"></a><span class="lineno">  274</span>        }</div>
+<div class="line"><a id="l00275" name="l00275"></a><span class="lineno">  275</span> </div>
+<div class="line"><a id="l00276" name="l00276"></a><span class="lineno"><a class="line" href="classRoboClerk_1_1UnitTestFNPlugin.html#a0a0f6efa0f71dc487efd4634a75f3ee6">  276</a></span>        <span class="keyword">public</span> <span class="keyword">override</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classRoboClerk_1_1UnitTestFNPlugin.html#a0a0f6efa0f71dc487efd4634a75f3ee6">RefreshItems</a>()</div>
+<div class="line"><a id="l00277" name="l00277"></a><span class="lineno">  277</span>        {</div>
+<div class="line"><a id="l00278" name="l00278"></a><span class="lineno">  278</span>            <span class="keywordflow">foreach</span> (var sourceFile <span class="keywordflow">in</span> <a class="code hl_variable" href="classRoboClerk_1_1SourceCodeAnalysisPluginBase.html#aa1209add10fcc186af4c5d173dfd64c6">sourceFiles</a>)</div>
+<div class="line"><a id="l00279" name="l00279"></a><span class="lineno">  279</span>            {</div>
+<div class="line"><a id="l00280" name="l00280"></a><span class="lineno">  280</span>                var lines = <a class="code hl_variable" href="classRoboClerk_1_1PluginBase.html#a14c422135c3d38aee621c408400543f1">fileSystem</a>.File.ReadAllLines(sourceFile);</div>
+<div class="line"><a id="l00281" name="l00281"></a><span class="lineno">  281</span>                FindAndProcessFunctions(lines, sourceFile);</div>
+<div class="line"><a id="l00282" name="l00282"></a><span class="lineno">  282</span>            }</div>
+<div class="line"><a id="l00283" name="l00283"></a><span class="lineno">  283</span>        }</div>
+<div class="line"><a id="l00284" name="l00284"></a><span class="lineno">  284</span>    }</div>
+<div class="line"><a id="l00285" name="l00285"></a><span class="lineno">  285</span>}</div>
 <div class="ttc" id="aclassRoboClerk_1_1DataSourcePluginBase_html_a91f08b32e499e10aa91092098371eb7f"><div class="ttname"><a href="classRoboClerk_1_1DataSourcePluginBase.html#a91f08b32e499e10aa91092098371eb7f">RoboClerk.DataSourcePluginBase.unitTests</a></div><div class="ttdeci">List&lt; UnitTestItem &gt; unitTests</div><div class="ttdef"><b>Definition:</b> <a href="DataSourcePluginBase_8cs_source.html#l00019">DataSourcePluginBase.cs:19</a></div></div>
 <div class="ttc" id="aclassRoboClerk_1_1GitRepository_html_a4eee14491a92a00e91434b7c956a7d59"><div class="ttname"><a href="classRoboClerk_1_1GitRepository.html#a4eee14491a92a00e91434b7c956a7d59">RoboClerk.GitRepository.GetFileLastUpdated</a></div><div class="ttdeci">DateTime GetFileLastUpdated(string file)</div><div class="ttdef"><b>Definition:</b> <a href="GitRepository_8cs_source.html#l00045">GitRepository.cs:45</a></div></div>
 <div class="ttc" id="aclassRoboClerk_1_1GitRepository_html_aa900db685bddda99501dfe3db2392d8d"><div class="ttname"><a href="classRoboClerk_1_1GitRepository.html#aa900db685bddda99501dfe3db2392d8d">RoboClerk.GitRepository.GetFileLocallyUpdated</a></div><div class="ttdeci">bool GetFileLocallyUpdated(string file)</div><div class="ttdef"><b>Definition:</b> <a href="GitRepository_8cs_source.html#l00025">GitRepository.cs:25</a></div></div>
@@ -382,7 +393,7 @@ $(document).ready(function(){initNavTree('UnitTestFNPlugin_8cs_source.html','');
 <div class="ttc" id="aclassRoboClerk_1_1SourceCodeAnalysisPluginBase_html_aa1209add10fcc186af4c5d173dfd64c6"><div class="ttname"><a href="classRoboClerk_1_1SourceCodeAnalysisPluginBase.html#aa1209add10fcc186af4c5d173dfd64c6">RoboClerk.SourceCodeAnalysisPluginBase.sourceFiles</a></div><div class="ttdeci">List&lt; string &gt; sourceFiles</div><div class="ttdef"><b>Definition:</b> <a href="SourceCodeAnalysisPluginBase_8cs_source.html#l00015">SourceCodeAnalysisPluginBase.cs:15</a></div></div>
 <div class="ttc" id="aclassRoboClerk_1_1SourceCodeAnalysisPluginBase_html_acc9915f208e2b2719d1a36753234296c"><div class="ttname"><a href="classRoboClerk_1_1SourceCodeAnalysisPluginBase.html#acc9915f208e2b2719d1a36753234296c">RoboClerk.SourceCodeAnalysisPluginBase.ScanDirectoriesForSourceFiles</a></div><div class="ttdeci">void ScanDirectoriesForSourceFiles()</div><div class="ttdef"><b>Definition:</b> <a href="SourceCodeAnalysisPluginBase_8cs_source.html#l00051">SourceCodeAnalysisPluginBase.cs:51</a></div></div>
 <div class="ttc" id="aclassRoboClerk_1_1UnitTestFNPlugin_html"><div class="ttname"><a href="classRoboClerk_1_1UnitTestFNPlugin.html">RoboClerk.UnitTestFNPlugin</a></div><div class="ttdef"><b>Definition:</b> <a href="UnitTestFNPlugin_8cs_source.html#l00011">UnitTestFNPlugin.cs:12</a></div></div>
-<div class="ttc" id="aclassRoboClerk_1_1UnitTestFNPlugin_html_a0a0f6efa0f71dc487efd4634a75f3ee6"><div class="ttname"><a href="classRoboClerk_1_1UnitTestFNPlugin.html#a0a0f6efa0f71dc487efd4634a75f3ee6">RoboClerk.UnitTestFNPlugin.RefreshItems</a></div><div class="ttdeci">override void RefreshItems()</div><div class="ttdef"><b>Definition:</b> <a href="UnitTestFNPlugin_8cs_source.html#l00265">UnitTestFNPlugin.cs:265</a></div></div>
+<div class="ttc" id="aclassRoboClerk_1_1UnitTestFNPlugin_html_a0a0f6efa0f71dc487efd4634a75f3ee6"><div class="ttname"><a href="classRoboClerk_1_1UnitTestFNPlugin.html#a0a0f6efa0f71dc487efd4634a75f3ee6">RoboClerk.UnitTestFNPlugin.RefreshItems</a></div><div class="ttdeci">override void RefreshItems()</div><div class="ttdef"><b>Definition:</b> <a href="UnitTestFNPlugin_8cs_source.html#l00276">UnitTestFNPlugin.cs:276</a></div></div>
 <div class="ttc" id="aclassRoboClerk_1_1UnitTestFNPlugin_html_a2b95c64e2df9f3b895e16abdd4f186bf"><div class="ttname"><a href="classRoboClerk_1_1UnitTestFNPlugin.html#a2b95c64e2df9f3b895e16abdd4f186bf">RoboClerk.UnitTestFNPlugin.Initialize</a></div><div class="ttdeci">override void Initialize(IConfiguration configuration)</div><div class="ttdef"><b>Definition:</b> <a href="UnitTestFNPlugin_8cs_source.html#l00024">UnitTestFNPlugin.cs:24</a></div></div>
 <div class="ttc" id="aclassRoboClerk_1_1UnitTestFNPlugin_html_aeb3182e974267ee7c6bbe85a020c1031"><div class="ttname"><a href="classRoboClerk_1_1UnitTestFNPlugin.html#aeb3182e974267ee7c6bbe85a020c1031">RoboClerk.UnitTestFNPlugin.UnitTestFNPlugin</a></div><div class="ttdeci">UnitTestFNPlugin(IFileSystem fileSystem)</div><div class="ttdef"><b>Definition:</b> <a href="UnitTestFNPlugin_8cs_source.html#l00017">UnitTestFNPlugin.cs:17</a></div></div>
 <div class="ttc" id="aclassRoboClerk_1_1UnitTestItem_html"><div class="ttname"><a href="classRoboClerk_1_1UnitTestItem.html">RoboClerk.UnitTestItem</a></div><div class="ttdef"><b>Definition:</b> <a href="UnitTestItem_8cs_source.html#l00006">UnitTestItem.cs:7</a></div></div>

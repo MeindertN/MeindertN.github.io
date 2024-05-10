@@ -2,8 +2,8 @@ var searchData=
 [
   ['lastupdated_0',['lastUpdated',['../classRoboClerk_1_1Item.html#ae21cfe210e59fa8ecbac2748ebf06db3',1,'RoboClerk::Item']]],
   ['limit_1',['Limit',['../classRoboClerk_1_1Redmine_1_1RedmineIssues.html#a7fa120f03dffb34cad7056e7004eabd1',1,'RoboClerk.Redmine.RedmineIssues.Limit()'],['../classRoboClerk_1_1Redmine_1_1RedmineProjects.html#a05d3e4764c935492297c7e8e6d91769a',1,'RoboClerk.Redmine.RedmineProjects.Limit()']]],
-  ['link_2',['link',['../classRoboClerk_1_1Item.html#a84ec221ef79eb7445dbf84b24a43ade7',1,'RoboClerk::Item']]],
-  ['link_3',['Link',['../classRoboClerk_1_1Item.html#affaf473223ece60a7806c0738fe5efb2',1,'RoboClerk::Item']]],
+  ['link_2',['Link',['../classRoboClerk_1_1Item.html#affaf473223ece60a7806c0738fe5efb2',1,'RoboClerk::Item']]],
+  ['link_3',['link',['../classRoboClerk_1_1Item.html#a84ec221ef79eb7445dbf84b24a43ade7',1,'RoboClerk::Item']]],
   ['linkeditem_4',['LinkedItem',['../classRoboClerk_1_1LinkedItem.html',1,'RoboClerk']]],
   ['linkeditem_2ecs_5',['LinkedItem.cs',['../LinkedItem_8cs.html',1,'']]],
   ['linkeditems_6',['LinkedItems',['../classRoboClerk_1_1LinkedItem.html#a14605db37deae0f3dd16ef339c37568c',1,'RoboClerk::LinkedItem']]],
