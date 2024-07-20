@@ -27,6 +27,7 @@ var annotated_dup =
         [ "AIContentCreator", "classRoboClerk_1_1ContentCreators_1_1AIContentCreator.html", "classRoboClerk_1_1ContentCreators_1_1AIContentCreator" ],
         [ "Anomaly", "classRoboClerk_1_1ContentCreators_1_1Anomaly.html", "classRoboClerk_1_1ContentCreators_1_1Anomaly" ],
         [ "ContentCreatorBase", "classRoboClerk_1_1ContentCreators_1_1ContentCreatorBase.html", "classRoboClerk_1_1ContentCreators_1_1ContentCreatorBase" ],
+        [ "Document", "classRoboClerk_1_1ContentCreators_1_1Document.html", "classRoboClerk_1_1ContentCreators_1_1Document" ],
         [ "DocumentationRequirement", "classRoboClerk_1_1ContentCreators_1_1DocumentationRequirement.html", "classRoboClerk_1_1ContentCreators_1_1DocumentationRequirement" ],
         [ "ExcelTable", "classRoboClerk_1_1ContentCreators_1_1ExcelTable.html", "classRoboClerk_1_1ContentCreators_1_1ExcelTable" ],
         [ "IContentCreator", "interfaceRoboClerk_1_1ContentCreators_1_1IContentCreator.html", "interfaceRoboClerk_1_1ContentCreators_1_1IContentCreator" ],

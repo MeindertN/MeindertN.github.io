@@ -15,11 +15,12 @@ var searchData=
   ['renderitemtemplate_12',['RenderItemTemplate',['../classRoboClerk_1_1ItemTemplateRenderer.html#a34a524ad9183e280856f78171d676921',1,'RoboClerk::ItemTemplateRenderer']]],
   ['requirementbase_13',['RequirementBase',['../classRoboClerk_1_1ContentCreators_1_1RequirementBase.html#a516557097488428a36522dda22cac023',1,'RoboClerk::ContentCreators::RequirementBase']]],
   ['requirementitem_14',['RequirementItem',['../classRoboClerk_1_1RequirementItem.html#a4f34fd6e66de16e7cb531077ce893321',1,'RoboClerk::RequirementItem']]],
-  ['risk_15',['Risk',['../classRoboClerk_1_1ContentCreators_1_1Risk.html#a4a43376d63404f541903497c7f6a6325',1,'RoboClerk::ContentCreators::Risk']]],
-  ['riskitem_16',['RiskItem',['../classRoboClerk_1_1RiskItem.html#abe780b9ea2a801092e77c3269011e33a',1,'RoboClerk::RiskItem']]],
-  ['risktraceabilitymatrix_17',['RiskTraceabilityMatrix',['../classRoboClerk_1_1ContentCreators_1_1RiskTraceabilityMatrix.html#a1e59e37cdf80776d6911956481d07ddf',1,'RoboClerk::ContentCreators::RiskTraceabilityMatrix']]],
-  ['roboclerkcore_18',['RoboClerkCore',['../classRoboClerk_1_1RoboClerkCore.html#a73a83aa388ca36bfbca380754107079b',1,'RoboClerk::RoboClerkCore']]],
-  ['roboclerkordereddictionary_19',['RoboClerkOrderedDictionary',['../classRoboClerk_1_1RoboClerkOrderedDictionary.html#a0ea85928be060d41e7f27ae8fa9b5bc1',1,'RoboClerk::RoboClerkOrderedDictionary']]],
-  ['roboclerktag_20',['RoboClerkTag',['../classRoboClerk_1_1RoboClerkTag.html#a565ef9779c30f17a84c953a9ada378a1',1,'RoboClerk::RoboClerkTag']]],
-  ['runcommands_21',['RunCommands',['../classRoboClerk_1_1Commands.html#adceec2ce4ffa1750f440358a79d2cae2',1,'RoboClerk::Commands']]]
+  ['resetentitycount_15',['ResetEntityCount',['../classRoboClerk_1_1Configuration_1_1DocumentConfig.html#a7d1b805046ea4d91b72061c00003d6ea',1,'RoboClerk::Configuration::DocumentConfig']]],
+  ['risk_16',['Risk',['../classRoboClerk_1_1ContentCreators_1_1Risk.html#a4a43376d63404f541903497c7f6a6325',1,'RoboClerk::ContentCreators::Risk']]],
+  ['riskitem_17',['RiskItem',['../classRoboClerk_1_1RiskItem.html#abe780b9ea2a801092e77c3269011e33a',1,'RoboClerk::RiskItem']]],
+  ['risktraceabilitymatrix_18',['RiskTraceabilityMatrix',['../classRoboClerk_1_1ContentCreators_1_1RiskTraceabilityMatrix.html#a1e59e37cdf80776d6911956481d07ddf',1,'RoboClerk::ContentCreators::RiskTraceabilityMatrix']]],
+  ['roboclerkcore_19',['RoboClerkCore',['../classRoboClerk_1_1RoboClerkCore.html#a73a83aa388ca36bfbca380754107079b',1,'RoboClerk::RoboClerkCore']]],
+  ['roboclerkordereddictionary_20',['RoboClerkOrderedDictionary',['../classRoboClerk_1_1RoboClerkOrderedDictionary.html#a0ea85928be060d41e7f27ae8fa9b5bc1',1,'RoboClerk::RoboClerkOrderedDictionary']]],
+  ['roboclerktag_21',['RoboClerkTag',['../classRoboClerk_1_1RoboClerkTag.html#a565ef9779c30f17a84c953a9ada378a1',1,'RoboClerk::RoboClerkTag']]],
+  ['runcommands_22',['RunCommands',['../classRoboClerk_1_1Commands.html#adceec2ce4ffa1750f440358a79d2cae2',1,'RoboClerk::Commands']]]
 ];

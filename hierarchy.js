@@ -47,6 +47,7 @@ var hierarchy =
         ] ],
         [ "RoboClerk.ContentCreators.TemplateSection", "classRoboClerk_1_1ContentCreators_1_1TemplateSection.html", null ]
       ] ],
+      [ "RoboClerk.ContentCreators.Document", "classRoboClerk_1_1ContentCreators_1_1Document.html", null ],
       [ "RoboClerk.ContentCreators.Trace", "classRoboClerk_1_1ContentCreators_1_1Trace.html", null ],
       [ "RoboClerk.ContentCreators.TraceabilityMatrixBase", "classRoboClerk_1_1ContentCreators_1_1TraceabilityMatrixBase.html", [
         [ "RoboClerk.ContentCreators.RiskTraceabilityMatrix", "classRoboClerk_1_1ContentCreators_1_1RiskTraceabilityMatrix.html", null ],

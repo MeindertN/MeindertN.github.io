@@ -7,10 +7,10 @@ var searchData=
   ['placeholderitem_2ecs_4',['PlaceholderItem.cs',['../PlaceholderItem_8cs.html',1,'']]],
   ['pluginbase_5',['PluginBase',['../classRoboClerk_1_1PluginBase.html#a59673c91725a54cce4b130d92f3de4ce',1,'RoboClerk.PluginBase.PluginBase()'],['../classRoboClerk_1_1PluginBase.html',1,'RoboClerk.PluginBase']]],
   ['pluginbase_2ecs_6',['PluginBase.cs',['../PluginBase_8cs.html',1,'']]],
-  ['pluginconfigdir_7',['PluginConfigDir',['../interfaceRoboClerk_1_1Configuration_1_1IConfiguration.html#ac0545a114c8c4453a6e2423220b34893',1,'RoboClerk.Configuration.IConfiguration.PluginConfigDir()'],['../classRoboClerk_1_1Configuration_1_1Configuration.html#a108f807377ea80301a32aafa46c2c343',1,'RoboClerk.Configuration.Configuration.PluginConfigDir()']]],
+  ['pluginconfigdir_7',['PluginConfigDir',['../classRoboClerk_1_1Configuration_1_1Configuration.html#a108f807377ea80301a32aafa46c2c343',1,'RoboClerk.Configuration.Configuration.PluginConfigDir()'],['../interfaceRoboClerk_1_1Configuration_1_1IConfiguration.html#ac0545a114c8c4453a6e2423220b34893',1,'RoboClerk.Configuration.IConfiguration.PluginConfigDir()']]],
   ['plugindatasources_8',['PluginDataSources',['../classRoboClerk_1_1PluginDataSources.html#a0d089431272da8a253b2d707ea2aaf1f',1,'RoboClerk.PluginDataSources.PluginDataSources()'],['../classRoboClerk_1_1PluginDataSources.html',1,'RoboClerk.PluginDataSources']]],
   ['plugindatasources_2ecs_9',['PluginDataSources.cs',['../PluginDataSources_8cs.html',1,'']]],
-  ['plugindirs_10',['PluginDirs',['../interfaceRoboClerk_1_1Configuration_1_1IConfiguration.html#adb1a0c41797a3425a251df0e8a47c176',1,'RoboClerk.Configuration.IConfiguration.PluginDirs()'],['../classRoboClerk_1_1Configuration_1_1Configuration.html#a4e854a647a9b277810cbaa3a6c5364d1',1,'RoboClerk.Configuration.Configuration.PluginDirs()']]],
+  ['plugindirs_10',['PluginDirs',['../classRoboClerk_1_1Configuration_1_1Configuration.html#a4e854a647a9b277810cbaa3a6c5364d1',1,'RoboClerk.Configuration.Configuration.PluginDirs()'],['../interfaceRoboClerk_1_1Configuration_1_1IConfiguration.html#adb1a0c41797a3425a251df0e8a47c176',1,'RoboClerk.Configuration.IConfiguration.PluginDirs()']]],
   ['pluginloadcontext_11',['PluginLoadContext',['../classRoboClerk_1_1PluginLoadContext.html#a817126796b5107aa8a74cd264fd27631',1,'RoboClerk.PluginLoadContext.PluginLoadContext()'],['../classRoboClerk_1_1PluginLoadContext.html',1,'RoboClerk.PluginLoadContext']]],
   ['pluginloadcontext_2ecs_12',['PluginLoadContext.cs',['../PluginLoadContext_8cs.html',1,'']]],
   ['pluginloader_13',['PluginLoader',['../classRoboClerk_1_1PluginLoader.html',1,'RoboClerk']]],
@@ -26,6 +26,7 @@ var searchData=
   ['projects_23',['Projects',['../classRoboClerk_1_1Redmine_1_1RedmineProjects.html#a32f9d6829be41f30ceb8be1ea8408b79',1,'RoboClerk::Redmine::RedmineProjects']]],
   ['prompttemplate_24',['PromptTemplate',['../classRoboClerk_1_1AISystem_1_1PromptTemplate.html#ae4c955af30e17937748463b7f15bd0f7',1,'RoboClerk.AISystem.PromptTemplate.PromptTemplate()'],['../classRoboClerk_1_1AISystem_1_1PromptTemplate.html',1,'RoboClerk.AISystem.PromptTemplate']]],
   ['prompttemplate_2ecs_25',['PromptTemplate.cs',['../PromptTemplate_8cs.html',1,'']]],
-  ['prsconfig_26',['PrsConfig',['../classRoboClerk_1_1SLMSPluginBase.html#a6fdb4e4351d204206cb438ff95c89e76',1,'RoboClerk::SLMSPluginBase']]],
-  ['purpose_27',['Purpose',['../classRoboClerk_1_1UnitTestAttribute.html#a5e88e6829a75ef1c6d4e880143441a99',1,'RoboClerk::UnitTestAttribute']]]
+  ['prototag_2ecs_26',['ProtoTag.cs',['../ProtoTag_8cs.html',1,'']]],
+  ['prsconfig_27',['PrsConfig',['../classRoboClerk_1_1SLMSPluginBase.html#a6fdb4e4351d204206cb438ff95c89e76',1,'RoboClerk::SLMSPluginBase']]],
+  ['purpose_28',['Purpose',['../classRoboClerk_1_1UnitTestAttribute.html#a5e88e6829a75ef1c6d4e880143441a99',1,'RoboClerk::UnitTestAttribute']]]
 ];
