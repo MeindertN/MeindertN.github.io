@@ -17,7 +17,7 @@ var searchData=
   ['cntconfig_14',['CntConfig',['../classRoboClerk_1_1SLMSPluginBase.html#a6cca010313573cf329f7b38f30547dc8',1,'RoboClerk::SLMSPluginBase']]],
   ['commandlineoptionordefault_15',['CommandLineOptionOrDefault',['../interfaceRoboClerk_1_1Configuration_1_1IConfiguration.html#ad8e6c4733e3818ae6327338f0e9d78b0',1,'RoboClerk.Configuration.IConfiguration.CommandLineOptionOrDefault()'],['../classRoboClerk_1_1Configuration_1_1Configuration.html#af2a07691a7ae69061a20b2df547429e3',1,'RoboClerk.Configuration.Configuration.CommandLineOptionOrDefault()']]],
   ['commandlineoptions_2ecs_16',['CommandlineOptions.cs',['../CommandlineOptions_8cs.html',1,'']]],
-  ['commands_17',['Commands',['../classRoboClerk_1_1Commands.html#ac2738adaad2b946b2a79b23453f6485a',1,'RoboClerk.Commands.Commands()'],['../classRoboClerk_1_1Configuration_1_1DocumentConfig.html#a20ecadb05576732454dfeb762adf4683',1,'RoboClerk.Configuration.DocumentConfig.Commands()'],['../classRoboClerk_1_1Commands.html',1,'RoboClerk.Commands']]],
+  ['commands_17',['Commands',['../classRoboClerk_1_1Configuration_1_1DocumentConfig.html#a20ecadb05576732454dfeb762adf4683',1,'RoboClerk.Configuration.DocumentConfig.Commands()'],['../classRoboClerk_1_1Commands.html#ac2738adaad2b946b2a79b23453f6485a',1,'RoboClerk.Commands.Commands()'],['../classRoboClerk_1_1Commands.html',1,'RoboClerk.Commands']]],
   ['commands_2ecs_18',['Commands.cs',['../Commands_8cs.html',1,'']]],
   ['completetracebackward_19',['CompleteTraceBackward',['../classRoboClerk_1_1TraceSpecification.html#a7e78ce90be4fd7643ae50925fa73062d',1,'RoboClerk::TraceSpecification']]],
   ['completetraceforward_20',['CompleteTraceForward',['../classRoboClerk_1_1TraceSpecification.html#ab1031d61afeac2ac43ea88e13c358195',1,'RoboClerk::TraceSpecification']]],
@@ -28,7 +28,7 @@ var searchData=
   ['configurationvalue_2ecs_25',['ConfigurationValue.cs',['../ConfigurationValue_8cs.html',1,'']]],
   ['configurationvalues_26',['ConfigurationValues',['../classRoboClerk_1_1Configuration_1_1ConfigurationValues.html#a101623b9a9e87344c4e41af6aff5ea5f',1,'RoboClerk.Configuration.ConfigurationValues.ConfigurationValues()'],['../classRoboClerk_1_1Configuration_1_1ConfigurationValues.html',1,'RoboClerk.Configuration.ConfigurationValues']]],
   ['configurationvalues_2ecs_27',['ConfigurationValues.cs',['../ConfigurationValues_8cs.html',1,'']]],
-  ['configvals_28',['ConfigVals',['../classRoboClerk_1_1Configuration_1_1Configuration.html#afd83da78b2fa4542e85e09e3c3e18184',1,'RoboClerk.Configuration.Configuration.ConfigVals()'],['../interfaceRoboClerk_1_1Configuration_1_1IConfiguration.html#a4a750fd203661cb9f477b0e544cb7e1a',1,'RoboClerk.Configuration.IConfiguration.ConfigVals()']]],
+  ['configvals_28',['ConfigVals',['../interfaceRoboClerk_1_1Configuration_1_1IConfiguration.html#a4a750fd203661cb9f477b0e544cb7e1a',1,'RoboClerk.Configuration.IConfiguration.ConfigVals()'],['../classRoboClerk_1_1Configuration_1_1Configuration.html#afd83da78b2fa4542e85e09e3c3e18184',1,'RoboClerk.Configuration.Configuration.ConfigVals()']]],
   ['conflict_29',['Conflict',['../classRoboClerk_1_1ExternalDependency.html#add4f47d76e7023e72e738945e05abfe0',1,'RoboClerk::ExternalDependency']]],
   ['containskey_30',['ContainsKey',['../classRoboClerk_1_1RoboClerkOrderedDictionary.html#ad85666033bd03ff4605a087caef2fabb',1,'RoboClerk::RoboClerkOrderedDictionary']]],
   ['contentcreatorbase_31',['ContentCreatorBase',['../classRoboClerk_1_1ContentCreators_1_1ContentCreatorBase.html#a79c76be364326bd23948e010d077c685',1,'RoboClerk.ContentCreators.ContentCreatorBase.ContentCreatorBase()'],['../classRoboClerk_1_1ContentCreators_1_1ContentCreatorBase.html',1,'RoboClerk.ContentCreators.ContentCreatorBase']]],
@@ -38,7 +38,11 @@ var searchData=
   ['contents_35',['Contents',['../classRoboClerk_1_1RoboClerkTag.html#a9ebd6c16d34e7bb7122c9648a0b3668b',1,'RoboClerk::RoboClerkTag']]],
   ['contentstart_36',['ContentStart',['../classRoboClerk_1_1RoboClerkTag.html#a081bc604dfa7e98d429c033472a39b65',1,'RoboClerk::RoboClerkTag']]],
   ['count_37',['Count',['../classRoboClerk_1_1RoboClerkOrderedDictionary.html#aaf3ae310a1dbb9d35f8c526700c1b70f',1,'RoboClerk::RoboClerkOrderedDictionary']]],
-  ['createdon_38',['CreatedOn',['../classRoboClerk_1_1Redmine_1_1RedmineProject.html#a3a90b08474ba1b8818c51bfb9d782c9f',1,'RoboClerk.Redmine.RedmineProject.CreatedOn()'],['../classRoboClerk_1_1Redmine_1_1RedmineIssue.html#a5ecdebdb8dba701771af282209b7733b',1,'RoboClerk.Redmine.RedmineIssue.CreatedOn()']]],
+  ['createdon_38',['CreatedOn',['../classRoboClerk_1_1Redmine_1_1Version.html#a5f25b7f18a0bae3d42cb7c20b0302ece',1,'RoboClerk.Redmine.Version.CreatedOn()'],['../classRoboClerk_1_1Redmine_1_1RedmineProject.html#a3a90b08474ba1b8818c51bfb9d782c9f',1,'RoboClerk.Redmine.RedmineProject.CreatedOn()'],['../classRoboClerk_1_1Redmine_1_1RedmineIssue.html#a5ecdebdb8dba701771af282209b7733b',1,'RoboClerk.Redmine.RedmineIssue.CreatedOn()']]],
   ['customfield_39',['CustomField',['../classRoboClerk_1_1Redmine_1_1CustomField.html',1,'RoboClerk::Redmine']]],
-  ['customfields_40',['CustomFields',['../classRoboClerk_1_1Redmine_1_1RedmineIssue.html#a350e57197460e2c1b1aef93beb85812d',1,'RoboClerk::Redmine::RedmineIssue']]]
+  ['customfieldlist_40',['CustomFieldList',['../classRoboClerk_1_1Redmine_1_1CustomFieldList.html',1,'RoboClerk::Redmine']]],
+  ['customfields_41',['CustomFields',['../classRoboClerk_1_1Redmine_1_1CustomFieldList.html#ab7008441f6e9ca8b6dc8b81cd8697335',1,'RoboClerk.Redmine.CustomFieldList.CustomFields()'],['../classRoboClerk_1_1Redmine_1_1RedmineIssue.html#a350e57197460e2c1b1aef93beb85812d',1,'RoboClerk.Redmine.RedmineIssue.CustomFields()']]],
+  ['customfieldsjsonobjects_2ecs_42',['CustomFieldsJSONObjects.cs',['../CustomFieldsJSONObjects_8cs.html',1,'']]],
+  ['customizedtype_43',['CustomizedType',['../classRoboClerk_1_1Redmine_1_1CustomRedmineField.html#a92ed49557f1b88f591e0ddd844463cff',1,'RoboClerk::Redmine::CustomRedmineField']]],
+  ['customredminefield_44',['CustomRedmineField',['../classRoboClerk_1_1Redmine_1_1CustomRedmineField.html',1,'RoboClerk::Redmine']]]
 ];

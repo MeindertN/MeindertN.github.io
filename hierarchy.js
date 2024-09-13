@@ -13,6 +13,8 @@ var hierarchy =
     [ "RoboClerk.Commands", "classRoboClerk_1_1Commands.html", null ],
     [ "RoboClerk.Configuration.ConfigurationValues", "classRoboClerk_1_1Configuration_1_1ConfigurationValues.html", null ],
     [ "RoboClerk.Redmine.CustomField", "classRoboClerk_1_1Redmine_1_1CustomField.html", null ],
+    [ "RoboClerk.Redmine.CustomFieldList", "classRoboClerk_1_1Redmine_1_1CustomFieldList.html", null ],
+    [ "RoboClerk.Redmine.CustomRedmineField", "classRoboClerk_1_1Redmine_1_1CustomRedmineField.html", null ],
     [ "RoboClerk.Redmine.DefaultStatus", "classRoboClerk_1_1Redmine_1_1DefaultStatus.html", null ],
     [ "RoboClerk.Document", "classRoboClerk_1_1Document.html", null ],
     [ "RoboClerk.Configuration.DocumentConfig", "classRoboClerk_1_1Configuration_1_1DocumentConfig.html", null ],
@@ -106,8 +108,10 @@ var hierarchy =
       [ "RoboClerk.TraceabilityAnalysis", "classRoboClerk_1_1TraceabilityAnalysis.html", null ]
     ] ],
     [ "RoboClerk.Redmine.Parent", "classRoboClerk_1_1Redmine_1_1Parent.html", null ],
+    [ "RoboClerk.Redmine.PossibleValue", "classRoboClerk_1_1Redmine_1_1PossibleValue.html", null ],
     [ "RoboClerk.Redmine.Priority", "classRoboClerk_1_1Redmine_1_1Priority.html", null ],
     [ "RoboClerk.Program", "classRoboClerk_1_1Program.html", null ],
+    [ "RoboClerk.Redmine.Project", "classRoboClerk_1_1Redmine_1_1Project.html", null ],
     [ "RoboClerk.AISystem.PromptTemplate", "classRoboClerk_1_1AISystem_1_1PromptTemplate.html", null ],
     [ "RoboClerk.Redmine.RedmineIssue", "classRoboClerk_1_1Redmine_1_1RedmineIssue.html", null ],
     [ "RoboClerk.Redmine.RedmineIssues", "classRoboClerk_1_1Redmine_1_1RedmineIssues.html", null ],
@@ -131,5 +135,8 @@ var hierarchy =
     [ "RoboClerk.Configuration.TraceConfig", "classRoboClerk_1_1Configuration_1_1TraceConfig.html", null ],
     [ "RoboClerk.Configuration.TraceConfigElement", "classRoboClerk_1_1Configuration_1_1TraceConfigElement.html", null ],
     [ "RoboClerk.TraceEntity", "classRoboClerk_1_1TraceEntity.html", null ],
-    [ "RoboClerk.Configuration.TruthItemConfig", "classRoboClerk_1_1Configuration_1_1TruthItemConfig.html", null ]
+    [ "RoboClerk.Redmine.Tracker", "classRoboClerk_1_1Redmine_1_1Tracker.html", null ],
+    [ "RoboClerk.Configuration.TruthItemConfig", "classRoboClerk_1_1Configuration_1_1TruthItemConfig.html", null ],
+    [ "RoboClerk.Redmine.Version", "classRoboClerk_1_1Redmine_1_1Version.html", null ],
+    [ "RoboClerk.Redmine.VersionList", "classRoboClerk_1_1Redmine_1_1VersionList.html", null ]
 ];

@@ -56,12 +56,13 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "AIContentCreator_8cs.html",
-"classRoboClerk_1_1CheckpointDataSources.html",
-"classRoboClerk_1_1ContentCreators_1_1Document.html",
-"classRoboClerk_1_1Document.html#a3643af7ec6844cbbbb21c858655a2d29",
-"classRoboClerk_1_1Redmine_1_1RedmineIssue.html#ac11d59c1caaede0a3bd6ea00752b4608",
-"classRoboClerk_1_1ScriptingBridge.html#a2c12d5d14b5264ee6c8f98d231b835e0",
-"functions_func_i.html"
+"classRoboClerk_1_1AzureDevOps_1_1AzureDevOpsSLMSPlugin.html#aa92c459007b9578c2eaf7da9b1ed9fae",
+"classRoboClerk_1_1ContentCreators_1_1ContentCreatorBase.html#aa9c11143413e18c22ba21811c0f11eb0",
+"classRoboClerk_1_1Document.html",
+"classRoboClerk_1_1Redmine_1_1Parent.html#a80aff487c0462ae91e2ef011a7a0bc65",
+"classRoboClerk_1_1RoboClerkTag.html#a06f4aa8230eb698bcb6f74680cc23298",
+"classRoboClerk_1_1TraceabilityAnalysis.html#a5a9f62cf2cda694573ac428fcbacef5a",
+"interfaceRoboClerk_1_1IDataSources.html#ad06268180fbaf0877d71282d80cc45ce"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -3,10 +3,14 @@ var namespaceRoboClerk_1_1Redmine =
     [ "AssignedTo", "classRoboClerk_1_1Redmine_1_1AssignedTo.html", "classRoboClerk_1_1Redmine_1_1AssignedTo" ],
     [ "Author", "classRoboClerk_1_1Redmine_1_1Author.html", "classRoboClerk_1_1Redmine_1_1Author" ],
     [ "CustomField", "classRoboClerk_1_1Redmine_1_1CustomField.html", "classRoboClerk_1_1Redmine_1_1CustomField" ],
+    [ "CustomFieldList", "classRoboClerk_1_1Redmine_1_1CustomFieldList.html", "classRoboClerk_1_1Redmine_1_1CustomFieldList" ],
+    [ "CustomRedmineField", "classRoboClerk_1_1Redmine_1_1CustomRedmineField.html", "classRoboClerk_1_1Redmine_1_1CustomRedmineField" ],
     [ "DefaultStatus", "classRoboClerk_1_1Redmine_1_1DefaultStatus.html", "classRoboClerk_1_1Redmine_1_1DefaultStatus" ],
     [ "FixedVersion", "classRoboClerk_1_1Redmine_1_1FixedVersion.html", "classRoboClerk_1_1Redmine_1_1FixedVersion" ],
     [ "Parent", "classRoboClerk_1_1Redmine_1_1Parent.html", "classRoboClerk_1_1Redmine_1_1Parent" ],
+    [ "PossibleValue", "classRoboClerk_1_1Redmine_1_1PossibleValue.html", "classRoboClerk_1_1Redmine_1_1PossibleValue" ],
     [ "Priority", "classRoboClerk_1_1Redmine_1_1Priority.html", "classRoboClerk_1_1Redmine_1_1Priority" ],
+    [ "Project", "classRoboClerk_1_1Redmine_1_1Project.html", "classRoboClerk_1_1Redmine_1_1Project" ],
     [ "RedmineIssue", "classRoboClerk_1_1Redmine_1_1RedmineIssue.html", "classRoboClerk_1_1Redmine_1_1RedmineIssue" ],
     [ "RedmineIssues", "classRoboClerk_1_1Redmine_1_1RedmineIssues.html", "classRoboClerk_1_1Redmine_1_1RedmineIssues" ],
     [ "RedmineProject", "classRoboClerk_1_1Redmine_1_1RedmineProject.html", "classRoboClerk_1_1Redmine_1_1RedmineProject" ],
@@ -15,5 +19,8 @@ var namespaceRoboClerk_1_1Redmine =
     [ "RedmineTracker", "classRoboClerk_1_1Redmine_1_1RedmineTracker.html", "classRoboClerk_1_1Redmine_1_1RedmineTracker" ],
     [ "RedmineTrackers", "classRoboClerk_1_1Redmine_1_1RedmineTrackers.html", "classRoboClerk_1_1Redmine_1_1RedmineTrackers" ],
     [ "Relation", "classRoboClerk_1_1Redmine_1_1Relation.html", "classRoboClerk_1_1Redmine_1_1Relation" ],
-    [ "Status", "classRoboClerk_1_1Redmine_1_1Status.html", "classRoboClerk_1_1Redmine_1_1Status" ]
+    [ "Status", "classRoboClerk_1_1Redmine_1_1Status.html", "classRoboClerk_1_1Redmine_1_1Status" ],
+    [ "Tracker", "classRoboClerk_1_1Redmine_1_1Tracker.html", "classRoboClerk_1_1Redmine_1_1Tracker" ],
+    [ "Version", "classRoboClerk_1_1Redmine_1_1Version.html", "classRoboClerk_1_1Redmine_1_1Version" ],
+    [ "VersionList", "classRoboClerk_1_1Redmine_1_1VersionList.html", "classRoboClerk_1_1Redmine_1_1VersionList" ]
 ];
