@@ -6,5 +6,6 @@ var namespaceRoboClerk_1_1Configuration =
     [ "DocumentConfig", "classRoboClerk_1_1Configuration_1_1DocumentConfig.html", "classRoboClerk_1_1Configuration_1_1DocumentConfig" ],
     [ "IConfiguration", "interfaceRoboClerk_1_1Configuration_1_1IConfiguration.html", "interfaceRoboClerk_1_1Configuration_1_1IConfiguration" ],
     [ "TraceConfig", "classRoboClerk_1_1Configuration_1_1TraceConfig.html", "classRoboClerk_1_1Configuration_1_1TraceConfig" ],
-    [ "TraceConfigElement", "classRoboClerk_1_1Configuration_1_1TraceConfigElement.html", "classRoboClerk_1_1Configuration_1_1TraceConfigElement" ]
+    [ "TraceConfigElement", "classRoboClerk_1_1Configuration_1_1TraceConfigElement.html", "classRoboClerk_1_1Configuration_1_1TraceConfigElement" ],
+    [ "TruthItemConfig", "classRoboClerk_1_1Configuration_1_1TruthItemConfig.html", "classRoboClerk_1_1Configuration_1_1TruthItemConfig" ]
 ];

@@ -5,5 +5,6 @@ var dir_de570b57bcb4e0a834377877d20f3487 =
     [ "ConfigurationValues.cs", "ConfigurationValues_8cs.html", "ConfigurationValues_8cs" ],
     [ "DocumentConfig.cs", "DocumentConfig_8cs.html", "DocumentConfig_8cs" ],
     [ "IConfiguration.cs", "IConfiguration_8cs.html", "IConfiguration_8cs" ],
-    [ "TraceConfig.cs", "TraceConfig_8cs.html", "TraceConfig_8cs" ]
+    [ "TraceConfig.cs", "TraceConfig_8cs.html", "TraceConfig_8cs" ],
+    [ "TruthItemConfig.cs", "TruthItemConfig_8cs.html", "TruthItemConfig_8cs" ]
 ];

@@ -1,6 +1,9 @@
 var searchData=
 [
-  ['category_0',['category',['../classRoboClerk_1_1Item.html#ae5d8e7bfa62f2e013a5c4148b55eb727',1,'RoboClerk::Item']]],
-  ['cntname_1',['cntName',['../classRoboClerk_1_1SLMSPluginBase.html#a51d2992b1acb9daf0b7fc01b7a6c0081',1,'RoboClerk::SLMSPluginBase']]],
-  ['configuration_2',['configuration',['../classRoboClerk_1_1ContentCreators_1_1ContentCreatorBase.html#a25f474d73ac251f77405917a45e6af5c',1,'RoboClerk.ContentCreators.ContentCreatorBase.configuration()'],['../classRoboClerk_1_1ContentCreators_1_1TraceabilityMatrixBase.html#af5cc6fd6ada48774de5c331ca131ca8b',1,'RoboClerk.ContentCreators.TraceabilityMatrixBase.configuration()'],['../classRoboClerk_1_1DataSourcesBase.html#a79fb8b2f856716e3a2cff5cfa3baa3e8',1,'RoboClerk.DataSourcesBase.configuration()']]]
+  ['data_0',['data',['../classRoboClerk_1_1ContentCreators_1_1ContentCreatorBase.html#a8b9147e5af2537d2636424952386863e',1,'RoboClerk.ContentCreators.ContentCreatorBase.data()'],['../classRoboClerk_1_1ContentCreators_1_1TraceabilityMatrixBase.html#a80616aba889fe84b6b52f9e5406dbd67',1,'RoboClerk.ContentCreators.TraceabilityMatrixBase.data()']]],
+  ['dependencies_1',['dependencies',['../classRoboClerk_1_1DataSourcePluginBase.html#ac930570c94ccabde9ec4861c3d2c9f02',1,'RoboClerk::DataSourcePluginBase']]],
+  ['description_2',['description',['../classRoboClerk_1_1PluginBase.html#a24e9e84ac416a100c29c4d59c2fea63f',1,'RoboClerk::PluginBase']]],
+  ['directories_3',['directories',['../classRoboClerk_1_1SourceCodeAnalysisPluginBase.html#ae0d4fd22f05f1d70550d3ad2ad624fd2',1,'RoboClerk::SourceCodeAnalysisPluginBase']]],
+  ['doccontents_4',['docContents',['../classRoboClerk_1_1DataSourcePluginBase.html#a7a7729b0eb4a23ace577b67c8f0a48eb',1,'RoboClerk::DataSourcePluginBase']]],
+  ['documentationrequirements_5',['documentationRequirements',['../classRoboClerk_1_1DataSourcePluginBase.html#a91a60f9c73b0487a54dae8bc08dd8cc8',1,'RoboClerk::DataSourcePluginBase']]]
 ];

@@ -56,12 +56,13 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "AIContentCreator_8cs.html",
-"classRoboClerk_1_1CheckpointDataSources.html#a938c930f2a55c3f29fdbe5124b3c24a1",
-"classRoboClerk_1_1ContentCreators_1_1RequirementBase.html#a8ec6a013e27d4a00c9ecd9e152379def",
-"classRoboClerk_1_1GitRepository.html#a4eee14491a92a00e91434b7c956a7d59",
-"classRoboClerk_1_1Redmine_1_1RedmineProject.html#a3a90b08474ba1b8818c51bfb9d782c9f",
-"classRoboClerk_1_1SoftwareSystemTestItem.html#a309af00d3d4883c843fef4a2bbf42881",
-"functions_prop_v.html"
+"classRoboClerk_1_1AzureDevOps_1_1AzureDevOpsSLMSPlugin.html#aa92c459007b9578c2eaf7da9b1ed9fae",
+"classRoboClerk_1_1ContentCreators_1_1ContentCreatorBase.html#aa9c11143413e18c22ba21811c0f11eb0",
+"classRoboClerk_1_1Document.html",
+"classRoboClerk_1_1Redmine_1_1Parent.html#a80aff487c0462ae91e2ef011a7a0bc65",
+"classRoboClerk_1_1RoboClerkTag.html#a06f4aa8230eb698bcb6f74680cc23298",
+"classRoboClerk_1_1TraceabilityAnalysis.html#a5a9f62cf2cda694573ac428fcbacef5a",
+"interfaceRoboClerk_1_1IDataSources.html#ad06268180fbaf0877d71282d80cc45ce"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
