@@ -5,8 +5,7 @@ var searchData=
   ['estimatedhours_2',['EstimatedHours',['../classRoboClerk_1_1Redmine_1_1RedmineIssue.html#a9195b6d029fb18a0f7622f0cfd249d05',1,'RoboClerk::Redmine::RedmineIssue']]],
   ['exceltable_3',['ExcelTable',['../classRoboClerk_1_1ContentCreators_1_1ExcelTable.html#a24e4160b083850f87e2984f753fea3ec',1,'RoboClerk.ContentCreators.ExcelTable.ExcelTable()'],['../classRoboClerk_1_1ContentCreators_1_1ExcelTable.html',1,'RoboClerk.ContentCreators.ExcelTable']]],
   ['exceltable_2ecs_4',['ExcelTable.cs',['../ExcelTable_8cs.html',1,'']]],
-  ['excludeitem_5',['ExcludeItem',['../classRoboClerk_1_1SLMSPluginBase.html#a4aec81f08a28cd5375f12968186f3172',1,'RoboClerk::SLMSPluginBase']]],
-  ['expectedresult_6',['ExpectedResult',['../classRoboClerk_1_1TestStep.html#a62d31176745fae912935aab40efcf999',1,'RoboClerk::TestStep']]],
-  ['externaldependency_7',['ExternalDependency',['../classRoboClerk_1_1ExternalDependency.html#a628bf6fcc71641a5716148376a26798a',1,'RoboClerk.ExternalDependency.ExternalDependency()'],['../classRoboClerk_1_1ExternalDependency.html',1,'RoboClerk.ExternalDependency']]],
-  ['externaldependency_2ecs_8',['ExternalDependency.cs',['../ExternalDependency_8cs.html',1,'']]]
+  ['expectedresult_5',['ExpectedResult',['../classRoboClerk_1_1TestStep.html#a62d31176745fae912935aab40efcf999',1,'RoboClerk::TestStep']]],
+  ['externaldependency_6',['ExternalDependency',['../classRoboClerk_1_1ExternalDependency.html#a628bf6fcc71641a5716148376a26798a',1,'RoboClerk.ExternalDependency.ExternalDependency()'],['../classRoboClerk_1_1ExternalDependency.html',1,'RoboClerk.ExternalDependency']]],
+  ['externaldependency_2ecs_7',['ExternalDependency.cs',['../ExternalDependency_8cs.html',1,'']]]
 ];

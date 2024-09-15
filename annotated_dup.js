@@ -2,9 +2,7 @@ var annotated_dup =
 [
     [ "RoboClerk", "namespaceRoboClerk.html", [
       [ "AISystem", "namespaceRoboClerk_1_1AISystem.html", [
-        [ "AISystemPluginBase", "classRoboClerk_1_1AISystem_1_1AISystemPluginBase.html", "classRoboClerk_1_1AISystem_1_1AISystemPluginBase" ],
-        [ "IAISystemPlugin", "interfaceRoboClerk_1_1AISystem_1_1IAISystemPlugin.html", "interfaceRoboClerk_1_1AISystem_1_1IAISystemPlugin" ],
-        [ "PromptTemplate", "classRoboClerk_1_1AISystem_1_1PromptTemplate.html", "classRoboClerk_1_1AISystem_1_1PromptTemplate" ]
+        [ "IAISystemPlugin", "interfaceRoboClerk_1_1AISystem_1_1IAISystemPlugin.html", "interfaceRoboClerk_1_1AISystem_1_1IAISystemPlugin" ]
       ] ],
       [ "AnnotatedUnitTests", "namespaceRoboClerk_1_1AnnotatedUnitTests.html", [
         [ "AnnotatedUnitTestsPlugin", "classRoboClerk_1_1AnnotatedUnitTests_1_1AnnotatedUnitTestsPlugin.html", "classRoboClerk_1_1AnnotatedUnitTests_1_1AnnotatedUnitTestsPlugin" ]
@@ -20,14 +18,12 @@ var annotated_dup =
         [ "DocumentConfig", "classRoboClerk_1_1Configuration_1_1DocumentConfig.html", "classRoboClerk_1_1Configuration_1_1DocumentConfig" ],
         [ "IConfiguration", "interfaceRoboClerk_1_1Configuration_1_1IConfiguration.html", "interfaceRoboClerk_1_1Configuration_1_1IConfiguration" ],
         [ "TraceConfig", "classRoboClerk_1_1Configuration_1_1TraceConfig.html", "classRoboClerk_1_1Configuration_1_1TraceConfig" ],
-        [ "TraceConfigElement", "classRoboClerk_1_1Configuration_1_1TraceConfigElement.html", "classRoboClerk_1_1Configuration_1_1TraceConfigElement" ],
-        [ "TruthItemConfig", "classRoboClerk_1_1Configuration_1_1TruthItemConfig.html", "classRoboClerk_1_1Configuration_1_1TruthItemConfig" ]
+        [ "TraceConfigElement", "classRoboClerk_1_1Configuration_1_1TraceConfigElement.html", "classRoboClerk_1_1Configuration_1_1TraceConfigElement" ]
       ] ],
       [ "ContentCreators", "namespaceRoboClerk_1_1ContentCreators.html", [
         [ "AIContentCreator", "classRoboClerk_1_1ContentCreators_1_1AIContentCreator.html", "classRoboClerk_1_1ContentCreators_1_1AIContentCreator" ],
         [ "Anomaly", "classRoboClerk_1_1ContentCreators_1_1Anomaly.html", "classRoboClerk_1_1ContentCreators_1_1Anomaly" ],
         [ "ContentCreatorBase", "classRoboClerk_1_1ContentCreators_1_1ContentCreatorBase.html", "classRoboClerk_1_1ContentCreators_1_1ContentCreatorBase" ],
-        [ "Document", "classRoboClerk_1_1ContentCreators_1_1Document.html", "classRoboClerk_1_1ContentCreators_1_1Document" ],
         [ "DocumentationRequirement", "classRoboClerk_1_1ContentCreators_1_1DocumentationRequirement.html", "classRoboClerk_1_1ContentCreators_1_1DocumentationRequirement" ],
         [ "ExcelTable", "classRoboClerk_1_1ContentCreators_1_1ExcelTable.html", "classRoboClerk_1_1ContentCreators_1_1ExcelTable" ],
         [ "IContentCreator", "interfaceRoboClerk_1_1ContentCreators_1_1IContentCreator.html", "interfaceRoboClerk_1_1ContentCreators_1_1IContentCreator" ],
@@ -54,14 +50,10 @@ var annotated_dup =
         [ "AssignedTo", "classRoboClerk_1_1Redmine_1_1AssignedTo.html", "classRoboClerk_1_1Redmine_1_1AssignedTo" ],
         [ "Author", "classRoboClerk_1_1Redmine_1_1Author.html", "classRoboClerk_1_1Redmine_1_1Author" ],
         [ "CustomField", "classRoboClerk_1_1Redmine_1_1CustomField.html", "classRoboClerk_1_1Redmine_1_1CustomField" ],
-        [ "CustomFieldList", "classRoboClerk_1_1Redmine_1_1CustomFieldList.html", "classRoboClerk_1_1Redmine_1_1CustomFieldList" ],
-        [ "CustomRedmineField", "classRoboClerk_1_1Redmine_1_1CustomRedmineField.html", "classRoboClerk_1_1Redmine_1_1CustomRedmineField" ],
         [ "DefaultStatus", "classRoboClerk_1_1Redmine_1_1DefaultStatus.html", "classRoboClerk_1_1Redmine_1_1DefaultStatus" ],
         [ "FixedVersion", "classRoboClerk_1_1Redmine_1_1FixedVersion.html", "classRoboClerk_1_1Redmine_1_1FixedVersion" ],
         [ "Parent", "classRoboClerk_1_1Redmine_1_1Parent.html", "classRoboClerk_1_1Redmine_1_1Parent" ],
-        [ "PossibleValue", "classRoboClerk_1_1Redmine_1_1PossibleValue.html", "classRoboClerk_1_1Redmine_1_1PossibleValue" ],
         [ "Priority", "classRoboClerk_1_1Redmine_1_1Priority.html", "classRoboClerk_1_1Redmine_1_1Priority" ],
-        [ "Project", "classRoboClerk_1_1Redmine_1_1Project.html", "classRoboClerk_1_1Redmine_1_1Project" ],
         [ "RedmineIssue", "classRoboClerk_1_1Redmine_1_1RedmineIssue.html", "classRoboClerk_1_1Redmine_1_1RedmineIssue" ],
         [ "RedmineIssues", "classRoboClerk_1_1Redmine_1_1RedmineIssues.html", "classRoboClerk_1_1Redmine_1_1RedmineIssues" ],
         [ "RedmineProject", "classRoboClerk_1_1Redmine_1_1RedmineProject.html", "classRoboClerk_1_1Redmine_1_1RedmineProject" ],
@@ -70,11 +62,9 @@ var annotated_dup =
         [ "RedmineTracker", "classRoboClerk_1_1Redmine_1_1RedmineTracker.html", "classRoboClerk_1_1Redmine_1_1RedmineTracker" ],
         [ "RedmineTrackers", "classRoboClerk_1_1Redmine_1_1RedmineTrackers.html", "classRoboClerk_1_1Redmine_1_1RedmineTrackers" ],
         [ "Relation", "classRoboClerk_1_1Redmine_1_1Relation.html", "classRoboClerk_1_1Redmine_1_1Relation" ],
-        [ "Status", "classRoboClerk_1_1Redmine_1_1Status.html", "classRoboClerk_1_1Redmine_1_1Status" ],
-        [ "Tracker", "classRoboClerk_1_1Redmine_1_1Tracker.html", "classRoboClerk_1_1Redmine_1_1Tracker" ],
-        [ "Version", "classRoboClerk_1_1Redmine_1_1Version.html", "classRoboClerk_1_1Redmine_1_1Version" ],
-        [ "VersionList", "classRoboClerk_1_1Redmine_1_1VersionList.html", "classRoboClerk_1_1Redmine_1_1VersionList" ]
+        [ "Status", "classRoboClerk_1_1Redmine_1_1Status.html", "classRoboClerk_1_1Redmine_1_1Status" ]
       ] ],
+      [ "AISystemPluginBase", "classRoboClerk_1_1AISystemPluginBase.html", "classRoboClerk_1_1AISystemPluginBase" ],
       [ "AnomalyItem", "classRoboClerk_1_1AnomalyItem.html", "classRoboClerk_1_1AnomalyItem" ],
       [ "CheckpointDataSources", "classRoboClerk_1_1CheckpointDataSources.html", "classRoboClerk_1_1CheckpointDataSources" ],
       [ "CheckpointDataStorage", "classRoboClerk_1_1CheckpointDataStorage.html", "classRoboClerk_1_1CheckpointDataStorage" ],
@@ -100,6 +90,7 @@ var annotated_dup =
       [ "PluginLoadContext", "classRoboClerk_1_1PluginLoadContext.html", "classRoboClerk_1_1PluginLoadContext" ],
       [ "PluginLoader", "classRoboClerk_1_1PluginLoader.html", "classRoboClerk_1_1PluginLoader" ],
       [ "Program", "classRoboClerk_1_1Program.html", null ],
+      [ "PromptTemplate", "classRoboClerk_1_1PromptTemplate.html", "classRoboClerk_1_1PromptTemplate" ],
       [ "RequirementItem", "classRoboClerk_1_1RequirementItem.html", "classRoboClerk_1_1RequirementItem" ],
       [ "RiskItem", "classRoboClerk_1_1RiskItem.html", "classRoboClerk_1_1RiskItem" ],
       [ "RoboClerkCore", "classRoboClerk_1_1RoboClerkCore.html", "classRoboClerk_1_1RoboClerkCore" ],

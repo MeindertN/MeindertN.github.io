@@ -11,6 +11,5 @@ var searchData=
   ['traceissue_2ecs_8',['TraceIssue.cs',['../TraceIssue_8cs.html',1,'']]],
   ['tracelink_2ecs_9',['TraceLink.cs',['../TraceLink_8cs.html',1,'']]],
   ['tracematrix_2ecs_10',['TraceMatrix.cs',['../TraceMatrix_8cs.html',1,'']]],
-  ['tracespecification_2ecs_11',['TraceSpecification.cs',['../TraceSpecification_8cs.html',1,'']]],
-  ['truthitemconfig_2ecs_12',['TruthItemConfig.cs',['../TruthItemConfig_8cs.html',1,'']]]
+  ['tracespecification_2ecs_11',['TraceSpecification.cs',['../TraceSpecification_8cs.html',1,'']]]
 ];

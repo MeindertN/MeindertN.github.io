@@ -17,6 +17,5 @@ var searchData=
   ['tracelink_14',['TraceLink',['../classRoboClerk_1_1TraceLink.html#a26e4da7ec790f7590d7c41450bfa7b8c',1,'RoboClerk::TraceLink']]],
   ['tracematrix_15',['TraceMatrix',['../classRoboClerk_1_1ContentCreators_1_1TraceMatrix.html#a88bbfe6e2c67b9b97d0b99b6a03be2f6',1,'RoboClerk::ContentCreators::TraceMatrix']]],
   ['tracespecification_16',['TraceSpecification',['../classRoboClerk_1_1TraceSpecification.html#ae90086e430b13b6ce5de7b645a77d1af',1,'RoboClerk::TraceSpecification']]],
-  ['trimlinkeditems_3c_20t_20_3e_17',['TrimLinkedItems&lt; T &gt;',['../classRoboClerk_1_1SLMSPluginBase.html#afe8149270df40a8b25469c5d615c62bb',1,'RoboClerk::SLMSPluginBase']]],
-  ['truthitemconfig_18',['TruthItemConfig',['../classRoboClerk_1_1Configuration_1_1TruthItemConfig.html#a719f5ed133003cc25074a6af165a6d23',1,'RoboClerk.Configuration.TruthItemConfig.TruthItemConfig()'],['../classRoboClerk_1_1Configuration_1_1TruthItemConfig.html#a8c5f4ba61a282dd041960b6f4b0c8c31',1,'RoboClerk.Configuration.TruthItemConfig.TruthItemConfig(string name, bool filter)']]]
+  ['trimlinkeditems_3c_20t_20_3e_17',['TrimLinkedItems&lt; T &gt;',['../classRoboClerk_1_1SLMSPluginBase.html#afe8149270df40a8b25469c5d615c62bb',1,'RoboClerk::SLMSPluginBase']]]
 ];

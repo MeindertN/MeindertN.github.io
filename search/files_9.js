@@ -7,7 +7,5 @@ var searchData=
   ['pluginloader_2ecs_4',['PluginLoader.cs',['../PluginLoader_8cs.html',1,'']]],
   ['postlayout_2ecs_5',['PostLayout.cs',['../PostLayout_8cs.html',1,'']]],
   ['program_2ecs_6',['Program.cs',['../Program_8cs.html',1,'']]],
-  ['projectversionsjsonobjects_2ecs_7',['ProjectVersionsJSONObjects.cs',['../ProjectVersionsJSONObjects_8cs.html',1,'']]],
-  ['prompttemplate_2ecs_8',['PromptTemplate.cs',['../PromptTemplate_8cs.html',1,'']]],
-  ['prototag_2ecs_9',['ProtoTag.cs',['../ProtoTag_8cs.html',1,'']]]
+  ['prompttemplate_2ecs_7',['PromptTemplate.cs',['../PromptTemplate_8cs.html',1,'']]]
 ];

@@ -136,26 +136,25 @@ $(document).ready(function(){initNavTree('MultiItemContentCreator_8cs_source.htm
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>                }</div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>                index++;</div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>            }</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>            doc.AddEntityCount(te,(uint)includedItems.Count); <span class="comment">//keep track of how many entities we&#39;re adding to the document</span></div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>            <span class="keywordtype">string</span> content = <span class="keywordtype">string</span>.Empty;</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>            <span class="keywordflow">try</span></div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>            {</div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>                content = <a class="code hl_function" href="classRoboClerk_1_1ContentCreators_1_1MultiItemContentCreator.html#a25c798d6993cd14146ba70c7a22f99d6">GenerateADocContent</a>(tag, includedItems, te, <a class="code hl_variable" href="classRoboClerk_1_1ContentCreators_1_1ContentCreatorBase.html#a53422fdbb8256d208ac4ed4f9f87fc47">analysis</a>.<a class="code hl_function" href="interfaceRoboClerk_1_1ITraceabilityAnalysis.html#a2d997fa6fe6c72bd4e600e5eaafad9a4">GetTraceEntityForTitle</a>(doc.DocumentTitle));</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>            }</div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>            <span class="keywordflow">catch</span></div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>            {</div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>                <a class="code hl_variable" href="classRoboClerk_1_1ContentCreators_1_1ContentCreatorBase.html#a5e8a521af9a7cc9c94dec6a4b348b53e">logger</a>.Error($<span class="stringliteral">&quot;An error occurred while rendering {te.Name} in {doc.DocumentTitle}.&quot;</span>);</div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>                <span class="keywordflow">throw</span>;</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>            }</div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>            <span class="keywordflow">if</span> (!foundContent)</div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>            {</div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>                content = $<span class="stringliteral">&quot;Unable to find specified {te.Name}(s). Check if {te.Name}s are provided or if a valid {te.Name} identifier is specified.&quot;</span>;</div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>            }</div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>            <span class="keywordflow">return</span> content;</div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>        }</div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>    }</div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>}</div>
-<div class="ttc" id="aclassRoboClerk_1_1Configuration_1_1DocumentConfig_html"><div class="ttname"><a href="classRoboClerk_1_1Configuration_1_1DocumentConfig.html">RoboClerk.Configuration.DocumentConfig</a></div><div class="ttdef"><b>Definition:</b> <a href="DocumentConfig_8cs_source.html#l00006">DocumentConfig.cs:7</a></div></div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>            <span class="keywordtype">string</span> content = <span class="keywordtype">string</span>.Empty;</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>            <span class="keywordflow">try</span></div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>            {</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>                content = <a class="code hl_function" href="classRoboClerk_1_1ContentCreators_1_1MultiItemContentCreator.html#a25c798d6993cd14146ba70c7a22f99d6">GenerateADocContent</a>(tag, includedItems, te, <a class="code hl_variable" href="classRoboClerk_1_1ContentCreators_1_1ContentCreatorBase.html#a53422fdbb8256d208ac4ed4f9f87fc47">analysis</a>.<a class="code hl_function" href="interfaceRoboClerk_1_1ITraceabilityAnalysis.html#a2d997fa6fe6c72bd4e600e5eaafad9a4">GetTraceEntityForTitle</a>(doc.DocumentTitle));</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>            }</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>            <span class="keywordflow">catch</span></div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>            {</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>                <a class="code hl_variable" href="classRoboClerk_1_1ContentCreators_1_1ContentCreatorBase.html#a5e8a521af9a7cc9c94dec6a4b348b53e">logger</a>.Error($<span class="stringliteral">&quot;An error occurred while rendering {te.Name} in {doc.DocumentTitle}.&quot;</span>);</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>                <span class="keywordflow">throw</span>;</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>            }</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>            <span class="keywordflow">if</span> (!foundContent)</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>            {</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>                content = $<span class="stringliteral">&quot;Unable to find specified {te.Name}(s). Check if {te.Name}s are provided or if a valid {te.Name} identifier is specified.&quot;</span>;</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>            }</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>            <span class="keywordflow">return</span> content;</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>        }</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    }</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>}</div>
+<div class="ttc" id="aclassRoboClerk_1_1Configuration_1_1DocumentConfig_html"><div class="ttname"><a href="classRoboClerk_1_1Configuration_1_1DocumentConfig.html">RoboClerk.Configuration.DocumentConfig</a></div><div class="ttdef"><b>Definition:</b> <a href="DocumentConfig_8cs_source.html#l00003">DocumentConfig.cs:4</a></div></div>
 <div class="ttc" id="aclassRoboClerk_1_1ContentCreators_1_1ContentCreatorBase_html"><div class="ttname"><a href="classRoboClerk_1_1ContentCreators_1_1ContentCreatorBase.html">RoboClerk.ContentCreators.ContentCreatorBase</a></div><div class="ttdef"><b>Definition:</b> <a href="ContentCreatorBase_8cs_source.html#l00009">ContentCreatorBase.cs:10</a></div></div>
 <div class="ttc" id="aclassRoboClerk_1_1ContentCreators_1_1ContentCreatorBase_html_a53422fdbb8256d208ac4ed4f9f87fc47"><div class="ttname"><a href="classRoboClerk_1_1ContentCreators_1_1ContentCreatorBase.html#a53422fdbb8256d208ac4ed4f9f87fc47">RoboClerk.ContentCreators.ContentCreatorBase.analysis</a></div><div class="ttdeci">ITraceabilityAnalysis analysis</div><div class="ttdef"><b>Definition:</b> <a href="ContentCreatorBase_8cs_source.html#l00012">ContentCreatorBase.cs:12</a></div></div>
 <div class="ttc" id="aclassRoboClerk_1_1ContentCreators_1_1ContentCreatorBase_html_a5e8a521af9a7cc9c94dec6a4b348b53e"><div class="ttname"><a href="classRoboClerk_1_1ContentCreators_1_1ContentCreatorBase.html#a5e8a521af9a7cc9c94dec6a4b348b53e">RoboClerk.ContentCreators.ContentCreatorBase.logger</a></div><div class="ttdeci">static NLog.Logger logger</div><div class="ttdef"><b>Definition:</b> <a href="ContentCreatorBase_8cs_source.html#l00011">ContentCreatorBase.cs:11</a></div></div>

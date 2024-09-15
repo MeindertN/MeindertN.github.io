@@ -1,17 +1,15 @@
 var classRoboClerk_1_1SLMSPluginBase =
 [
     [ "SLMSPluginBase", "classRoboClerk_1_1SLMSPluginBase.html#a71240533400fc645eed397ca1eae32e5", null ],
-    [ "ExcludeItem", "classRoboClerk_1_1SLMSPluginBase.html#a4aec81f08a28cd5375f12968186f3172", null ],
-    [ "IncludeItem", "classRoboClerk_1_1SLMSPluginBase.html#af2246800aa62d1e5904669e4efae148a", null ],
     [ "Initialize", "classRoboClerk_1_1SLMSPluginBase.html#ab936f50f9a6854a871e8ee22fbbe44c8", null ],
     [ "TrimLinkedItems< T >", "classRoboClerk_1_1SLMSPluginBase.html#afe8149270df40a8b25469c5d615c62bb", null ],
+    [ "bugName", "classRoboClerk_1_1SLMSPluginBase.html#a369bd19fbad5f28d23cf5201a0eda30b", null ],
+    [ "cntName", "classRoboClerk_1_1SLMSPluginBase.html#a51d2992b1acb9daf0b7fc01b7a6c0081", null ],
+    [ "docName", "classRoboClerk_1_1SLMSPluginBase.html#ad6a5d2c069096bfda84132f72c627e29", null ],
     [ "ignoreList", "classRoboClerk_1_1SLMSPluginBase.html#a1368c0cdebc660ec061f01710298a4ce", null ],
-    [ "BugConfig", "classRoboClerk_1_1SLMSPluginBase.html#a50bba5302bd49df00d7de13a18898051", null ],
-    [ "CntConfig", "classRoboClerk_1_1SLMSPluginBase.html#a6cca010313573cf329f7b38f30547dc8", null ],
-    [ "DocConfig", "classRoboClerk_1_1SLMSPluginBase.html#a0468f3ef3a8d25af201d68765c5b3483", null ],
-    [ "PrsConfig", "classRoboClerk_1_1SLMSPluginBase.html#a6fdb4e4351d204206cb438ff95c89e76", null ],
-    [ "RiskConfig", "classRoboClerk_1_1SLMSPluginBase.html#ad30629d2fc2f8f5b2cd895d996031a88", null ],
-    [ "SoupConfig", "classRoboClerk_1_1SLMSPluginBase.html#a845e4abbdd601b2413c88827e79961ad", null ],
-    [ "SrsConfig", "classRoboClerk_1_1SLMSPluginBase.html#a1e271a24b3de131a50a0b5d2cd56bf2c", null ],
-    [ "TcConfig", "classRoboClerk_1_1SLMSPluginBase.html#ac09907ba9f294a53aa3e514334fac12f", null ]
+    [ "prsName", "classRoboClerk_1_1SLMSPluginBase.html#a450ae672db5856b19cd3527282336701", null ],
+    [ "riskName", "classRoboClerk_1_1SLMSPluginBase.html#aa7e17b825005919fb7d5f3b862069fec", null ],
+    [ "soupName", "classRoboClerk_1_1SLMSPluginBase.html#a79310ce6d12ef7f75f87f7dd9ff14c67", null ],
+    [ "srsName", "classRoboClerk_1_1SLMSPluginBase.html#ab3d0df8b446454c1455e8259ef78c03d", null ],
+    [ "tcName", "classRoboClerk_1_1SLMSPluginBase.html#a859c28a60f3a3ea8c5e8a3e162e3e239", null ]
 ];
