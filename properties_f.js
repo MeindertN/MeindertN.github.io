@@ -23,5 +23,6 @@ var searchData=
   ['tracker_20',['Tracker',['../classRoboClerk_1_1Redmine_1_1RedmineIssue.html#aafe4f9e772176ae1857faf89dcea0458',1,'RoboClerk::Redmine::RedmineIssue']]],
   ['trackers_21',['Trackers',['../classRoboClerk_1_1Redmine_1_1CustomRedmineField.html#aa4f178fb1233bbdf2c66667be29499e0',1,'RoboClerk.Redmine.CustomRedmineField.Trackers()'],['../classRoboClerk_1_1Redmine_1_1RedmineTrackers.html#ad7a85421308d582d72cbcecd31d13fdb',1,'RoboClerk.Redmine.RedmineTrackers.Trackers()']]],
   ['truthentities_22',['TruthEntities',['../classRoboClerk_1_1Configuration_1_1Configuration.html#a12f15e05df9912303cc2e1c1da4f443d',1,'RoboClerk.Configuration.Configuration.TruthEntities()'],['../interfaceRoboClerk_1_1Configuration_1_1IConfiguration.html#af7adc0884cce15aeb81fc88a4cc1fdd0',1,'RoboClerk.Configuration.IConfiguration.TruthEntities()']]],
-  ['typeofrequirement_23',['TypeOfRequirement',['../classRoboClerk_1_1RequirementItem.html#a560ad7fbc2c55ee0c15731c0db52737f',1,'RoboClerk::RequirementItem']]]
+  ['type_23',['Type',['../classRoboClerk_1_1TestResult.html#a465af53e666fe674d0307da07f35b783',1,'RoboClerk::TestResult']]],
+  ['typeofrequirement_24',['TypeOfRequirement',['../classRoboClerk_1_1RequirementItem.html#a560ad7fbc2c55ee0c15731c0db52737f',1,'RoboClerk::RequirementItem']]]
 ];

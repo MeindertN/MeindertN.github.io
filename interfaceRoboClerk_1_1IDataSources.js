@@ -9,6 +9,7 @@ var interfaceRoboClerk_1_1IDataSources =
     [ "GetAllSoftwareSystemTests", "interfaceRoboClerk_1_1IDataSources.html#a7fa44039c9b7615a3a29464a86f291d2", null ],
     [ "GetAllSOUP", "interfaceRoboClerk_1_1IDataSources.html#ab5a0e2b5ecacf067d0d7206d21098641", null ],
     [ "GetAllSystemRequirements", "interfaceRoboClerk_1_1IDataSources.html#a092482f94f9508265f6f154d1160089a", null ],
+    [ "GetAllTestResults", "interfaceRoboClerk_1_1IDataSources.html#ab427b0710f2a8522d02317be49636553", null ],
     [ "GetAllUnitTests", "interfaceRoboClerk_1_1IDataSources.html#a71446c9e3c499ce00cfb8b921f50b81b", null ],
     [ "GetAnomaly", "interfaceRoboClerk_1_1IDataSources.html#aa5ec3d8e88c27f95b8bb0800e65870bd", null ],
     [ "GetConfigValue", "interfaceRoboClerk_1_1IDataSources.html#ac317e7ac14afc3f395b8356536e303a2", null ],

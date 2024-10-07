@@ -10,6 +10,7 @@ var classRoboClerk_1_1CheckpointDataSources =
     [ "GetAllSoftwareSystemTests", "classRoboClerk_1_1CheckpointDataSources.html#a245603c50643fa76a99e51b905c41b9a", null ],
     [ "GetAllSOUP", "classRoboClerk_1_1CheckpointDataSources.html#a6e98c650a66d66b879eed933718d905a", null ],
     [ "GetAllSystemRequirements", "classRoboClerk_1_1CheckpointDataSources.html#adb68397225db43146e6fdf7327d5d200", null ],
+    [ "GetAllTestResults", "classRoboClerk_1_1CheckpointDataSources.html#a209f8131b1e95fe45361c4447efd8a5d", null ],
     [ "GetAllUnitTests", "classRoboClerk_1_1CheckpointDataSources.html#ac2911025dd26420ed232ac42458253db", null ],
     [ "SetFileSource", "classRoboClerk_1_1CheckpointDataSources.html#a938c930f2a55c3f29fdbe5124b3c24a1", null ]
 ];

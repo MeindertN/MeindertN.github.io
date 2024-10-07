@@ -56,13 +56,13 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "AIContentCreator_8cs.html",
-"classRoboClerk_1_1AzureDevOps_1_1AzureDevOpsSLMSPlugin.html#aa92c459007b9578c2eaf7da9b1ed9fae",
-"classRoboClerk_1_1ContentCreators_1_1ContentCreatorBase.html#aa9c11143413e18c22ba21811c0f11eb0",
-"classRoboClerk_1_1Document.html",
-"classRoboClerk_1_1Redmine_1_1Parent.html#a80aff487c0462ae91e2ef011a7a0bc65",
-"classRoboClerk_1_1RoboClerkTag.html#a06f4aa8230eb698bcb6f74680cc23298",
-"classRoboClerk_1_1TraceabilityAnalysis.html#a5a9f62cf2cda694573ac428fcbacef5a",
-"interfaceRoboClerk_1_1IDataSources.html#ad06268180fbaf0877d71282d80cc45ce"
+"classRoboClerk_1_1AzureDevOps_1_1AzureDevOpsSLMSPlugin.html#a6ea966fa0c6dd1c0a2a0d07be72fad57",
+"classRoboClerk_1_1ContentCreators_1_1ContentCreatorBase.html#a6b9d80f0bb655eb748c781c5a4148a3c",
+"classRoboClerk_1_1DependenciesFile_1_1DependenciesFilePlugin.html#a158dae2dab4ab9a0a11da9eaebff5c8c",
+"classRoboClerk_1_1Redmine_1_1DefaultStatus.html#a185590be1ffc45e92e0c713403de3530",
+"classRoboClerk_1_1RoboClerkOrderedDictionary.html#a8ec24f88e181b7ba5325fa32fb95ecc7",
+"classRoboClerk_1_1TraceLink.html#a7583078e98127913979da56186d4b779",
+"interfaceRoboClerk_1_1IDataSources.html#a40f5c6affb0aeffe79fd0dbbbe5aac9f"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

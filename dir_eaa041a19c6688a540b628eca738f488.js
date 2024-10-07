@@ -19,5 +19,6 @@ var dir_eaa041a19c6688a540b628eca738f488 =
     [ "RoboClerkAsciiDoc.cs", "RoboClerkAsciiDoc_8cs.html", null ],
     [ "RoboClerkCore.cs", "RoboClerkCore_8cs.html", "RoboClerkCore_8cs" ],
     [ "RoboClerkTag.cs", "RoboClerkTag_8cs.html", "RoboClerkTag_8cs" ],
+    [ "TestResult.cs", "TestResult_8cs.html", "TestResult_8cs" ],
     [ "UnitTestAttribute.cs", "UnitTestAttribute_8cs.html", "UnitTestAttribute_8cs" ]
 ];

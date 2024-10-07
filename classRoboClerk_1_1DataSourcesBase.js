@@ -10,6 +10,7 @@ var classRoboClerk_1_1DataSourcesBase =
     [ "GetAllSoftwareSystemTests", "classRoboClerk_1_1DataSourcesBase.html#aa719f48d54c147392741a8868b12b3c7", null ],
     [ "GetAllSOUP", "classRoboClerk_1_1DataSourcesBase.html#a1f13e232bd7552656b0fe3f6a46916fc", null ],
     [ "GetAllSystemRequirements", "classRoboClerk_1_1DataSourcesBase.html#af6d4d36958cccb060cf8b89ce1df6a13", null ],
+    [ "GetAllTestResults", "classRoboClerk_1_1DataSourcesBase.html#a00918ac7474072281788cb011b9c7a5f", null ],
     [ "GetAllUnitTests", "classRoboClerk_1_1DataSourcesBase.html#a78f1ab931df99177eb3e0b7a792f871b", null ],
     [ "GetAnomaly", "classRoboClerk_1_1DataSourcesBase.html#a20a7bdca2f246c5d38882532dc8d6c05", null ],
     [ "GetConfigValue", "classRoboClerk_1_1DataSourcesBase.html#aaf4fcdca899a0536f32e5473993bdf77", null ],

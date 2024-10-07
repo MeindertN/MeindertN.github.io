@@ -43,6 +43,7 @@ var namespaceRoboClerk =
     [ "SOUPItem", "classRoboClerk_1_1SOUPItem.html", "classRoboClerk_1_1SOUPItem" ],
     [ "SourceCodeAnalysisPluginBase", "classRoboClerk_1_1SourceCodeAnalysisPluginBase.html", "classRoboClerk_1_1SourceCodeAnalysisPluginBase" ],
     [ "TagInvalidException", "classRoboClerk_1_1TagInvalidException.html", "classRoboClerk_1_1TagInvalidException" ],
+    [ "TestResult", "classRoboClerk_1_1TestResult.html", "classRoboClerk_1_1TestResult" ],
     [ "TestStep", "classRoboClerk_1_1TestStep.html", "classRoboClerk_1_1TestStep" ],
     [ "TraceabilityAnalysis", "classRoboClerk_1_1TraceabilityAnalysis.html", "classRoboClerk_1_1TraceabilityAnalysis" ],
     [ "TraceBase", "classRoboClerk_1_1TraceBase.html", "classRoboClerk_1_1TraceBase" ],
@@ -56,6 +57,8 @@ var namespaceRoboClerk =
     [ "DataSource", "namespaceRoboClerk.html#a22c9f92916c5f7663a18ed5ffe7a21b1", null ],
     [ "ItemLinkType", "namespaceRoboClerk.html#aaf465b8f1ecb6a95360d903c50e9fb83", null ],
     [ "RequirementType", "namespaceRoboClerk.html#a46d70903675ff2512544ee2ea907de1d", null ],
+    [ "TestResultStatus", "namespaceRoboClerk.html#a9c10fabc049f5a81692427f7c681e8d4", null ],
+    [ "TestResultType", "namespaceRoboClerk.html#a57b031e48e6bbe73faaf495582a85eb3", null ],
     [ "TraceEntityType", "namespaceRoboClerk.html#ab7ff005181e1de49b052449944d036e3", null ],
     [ "TraceIssueType", "namespaceRoboClerk.html#aac44e22e03515a0efa96e0928a34c9f7", null ]
 ];

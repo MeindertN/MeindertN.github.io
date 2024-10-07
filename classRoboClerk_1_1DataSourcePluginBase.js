@@ -11,6 +11,7 @@ var classRoboClerk_1_1DataSourcePluginBase =
     [ "GetSoftwareSystemTests", "classRoboClerk_1_1DataSourcePluginBase.html#a3f3a18717484eb725b87ea7bf2cfb4e5", null ],
     [ "GetSOUP", "classRoboClerk_1_1DataSourcePluginBase.html#ae9136f9ec5fd65354a64ec0efceb3492", null ],
     [ "GetSystemRequirements", "classRoboClerk_1_1DataSourcePluginBase.html#a8282db92b265e93602f88016024fd143", null ],
+    [ "GetTestResults", "classRoboClerk_1_1DataSourcePluginBase.html#a8b3ff1604fecd39c103e37dedc414e59", null ],
     [ "GetUnitTests", "classRoboClerk_1_1DataSourcePluginBase.html#a042190a359cf82f294188f1334bb1172", null ],
     [ "RefreshItems", "classRoboClerk_1_1DataSourcePluginBase.html#a1b89be56c6e09e6d187eff170db02e4a", null ],
     [ "ScrubItemContents", "classRoboClerk_1_1DataSourcePluginBase.html#a55bed6db85fc46b5a917ecb69461612e", null ],
@@ -23,5 +24,6 @@ var classRoboClerk_1_1DataSourcePluginBase =
     [ "soup", "classRoboClerk_1_1DataSourcePluginBase.html#a547aa9994295305b754024239a8f2d6a", null ],
     [ "systemRequirements", "classRoboClerk_1_1DataSourcePluginBase.html#a96edee620e39f8711d45163fe503244b", null ],
     [ "testCases", "classRoboClerk_1_1DataSourcePluginBase.html#afa9b9d8ff7314a09fa2c2b496c993189", null ],
+    [ "testResults", "classRoboClerk_1_1DataSourcePluginBase.html#abaf5d8e32078ee8ffc6119eea20db8d5", null ],
     [ "unitTests", "classRoboClerk_1_1DataSourcePluginBase.html#a91f08b32e499e10aa91092098371eb7f", null ]
 ];

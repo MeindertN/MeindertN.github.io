@@ -6,7 +6,8 @@ var searchData=
   ['exceltable_3',['ExcelTable',['../classRoboClerk_1_1ContentCreators_1_1ExcelTable.html#a24e4160b083850f87e2984f753fea3ec',1,'RoboClerk.ContentCreators.ExcelTable.ExcelTable()'],['../classRoboClerk_1_1ContentCreators_1_1ExcelTable.html',1,'RoboClerk.ContentCreators.ExcelTable']]],
   ['exceltable_2ecs_4',['ExcelTable.cs',['../ExcelTable_8cs.html',1,'']]],
   ['excludeitem_5',['ExcludeItem',['../classRoboClerk_1_1SLMSPluginBase.html#a4aec81f08a28cd5375f12968186f3172',1,'RoboClerk::SLMSPluginBase']]],
-  ['expectedresult_6',['ExpectedResult',['../classRoboClerk_1_1TestStep.html#a62d31176745fae912935aab40efcf999',1,'RoboClerk::TestStep']]],
-  ['externaldependency_7',['ExternalDependency',['../classRoboClerk_1_1ExternalDependency.html#a628bf6fcc71641a5716148376a26798a',1,'RoboClerk.ExternalDependency.ExternalDependency()'],['../classRoboClerk_1_1ExternalDependency.html',1,'RoboClerk.ExternalDependency']]],
-  ['externaldependency_2ecs_8',['ExternalDependency.cs',['../ExternalDependency_8cs.html',1,'']]]
+  ['executiontime_6',['ExecutionTime',['../classRoboClerk_1_1TestResult.html#a25be7dc4955e31a95c89f6f592f1402f',1,'RoboClerk::TestResult']]],
+  ['expectedresult_7',['ExpectedResult',['../classRoboClerk_1_1TestStep.html#a62d31176745fae912935aab40efcf999',1,'RoboClerk::TestStep']]],
+  ['externaldependency_8',['ExternalDependency',['../classRoboClerk_1_1ExternalDependency.html#a628bf6fcc71641a5716148376a26798a',1,'RoboClerk.ExternalDependency.ExternalDependency()'],['../classRoboClerk_1_1ExternalDependency.html',1,'RoboClerk.ExternalDependency']]],
+  ['externaldependency_2ecs_9',['ExternalDependency.cs',['../ExternalDependency_8cs.html',1,'']]]
 ];

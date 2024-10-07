@@ -111,6 +111,7 @@ var annotated_dup =
       [ "SOUPItem", "classRoboClerk_1_1SOUPItem.html", "classRoboClerk_1_1SOUPItem" ],
       [ "SourceCodeAnalysisPluginBase", "classRoboClerk_1_1SourceCodeAnalysisPluginBase.html", "classRoboClerk_1_1SourceCodeAnalysisPluginBase" ],
       [ "TagInvalidException", "classRoboClerk_1_1TagInvalidException.html", "classRoboClerk_1_1TagInvalidException" ],
+      [ "TestResult", "classRoboClerk_1_1TestResult.html", "classRoboClerk_1_1TestResult" ],
       [ "TestStep", "classRoboClerk_1_1TestStep.html", "classRoboClerk_1_1TestStep" ],
       [ "TraceabilityAnalysis", "classRoboClerk_1_1TraceabilityAnalysis.html", "classRoboClerk_1_1TraceabilityAnalysis" ],
       [ "TraceBase", "classRoboClerk_1_1TraceBase.html", "classRoboClerk_1_1TraceBase" ],

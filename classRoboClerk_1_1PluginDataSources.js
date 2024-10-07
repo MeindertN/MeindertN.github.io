@@ -10,5 +10,6 @@ var classRoboClerk_1_1PluginDataSources =
     [ "GetAllSoftwareSystemTests", "classRoboClerk_1_1PluginDataSources.html#a8e2621e4a9fb7fb32f734153c7292c72", null ],
     [ "GetAllSOUP", "classRoboClerk_1_1PluginDataSources.html#a526b005c03b3fb9d741fe8921957d1c2", null ],
     [ "GetAllSystemRequirements", "classRoboClerk_1_1PluginDataSources.html#a1b6c9b61a30f12e2b6559e16fb05070a", null ],
+    [ "GetAllTestResults", "classRoboClerk_1_1PluginDataSources.html#a26832315cdfaaebc403281dcb377ecc9", null ],
     [ "GetAllUnitTests", "classRoboClerk_1_1PluginDataSources.html#a748eabe444423dbe2608fc1895a5ee4a", null ]
 ];
