@@ -71,6 +71,7 @@ var annotated_dup =
         [ "RedmineTrackers", "classRoboClerk_1_1Redmine_1_1RedmineTrackers.html", "classRoboClerk_1_1Redmine_1_1RedmineTrackers" ],
         [ "Relation", "classRoboClerk_1_1Redmine_1_1Relation.html", "classRoboClerk_1_1Redmine_1_1Relation" ],
         [ "Status", "classRoboClerk_1_1Redmine_1_1Status.html", "classRoboClerk_1_1Redmine_1_1Status" ],
+        [ "TextileToAsciiDocConverter", "classRoboClerk_1_1Redmine_1_1TextileToAsciiDocConverter.html", "classRoboClerk_1_1Redmine_1_1TextileToAsciiDocConverter" ],
         [ "Tracker", "classRoboClerk_1_1Redmine_1_1Tracker.html", "classRoboClerk_1_1Redmine_1_1Tracker" ],
         [ "Version", "classRoboClerk_1_1Redmine_1_1Version.html", "classRoboClerk_1_1Redmine_1_1Version" ],
         [ "VersionList", "classRoboClerk_1_1Redmine_1_1VersionList.html", "classRoboClerk_1_1Redmine_1_1VersionList" ]
