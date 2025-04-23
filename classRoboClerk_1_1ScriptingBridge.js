@@ -1,17 +1,18 @@
 var classRoboClerk_1_1ScriptingBridge =
 [
-    [ "ScriptingBridge", "classRoboClerk_1_1ScriptingBridge.html#a7b0bdfe56f462840c04ec5f477abd6e1", null ],
-    [ "AddTrace", "classRoboClerk_1_1ScriptingBridge.html#ab5805622ee58578fbfd2dcc297d7c29a", null ],
-    [ "EmbedAsciidocTables", "classRoboClerk_1_1ScriptingBridge.html#ab8ed5ef46522c38b02d982bd63cb2434", null ],
-    [ "GetItemLinkString", "classRoboClerk_1_1ScriptingBridge.html#a2c12d5d14b5264ee6c8f98d231b835e0", null ],
-    [ "GetLinkedField", "classRoboClerk_1_1ScriptingBridge.html#a5f72b9609b90c4787e4452cc1ff77fc8", null ],
-    [ "GetLinkedItems", "classRoboClerk_1_1ScriptingBridge.html#a9b95c37425157f7e6e255561205c9231", null ],
-    [ "GetValOrDef", "classRoboClerk_1_1ScriptingBridge.html#a1346898db6621ad20fdb0bddb47aa3e9", null ],
-    [ "Insert", "classRoboClerk_1_1ScriptingBridge.html#a5652fb7163d070bb7af67cc46f5d9480", null ],
-    [ "Item", "classRoboClerk_1_1ScriptingBridge.html#ad57dc3d4238433505473f5d1afdc88c6", null ],
-    [ "Items", "classRoboClerk_1_1ScriptingBridge.html#a7a7010c7326f5b6d6d3448ea6cd4b07f", null ],
-    [ "Sources", "classRoboClerk_1_1ScriptingBridge.html#af8eeaba72585e181ee2d9b2e435869bc", null ],
-    [ "SourceTraceEntity", "classRoboClerk_1_1ScriptingBridge.html#ac328b311ed9beab8a0095f7ed84562b8", null ],
-    [ "TraceabilityAnalysis", "classRoboClerk_1_1ScriptingBridge.html#ab761896737b5193c8123ced201c7c266", null ],
-    [ "Traces", "classRoboClerk_1_1ScriptingBridge.html#a51f320dcf3feeac8219629033412571d", null ]
+    [ "ScriptingBridge", "classRoboClerk_1_1ScriptingBridge.html#a2bf456185184877c27b99b5c1967bf16", null ],
+    [ "ScriptingBridge", "classRoboClerk_1_1ScriptingBridge.html#a2bf456185184877c27b99b5c1967bf16", null ],
+    [ "AddTrace", "classRoboClerk_1_1ScriptingBridge.html#aadbab6d11e3865cb1ba4fb07ff696bd9", null ],
+    [ "EmbedAsciidocTables", "classRoboClerk_1_1ScriptingBridge.html#a34d8057320d29106382159983b2da72a", null ],
+    [ "GetItemLinkString", "classRoboClerk_1_1ScriptingBridge.html#a9cd282f3089454018168b8f1b656d074", null ],
+    [ "GetLinkedField", "classRoboClerk_1_1ScriptingBridge.html#a896d3de7bf598b0f9a5ebcd73d218892", null ],
+    [ "GetLinkedItems", "classRoboClerk_1_1ScriptingBridge.html#a2af7abd507f9176cce1ba4c4b15f0c41", null ],
+    [ "GetValOrDef", "classRoboClerk_1_1ScriptingBridge.html#a004aea082d6a89b98738b7ea4cd370af", null ],
+    [ "Insert", "classRoboClerk_1_1ScriptingBridge.html#a9d2053aab44ed00634fd5d75fc30bf69", null ],
+    [ "Item", "classRoboClerk_1_1ScriptingBridge.html#a1133c2d10719df93f66f8ae23bfec951", null ],
+    [ "Items", "classRoboClerk_1_1ScriptingBridge.html#add5698f48b5887a2f60d7c083a7108a0", null ],
+    [ "Sources", "classRoboClerk_1_1ScriptingBridge.html#ad550c1ea9d09a5a3565d29b094c65a0c", null ],
+    [ "SourceTraceEntity", "classRoboClerk_1_1ScriptingBridge.html#ae549fff53c657292b74cbe0cc1900ccd", null ],
+    [ "TraceabilityAnalysis", "classRoboClerk_1_1ScriptingBridge.html#a4c80c5c6d251898c3a42e6da5c1ed0f4", null ],
+    [ "Traces", "classRoboClerk_1_1ScriptingBridge.html#a3b5347306c6989bbc58f7193627a34db", null ]
 ];

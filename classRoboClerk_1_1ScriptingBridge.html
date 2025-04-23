@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>RoboClerk: RoboClerk.ScriptingBridge Class Reference</title>
+<title>RoboClerk: RoboClerk.ScriptingBridge&lt; T &gt; Class Template Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -94,69 +94,79 @@ $(document).ready(function(){initNavTree('classRoboClerk_1_1ScriptingBridge.html
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="classRoboClerk_1_1ScriptingBridge-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">RoboClerk.ScriptingBridge Class Reference</div></div>
+  <div class="headertitle"><div class="title">RoboClerk.ScriptingBridge&lt; T &gt; Class Template Reference</div></div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a7b0bdfe56f462840c04ec5f477abd6e1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRoboClerk_1_1ScriptingBridge.html#a7b0bdfe56f462840c04ec5f477abd6e1">ScriptingBridge</a> (<a class="el" href="interfaceRoboClerk_1_1IDataSources.html">IDataSources</a> data, <a class="el" href="interfaceRoboClerk_1_1ITraceabilityAnalysis.html">ITraceabilityAnalysis</a> trace, <a class="el" href="classRoboClerk_1_1TraceEntity.html">TraceEntity</a> sourceTraceEntity)</td></tr>
-<tr class="separator:a7b0bdfe56f462840c04ec5f477abd6e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab5805622ee58578fbfd2dcc297d7c29a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRoboClerk_1_1ScriptingBridge.html#ab5805622ee58578fbfd2dcc297d7c29a">AddTrace</a> (string id)</td></tr>
-<tr class="memdesc:ab5805622ee58578fbfd2dcc297d7c29a"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function adds a trace link to the item who's ID is provided in the id parameter.   <a href="classRoboClerk_1_1ScriptingBridge.html#ab5805622ee58578fbfd2dcc297d7c29a">More...</a><br /></td></tr>
-<tr class="separator:ab5805622ee58578fbfd2dcc297d7c29a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9b95c37425157f7e6e255561205c9231"><td class="memItemLeft" align="right" valign="top">IEnumerable&lt; <a class="el" href="classRoboClerk_1_1LinkedItem.html">LinkedItem</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRoboClerk_1_1ScriptingBridge.html#a9b95c37425157f7e6e255561205c9231">GetLinkedItems</a> (<a class="el" href="classRoboClerk_1_1LinkedItem.html">LinkedItem</a> li, <a class="el" href="namespaceRoboClerk.html#aaf465b8f1ecb6a95360d903c50e9fb83">ItemLinkType</a> linkType)</td></tr>
-<tr class="memdesc:a9b95c37425157f7e6e255561205c9231"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns all linked items attached to li with a link type of linkType   <a href="classRoboClerk_1_1ScriptingBridge.html#a9b95c37425157f7e6e255561205c9231">More...</a><br /></td></tr>
-<tr class="separator:a9b95c37425157f7e6e255561205c9231"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5f72b9609b90c4787e4452cc1ff77fc8"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRoboClerk_1_1ScriptingBridge.html#a5f72b9609b90c4787e4452cc1ff77fc8">GetLinkedField</a> (<a class="el" href="classRoboClerk_1_1LinkedItem.html">LinkedItem</a> li, <a class="el" href="namespaceRoboClerk.html#aaf465b8f1ecb6a95360d903c50e9fb83">ItemLinkType</a> linkType, bool includeTitle=true)</td></tr>
-<tr class="memdesc:a5f72b9609b90c4787e4452cc1ff77fc8"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function retrieves all items linked to li with a link of type linkType and returns an asciidoc string that has links to all these items. Usually used to provide trace information. You can use includeTitle to control if the title of the linked item is included as well.   <a href="classRoboClerk_1_1ScriptingBridge.html#a5f72b9609b90c4787e4452cc1ff77fc8">More...</a><br /></td></tr>
-<tr class="separator:a5f72b9609b90c4787e4452cc1ff77fc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2c12d5d14b5264ee6c8f98d231b835e0"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRoboClerk_1_1ScriptingBridge.html#a2c12d5d14b5264ee6c8f98d231b835e0">GetItemLinkString</a> (<a class="el" href="classRoboClerk_1_1Item.html">Item</a> item)</td></tr>
-<tr class="memdesc:a2c12d5d14b5264ee6c8f98d231b835e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an asciidoc hyperlink for the provided item.   <a href="classRoboClerk_1_1ScriptingBridge.html#a2c12d5d14b5264ee6c8f98d231b835e0">More...</a><br /></td></tr>
-<tr class="separator:a2c12d5d14b5264ee6c8f98d231b835e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1346898db6621ad20fdb0bddb47aa3e9"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRoboClerk_1_1ScriptingBridge.html#a1346898db6621ad20fdb0bddb47aa3e9">GetValOrDef</a> (string value, string defaultValue)</td></tr>
-<tr class="memdesc:a1346898db6621ad20fdb0bddb47aa3e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convenience function, checks if value is an empty string, if so, the defaultValue is returned.   <a href="classRoboClerk_1_1ScriptingBridge.html#a1346898db6621ad20fdb0bddb47aa3e9">More...</a><br /></td></tr>
-<tr class="separator:a1346898db6621ad20fdb0bddb47aa3e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5652fb7163d070bb7af67cc46f5d9480"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRoboClerk_1_1ScriptingBridge.html#a5652fb7163d070bb7af67cc46f5d9480">Insert</a> (object input)</td></tr>
-<tr class="memdesc:a5652fb7163d070bb7af67cc46f5d9480"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convenience function, calls ToString on input and returns resulting string.   <a href="classRoboClerk_1_1ScriptingBridge.html#a5652fb7163d070bb7af67cc46f5d9480">More...</a><br /></td></tr>
-<tr class="separator:a5652fb7163d070bb7af67cc46f5d9480"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab8ed5ef46522c38b02d982bd63cb2434"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRoboClerk_1_1ScriptingBridge.html#ab8ed5ef46522c38b02d982bd63cb2434">EmbedAsciidocTables</a> (string input)</td></tr>
-<tr class="memdesc:ab8ed5ef46522c38b02d982bd63cb2434"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convenience function, takes any asciidoc tables in the input and makes them embedded tables.   <a href="classRoboClerk_1_1ScriptingBridge.html#ab8ed5ef46522c38b02d982bd63cb2434">More...</a><br /></td></tr>
-<tr class="separator:ab8ed5ef46522c38b02d982bd63cb2434"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2bf456185184877c27b99b5c1967bf16"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRoboClerk_1_1ScriptingBridge.html#a2bf456185184877c27b99b5c1967bf16">ScriptingBridge</a> (<a class="el" href="interfaceRoboClerk_1_1IDataSources.html">IDataSources</a> data, <a class="el" href="interfaceRoboClerk_1_1ITraceabilityAnalysis.html">ITraceabilityAnalysis</a> trace, <a class="el" href="classRoboClerk_1_1TraceEntity.html">TraceEntity</a> sourceTraceEntity)</td></tr>
+<tr class="separator:a2bf456185184877c27b99b5c1967bf16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aadbab6d11e3865cb1ba4fb07ff696bd9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRoboClerk_1_1ScriptingBridge.html#aadbab6d11e3865cb1ba4fb07ff696bd9">AddTrace</a> (string id)</td></tr>
+<tr class="memdesc:aadbab6d11e3865cb1ba4fb07ff696bd9"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function adds a trace link to the item who's ID is provided in the id parameter.   <a href="classRoboClerk_1_1ScriptingBridge.html#aadbab6d11e3865cb1ba4fb07ff696bd9">More...</a><br /></td></tr>
+<tr class="separator:aadbab6d11e3865cb1ba4fb07ff696bd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2af7abd507f9176cce1ba4c4b15f0c41"><td class="memItemLeft" align="right" valign="top">IEnumerable&lt; <a class="el" href="classRoboClerk_1_1LinkedItem.html">LinkedItem</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRoboClerk_1_1ScriptingBridge.html#a2af7abd507f9176cce1ba4c4b15f0c41">GetLinkedItems</a> (<a class="el" href="classRoboClerk_1_1LinkedItem.html">LinkedItem</a> li, <a class="el" href="namespaceRoboClerk.html#aaf465b8f1ecb6a95360d903c50e9fb83">ItemLinkType</a> linkType)</td></tr>
+<tr class="memdesc:a2af7abd507f9176cce1ba4c4b15f0c41"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns all linked items attached to li with a link type of linkType   <a href="classRoboClerk_1_1ScriptingBridge.html#a2af7abd507f9176cce1ba4c4b15f0c41">More...</a><br /></td></tr>
+<tr class="separator:a2af7abd507f9176cce1ba4c4b15f0c41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a896d3de7bf598b0f9a5ebcd73d218892"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRoboClerk_1_1ScriptingBridge.html#a896d3de7bf598b0f9a5ebcd73d218892">GetLinkedField</a> (<a class="el" href="classRoboClerk_1_1LinkedItem.html">LinkedItem</a> li, <a class="el" href="namespaceRoboClerk.html#aaf465b8f1ecb6a95360d903c50e9fb83">ItemLinkType</a> linkType, bool includeTitle=true)</td></tr>
+<tr class="memdesc:a896d3de7bf598b0f9a5ebcd73d218892"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function retrieves all items linked to li with a link of type linkType and returns an asciidoc string that has links to all these items. Usually used to provide trace information. You can use includeTitle to control if the title of the linked item is included as well.   <a href="classRoboClerk_1_1ScriptingBridge.html#a896d3de7bf598b0f9a5ebcd73d218892">More...</a><br /></td></tr>
+<tr class="separator:a896d3de7bf598b0f9a5ebcd73d218892"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9cd282f3089454018168b8f1b656d074"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRoboClerk_1_1ScriptingBridge.html#a9cd282f3089454018168b8f1b656d074">GetItemLinkString</a> (<a class="el" href="classRoboClerk_1_1Item.html">Item</a> item)</td></tr>
+<tr class="memdesc:a9cd282f3089454018168b8f1b656d074"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an asciidoc hyperlink for the provided item.   <a href="classRoboClerk_1_1ScriptingBridge.html#a9cd282f3089454018168b8f1b656d074">More...</a><br /></td></tr>
+<tr class="separator:a9cd282f3089454018168b8f1b656d074"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a004aea082d6a89b98738b7ea4cd370af"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRoboClerk_1_1ScriptingBridge.html#a004aea082d6a89b98738b7ea4cd370af">GetValOrDef</a> (string value, string defaultValue)</td></tr>
+<tr class="memdesc:a004aea082d6a89b98738b7ea4cd370af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convenience function, checks if value is an empty string, if so, the defaultValue is returned.   <a href="classRoboClerk_1_1ScriptingBridge.html#a004aea082d6a89b98738b7ea4cd370af">More...</a><br /></td></tr>
+<tr class="separator:a004aea082d6a89b98738b7ea4cd370af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d2053aab44ed00634fd5d75fc30bf69"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRoboClerk_1_1ScriptingBridge.html#a9d2053aab44ed00634fd5d75fc30bf69">Insert</a> (object input)</td></tr>
+<tr class="memdesc:a9d2053aab44ed00634fd5d75fc30bf69"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convenience function, calls ToString on input and returns resulting string.   <a href="classRoboClerk_1_1ScriptingBridge.html#a9d2053aab44ed00634fd5d75fc30bf69">More...</a><br /></td></tr>
+<tr class="separator:a9d2053aab44ed00634fd5d75fc30bf69"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34d8057320d29106382159983b2da72a"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRoboClerk_1_1ScriptingBridge.html#a34d8057320d29106382159983b2da72a">EmbedAsciidocTables</a> (string input)</td></tr>
+<tr class="memdesc:a34d8057320d29106382159983b2da72a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convenience function, takes any asciidoc tables in the input and makes them embedded tables.   <a href="classRoboClerk_1_1ScriptingBridge.html#a34d8057320d29106382159983b2da72a">More...</a><br /></td></tr>
+<tr class="separator:a34d8057320d29106382159983b2da72a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2bf456185184877c27b99b5c1967bf16"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRoboClerk_1_1ScriptingBridge.html#a2bf456185184877c27b99b5c1967bf16">ScriptingBridge</a> (<a class="el" href="interfaceRoboClerk_1_1IDataSources.html">IDataSources</a> data, <a class="el" href="interfaceRoboClerk_1_1ITraceabilityAnalysis.html">ITraceabilityAnalysis</a> trace, <a class="el" href="classRoboClerk_1_1TraceEntity.html">TraceEntity</a> sourceTraceEntity)</td></tr>
+<tr class="separator:a2bf456185184877c27b99b5c1967bf16"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
-<tr class="memitem:ad57dc3d4238433505473f5d1afdc88c6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classRoboClerk_1_1LinkedItem.html">LinkedItem</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRoboClerk_1_1ScriptingBridge.html#ad57dc3d4238433505473f5d1afdc88c6">Item</a><code> [get, set]</code></td></tr>
-<tr class="memdesc:ad57dc3d4238433505473f5d1afdc88c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">The item that needs to be rendered in the documentation.   <a href="classRoboClerk_1_1ScriptingBridge.html#ad57dc3d4238433505473f5d1afdc88c6">More...</a><br /></td></tr>
-<tr class="separator:ad57dc3d4238433505473f5d1afdc88c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7a7010c7326f5b6d6d3448ea6cd4b07f"><td class="memItemLeft" align="right" valign="top">IEnumerable&lt; <a class="el" href="classRoboClerk_1_1LinkedItem.html">LinkedItem</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRoboClerk_1_1ScriptingBridge.html#a7a7010c7326f5b6d6d3448ea6cd4b07f">Items</a><code> [get, set]</code></td></tr>
-<tr class="memdesc:a7a7010c7326f5b6d6d3448ea6cd4b07f"><td class="mdescLeft">&#160;</td><td class="mdescRight">The items that need to be rendered in the documentation (empty if there is only a single item).   <a href="classRoboClerk_1_1ScriptingBridge.html#a7a7010c7326f5b6d6d3448ea6cd4b07f">More...</a><br /></td></tr>
-<tr class="separator:a7a7010c7326f5b6d6d3448ea6cd4b07f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a51f320dcf3feeac8219629033412571d"><td class="memItemLeft" align="right" valign="top">IEnumerable&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRoboClerk_1_1ScriptingBridge.html#a51f320dcf3feeac8219629033412571d">Traces</a><code> [get]</code></td></tr>
-<tr class="memdesc:a51f320dcf3feeac8219629033412571d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns all the traces in the bridge.   <a href="classRoboClerk_1_1ScriptingBridge.html#a51f320dcf3feeac8219629033412571d">More...</a><br /></td></tr>
-<tr class="separator:a51f320dcf3feeac8219629033412571d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac328b311ed9beab8a0095f7ed84562b8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classRoboClerk_1_1TraceEntity.html">TraceEntity</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRoboClerk_1_1ScriptingBridge.html#ac328b311ed9beab8a0095f7ed84562b8">SourceTraceEntity</a><code> [get]</code></td></tr>
-<tr class="memdesc:ac328b311ed9beab8a0095f7ed84562b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the source trace entity, indicates what kind of trace item is being rendered.   <a href="classRoboClerk_1_1ScriptingBridge.html#ac328b311ed9beab8a0095f7ed84562b8">More...</a><br /></td></tr>
-<tr class="separator:ac328b311ed9beab8a0095f7ed84562b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af8eeaba72585e181ee2d9b2e435869bc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceRoboClerk_1_1IDataSources.html">IDataSources</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRoboClerk_1_1ScriptingBridge.html#af8eeaba72585e181ee2d9b2e435869bc">Sources</a><code> [get]</code></td></tr>
-<tr class="memdesc:af8eeaba72585e181ee2d9b2e435869bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides access to the <a class="el" href="namespaceRoboClerk.html">RoboClerk</a> datasources object. This can be used to search in all the information <a class="el" href="namespaceRoboClerk.html">RoboClerk</a> has.   <a href="classRoboClerk_1_1ScriptingBridge.html#af8eeaba72585e181ee2d9b2e435869bc">More...</a><br /></td></tr>
-<tr class="separator:af8eeaba72585e181ee2d9b2e435869bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab761896737b5193c8123ced201c7c266"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceRoboClerk_1_1ITraceabilityAnalysis.html">ITraceabilityAnalysis</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRoboClerk_1_1ScriptingBridge.html#ab761896737b5193c8123ced201c7c266">TraceabilityAnalysis</a><code> [get]</code></td></tr>
-<tr class="memdesc:ab761896737b5193c8123ced201c7c266"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides access to the traceability analysis object. The object stores all traceability information in <a class="el" href="namespaceRoboClerk.html">RoboClerk</a>.   <a href="classRoboClerk_1_1ScriptingBridge.html#ab761896737b5193c8123ced201c7c266">More...</a><br /></td></tr>
-<tr class="separator:ab761896737b5193c8123ced201c7c266"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1133c2d10719df93f66f8ae23bfec951"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRoboClerk_1_1ScriptingBridge.html#a1133c2d10719df93f66f8ae23bfec951">Item</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a1133c2d10719df93f66f8ae23bfec951"><td class="mdescLeft">&#160;</td><td class="mdescRight">The item that needs to be rendered in the documentation.   <a href="classRoboClerk_1_1ScriptingBridge.html#a1133c2d10719df93f66f8ae23bfec951">More...</a><br /></td></tr>
+<tr class="separator:a1133c2d10719df93f66f8ae23bfec951"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add5698f48b5887a2f60d7c083a7108a0"><td class="memItemLeft" align="right" valign="top">IEnumerable&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRoboClerk_1_1ScriptingBridge.html#add5698f48b5887a2f60d7c083a7108a0">Items</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:add5698f48b5887a2f60d7c083a7108a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">The items that need to be rendered in the documentation (empty if there is only a single item).   <a href="classRoboClerk_1_1ScriptingBridge.html#add5698f48b5887a2f60d7c083a7108a0">More...</a><br /></td></tr>
+<tr class="separator:add5698f48b5887a2f60d7c083a7108a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b5347306c6989bbc58f7193627a34db"><td class="memItemLeft" align="right" valign="top">IEnumerable&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRoboClerk_1_1ScriptingBridge.html#a3b5347306c6989bbc58f7193627a34db">Traces</a><code> [get]</code></td></tr>
+<tr class="memdesc:a3b5347306c6989bbc58f7193627a34db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns all the traces in the bridge.   <a href="classRoboClerk_1_1ScriptingBridge.html#a3b5347306c6989bbc58f7193627a34db">More...</a><br /></td></tr>
+<tr class="separator:a3b5347306c6989bbc58f7193627a34db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae549fff53c657292b74cbe0cc1900ccd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classRoboClerk_1_1TraceEntity.html">TraceEntity</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRoboClerk_1_1ScriptingBridge.html#ae549fff53c657292b74cbe0cc1900ccd">SourceTraceEntity</a><code> [get]</code></td></tr>
+<tr class="memdesc:ae549fff53c657292b74cbe0cc1900ccd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the source trace entity, indicates what kind of trace item is being rendered.   <a href="classRoboClerk_1_1ScriptingBridge.html#ae549fff53c657292b74cbe0cc1900ccd">More...</a><br /></td></tr>
+<tr class="separator:ae549fff53c657292b74cbe0cc1900ccd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad550c1ea9d09a5a3565d29b094c65a0c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceRoboClerk_1_1IDataSources.html">IDataSources</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRoboClerk_1_1ScriptingBridge.html#ad550c1ea9d09a5a3565d29b094c65a0c">Sources</a><code> [get]</code></td></tr>
+<tr class="memdesc:ad550c1ea9d09a5a3565d29b094c65a0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides access to the <a class="el" href="namespaceRoboClerk.html">RoboClerk</a> datasources object. This can be used to search in all the information <a class="el" href="namespaceRoboClerk.html">RoboClerk</a> has.   <a href="classRoboClerk_1_1ScriptingBridge.html#ad550c1ea9d09a5a3565d29b094c65a0c">More...</a><br /></td></tr>
+<tr class="separator:ad550c1ea9d09a5a3565d29b094c65a0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c80c5c6d251898c3a42e6da5c1ed0f4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceRoboClerk_1_1ITraceabilityAnalysis.html">ITraceabilityAnalysis</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRoboClerk_1_1ScriptingBridge.html#a4c80c5c6d251898c3a42e6da5c1ed0f4">TraceabilityAnalysis</a><code> [get]</code></td></tr>
+<tr class="memdesc:a4c80c5c6d251898c3a42e6da5c1ed0f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides access to the traceability analysis object. The object stores all traceability information in <a class="el" href="namespaceRoboClerk.html">RoboClerk</a>.   <a href="classRoboClerk_1_1ScriptingBridge.html#a4c80c5c6d251898c3a42e6da5c1ed0f4">More...</a><br /></td></tr>
+<tr class="separator:a4c80c5c6d251898c3a42e6da5c1ed0f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
+<div class="textblock"><div class="typeconstraint">
+<dl><dt><b>Type Constraints</b></dt><dd>
+<table border="0" cellspacing="2" cellpadding="0">
+<tr><td valign="top"><em>T</em></td><td>&#160;:</td><td valign="top"><em><a class="el" href="classRoboClerk_1_1Item.html">Item</a></em></td><td>&#160;</td></tr>
+</table>
+</dd>
+</dl>
+</div>
+
 <p class="definition">Definition at line <a class="el" href="ScriptingBridge_8cs_source.html#l00009">9</a> of file <a class="el" href="ScriptingBridge_8cs_source.html">ScriptingBridge.cs</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a7b0bdfe56f462840c04ec5f477abd6e1" name="a7b0bdfe56f462840c04ec5f477abd6e1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7b0bdfe56f462840c04ec5f477abd6e1">&#9670;&#160;</a></span>ScriptingBridge()</h2>
+<a id="a2bf456185184877c27b99b5c1967bf16" name="a2bf456185184877c27b99b5c1967bf16"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2bf456185184877c27b99b5c1967bf16">&#9670;&#160;</a></span>ScriptingBridge() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">RoboClerk.ScriptingBridge.ScriptingBridge </td>
+          <td class="memname"><a class="el" href="classRoboClerk_1_1ScriptingBridge.html">RoboClerk.ScriptingBridge</a>&lt; T &gt;.<a class="el" href="classRoboClerk_1_1ScriptingBridge.html">ScriptingBridge</a> </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="interfaceRoboClerk_1_1IDataSources.html">IDataSources</a>&#160;</td>
           <td class="paramname"><em>data</em>, </td>
@@ -185,15 +195,51 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="ab5805622ee58578fbfd2dcc297d7c29a" name="ab5805622ee58578fbfd2dcc297d7c29a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab5805622ee58578fbfd2dcc297d7c29a">&#9670;&#160;</a></span>AddTrace()</h2>
+<a id="a2bf456185184877c27b99b5c1967bf16" name="a2bf456185184877c27b99b5c1967bf16"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2bf456185184877c27b99b5c1967bf16">&#9670;&#160;</a></span>ScriptingBridge() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void RoboClerk.ScriptingBridge.AddTrace </td>
+          <td class="memname"><a class="el" href="classRoboClerk_1_1ScriptingBridge.html">RoboClerk.ScriptingBridge</a>&lt; T &gt;.<a class="el" href="classRoboClerk_1_1ScriptingBridge.html">ScriptingBridge</a> </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceRoboClerk_1_1IDataSources.html">IDataSources</a>&#160;</td>
+          <td class="paramname"><em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="interfaceRoboClerk_1_1ITraceabilityAnalysis.html">ITraceabilityAnalysis</a>&#160;</td>
+          <td class="paramname"><em>trace</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classRoboClerk_1_1TraceEntity.html">TraceEntity</a>&#160;</td>
+          <td class="paramname"><em>sourceTraceEntity</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="ScriptingBridge_8cs_source.html#l00228">228</a> of file <a class="el" href="ScriptingBridge_8cs_source.html">ScriptingBridge.cs</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="aadbab6d11e3865cb1ba4fb07ff696bd9" name="aadbab6d11e3865cb1ba4fb07ff696bd9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aadbab6d11e3865cb1ba4fb07ff696bd9">&#9670;&#160;</a></span>AddTrace()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classRoboClerk_1_1ScriptingBridge.html">RoboClerk.ScriptingBridge</a>&lt; T &gt;.AddTrace </td>
           <td>(</td>
           <td class="paramtype">string&#160;</td>
           <td class="paramname"><em>id</em></td><td>)</td>
@@ -214,14 +260,14 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="ab8ed5ef46522c38b02d982bd63cb2434" name="ab8ed5ef46522c38b02d982bd63cb2434"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab8ed5ef46522c38b02d982bd63cb2434">&#9670;&#160;</a></span>EmbedAsciidocTables()</h2>
+<a id="a34d8057320d29106382159983b2da72a" name="a34d8057320d29106382159983b2da72a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a34d8057320d29106382159983b2da72a">&#9670;&#160;</a></span>EmbedAsciidocTables()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">string RoboClerk.ScriptingBridge.EmbedAsciidocTables </td>
+          <td class="memname">string <a class="el" href="classRoboClerk_1_1ScriptingBridge.html">RoboClerk.ScriptingBridge</a>&lt; T &gt;.EmbedAsciidocTables </td>
           <td>(</td>
           <td class="paramtype">string&#160;</td>
           <td class="paramname"><em>input</em></td><td>)</td>
@@ -243,14 +289,14 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="a2c12d5d14b5264ee6c8f98d231b835e0" name="a2c12d5d14b5264ee6c8f98d231b835e0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2c12d5d14b5264ee6c8f98d231b835e0">&#9670;&#160;</a></span>GetItemLinkString()</h2>
+<a id="a9cd282f3089454018168b8f1b656d074" name="a9cd282f3089454018168b8f1b656d074"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9cd282f3089454018168b8f1b656d074">&#9670;&#160;</a></span>GetItemLinkString()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">string RoboClerk.ScriptingBridge.GetItemLinkString </td>
+          <td class="memname">string <a class="el" href="classRoboClerk_1_1ScriptingBridge.html">RoboClerk.ScriptingBridge</a>&lt; T &gt;.GetItemLinkString </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classRoboClerk_1_1Item.html">Item</a>&#160;</td>
           <td class="paramname"><em>item</em></td><td>)</td>
@@ -272,14 +318,14 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="a5f72b9609b90c4787e4452cc1ff77fc8" name="a5f72b9609b90c4787e4452cc1ff77fc8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5f72b9609b90c4787e4452cc1ff77fc8">&#9670;&#160;</a></span>GetLinkedField()</h2>
+<a id="a896d3de7bf598b0f9a5ebcd73d218892" name="a896d3de7bf598b0f9a5ebcd73d218892"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a896d3de7bf598b0f9a5ebcd73d218892">&#9670;&#160;</a></span>GetLinkedField()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">string RoboClerk.ScriptingBridge.GetLinkedField </td>
+          <td class="memname">string <a class="el" href="classRoboClerk_1_1ScriptingBridge.html">RoboClerk.ScriptingBridge</a>&lt; T &gt;.GetLinkedField </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classRoboClerk_1_1LinkedItem.html">LinkedItem</a>&#160;</td>
           <td class="paramname"><em>li</em>, </td>
@@ -325,14 +371,14 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="a9b95c37425157f7e6e255561205c9231" name="a9b95c37425157f7e6e255561205c9231"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9b95c37425157f7e6e255561205c9231">&#9670;&#160;</a></span>GetLinkedItems()</h2>
+<a id="a2af7abd507f9176cce1ba4c4b15f0c41" name="a2af7abd507f9176cce1ba4c4b15f0c41"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2af7abd507f9176cce1ba4c4b15f0c41">&#9670;&#160;</a></span>GetLinkedItems()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">IEnumerable&lt; <a class="el" href="classRoboClerk_1_1LinkedItem.html">LinkedItem</a> &gt; RoboClerk.ScriptingBridge.GetLinkedItems </td>
+          <td class="memname">IEnumerable&lt; <a class="el" href="classRoboClerk_1_1LinkedItem.html">LinkedItem</a> &gt; <a class="el" href="classRoboClerk_1_1ScriptingBridge.html">RoboClerk.ScriptingBridge</a>&lt; T &gt;.GetLinkedItems </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classRoboClerk_1_1LinkedItem.html">LinkedItem</a>&#160;</td>
           <td class="paramname"><em>li</em>, </td>
@@ -365,14 +411,14 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="a1346898db6621ad20fdb0bddb47aa3e9" name="a1346898db6621ad20fdb0bddb47aa3e9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1346898db6621ad20fdb0bddb47aa3e9">&#9670;&#160;</a></span>GetValOrDef()</h2>
+<a id="a004aea082d6a89b98738b7ea4cd370af" name="a004aea082d6a89b98738b7ea4cd370af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a004aea082d6a89b98738b7ea4cd370af">&#9670;&#160;</a></span>GetValOrDef()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">string RoboClerk.ScriptingBridge.GetValOrDef </td>
+          <td class="memname">string <a class="el" href="classRoboClerk_1_1ScriptingBridge.html">RoboClerk.ScriptingBridge</a>&lt; T &gt;.GetValOrDef </td>
           <td>(</td>
           <td class="paramtype">string&#160;</td>
           <td class="paramname"><em>value</em>, </td>
@@ -405,14 +451,14 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="a5652fb7163d070bb7af67cc46f5d9480" name="a5652fb7163d070bb7af67cc46f5d9480"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5652fb7163d070bb7af67cc46f5d9480">&#9670;&#160;</a></span>Insert()</h2>
+<a id="a9d2053aab44ed00634fd5d75fc30bf69" name="a9d2053aab44ed00634fd5d75fc30bf69"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d2053aab44ed00634fd5d75fc30bf69">&#9670;&#160;</a></span>Insert()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">string RoboClerk.ScriptingBridge.Insert </td>
+          <td class="memname">string <a class="el" href="classRoboClerk_1_1ScriptingBridge.html">RoboClerk.ScriptingBridge</a>&lt; T &gt;.Insert </td>
           <td>(</td>
           <td class="paramtype">object&#160;</td>
           <td class="paramname"><em>input</em></td><td>)</td>
@@ -435,8 +481,8 @@ Properties</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Property Documentation</h2>
-<a id="ad57dc3d4238433505473f5d1afdc88c6" name="ad57dc3d4238433505473f5d1afdc88c6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad57dc3d4238433505473f5d1afdc88c6">&#9670;&#160;</a></span>Item</h2>
+<a id="a1133c2d10719df93f66f8ae23bfec951" name="a1133c2d10719df93f66f8ae23bfec951"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1133c2d10719df93f66f8ae23bfec951">&#9670;&#160;</a></span>Item</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -445,7 +491,7 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classRoboClerk_1_1LinkedItem.html">LinkedItem</a> RoboClerk.ScriptingBridge.Item</td>
+          <td class="memname">T <a class="el" href="classRoboClerk_1_1ScriptingBridge.html">RoboClerk.ScriptingBridge</a>&lt; T &gt;.<a class="el" href="classRoboClerk_1_1Item.html">Item</a></td>
         </tr>
       </table>
   </td>
@@ -461,8 +507,8 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="a7a7010c7326f5b6d6d3448ea6cd4b07f" name="a7a7010c7326f5b6d6d3448ea6cd4b07f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7a7010c7326f5b6d6d3448ea6cd4b07f">&#9670;&#160;</a></span>Items</h2>
+<a id="add5698f48b5887a2f60d7c083a7108a0" name="add5698f48b5887a2f60d7c083a7108a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add5698f48b5887a2f60d7c083a7108a0">&#9670;&#160;</a></span>Items</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -471,7 +517,7 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">IEnumerable&lt;<a class="el" href="classRoboClerk_1_1LinkedItem.html">LinkedItem</a>&gt; RoboClerk.ScriptingBridge.Items</td>
+          <td class="memname">IEnumerable&lt;T&gt; <a class="el" href="classRoboClerk_1_1ScriptingBridge.html">RoboClerk.ScriptingBridge</a>&lt; T &gt;.Items</td>
         </tr>
       </table>
   </td>
@@ -487,8 +533,8 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="af8eeaba72585e181ee2d9b2e435869bc" name="af8eeaba72585e181ee2d9b2e435869bc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af8eeaba72585e181ee2d9b2e435869bc">&#9670;&#160;</a></span>Sources</h2>
+<a id="ad550c1ea9d09a5a3565d29b094c65a0c" name="ad550c1ea9d09a5a3565d29b094c65a0c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad550c1ea9d09a5a3565d29b094c65a0c">&#9670;&#160;</a></span>Sources</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -497,7 +543,7 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="interfaceRoboClerk_1_1IDataSources.html">IDataSources</a> RoboClerk.ScriptingBridge.Sources</td>
+          <td class="memname"><a class="el" href="interfaceRoboClerk_1_1IDataSources.html">IDataSources</a> <a class="el" href="classRoboClerk_1_1ScriptingBridge.html">RoboClerk.ScriptingBridge</a>&lt; T &gt;.Sources</td>
         </tr>
       </table>
   </td>
@@ -513,8 +559,8 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="ac328b311ed9beab8a0095f7ed84562b8" name="ac328b311ed9beab8a0095f7ed84562b8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac328b311ed9beab8a0095f7ed84562b8">&#9670;&#160;</a></span>SourceTraceEntity</h2>
+<a id="ae549fff53c657292b74cbe0cc1900ccd" name="ae549fff53c657292b74cbe0cc1900ccd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae549fff53c657292b74cbe0cc1900ccd">&#9670;&#160;</a></span>SourceTraceEntity</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -523,7 +569,7 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classRoboClerk_1_1TraceEntity.html">TraceEntity</a> RoboClerk.ScriptingBridge.SourceTraceEntity</td>
+          <td class="memname"><a class="el" href="classRoboClerk_1_1TraceEntity.html">TraceEntity</a> <a class="el" href="classRoboClerk_1_1ScriptingBridge.html">RoboClerk.ScriptingBridge</a>&lt; T &gt;.SourceTraceEntity</td>
         </tr>
       </table>
   </td>
@@ -539,8 +585,8 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="ab761896737b5193c8123ced201c7c266" name="ab761896737b5193c8123ced201c7c266"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab761896737b5193c8123ced201c7c266">&#9670;&#160;</a></span>TraceabilityAnalysis</h2>
+<a id="a4c80c5c6d251898c3a42e6da5c1ed0f4" name="a4c80c5c6d251898c3a42e6da5c1ed0f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c80c5c6d251898c3a42e6da5c1ed0f4">&#9670;&#160;</a></span>TraceabilityAnalysis</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -549,7 +595,7 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="interfaceRoboClerk_1_1ITraceabilityAnalysis.html">ITraceabilityAnalysis</a> RoboClerk.ScriptingBridge.TraceabilityAnalysis</td>
+          <td class="memname"><a class="el" href="interfaceRoboClerk_1_1ITraceabilityAnalysis.html">ITraceabilityAnalysis</a> <a class="el" href="classRoboClerk_1_1ScriptingBridge.html">RoboClerk.ScriptingBridge</a>&lt; T &gt;.<a class="el" href="classRoboClerk_1_1TraceabilityAnalysis.html">TraceabilityAnalysis</a></td>
         </tr>
       </table>
   </td>
@@ -565,8 +611,8 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="a51f320dcf3feeac8219629033412571d" name="a51f320dcf3feeac8219629033412571d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a51f320dcf3feeac8219629033412571d">&#9670;&#160;</a></span>Traces</h2>
+<a id="a3b5347306c6989bbc58f7193627a34db" name="a3b5347306c6989bbc58f7193627a34db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3b5347306c6989bbc58f7193627a34db">&#9670;&#160;</a></span>Traces</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -575,7 +621,7 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">IEnumerable&lt;string&gt; RoboClerk.ScriptingBridge.Traces</td>
+          <td class="memname">IEnumerable&lt;string&gt; <a class="el" href="classRoboClerk_1_1ScriptingBridge.html">RoboClerk.ScriptingBridge</a>&lt; T &gt;.Traces</td>
         </tr>
       </table>
   </td>

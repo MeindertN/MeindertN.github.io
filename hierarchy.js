@@ -37,6 +37,7 @@ var hierarchy =
         [ "RoboClerk.ContentCreators.ExcelTable", "classRoboClerk_1_1ContentCreators_1_1ExcelTable.html", null ],
         [ "RoboClerk.ContentCreators.MultiItemContentCreator", "classRoboClerk_1_1ContentCreators_1_1MultiItemContentCreator.html", [
           [ "RoboClerk.ContentCreators.Anomaly", "classRoboClerk_1_1ContentCreators_1_1Anomaly.html", null ],
+          [ "RoboClerk.ContentCreators.Eliminated", "classRoboClerk_1_1ContentCreators_1_1Eliminated.html", null ],
           [ "RoboClerk.ContentCreators.RequirementBase", "classRoboClerk_1_1ContentCreators_1_1RequirementBase.html", [
             [ "RoboClerk.ContentCreators.DocumentationRequirement", "classRoboClerk_1_1ContentCreators_1_1DocumentationRequirement.html", null ],
             [ "RoboClerk.ContentCreators.SoftwareRequirement", "classRoboClerk_1_1ContentCreators_1_1SoftwareRequirement.html", null ],
@@ -94,6 +95,14 @@ var hierarchy =
       [ "RoboClerk.LinkedItem", "classRoboClerk_1_1LinkedItem.html", [
         [ "RoboClerk.AnomalyItem", "classRoboClerk_1_1AnomalyItem.html", null ],
         [ "RoboClerk.DocContentItem", "classRoboClerk_1_1DocContentItem.html", null ],
+        [ "RoboClerk.EliminatedLinkedItem", "classRoboClerk_1_1EliminatedLinkedItem.html", [
+          [ "RoboClerk.EliminatedAnomalyItem", "classRoboClerk_1_1EliminatedAnomalyItem.html", null ],
+          [ "RoboClerk.EliminatedDocContentItem", "classRoboClerk_1_1EliminatedDocContentItem.html", null ],
+          [ "RoboClerk.EliminatedRequirementItem", "classRoboClerk_1_1EliminatedRequirementItem.html", null ],
+          [ "RoboClerk.EliminatedRiskItem", "classRoboClerk_1_1EliminatedRiskItem.html", null ],
+          [ "RoboClerk.EliminatedSOUPItem", "classRoboClerk_1_1EliminatedSOUPItem.html", null ],
+          [ "RoboClerk.EliminatedSoftwareSystemTestItem", "classRoboClerk_1_1EliminatedSoftwareSystemTestItem.html", null ]
+        ] ],
         [ "RoboClerk.RequirementItem", "classRoboClerk_1_1RequirementItem.html", null ],
         [ "RoboClerk.RiskItem", "classRoboClerk_1_1RiskItem.html", null ],
         [ "RoboClerk.SOUPItem", "classRoboClerk_1_1SOUPItem.html", null ],
@@ -123,7 +132,7 @@ var hierarchy =
     [ "RoboClerk.RoboClerkCore", "classRoboClerk_1_1RoboClerkCore.html", null ],
     [ "RoboClerk.RoboClerkOrderedDictionary< string, RoboClerk.Configuration.TraceConfigElement >", "classRoboClerk_1_1RoboClerkOrderedDictionary.html", null ],
     [ "RoboClerk.RoboClerkTag", "classRoboClerk_1_1RoboClerkTag.html", null ],
-    [ "RoboClerk.ScriptingBridge", "classRoboClerk_1_1ScriptingBridge.html", null ],
+    [ "RoboClerk.ScriptingBridge< T >", "classRoboClerk_1_1ScriptingBridge.html", null ],
     [ "RoboClerk.Redmine.Status", "classRoboClerk_1_1Redmine_1_1Status.html", null ],
     [ "RoboClerk.TestResult", "classRoboClerk_1_1TestResult.html", null ],
     [ "RoboClerk.TestStep", "classRoboClerk_1_1TestStep.html", null ],

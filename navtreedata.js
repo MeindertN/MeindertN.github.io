@@ -56,13 +56,14 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "AIContentCreator_8cs.html",
-"classRoboClerk_1_1AzureDevOps_1_1AzureDevOpsSLMSPlugin.html",
-"classRoboClerk_1_1ContentCreators_1_1ContentCreatorBase.html#a53422fdbb8256d208ac4ed4f9f87fc47",
-"classRoboClerk_1_1DependenciesFile_1_1DependenciesFilePlugin.html",
+"classRoboClerk_1_1AnnotatedUnitTests_1_1AnnotatedUnitTestsPlugin.html#ae6b2edd44ef0a07c470d27af73510dca",
+"classRoboClerk_1_1Configuration_1_1TraceConfig.html#a9563374476f11da3398b2c4a7f73f41a",
+"classRoboClerk_1_1DataSourcePluginBase.html#aae31c22e5b0d47474fbd43ae4329a53d",
+"classRoboClerk_1_1EliminatedSOUPItem.html#aa511cf554893d71aa57e58fc2703035a",
 "classRoboClerk_1_1Redmine_1_1DefaultStatus.html",
 "classRoboClerk_1_1RoboClerkOrderedDictionary.html#a0ea85928be060d41e7f27ae8fa9b5bc1",
-"classRoboClerk_1_1TraceLink.html#a1bd3ad0fd9b568ac9ae1b81f71a3bb0d",
-"interfaceRoboClerk_1_1IDataSources.html"
+"classRoboClerk_1_1TraceLink.html",
+"interfaceRoboClerk_1_1IDataSourcePlugin.html#a80dac300c64d457f402c170a0ea80f4c"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

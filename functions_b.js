@@ -12,7 +12,7 @@ var searchData=
   ['removesoup_9',['RemoveSOUP',['../classRoboClerk_1_1CheckpointDataStorage.html#a53582656f41c0e6f8515246440a904df',1,'RoboClerk::CheckpointDataStorage']]],
   ['removesystemrequirement_10',['RemoveSystemRequirement',['../classRoboClerk_1_1CheckpointDataStorage.html#ade3432d94124fcd339674e4e649be67b',1,'RoboClerk::CheckpointDataStorage']]],
   ['removeunittest_11',['RemoveUnitTest',['../classRoboClerk_1_1CheckpointDataStorage.html#ad0df2684d3c750e6cd0fe398320c0398',1,'RoboClerk::CheckpointDataStorage']]],
-  ['renderitemtemplate_12',['RenderItemTemplate',['../classRoboClerk_1_1ItemTemplateRenderer.html#a34a524ad9183e280856f78171d676921',1,'RoboClerk::ItemTemplateRenderer']]],
+  ['renderitemtemplate_3c_20t_20_3e_12',['RenderItemTemplate&lt; T &gt;',['../classRoboClerk_1_1ItemTemplateRenderer.html#aad600d27c8001ac9a82c86125d4dd030',1,'RoboClerk::ItemTemplateRenderer']]],
   ['requirementbase_13',['RequirementBase',['../classRoboClerk_1_1ContentCreators_1_1RequirementBase.html#a516557097488428a36522dda22cac023',1,'RoboClerk::ContentCreators::RequirementBase']]],
   ['requirementitem_14',['RequirementItem',['../classRoboClerk_1_1RequirementItem.html#a4f34fd6e66de16e7cb531077ce893321',1,'RoboClerk::RequirementItem']]],
   ['resetentitycount_15',['ResetEntityCount',['../classRoboClerk_1_1Configuration_1_1DocumentConfig.html#a7d1b805046ea4d91b72061c00003d6ea',1,'RoboClerk::Configuration::DocumentConfig']]],
