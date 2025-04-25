@@ -59,11 +59,11 @@ var NAVTREEINDEX =
 "classRoboClerk_1_1AnnotatedUnitTests_1_1AnnotatedUnitTestsPlugin.html#ae6b2edd44ef0a07c470d27af73510dca",
 "classRoboClerk_1_1Configuration_1_1TraceConfig.html#a9563374476f11da3398b2c4a7f73f41a",
 "classRoboClerk_1_1DataSourcePluginBase.html#aae31c22e5b0d47474fbd43ae4329a53d",
-"classRoboClerk_1_1EliminatedSOUPItem.html#aa511cf554893d71aa57e58fc2703035a",
-"classRoboClerk_1_1Redmine_1_1DefaultStatus.html",
-"classRoboClerk_1_1RoboClerkOrderedDictionary.html#a0ea85928be060d41e7f27ae8fa9b5bc1",
-"classRoboClerk_1_1TraceLink.html",
-"interfaceRoboClerk_1_1IDataSourcePlugin.html#a80dac300c64d457f402c170a0ea80f4c"
+"classRoboClerk_1_1EliminatedSOUPItem.html#a98e168746be74758164768465883968c",
+"classRoboClerk_1_1Redmine_1_1CustomRedmineField.html#af6f4a6940aa106bfcbc2dab427797d4e",
+"classRoboClerk_1_1RoboClerkOrderedDictionary.html",
+"classRoboClerk_1_1TraceIssue.html#ae8da3199f79db6dbdacaa19b5b1386c1",
+"interfaceRoboClerk_1_1IDataSourcePlugin.html#a7fbab06b91c14fb1dff1640a49f5beee"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

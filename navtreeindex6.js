@@ -1,5 +1,7 @@
 var NAVTREEINDEX6 =
 {
+"classRoboClerk_1_1RoboClerkOrderedDictionary.html":[1,0,0,42],
+"classRoboClerk_1_1RoboClerkOrderedDictionary.html":[0,0,0,42],
 "classRoboClerk_1_1RoboClerkOrderedDictionary.html#a0ea85928be060d41e7f27ae8fa9b5bc1":[1,0,0,42,0],
 "classRoboClerk_1_1RoboClerkOrderedDictionary.html#a0ea85928be060d41e7f27ae8fa9b5bc1":[0,0,0,42,0],
 "classRoboClerk_1_1RoboClerkOrderedDictionary.html#a5d09fb354933de246588d9afee137c82":[1,0,0,42,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX6 =
 "classRoboClerk_1_1TraceIssue.html#a4526a6df4694ba4b4aa1cd3c504d280e":[1,0,0,55,0],
 "classRoboClerk_1_1TraceIssue.html#a4526a6df4694ba4b4aa1cd3c504d280e":[0,0,0,55,0],
 "classRoboClerk_1_1TraceIssue.html#a6464d29071ab4dfd2697e8ad597db3f9":[0,0,0,55,1],
-"classRoboClerk_1_1TraceIssue.html#a6464d29071ab4dfd2697e8ad597db3f9":[1,0,0,55,1],
-"classRoboClerk_1_1TraceIssue.html#ae8da3199f79db6dbdacaa19b5b1386c1":[1,0,0,55,2],
-"classRoboClerk_1_1TraceIssue.html#ae8da3199f79db6dbdacaa19b5b1386c1":[0,0,0,55,2]
+"classRoboClerk_1_1TraceIssue.html#a6464d29071ab4dfd2697e8ad597db3f9":[1,0,0,55,1]
 };

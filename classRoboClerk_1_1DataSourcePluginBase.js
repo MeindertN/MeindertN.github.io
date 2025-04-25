@@ -2,6 +2,7 @@ var classRoboClerk_1_1DataSourcePluginBase =
 [
     [ "DataSourcePluginBase", "classRoboClerk_1_1DataSourcePluginBase.html#a62764595003f0eb33143db4ffef88da3", null ],
     [ "ClearAllItems", "classRoboClerk_1_1DataSourcePluginBase.html#ae463413c5f144c3e553a6f98b4570afb", null ],
+    [ "EscapeNonTablePipes", "classRoboClerk_1_1DataSourcePluginBase.html#ad61e16acaea4629e3166960198d15795", null ],
     [ "GetAnomalies", "classRoboClerk_1_1DataSourcePluginBase.html#a0b6e6cdf6e3bf8aab0f2abe27bba7f15", null ],
     [ "GetDependencies", "classRoboClerk_1_1DataSourcePluginBase.html#a347cd92fe3107ecdb1980191193d0d9c", null ],
     [ "GetDocContents", "classRoboClerk_1_1DataSourcePluginBase.html#ae6013b6b67607f7e722c1bd4d59e1a00", null ],
