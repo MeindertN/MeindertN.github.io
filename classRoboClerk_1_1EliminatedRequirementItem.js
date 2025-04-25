@@ -1,5 +1,6 @@
 var classRoboClerk_1_1EliminatedRequirementItem =
 [
+    [ "EliminatedRequirementItem", "classRoboClerk_1_1EliminatedRequirementItem.html#af18d2dcf4a84e2a3b46b26d51ec719b9", null ],
     [ "EliminatedRequirementItem", "classRoboClerk_1_1EliminatedRequirementItem.html#ab71fcbac32f6e4fdb8355301cf5ac8db", null ],
     [ "RequirementAssignee", "classRoboClerk_1_1EliminatedRequirementItem.html#ad55faa20714a94499e519cd48d527f03", null ],
     [ "RequirementDescription", "classRoboClerk_1_1EliminatedRequirementItem.html#aa4e3ffa2cd49fd946d5b025383536077", null ],

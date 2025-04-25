@@ -1,5 +1,17 @@
 var NAVTREEINDEX8 =
 {
+"interfaceRoboClerk_1_1IDataSourcePlugin.html#a348c015cd3d83da9372f367fefc7eaf2":[1,0,0,24,12],
+"interfaceRoboClerk_1_1IDataSourcePlugin.html#a348c015cd3d83da9372f367fefc7eaf2":[0,0,0,24,12],
+"interfaceRoboClerk_1_1IDataSourcePlugin.html#a34ff65982079f26e597136f6e22d39d7":[0,0,0,24,16],
+"interfaceRoboClerk_1_1IDataSourcePlugin.html#a34ff65982079f26e597136f6e22d39d7":[1,0,0,24,16],
+"interfaceRoboClerk_1_1IDataSourcePlugin.html#a4317a5374dd096a0c0be1e0b21944ff2":[0,0,0,24,13],
+"interfaceRoboClerk_1_1IDataSourcePlugin.html#a4317a5374dd096a0c0be1e0b21944ff2":[1,0,0,24,13],
+"interfaceRoboClerk_1_1IDataSourcePlugin.html#a56b66a278a1c94d4232f351a018f608e":[1,0,0,24,6],
+"interfaceRoboClerk_1_1IDataSourcePlugin.html#a56b66a278a1c94d4232f351a018f608e":[0,0,0,24,6],
+"interfaceRoboClerk_1_1IDataSourcePlugin.html#a5e7e8c50e8e3c48006805e69743a053c":[0,0,0,24,4],
+"interfaceRoboClerk_1_1IDataSourcePlugin.html#a5e7e8c50e8e3c48006805e69743a053c":[1,0,0,24,4],
+"interfaceRoboClerk_1_1IDataSourcePlugin.html#a6df4ef290e622d0ae3b5206066daed3f":[1,0,0,24,1],
+"interfaceRoboClerk_1_1IDataSourcePlugin.html#a6df4ef290e622d0ae3b5206066daed3f":[0,0,0,24,1],
 "interfaceRoboClerk_1_1IDataSourcePlugin.html#a7fbab06b91c14fb1dff1640a49f5beee":[1,0,0,24,17],
 "interfaceRoboClerk_1_1IDataSourcePlugin.html#a7fbab06b91c14fb1dff1640a49f5beee":[0,0,0,24,17],
 "interfaceRoboClerk_1_1IDataSourcePlugin.html#a80dac300c64d457f402c170a0ea80f4c":[1,0,0,24,11],

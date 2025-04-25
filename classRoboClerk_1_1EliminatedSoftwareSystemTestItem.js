@@ -1,5 +1,6 @@
 var classRoboClerk_1_1EliminatedSoftwareSystemTestItem =
 [
+    [ "EliminatedSoftwareSystemTestItem", "classRoboClerk_1_1EliminatedSoftwareSystemTestItem.html#ad8e7eefb724481c00150f24c74fb6964", null ],
     [ "EliminatedSoftwareSystemTestItem", "classRoboClerk_1_1EliminatedSoftwareSystemTestItem.html#a07fc6951dafa119e31d510b6abf1758e", null ],
     [ "TestCaseAutomated", "classRoboClerk_1_1EliminatedSoftwareSystemTestItem.html#a30678a9ffbb38b7ab291c0594f26c4bc", null ],
     [ "TestCaseDescription", "classRoboClerk_1_1EliminatedSoftwareSystemTestItem.html#acf1517c5037edb216eb4d18d3a1f15c7", null ],

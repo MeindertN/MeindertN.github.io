@@ -1,5 +1,17 @@
 var NAVTREEINDEX6 =
 {
+"classRoboClerk_1_1RiskItem.html#ad36ca1adabf46f86dfd5cbfe52ee97d4":[1,0,0,40,3],
+"classRoboClerk_1_1RiskItem.html#ad36ca1adabf46f86dfd5cbfe52ee97d4":[0,0,0,40,3],
+"classRoboClerk_1_1RiskItem.html#ae83fb8d591dbe8ff50fa1ad2af695c27":[1,0,0,40,8],
+"classRoboClerk_1_1RiskItem.html#ae83fb8d591dbe8ff50fa1ad2af695c27":[0,0,0,40,8],
+"classRoboClerk_1_1RoboClerkCore.html":[1,0,0,41],
+"classRoboClerk_1_1RoboClerkCore.html":[0,0,0,41],
+"classRoboClerk_1_1RoboClerkCore.html#a73a83aa388ca36bfbca380754107079b":[0,0,0,41,0],
+"classRoboClerk_1_1RoboClerkCore.html#a73a83aa388ca36bfbca380754107079b":[1,0,0,41,0],
+"classRoboClerk_1_1RoboClerkCore.html#a9bb5f0c2a2d4eb8ad9c0cc0a1d973e96":[0,0,0,41,1],
+"classRoboClerk_1_1RoboClerkCore.html#a9bb5f0c2a2d4eb8ad9c0cc0a1d973e96":[1,0,0,41,1],
+"classRoboClerk_1_1RoboClerkCore.html#abf34c6e45bd423d3b38bb110b403805b":[1,0,0,41,2],
+"classRoboClerk_1_1RoboClerkCore.html#abf34c6e45bd423d3b38bb110b403805b":[0,0,0,41,2],
 "classRoboClerk_1_1RoboClerkOrderedDictionary.html":[1,0,0,42],
 "classRoboClerk_1_1RoboClerkOrderedDictionary.html":[0,0,0,42],
 "classRoboClerk_1_1RoboClerkOrderedDictionary.html#a0ea85928be060d41e7f27ae8fa9b5bc1":[1,0,0,42,0],
@@ -237,17 +249,5 @@ var NAVTREEINDEX6 =
 "classRoboClerk_1_1TraceEntity.html#a81265987df2cf7ed529d2fcbba28b87e":[0,0,0,54,3],
 "classRoboClerk_1_1TraceEntity.html#a81265987df2cf7ed529d2fcbba28b87e":[1,0,0,54,3],
 "classRoboClerk_1_1TraceEntity.html#a94a05a8d734bdc1c47c497708a0ec86f":[0,0,0,54,0],
-"classRoboClerk_1_1TraceEntity.html#a94a05a8d734bdc1c47c497708a0ec86f":[1,0,0,54,0],
-"classRoboClerk_1_1TraceEntity.html#abf4fffa3c384f506249eb7c46e73b39a":[1,0,0,54,2],
-"classRoboClerk_1_1TraceEntity.html#abf4fffa3c384f506249eb7c46e73b39a":[0,0,0,54,2],
-"classRoboClerk_1_1TraceEntity.html#ae1a8cd0e53adc65337e72e8b0c20682b":[1,0,0,54,5],
-"classRoboClerk_1_1TraceEntity.html#ae1a8cd0e53adc65337e72e8b0c20682b":[0,0,0,54,5],
-"classRoboClerk_1_1TraceIssue.html":[0,0,0,55],
-"classRoboClerk_1_1TraceIssue.html":[1,0,0,55],
-"classRoboClerk_1_1TraceIssue.html#a2606ea941677683c4d7544f82c2a7197":[0,0,0,55,3],
-"classRoboClerk_1_1TraceIssue.html#a2606ea941677683c4d7544f82c2a7197":[1,0,0,55,3],
-"classRoboClerk_1_1TraceIssue.html#a4526a6df4694ba4b4aa1cd3c504d280e":[1,0,0,55,0],
-"classRoboClerk_1_1TraceIssue.html#a4526a6df4694ba4b4aa1cd3c504d280e":[0,0,0,55,0],
-"classRoboClerk_1_1TraceIssue.html#a6464d29071ab4dfd2697e8ad597db3f9":[0,0,0,55,1],
-"classRoboClerk_1_1TraceIssue.html#a6464d29071ab4dfd2697e8ad597db3f9":[1,0,0,55,1]
+"classRoboClerk_1_1TraceEntity.html#a94a05a8d734bdc1c47c497708a0ec86f":[1,0,0,54,0]
 };

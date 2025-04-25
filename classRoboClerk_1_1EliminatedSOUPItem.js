@@ -1,5 +1,6 @@
 var classRoboClerk_1_1EliminatedSOUPItem =
 [
+    [ "EliminatedSOUPItem", "classRoboClerk_1_1EliminatedSOUPItem.html#a2f717183d8cfa47ae612e479a26ba73e", null ],
     [ "EliminatedSOUPItem", "classRoboClerk_1_1EliminatedSOUPItem.html#a710c1d9b905fe59735946d889c4379ab", null ],
     [ "SOUPAnomalyListDescription", "classRoboClerk_1_1EliminatedSOUPItem.html#a2b84b02bec7c1f1fe70bca257b9f5261", null ],
     [ "SOUPCybersecurityCritical", "classRoboClerk_1_1EliminatedSOUPItem.html#ab924a47247a81bcae5bea200ceaeb0ec", null ],

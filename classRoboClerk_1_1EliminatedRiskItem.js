@@ -1,5 +1,6 @@
 var classRoboClerk_1_1EliminatedRiskItem =
 [
+    [ "EliminatedRiskItem", "classRoboClerk_1_1EliminatedRiskItem.html#a1a794e0fb87d85a1f235cc4c49750681", null ],
     [ "EliminatedRiskItem", "classRoboClerk_1_1EliminatedRiskItem.html#aa99d6bc1fbfe3ee7c14e54eebd0b68d2", null ],
     [ "CauseOfFailure", "classRoboClerk_1_1EliminatedRiskItem.html#a5140d7d0fc03114e26bb6041ee4efa67", null ],
     [ "DetectabilityScore", "classRoboClerk_1_1EliminatedRiskItem.html#a27bda365407d815687877594ee24e035", null ],

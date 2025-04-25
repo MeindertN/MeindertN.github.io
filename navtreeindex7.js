@@ -1,5 +1,17 @@
 var NAVTREEINDEX7 =
 {
+"classRoboClerk_1_1TraceEntity.html#abf4fffa3c384f506249eb7c46e73b39a":[1,0,0,54,2],
+"classRoboClerk_1_1TraceEntity.html#abf4fffa3c384f506249eb7c46e73b39a":[0,0,0,54,2],
+"classRoboClerk_1_1TraceEntity.html#ae1a8cd0e53adc65337e72e8b0c20682b":[1,0,0,54,5],
+"classRoboClerk_1_1TraceEntity.html#ae1a8cd0e53adc65337e72e8b0c20682b":[0,0,0,54,5],
+"classRoboClerk_1_1TraceIssue.html":[0,0,0,55],
+"classRoboClerk_1_1TraceIssue.html":[1,0,0,55],
+"classRoboClerk_1_1TraceIssue.html#a2606ea941677683c4d7544f82c2a7197":[0,0,0,55,3],
+"classRoboClerk_1_1TraceIssue.html#a2606ea941677683c4d7544f82c2a7197":[1,0,0,55,3],
+"classRoboClerk_1_1TraceIssue.html#a4526a6df4694ba4b4aa1cd3c504d280e":[1,0,0,55,0],
+"classRoboClerk_1_1TraceIssue.html#a4526a6df4694ba4b4aa1cd3c504d280e":[0,0,0,55,0],
+"classRoboClerk_1_1TraceIssue.html#a6464d29071ab4dfd2697e8ad597db3f9":[0,0,0,55,1],
+"classRoboClerk_1_1TraceIssue.html#a6464d29071ab4dfd2697e8ad597db3f9":[1,0,0,55,1],
 "classRoboClerk_1_1TraceIssue.html#ae8da3199f79db6dbdacaa19b5b1386c1":[1,0,0,55,2],
 "classRoboClerk_1_1TraceIssue.html#ae8da3199f79db6dbdacaa19b5b1386c1":[0,0,0,55,2],
 "classRoboClerk_1_1TraceLink.html":[1,0,0,56],
@@ -237,17 +249,5 @@ var NAVTREEINDEX7 =
 "interfaceRoboClerk_1_1IDataSourcePlugin.html#a2cec2d40e9cc79ce097c10e24125c641":[0,0,0,24,14],
 "interfaceRoboClerk_1_1IDataSourcePlugin.html#a2cec2d40e9cc79ce097c10e24125c641":[1,0,0,24,14],
 "interfaceRoboClerk_1_1IDataSourcePlugin.html#a2f15a90f6ee58bc4e8ecffad75eb98ca":[1,0,0,24,19],
-"interfaceRoboClerk_1_1IDataSourcePlugin.html#a2f15a90f6ee58bc4e8ecffad75eb98ca":[0,0,0,24,19],
-"interfaceRoboClerk_1_1IDataSourcePlugin.html#a348c015cd3d83da9372f367fefc7eaf2":[1,0,0,24,12],
-"interfaceRoboClerk_1_1IDataSourcePlugin.html#a348c015cd3d83da9372f367fefc7eaf2":[0,0,0,24,12],
-"interfaceRoboClerk_1_1IDataSourcePlugin.html#a34ff65982079f26e597136f6e22d39d7":[0,0,0,24,16],
-"interfaceRoboClerk_1_1IDataSourcePlugin.html#a34ff65982079f26e597136f6e22d39d7":[1,0,0,24,16],
-"interfaceRoboClerk_1_1IDataSourcePlugin.html#a4317a5374dd096a0c0be1e0b21944ff2":[0,0,0,24,13],
-"interfaceRoboClerk_1_1IDataSourcePlugin.html#a4317a5374dd096a0c0be1e0b21944ff2":[1,0,0,24,13],
-"interfaceRoboClerk_1_1IDataSourcePlugin.html#a56b66a278a1c94d4232f351a018f608e":[1,0,0,24,6],
-"interfaceRoboClerk_1_1IDataSourcePlugin.html#a56b66a278a1c94d4232f351a018f608e":[0,0,0,24,6],
-"interfaceRoboClerk_1_1IDataSourcePlugin.html#a5e7e8c50e8e3c48006805e69743a053c":[0,0,0,24,4],
-"interfaceRoboClerk_1_1IDataSourcePlugin.html#a5e7e8c50e8e3c48006805e69743a053c":[1,0,0,24,4],
-"interfaceRoboClerk_1_1IDataSourcePlugin.html#a6df4ef290e622d0ae3b5206066daed3f":[1,0,0,24,1],
-"interfaceRoboClerk_1_1IDataSourcePlugin.html#a6df4ef290e622d0ae3b5206066daed3f":[0,0,0,24,1]
+"interfaceRoboClerk_1_1IDataSourcePlugin.html#a2f15a90f6ee58bc4e8ecffad75eb98ca":[0,0,0,24,19]
 };
