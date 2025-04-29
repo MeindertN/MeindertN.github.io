@@ -264,20 +264,23 @@ $(document).ready(function(){initNavTree('SLMSPluginBase_8cs_source.html',''); i
 <div class="line"><a id="l00169" name="l00169"></a><span class="lineno">  169</span>                List&lt;ItemLink&gt; linkedItemsToRemove = <span class="keyword">new</span> List&lt;ItemLink&gt;();</div>
 <div class="line"><a id="l00170" name="l00170"></a><span class="lineno">  170</span>                <span class="keywordflow">foreach</span> (var itemLink <span class="keywordflow">in</span> linkedItem.LinkedItems)</div>
 <div class="line"><a id="l00171" name="l00171"></a><span class="lineno">  171</span>                {</div>
-<div class="line"><a id="l00172" name="l00172"></a><span class="lineno">  172</span>                    <span class="keywordflow">if</span> (!retrievedIDs.Contains(itemLink.TargetID))</div>
-<div class="line"><a id="l00173" name="l00173"></a><span class="lineno">  173</span>                    {</div>
-<div class="line"><a id="l00174" name="l00174"></a><span class="lineno">  174</span>                        <a class="code hl_variable" href="classRoboClerk_1_1PluginBase.html#a58bae95a1d070a51bbc8a909cd17f27c">logger</a>.Warn($<span class="stringliteral">&quot;Removing a {itemLink.LinkType} link from item \&quot;{linkedItem.ItemID}\&quot; to item with ID \&quot;{itemLink.TargetID}\&quot; because that item has a status that causes it to be ignored.&quot;</span>);</div>
-<div class="line"><a id="l00175" name="l00175"></a><span class="lineno">  175</span>                        linkedItemsToRemove.Add(itemLink);</div>
-<div class="line"><a id="l00176" name="l00176"></a><span class="lineno">  176</span>                    }</div>
-<div class="line"><a id="l00177" name="l00177"></a><span class="lineno">  177</span>                }</div>
-<div class="line"><a id="l00178" name="l00178"></a><span class="lineno">  178</span>                <span class="keywordflow">foreach</span> (var itemLink <span class="keywordflow">in</span> linkedItemsToRemove)</div>
-<div class="line"><a id="l00179" name="l00179"></a><span class="lineno">  179</span>                {</div>
-<div class="line"><a id="l00180" name="l00180"></a><span class="lineno">  180</span>                    linkedItem.RemoveLinkedItem(itemLink); <span class="comment">//remove the link to an ignored item</span></div>
-<div class="line"><a id="l00181" name="l00181"></a><span class="lineno">  181</span>                }</div>
-<div class="line"><a id="l00182" name="l00182"></a><span class="lineno">  182</span>            }</div>
-<div class="line"><a id="l00183" name="l00183"></a><span class="lineno">  183</span>        }</div>
-<div class="line"><a id="l00184" name="l00184"></a><span class="lineno">  184</span>    }</div>
-<div class="line"><a id="l00185" name="l00185"></a><span class="lineno">  185</span>}</div>
+<div class="line"><a id="l00172" name="l00172"></a><span class="lineno">  172</span>                    <span class="comment">// unit tests are a special case, we cannot use this function to remove those links because</span></div>
+<div class="line"><a id="l00173" name="l00173"></a><span class="lineno">  173</span>                    <span class="comment">// the unit tests do not come from the SLMS. Otherwise this function would remove all software</span></div>
+<div class="line"><a id="l00174" name="l00174"></a><span class="lineno">  174</span>                    <span class="comment">// system tests that are &quot;kicked&quot; to the unit level test plan.</span></div>
+<div class="line"><a id="l00175" name="l00175"></a><span class="lineno">  175</span>                    <span class="keywordflow">if</span> (!retrievedIDs.Contains(itemLink.TargetID) &amp;&amp; itemLink.LinkType != <a class="code hl_enumeration" href="namespaceRoboClerk.html#aaf465b8f1ecb6a95360d903c50e9fb83">ItemLinkType</a>.UnitTest)</div>
+<div class="line"><a id="l00176" name="l00176"></a><span class="lineno">  176</span>                    {</div>
+<div class="line"><a id="l00177" name="l00177"></a><span class="lineno">  177</span>                        <a class="code hl_variable" href="classRoboClerk_1_1PluginBase.html#a58bae95a1d070a51bbc8a909cd17f27c">logger</a>.Warn($<span class="stringliteral">&quot;Removing a {itemLink.LinkType} link from item \&quot;{linkedItem.ItemID}\&quot; to item with ID \&quot;{itemLink.TargetID}\&quot; because that item has a status that causes it to be ignored.&quot;</span>);</div>
+<div class="line"><a id="l00178" name="l00178"></a><span class="lineno">  178</span>                        linkedItemsToRemove.Add(itemLink);</div>
+<div class="line"><a id="l00179" name="l00179"></a><span class="lineno">  179</span>                    }</div>
+<div class="line"><a id="l00180" name="l00180"></a><span class="lineno">  180</span>                }</div>
+<div class="line"><a id="l00181" name="l00181"></a><span class="lineno">  181</span>                <span class="keywordflow">foreach</span> (var itemLink <span class="keywordflow">in</span> linkedItemsToRemove)</div>
+<div class="line"><a id="l00182" name="l00182"></a><span class="lineno">  182</span>                {</div>
+<div class="line"><a id="l00183" name="l00183"></a><span class="lineno">  183</span>                    linkedItem.RemoveLinkedItem(itemLink); <span class="comment">//remove the link to an ignored item</span></div>
+<div class="line"><a id="l00184" name="l00184"></a><span class="lineno">  184</span>                }</div>
+<div class="line"><a id="l00185" name="l00185"></a><span class="lineno">  185</span>            }</div>
+<div class="line"><a id="l00186" name="l00186"></a><span class="lineno">  186</span>        }</div>
+<div class="line"><a id="l00187" name="l00187"></a><span class="lineno">  187</span>    }</div>
+<div class="line"><a id="l00188" name="l00188"></a><span class="lineno">  188</span>}</div>
 <div class="ttc" id="aclassRoboClerk_1_1Configuration_1_1TruthItemConfig_html"><div class="ttname"><a href="classRoboClerk_1_1Configuration_1_1TruthItemConfig.html">RoboClerk.Configuration.TruthItemConfig</a></div><div class="ttdef"><b>Definition:</b> <a href="TruthItemConfig_8cs_source.html#l00009">TruthItemConfig.cs:10</a></div></div>
 <div class="ttc" id="aclassRoboClerk_1_1DataSourcePluginBase_html"><div class="ttname"><a href="classRoboClerk_1_1DataSourcePluginBase.html">RoboClerk.DataSourcePluginBase</a></div><div class="ttdef"><b>Definition:</b> <a href="DataSourcePluginBase_8cs_source.html#l00010">DataSourcePluginBase.cs:11</a></div></div>
 <div class="ttc" id="aclassRoboClerk_1_1LinkedItem_html"><div class="ttname"><a href="classRoboClerk_1_1LinkedItem.html">RoboClerk.LinkedItem</a></div><div class="ttdef"><b>Definition:</b> <a href="LinkedItem_8cs_source.html#l00008">LinkedItem.cs:9</a></div></div>
@@ -303,6 +306,7 @@ $(document).ready(function(){initNavTree('SLMSPluginBase_8cs_source.html',''); i
 <div class="ttc" id="ainterfaceRoboClerk_1_1Configuration_1_1IConfiguration_html_ac0545a114c8c4453a6e2423220b34893"><div class="ttname"><a href="interfaceRoboClerk_1_1Configuration_1_1IConfiguration.html#ac0545a114c8c4453a6e2423220b34893">RoboClerk.Configuration.IConfiguration.PluginConfigDir</a></div><div class="ttdeci">string PluginConfigDir</div><div class="ttdef"><b>Definition:</b> <a href="IConfiguration_8cs_source.html#l00009">IConfiguration.cs:9</a></div></div>
 <div class="ttc" id="anamespaceRoboClerk_1_1Configuration_html"><div class="ttname"><a href="namespaceRoboClerk_1_1Configuration.html">RoboClerk.Configuration</a></div><div class="ttdef"><b>Definition:</b> <a href="CheckpointConfig_8cs_source.html#l00005">CheckpointConfig.cs:6</a></div></div>
 <div class="ttc" id="anamespaceRoboClerk_html"><div class="ttname"><a href="namespaceRoboClerk.html">RoboClerk</a></div><div class="ttdef"><b>Definition:</b> <a href="AISystemPluginBase_8cs_source.html#l00005">AISystemPluginBase.cs:6</a></div></div>
+<div class="ttc" id="anamespaceRoboClerk_html_aaf465b8f1ecb6a95360d903c50e9fb83"><div class="ttname"><a href="namespaceRoboClerk.html#aaf465b8f1ecb6a95360d903c50e9fb83">RoboClerk.ItemLinkType</a></div><div class="ttdeci">ItemLinkType</div><div class="ttdef"><b>Definition:</b> <a href="ItemLink_8cs_source.html#l00005">ItemLink.cs:6</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
