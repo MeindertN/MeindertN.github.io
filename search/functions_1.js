@@ -11,5 +11,6 @@ var searchData=
   ['configurationvalues_8',['ConfigurationValues',['../classRoboClerk_1_1Configuration_1_1ConfigurationValues.html#a101623b9a9e87344c4e41af6aff5ea5f',1,'RoboClerk::Configuration::ConfigurationValues']]],
   ['containskey_9',['ContainsKey',['../classRoboClerk_1_1RoboClerkOrderedDictionary.html#ad85666033bd03ff4605a087caef2fabb',1,'RoboClerk::RoboClerkOrderedDictionary']]],
   ['contentcreatorbase_10',['ContentCreatorBase',['../classRoboClerk_1_1ContentCreators_1_1ContentCreatorBase.html#a79c76be364326bd23948e010d077c685',1,'RoboClerk::ContentCreators::ContentCreatorBase']]],
-  ['converttextile2asciidoc_11',['ConvertTextile2AsciiDoc',['../classRoboClerk_1_1Redmine_1_1TextileToAsciiDocConverter.html#a539d27623edf5de0deb8d8a4a249d271',1,'RoboClerk::Redmine::TextileToAsciiDocConverter']]]
+  ['convertheadingsfortablecell_11',['ConvertHeadingsForTableCell',['../classRoboClerk_1_1ScriptingBridge.html#a764cac503d3dbfb18662f12989c879ba',1,'RoboClerk::ScriptingBridge']]],
+  ['converttextile2asciidoc_12',['ConvertTextile2AsciiDoc',['../classRoboClerk_1_1Redmine_1_1TextileToAsciiDocConverter.html#a539d27623edf5de0deb8d8a4a249d271',1,'RoboClerk::Redmine::TextileToAsciiDocConverter']]]
 ];

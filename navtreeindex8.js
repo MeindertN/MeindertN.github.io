@@ -1,5 +1,9 @@
 var NAVTREEINDEX8 =
 {
+"interfaceRoboClerk_1_1IDataSourcePlugin.html#a16fbc8684b2591b7fbe588e7cfbd3140":[1,0,0,24,7],
+"interfaceRoboClerk_1_1IDataSourcePlugin.html#a16fbc8684b2591b7fbe588e7cfbd3140":[0,0,0,24,7],
+"interfaceRoboClerk_1_1IDataSourcePlugin.html#a1d5c612cff6fa67505474aa268f3570f":[1,0,0,24,10],
+"interfaceRoboClerk_1_1IDataSourcePlugin.html#a1d5c612cff6fa67505474aa268f3570f":[0,0,0,24,10],
 "interfaceRoboClerk_1_1IDataSourcePlugin.html#a2cec2d40e9cc79ce097c10e24125c641":[0,0,0,24,14],
 "interfaceRoboClerk_1_1IDataSourcePlugin.html#a2cec2d40e9cc79ce097c10e24125c641":[1,0,0,24,14],
 "interfaceRoboClerk_1_1IDataSourcePlugin.html#a2f15a90f6ee58bc4e8ecffad75eb98ca":[1,0,0,24,19],
