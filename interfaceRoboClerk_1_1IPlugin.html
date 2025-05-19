@@ -103,16 +103,18 @@ Inheritance diagram for RoboClerk.IPlugin:</div>
  <div class="center">
   <img src="interfaceRoboClerk_1_1IPlugin.png" usemap="#RoboClerk.IPlugin_map" alt=""/>
   <map id="RoboClerk.IPlugin_map" name="RoboClerk.IPlugin_map">
-<area href="classRoboClerk_1_1PluginBase.html" alt="RoboClerk.PluginBase" shape="rect" coords="169,56,497,80"/>
+<area href="interfaceRoboClerk_1_1AISystem_1_1IAISystemPlugin.html" alt="RoboClerk.AISystem.IAISystemPlugin" shape="rect" coords="0,56,328,80"/>
+<area href="classRoboClerk_1_1PluginBase.html" alt="RoboClerk.PluginBase" shape="rect" coords="507,56,835,80"/>
 <area href="classRoboClerk_1_1AISystem_1_1AISystemPluginBase.html" alt="RoboClerk.AISystem.AISystemPluginBase" shape="rect" coords="0,112,328,136"/>
-<area href="classRoboClerk_1_1DataSourcePluginBase.html" alt="RoboClerk.DataSourcePluginBase" shape="rect" coords="338,112,666,136"/>
-<area href="classRoboClerk_1_1DependenciesFile_1_1DependenciesFilePlugin.html" alt="RoboClerk.DependenciesFile.DependenciesFilePlugin" shape="rect" coords="0,168,328,192"/>
-<area href="classRoboClerk_1_1SLMSPluginBase.html" alt="RoboClerk.SLMSPluginBase" shape="rect" coords="338,168,666,192"/>
-<area href="classRoboClerk_1_1SourceCodeAnalysisPluginBase.html" alt="RoboClerk.SourceCodeAnalysisPluginBase" shape="rect" coords="1014,168,1342,192"/>
-<area href="classRoboClerk_1_1AzureDevOps_1_1AzureDevOpsSLMSPlugin.html" alt="RoboClerk.AzureDevOps.AzureDevOpsSLMSPlugin" shape="rect" coords="169,224,497,248"/>
-<area href="classRoboClerk_1_1Redmine_1_1RedmineSLMSPlugin.html" alt="RoboClerk.Redmine.RedmineSLMSPlugin" shape="rect" coords="507,224,835,248"/>
-<area href="classRoboClerk_1_1AnnotatedUnitTests_1_1AnnotatedUnitTestsPlugin.html" alt="RoboClerk.AnnotatedUnitTests.AnnotatedUnitTestsPlugin" shape="rect" coords="845,224,1173,248"/>
-<area href="classRoboClerk_1_1UnitTestFNPlugin.html" alt="RoboClerk.UnitTestFNPlugin" shape="rect" coords="1183,224,1511,248"/>
+<area href="classRoboClerk_1_1AISystem_1_1AISystemPluginBase.html" alt="RoboClerk.AISystem.AISystemPluginBase" shape="rect" coords="338,112,666,136"/>
+<area href="classRoboClerk_1_1DataSourcePluginBase.html" alt="RoboClerk.DataSourcePluginBase" shape="rect" coords="676,112,1004,136"/>
+<area href="classRoboClerk_1_1DependenciesFile_1_1DependenciesFilePlugin.html" alt="RoboClerk.DependenciesFile.DependenciesFilePlugin" shape="rect" coords="338,168,666,192"/>
+<area href="classRoboClerk_1_1SLMSPluginBase.html" alt="RoboClerk.SLMSPluginBase" shape="rect" coords="676,168,1004,192"/>
+<area href="classRoboClerk_1_1SourceCodeAnalysisPluginBase.html" alt="RoboClerk.SourceCodeAnalysisPluginBase" shape="rect" coords="1352,168,1680,192"/>
+<area href="classRoboClerk_1_1AzureDevOps_1_1AzureDevOpsSLMSPlugin.html" alt="RoboClerk.AzureDevOps.AzureDevOpsSLMSPlugin" shape="rect" coords="507,224,835,248"/>
+<area href="classRoboClerk_1_1Redmine_1_1RedmineSLMSPlugin.html" alt="RoboClerk.Redmine.RedmineSLMSPlugin" shape="rect" coords="845,224,1173,248"/>
+<area href="classRoboClerk_1_1AnnotatedUnitTests_1_1AnnotatedUnitTestsPlugin.html" alt="RoboClerk.AnnotatedUnitTests.AnnotatedUnitTestsPlugin" shape="rect" coords="1183,224,1511,248"/>
+<area href="classRoboClerk_1_1UnitTestFNPlugin.html" alt="RoboClerk.UnitTestFNPlugin" shape="rect" coords="1521,224,1849,248"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -120,6 +122,8 @@ Inheritance diagram for RoboClerk.IPlugin:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a2e013faf0c2a191dd6190486916dbc42"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceRoboClerk_1_1IPlugin.html#a2e013faf0c2a191dd6190486916dbc42">Initialize</a> (<a class="el" href="interfaceRoboClerk_1_1Configuration_1_1IConfiguration.html">IConfiguration</a> config)</td></tr>
 <tr class="separator:a2e013faf0c2a191dd6190486916dbc42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1522290541a2df631025024f71cf7d25"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceRoboClerk_1_1IPlugin.html#a1522290541a2df631025024f71cf7d25">ConfigureServices</a> (IServiceCollection services)</td></tr>
+<tr class="separator:a1522290541a2df631025024f71cf7d25"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
@@ -130,8 +134,28 @@ Properties</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="IPlugin_8cs_source.html#l00006">6</a> of file <a class="el" href="IPlugin_8cs_source.html">IPlugin.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="IPlugin_8cs_source.html#l00007">7</a> of file <a class="el" href="IPlugin_8cs_source.html">IPlugin.cs</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a1522290541a2df631025024f71cf7d25" name="a1522290541a2df631025024f71cf7d25"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1522290541a2df631025024f71cf7d25">&#9670;&#160;</a></span>ConfigureServices()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RoboClerk.IPlugin.ConfigureServices </td>
+          <td>(</td>
+          <td class="paramtype">IServiceCollection&#160;</td>
+          <td class="paramname"><em>services</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="classRoboClerk_1_1AnnotatedUnitTests_1_1AnnotatedUnitTestsPlugin.html#a85a9e11307e732b5080f52e25e1e2353">RoboClerk.AnnotatedUnitTests.AnnotatedUnitTestsPlugin</a>, <a class="el" href="classRoboClerk_1_1AzureDevOps_1_1AzureDevOpsSLMSPlugin.html#ac73d0142272c81a3d7acd2b99774e1b7">RoboClerk.AzureDevOps.AzureDevOpsSLMSPlugin</a>, <a class="el" href="classRoboClerk_1_1DependenciesFile_1_1DependenciesFilePlugin.html#ada5d8ef223ae98c5705057691782481e">RoboClerk.DependenciesFile.DependenciesFilePlugin</a>, <a class="el" href="classRoboClerk_1_1Redmine_1_1RedmineSLMSPlugin.html#af305678dde2df811b1beaff256bd035c">RoboClerk.Redmine.RedmineSLMSPlugin</a>, <a class="el" href="classRoboClerk_1_1UnitTestFNPlugin.html#aee4d9d0039911c926e8adb04c3eef640">RoboClerk.UnitTestFNPlugin</a>, <a class="el" href="classRoboClerk_1_1AISystem_1_1AISystemPluginBase.html#a69965bca218a7ed6b1181e29c37c6642">RoboClerk.AISystem.AISystemPluginBase</a>, and <a class="el" href="classRoboClerk_1_1PluginBase.html#acf04a4606c5fd5495b937665acfec338">RoboClerk.PluginBase</a>.</p>
+
+</div>
+</div>
 <a id="a2e013faf0c2a191dd6190486916dbc42" name="a2e013faf0c2a191dd6190486916dbc42"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2e013faf0c2a191dd6190486916dbc42">&#9670;&#160;</a></span>Initialize()</h2>
 
@@ -175,7 +199,7 @@ Properties</h2></td></tr>
 
 <p>Implemented in <a class="el" href="classRoboClerk_1_1PluginBase.html#a5695b03f1f51c0954d5ea82217a1d912">RoboClerk.PluginBase</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="IPlugin_8cs_source.html#l00009">9</a> of file <a class="el" href="IPlugin_8cs_source.html">IPlugin.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="IPlugin_8cs_source.html#l00010">10</a> of file <a class="el" href="IPlugin_8cs_source.html">IPlugin.cs</a>.</p>
 
 </div>
 </div>
@@ -201,7 +225,7 @@ Properties</h2></td></tr>
 
 <p>Implemented in <a class="el" href="classRoboClerk_1_1PluginBase.html#a27fc5ae5414ac17cc0dc1e1f87542623">RoboClerk.PluginBase</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="IPlugin_8cs_source.html#l00008">8</a> of file <a class="el" href="IPlugin_8cs_source.html">IPlugin.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="IPlugin_8cs_source.html#l00009">9</a> of file <a class="el" href="IPlugin_8cs_source.html">IPlugin.cs</a>.</p>
 
 </div>
 </div>

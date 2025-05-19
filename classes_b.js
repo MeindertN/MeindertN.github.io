@@ -10,11 +10,12 @@ var searchData=
   ['relation_7',['Relation',['../classRoboClerk_1_1Redmine_1_1Relation.html',1,'RoboClerk::Redmine']]],
   ['requirementbase_8',['RequirementBase',['../classRoboClerk_1_1ContentCreators_1_1RequirementBase.html',1,'RoboClerk::ContentCreators']]],
   ['requirementitem_9',['RequirementItem',['../classRoboClerk_1_1RequirementItem.html',1,'RoboClerk']]],
-  ['risk_10',['Risk',['../classRoboClerk_1_1ContentCreators_1_1Risk.html',1,'RoboClerk::ContentCreators']]],
-  ['riskitem_11',['RiskItem',['../classRoboClerk_1_1RiskItem.html',1,'RoboClerk']]],
-  ['risktraceabilitymatrix_12',['RiskTraceabilityMatrix',['../classRoboClerk_1_1ContentCreators_1_1RiskTraceabilityMatrix.html',1,'RoboClerk::ContentCreators']]],
-  ['roboclerkcore_13',['RoboClerkCore',['../classRoboClerk_1_1RoboClerkCore.html',1,'RoboClerk']]],
-  ['roboclerkordereddictionary_14',['RoboClerkOrderedDictionary',['../classRoboClerk_1_1RoboClerkOrderedDictionary.html',1,'RoboClerk']]],
-  ['roboclerkordereddictionary_3c_20string_2c_20roboclerk_3a_3aconfiguration_3a_3atraceconfigelement_20_3e_15',['RoboClerkOrderedDictionary&lt; string, RoboClerk::Configuration::TraceConfigElement &gt;',['../classRoboClerk_1_1RoboClerkOrderedDictionary.html',1,'RoboClerk']]],
-  ['roboclerktag_16',['RoboClerkTag',['../classRoboClerk_1_1RoboClerkTag.html',1,'RoboClerk']]]
+  ['restsharpredmineclient_10',['RestSharpRedmineClient',['../classRoboClerk_1_1Redmine_1_1RestSharpRedmineClient.html',1,'RoboClerk::Redmine']]],
+  ['risk_11',['Risk',['../classRoboClerk_1_1ContentCreators_1_1Risk.html',1,'RoboClerk::ContentCreators']]],
+  ['riskitem_12',['RiskItem',['../classRoboClerk_1_1RiskItem.html',1,'RoboClerk']]],
+  ['risktraceabilitymatrix_13',['RiskTraceabilityMatrix',['../classRoboClerk_1_1ContentCreators_1_1RiskTraceabilityMatrix.html',1,'RoboClerk::ContentCreators']]],
+  ['roboclerkcore_14',['RoboClerkCore',['../classRoboClerk_1_1RoboClerkCore.html',1,'RoboClerk']]],
+  ['roboclerkordereddictionary_15',['RoboClerkOrderedDictionary',['../classRoboClerk_1_1RoboClerkOrderedDictionary.html',1,'RoboClerk']]],
+  ['roboclerkordereddictionary_3c_20string_2c_20roboclerk_3a_3aconfiguration_3a_3atraceconfigelement_20_3e_16',['RoboClerkOrderedDictionary&lt; string, RoboClerk::Configuration::TraceConfigElement &gt;',['../classRoboClerk_1_1RoboClerkOrderedDictionary.html',1,'RoboClerk']]],
+  ['roboclerktag_17',['RoboClerkTag',['../classRoboClerk_1_1RoboClerkTag.html',1,'RoboClerk']]]
 ];

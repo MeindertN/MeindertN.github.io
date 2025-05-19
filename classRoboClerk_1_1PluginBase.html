@@ -125,8 +125,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a59673c91725a54cce4b130d92f3de4ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa574926d44212a3a2736e15fbbae62e7"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRoboClerk_1_1PluginBase.html#aa574926d44212a3a2736e15fbbae62e7">Initialize</a> (<a class="el" href="interfaceRoboClerk_1_1Configuration_1_1IConfiguration.html">IConfiguration</a> config)</td></tr>
 <tr class="separator:aa574926d44212a3a2736e15fbbae62e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf04a4606c5fd5495b937665acfec338"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRoboClerk_1_1PluginBase.html#acf04a4606c5fd5495b937665acfec338">ConfigureServices</a> (IServiceCollection services)</td></tr>
+<tr class="separator:acf04a4606c5fd5495b937665acfec338"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2e013faf0c2a191dd6190486916dbc42"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceRoboClerk_1_1IPlugin.html#a2e013faf0c2a191dd6190486916dbc42">Initialize</a> (<a class="el" href="interfaceRoboClerk_1_1Configuration_1_1IConfiguration.html">IConfiguration</a> config)</td></tr>
 <tr class="separator:a2e013faf0c2a191dd6190486916dbc42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1522290541a2df631025024f71cf7d25"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceRoboClerk_1_1IPlugin.html#a1522290541a2df631025024f71cf7d25">ConfigureServices</a> (IServiceCollection services)</td></tr>
+<tr class="separator:a1522290541a2df631025024f71cf7d25"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -163,7 +167,7 @@ Properties</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="PluginBase_8cs_source.html#l00010">10</a> of file <a class="el" href="PluginBase_8cs_source.html">PluginBase.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PluginBase_8cs_source.html#l00011">11</a> of file <a class="el" href="PluginBase_8cs_source.html">PluginBase.cs</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a59673c91725a54cce4b130d92f3de4ce" name="a59673c91725a54cce4b130d92f3de4ce"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a59673c91725a54cce4b130d92f3de4ce">&#9670;&#160;</a></span>PluginBase()</h2>
@@ -181,11 +185,41 @@ Properties</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="PluginBase_8cs_source.html#l00017">17</a> of file <a class="el" href="PluginBase_8cs_source.html">PluginBase.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PluginBase_8cs_source.html#l00018">18</a> of file <a class="el" href="PluginBase_8cs_source.html">PluginBase.cs</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="acf04a4606c5fd5495b937665acfec338" name="acf04a4606c5fd5495b937665acfec338"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf04a4606c5fd5495b937665acfec338">&#9670;&#160;</a></span>ConfigureServices()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">abstract void RoboClerk.PluginBase.ConfigureServices </td>
+          <td>(</td>
+          <td class="paramtype">IServiceCollection&#160;</td>
+          <td class="paramname"><em>services</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="interfaceRoboClerk_1_1IPlugin.html#a1522290541a2df631025024f71cf7d25">RoboClerk.IPlugin</a>.</p>
+
+<p>Implemented in <a class="el" href="classRoboClerk_1_1AnnotatedUnitTests_1_1AnnotatedUnitTestsPlugin.html#a85a9e11307e732b5080f52e25e1e2353">RoboClerk.AnnotatedUnitTests.AnnotatedUnitTestsPlugin</a>, <a class="el" href="classRoboClerk_1_1AzureDevOps_1_1AzureDevOpsSLMSPlugin.html#ac73d0142272c81a3d7acd2b99774e1b7">RoboClerk.AzureDevOps.AzureDevOpsSLMSPlugin</a>, <a class="el" href="classRoboClerk_1_1DependenciesFile_1_1DependenciesFilePlugin.html#ada5d8ef223ae98c5705057691782481e">RoboClerk.DependenciesFile.DependenciesFilePlugin</a>, <a class="el" href="classRoboClerk_1_1Redmine_1_1RedmineSLMSPlugin.html#af305678dde2df811b1beaff256bd035c">RoboClerk.Redmine.RedmineSLMSPlugin</a>, <a class="el" href="classRoboClerk_1_1UnitTestFNPlugin.html#aee4d9d0039911c926e8adb04c3eef640">RoboClerk.UnitTestFNPlugin</a>, and <a class="el" href="classRoboClerk_1_1AISystem_1_1AISystemPluginBase.html#a69965bca218a7ed6b1181e29c37c6642">RoboClerk.AISystem.AISystemPluginBase</a>.</p>
+
+</div>
+</div>
 <a id="aebc82557dfee648bd0d0982eee1d47d5" name="aebc82557dfee648bd0d0982eee1d47d5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aebc82557dfee648bd0d0982eee1d47d5">&#9670;&#160;</a></span>GetConfigurationTable()</h2>
 
@@ -220,7 +254,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="PluginBase_8cs_source.html#l00061">61</a> of file <a class="el" href="PluginBase_8cs_source.html">PluginBase.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PluginBase_8cs_source.html#l00064">64</a> of file <a class="el" href="PluginBase_8cs_source.html">PluginBase.cs</a>.</p>
 
 </div>
 </div>
@@ -264,7 +298,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="PluginBase_8cs_source.html#l00040">40</a> of file <a class="el" href="PluginBase_8cs_source.html">PluginBase.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PluginBase_8cs_source.html#l00043">43</a> of file <a class="el" href="PluginBase_8cs_source.html">PluginBase.cs</a>.</p>
 
 </div>
 </div>
@@ -319,7 +353,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="PluginBase_8cs_source.html#l00013">13</a> of file <a class="el" href="PluginBase_8cs_source.html">PluginBase.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PluginBase_8cs_source.html#l00014">14</a> of file <a class="el" href="PluginBase_8cs_source.html">PluginBase.cs</a>.</p>
 
 </div>
 </div>
@@ -343,7 +377,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="PluginBase_8cs_source.html#l00015">15</a> of file <a class="el" href="PluginBase_8cs_source.html">PluginBase.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PluginBase_8cs_source.html#l00016">16</a> of file <a class="el" href="PluginBase_8cs_source.html">PluginBase.cs</a>.</p>
 
 </div>
 </div>
@@ -367,7 +401,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="PluginBase_8cs_source.html#l00014">14</a> of file <a class="el" href="PluginBase_8cs_source.html">PluginBase.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PluginBase_8cs_source.html#l00015">15</a> of file <a class="el" href="PluginBase_8cs_source.html">PluginBase.cs</a>.</p>
 
 </div>
 </div>
@@ -391,7 +425,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="PluginBase_8cs_source.html#l00012">12</a> of file <a class="el" href="PluginBase_8cs_source.html">PluginBase.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PluginBase_8cs_source.html#l00013">13</a> of file <a class="el" href="PluginBase_8cs_source.html">PluginBase.cs</a>.</p>
 
 </div>
 </div>
@@ -418,7 +452,7 @@ Properties</h2></td></tr>
 
 <p>Implements <a class="el" href="interfaceRoboClerk_1_1IPlugin.html#ae5edc6f0391f0b86420c672b4c8f4423">RoboClerk.IPlugin</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="PluginBase_8cs_source.html#l00030">30</a> of file <a class="el" href="PluginBase_8cs_source.html">PluginBase.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PluginBase_8cs_source.html#l00031">31</a> of file <a class="el" href="PluginBase_8cs_source.html">PluginBase.cs</a>.</p>
 
 </div>
 </div>
@@ -444,7 +478,7 @@ Properties</h2></td></tr>
 
 <p>Implements <a class="el" href="interfaceRoboClerk_1_1IPlugin.html#a053aa89e20529a4c4fca8c5c89bc902b">RoboClerk.IPlugin</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="PluginBase_8cs_source.html#l00022">22</a> of file <a class="el" href="PluginBase_8cs_source.html">PluginBase.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PluginBase_8cs_source.html#l00023">23</a> of file <a class="el" href="PluginBase_8cs_source.html">PluginBase.cs</a>.</p>
 
 </div>
 </div>

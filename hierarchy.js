@@ -25,9 +25,6 @@ var hierarchy =
     [ "RoboClerk.Redmine.FixedVersion", "classRoboClerk_1_1Redmine_1_1FixedVersion.html", null ],
     [ "RoboClerk.GitRepository", "classRoboClerk_1_1GitRepository.html", null ],
     [ "RoboClerk.AzureDevOps.HtmlToTextConverter", "classRoboClerk_1_1AzureDevOps_1_1HtmlToTextConverter.html", null ],
-    [ "RoboClerk.AISystem.IAISystemPlugin", "interfaceRoboClerk_1_1AISystem_1_1IAISystemPlugin.html", [
-      [ "RoboClerk.AISystem.AISystemPluginBase", "classRoboClerk_1_1AISystem_1_1AISystemPluginBase.html", null ]
-    ] ],
     [ "RoboClerk.Configuration.IConfiguration", "interfaceRoboClerk_1_1Configuration_1_1IConfiguration.html", [
       [ "RoboClerk.Configuration.Configuration", "classRoboClerk_1_1Configuration_1_1Configuration.html", null ]
     ] ],
@@ -83,13 +80,19 @@ var hierarchy =
       [ "RoboClerk.RoboClerkOrderedDictionary< TKey, TValue >", "classRoboClerk_1_1RoboClerkOrderedDictionary.html", null ]
     ] ],
     [ "RoboClerk.IPlugin", "interfaceRoboClerk_1_1IPlugin.html", [
+      [ "RoboClerk.AISystem.IAISystemPlugin", "interfaceRoboClerk_1_1AISystem_1_1IAISystemPlugin.html", [
+        [ "RoboClerk.AISystem.AISystemPluginBase", "classRoboClerk_1_1AISystem_1_1AISystemPluginBase.html", null ]
+      ] ],
       [ "RoboClerk.PluginBase", "classRoboClerk_1_1PluginBase.html", [
         [ "RoboClerk.AISystem.AISystemPluginBase", "classRoboClerk_1_1AISystem_1_1AISystemPluginBase.html", null ],
         [ "RoboClerk.DataSourcePluginBase", "classRoboClerk_1_1DataSourcePluginBase.html", null ]
       ] ]
     ] ],
     [ "RoboClerk.IPluginLoader", "interfaceRoboClerk_1_1IPluginLoader.html", [
-      [ "RoboClerk.PluginLoader", "classRoboClerk_1_1PluginLoader.html", null ]
+      [ "RoboClerk.PluginLoader< T >", "classRoboClerk_1_1PluginLoader.html", null ]
+    ] ],
+    [ "RoboClerk.Redmine.IRedmineClient", "interfaceRoboClerk_1_1Redmine_1_1IRedmineClient.html", [
+      [ "RoboClerk.Redmine.RestSharpRedmineClient", "classRoboClerk_1_1Redmine_1_1RestSharpRedmineClient.html", null ]
     ] ],
     [ "RoboClerk.Item", "classRoboClerk_1_1Item.html", [
       [ "RoboClerk.LinkedItem", "classRoboClerk_1_1LinkedItem.html", [

@@ -5,7 +5,8 @@ var searchData=
   ['pluginbase_2',['PluginBase',['../classRoboClerk_1_1PluginBase.html#a59673c91725a54cce4b130d92f3de4ce',1,'RoboClerk::PluginBase']]],
   ['plugindatasources_3',['PluginDataSources',['../classRoboClerk_1_1PluginDataSources.html#a0d089431272da8a253b2d707ea2aaf1f',1,'RoboClerk::PluginDataSources']]],
   ['pluginloadcontext_4',['PluginLoadContext',['../classRoboClerk_1_1PluginLoadContext.html#a817126796b5107aa8a74cd264fd27631',1,'RoboClerk::PluginLoadContext']]],
-  ['processasciidocfortablecell_5',['ProcessAsciidocForTableCell',['../classRoboClerk_1_1ScriptingBridge.html#a02a4654449a465346661364223a26420',1,'RoboClerk::ScriptingBridge']]],
-  ['processtraces_6',['ProcessTraces',['../classRoboClerk_1_1ContentCreators_1_1ContentCreatorBase.html#aa9c11143413e18c22ba21811c0f11eb0',1,'RoboClerk::ContentCreators::ContentCreatorBase']]],
-  ['prompttemplate_7',['PromptTemplate',['../classRoboClerk_1_1AISystem_1_1PromptTemplate.html#ae4c955af30e17937748463b7f15bd0f7',1,'RoboClerk::AISystem::PromptTemplate']]]
+  ['pluginloader_5',['PluginLoader',['../classRoboClerk_1_1PluginLoader.html#a1ab8b48b1de4f0847a98f8786680f77c',1,'RoboClerk.PluginLoader.PluginLoader(IFileSystem fileSystem)'],['../classRoboClerk_1_1PluginLoader.html#a1ab8b48b1de4f0847a98f8786680f77c',1,'RoboClerk.PluginLoader.PluginLoader(IFileSystem fileSystem)']]],
+  ['processasciidocfortablecell_6',['ProcessAsciidocForTableCell',['../classRoboClerk_1_1ScriptingBridge.html#a02a4654449a465346661364223a26420',1,'RoboClerk::ScriptingBridge']]],
+  ['processtraces_7',['ProcessTraces',['../classRoboClerk_1_1ContentCreators_1_1ContentCreatorBase.html#aa9c11143413e18c22ba21811c0f11eb0',1,'RoboClerk::ContentCreators::ContentCreatorBase']]],
+  ['prompttemplate_8',['PromptTemplate',['../classRoboClerk_1_1AISystem_1_1PromptTemplate.html#ae4c955af30e17937748463b7f15bd0f7',1,'RoboClerk::AISystem::PromptTemplate']]]
 ];
