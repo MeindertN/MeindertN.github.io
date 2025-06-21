@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['htmltotextconverter_2ecs_0',['HtmlToTextConverter.cs',['../HtmlToTextConverter_8cs.html',1,'']]]
+  ['gitrepository_2ecs_0',['GitRepository.cs',['../GitRepository_8cs.html',1,'']]]
 ];
