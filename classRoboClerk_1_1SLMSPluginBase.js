@@ -1,6 +1,6 @@
 var classRoboClerk_1_1SLMSPluginBase =
 [
-    [ "SLMSPluginBase", "classRoboClerk_1_1SLMSPluginBase.html#a71240533400fc645eed397ca1eae32e5", null ],
+    [ "SLMSPluginBase", "classRoboClerk_1_1SLMSPluginBase.html#a8744b35aa37fd60f780f5ec168434bab", null ],
     [ "ExcludeItem", "classRoboClerk_1_1SLMSPluginBase.html#a4aec81f08a28cd5375f12968186f3172", null ],
     [ "IncludeItem", "classRoboClerk_1_1SLMSPluginBase.html#af2246800aa62d1e5904669e4efae148a", null ],
     [ "InitializePlugin", "classRoboClerk_1_1SLMSPluginBase.html#a5d1855b3e06497bf5e283c45c6dc5e2c", null ],

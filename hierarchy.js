@@ -83,9 +83,18 @@ var hierarchy =
           ] ]
         ] ]
       ] ],
+      [ "RoboClerk.IFileProviderPlugin", "interfaceRoboClerk_1_1IFileProviderPlugin.html", [
+        [ "RoboClerk.FileProviderPluginBase", "classRoboClerk_1_1FileProviderPluginBase.html", [
+          [ "RoboClerk.LocalFileSystemPlugin", "classRoboClerk_1_1LocalFileSystemPlugin.html", null ]
+        ] ],
+        [ "RoboClerk.LocalFileSystemPlugin", "classRoboClerk_1_1LocalFileSystemPlugin.html", null ]
+      ] ],
       [ "RoboClerk.PluginBase", "classRoboClerk_1_1PluginBase.html", [
-        [ "RoboClerk.AISystem.AISystemPluginBase", "classRoboClerk_1_1AISystem_1_1AISystemPluginBase.html", null ],
-        [ "RoboClerk.DataSourcePluginBase", "classRoboClerk_1_1DataSourcePluginBase.html", null ]
+        [ "RoboClerk.FileAccessPluginBase", "classRoboClerk_1_1FileAccessPluginBase.html", [
+          [ "RoboClerk.AISystem.AISystemPluginBase", "classRoboClerk_1_1AISystem_1_1AISystemPluginBase.html", null ],
+          [ "RoboClerk.DataSourcePluginBase", "classRoboClerk_1_1DataSourcePluginBase.html", null ]
+        ] ],
+        [ "RoboClerk.FileProviderPluginBase", "classRoboClerk_1_1FileProviderPluginBase.html", null ]
       ] ]
     ] ],
     [ "RoboClerk.IPluginLoader", "interfaceRoboClerk_1_1IPluginLoader.html", [
