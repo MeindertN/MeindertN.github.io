@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>RoboClerk: RoboClerk/PluginSupport/FileProviderPluginBase.cs File Reference</title>
+<title>RoboClerk: RoboClerk.PluginAssemblyLoader Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -64,7 +64,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function(){initNavTree('FileProviderPluginBase_8cs.html',''); initResizable(); });
+$(document).ready(function(){initNavTree('classRoboClerk_1_1PluginAssemblyLoader.html',''); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -91,31 +91,71 @@ $(document).ready(function(){initNavTree('FileProviderPluginBase_8cs.html',''); 
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a>  </div>
-  <div class="headertitle"><div class="title">FileProviderPluginBase.cs File Reference</div></div>
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="classRoboClerk_1_1PluginAssemblyLoader-members.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">RoboClerk.PluginAssemblyLoader Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
-
-<p><a href="FileProviderPluginBase_8cs_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRoboClerk_1_1FileProviderPluginBase.html">RoboClerk.FileProviderPluginBase</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Base class for file provider plugins that provides common functionality and default implementations for file operations.   <a href="classRoboClerk_1_1FileProviderPluginBase.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
-Namespaces</h2></td></tr>
-<tr class="memitem:namespaceRoboClerk"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceRoboClerk.html">RoboClerk</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a6be57fda83c00491ff5e714e0d7cbf7b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRoboClerk_1_1PluginAssemblyLoader.html#a6be57fda83c00491ff5e714e0d7cbf7b">PluginAssemblyLoader</a> (IFileSystem fs)</td></tr>
+<tr class="separator:a6be57fda83c00491ff5e714e0d7cbf7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab54e1d9de2313dab071252cf07ec3d7e"><td class="memItemLeft" align="right" valign="top">IEnumerable&lt; Assembly &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRoboClerk_1_1PluginAssemblyLoader.html#ab54e1d9de2313dab071252cf07ec3d7e">LoadFromDirectory</a> (string pluginDir)</td></tr>
+<tr class="separator:ab54e1d9de2313dab071252cf07ec3d7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="PluginLoader_8cs_source.html#l00135">135</a> of file <a class="el" href="PluginLoader_8cs_source.html">PluginLoader.cs</a>.</p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a6be57fda83c00491ff5e714e0d7cbf7b" name="a6be57fda83c00491ff5e714e0d7cbf7b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6be57fda83c00491ff5e714e0d7cbf7b">&#9670;&#160;</a></span>PluginAssemblyLoader()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">RoboClerk.PluginAssemblyLoader.PluginAssemblyLoader </td>
+          <td>(</td>
+          <td class="paramtype">IFileSystem&#160;</td>
+          <td class="paramname"><em>fs</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="ab54e1d9de2313dab071252cf07ec3d7e" name="ab54e1d9de2313dab071252cf07ec3d7e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab54e1d9de2313dab071252cf07ec3d7e">&#9670;&#160;</a></span>LoadFromDirectory()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">IEnumerable&lt; Assembly &gt; RoboClerk.PluginAssemblyLoader.LoadFromDirectory </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>pluginDir</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="PluginLoader_8cs_source.html#l00141">141</a> of file <a class="el" href="PluginLoader_8cs_source.html">PluginLoader.cs</a>.</p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>RoboClerk/PluginSupport/<a class="el" href="PluginLoader_8cs_source.html">PluginLoader.cs</a></li>
+</ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_eaa041a19c6688a540b628eca738f488.html">RoboClerk</a></li><li class="navelem"><a class="el" href="dir_4a32cb94a0bd474746a60996ada79e03.html">PluginSupport</a></li><li class="navelem"><a class="el" href="FileProviderPluginBase_8cs.html">FileProviderPluginBase.cs</a></li>
+    <li class="navelem"><a class="el" href="namespaceRoboClerk.html">RoboClerk</a></li><li class="navelem"><a class="el" href="classRoboClerk_1_1PluginAssemblyLoader.html">PluginAssemblyLoader</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>

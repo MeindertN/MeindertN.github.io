@@ -1,4 +1,4 @@
 var interfaceRoboClerk_1_1IPluginLoader =
 [
-    [ "LoadPlugin< T >", "interfaceRoboClerk_1_1IPluginLoader.html#af274d7011ac3c5f053b4d8038841e00f", null ]
+    [ "LoadByName< T >", "interfaceRoboClerk_1_1IPluginLoader.html#ae85bf152c22fde5d3913c77a60c8511e", null ]
 ];

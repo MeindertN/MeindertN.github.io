@@ -1,9 +1,9 @@
 var classRoboClerk_1_1SLMSPluginBase =
 [
-    [ "SLMSPluginBase", "classRoboClerk_1_1SLMSPluginBase.html#a8744b35aa37fd60f780f5ec168434bab", null ],
+    [ "SLMSPluginBase", "classRoboClerk_1_1SLMSPluginBase.html#a71240533400fc645eed397ca1eae32e5", null ],
     [ "ExcludeItem", "classRoboClerk_1_1SLMSPluginBase.html#a4aec81f08a28cd5375f12968186f3172", null ],
     [ "IncludeItem", "classRoboClerk_1_1SLMSPluginBase.html#af2246800aa62d1e5904669e4efae148a", null ],
-    [ "Initialize", "classRoboClerk_1_1SLMSPluginBase.html#ab936f50f9a6854a871e8ee22fbbe44c8", null ],
+    [ "InitializePlugin", "classRoboClerk_1_1SLMSPluginBase.html#a5d1855b3e06497bf5e283c45c6dc5e2c", null ],
     [ "TrimLinkedItems< T >", "classRoboClerk_1_1SLMSPluginBase.html#afe8149270df40a8b25469c5d615c62bb", null ],
     [ "ignoreList", "classRoboClerk_1_1SLMSPluginBase.html#a1368c0cdebc660ec061f01710298a4ce", null ],
     [ "BugConfig", "classRoboClerk_1_1SLMSPluginBase.html#a50bba5302bd49df00d7de13a18898051", null ],

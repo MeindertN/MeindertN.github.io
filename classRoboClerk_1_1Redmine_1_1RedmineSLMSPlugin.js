@@ -1,6 +1,7 @@
 var classRoboClerk_1_1Redmine_1_1RedmineSLMSPlugin =
 [
-    [ "RedmineSLMSPlugin", "classRoboClerk_1_1Redmine_1_1RedmineSLMSPlugin.html#a572bcda776d39c2bd9627db1a72f6f76", null ],
+    [ "RedmineSLMSPlugin", "classRoboClerk_1_1Redmine_1_1RedmineSLMSPlugin.html#aaebc3cf5ec67ac46df381de22eb7eed8", null ],
+    [ "RedmineSLMSPlugin", "classRoboClerk_1_1Redmine_1_1RedmineSLMSPlugin.html#a3597eba9acd822b68b12d2a52ad407df", null ],
     [ "ConfigureServices", "classRoboClerk_1_1Redmine_1_1RedmineSLMSPlugin.html#af305678dde2df811b1beaff256bd035c", null ],
     [ "CreateBug", "classRoboClerk_1_1Redmine_1_1RedmineSLMSPlugin.html#a78740e91b95ed87bda77c0bb23729351", null ],
     [ "CreateDocContent", "classRoboClerk_1_1Redmine_1_1RedmineSLMSPlugin.html#a691c78d923c2a47bc723fb9c4955d688", null ],
@@ -8,7 +9,7 @@ var classRoboClerk_1_1Redmine_1_1RedmineSLMSPlugin =
     [ "CreateRisk", "classRoboClerk_1_1Redmine_1_1RedmineSLMSPlugin.html#ac992a27429b961536c3469bb0cf4e8dd", null ],
     [ "CreateSOUP", "classRoboClerk_1_1Redmine_1_1RedmineSLMSPlugin.html#aedd8b24d1ce64512b1b5733fdf9780ab", null ],
     [ "CreateTestCase", "classRoboClerk_1_1Redmine_1_1RedmineSLMSPlugin.html#a60d8d97dc5608a48b99622e064af13ed", null ],
-    [ "Initialize", "classRoboClerk_1_1Redmine_1_1RedmineSLMSPlugin.html#a557d325a5c810f153ccf284c9d73d453", null ],
+    [ "InitializePlugin", "classRoboClerk_1_1Redmine_1_1RedmineSLMSPlugin.html#aa50b0faaac3a0c6d9443fc116705b481", null ],
     [ "RefreshItems", "classRoboClerk_1_1Redmine_1_1RedmineSLMSPlugin.html#a2719922d29b85cc77a7e42c881d26413", null ],
     [ "ShouldIgnoreIssue", "classRoboClerk_1_1Redmine_1_1RedmineSLMSPlugin.html#a6900640e29cf650532bfb333f07a7b9a", null ]
 ];

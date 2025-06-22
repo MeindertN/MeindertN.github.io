@@ -56,19 +56,6 @@ var hierarchy =
         [ "RoboClerk.ContentCreators.TraceMatrix", "classRoboClerk_1_1ContentCreators_1_1TraceMatrix.html", null ]
       ] ]
     ] ],
-    [ "RoboClerk.IDataSourcePlugin", "interfaceRoboClerk_1_1IDataSourcePlugin.html", [
-      [ "RoboClerk.DataSourcePluginBase", "classRoboClerk_1_1DataSourcePluginBase.html", [
-        [ "RoboClerk.DependenciesFile.DependenciesFilePlugin", "classRoboClerk_1_1DependenciesFile_1_1DependenciesFilePlugin.html", null ],
-        [ "RoboClerk.SLMSPluginBase", "classRoboClerk_1_1SLMSPluginBase.html", [
-          [ "RoboClerk.AzureDevOps.AzureDevOpsSLMSPlugin", "classRoboClerk_1_1AzureDevOps_1_1AzureDevOpsSLMSPlugin.html", null ],
-          [ "RoboClerk.Redmine.RedmineSLMSPlugin", "classRoboClerk_1_1Redmine_1_1RedmineSLMSPlugin.html", null ]
-        ] ],
-        [ "RoboClerk.SourceCodeAnalysisPluginBase", "classRoboClerk_1_1SourceCodeAnalysisPluginBase.html", [
-          [ "RoboClerk.AnnotatedUnitTests.AnnotatedUnitTestsPlugin", "classRoboClerk_1_1AnnotatedUnitTests_1_1AnnotatedUnitTestsPlugin.html", null ],
-          [ "RoboClerk.UnitTestFNPlugin", "classRoboClerk_1_1UnitTestFNPlugin.html", null ]
-        ] ]
-      ] ]
-    ] ],
     [ "RoboClerk.IDataSources", "interfaceRoboClerk_1_1IDataSources.html", [
       [ "RoboClerk.DataSourcesBase", "classRoboClerk_1_1DataSourcesBase.html", [
         [ "RoboClerk.CheckpointDataSources", "classRoboClerk_1_1CheckpointDataSources.html", null ],
@@ -79,26 +66,30 @@ var hierarchy =
     [ "IEnumerable", null, [
       [ "RoboClerk.RoboClerkOrderedDictionary< TKey, TValue >", "classRoboClerk_1_1RoboClerkOrderedDictionary.html", null ]
     ] ],
-    [ "RoboClerk.IFileProviderPlugin", "interfaceRoboClerk_1_1IFileProviderPlugin.html", [
-      [ "RoboClerk.FileProviderPluginBase", "classRoboClerk_1_1FileProviderPluginBase.html", [
-        [ "RoboClerk.LocalFileSystemPlugin", "classRoboClerk_1_1LocalFileSystemPlugin.html", null ]
-      ] ],
-      [ "RoboClerk.LocalFileSystemPlugin", "classRoboClerk_1_1LocalFileSystemPlugin.html", null ]
-    ] ],
     [ "RoboClerk.IPlugin", "interfaceRoboClerk_1_1IPlugin.html", [
       [ "RoboClerk.AISystem.IAISystemPlugin", "interfaceRoboClerk_1_1AISystem_1_1IAISystemPlugin.html", [
         [ "RoboClerk.AISystem.AISystemPluginBase", "classRoboClerk_1_1AISystem_1_1AISystemPluginBase.html", null ]
       ] ],
+      [ "RoboClerk.IDataSourcePlugin", "interfaceRoboClerk_1_1IDataSourcePlugin.html", [
+        [ "RoboClerk.DataSourcePluginBase", "classRoboClerk_1_1DataSourcePluginBase.html", [
+          [ "RoboClerk.DependenciesFile.DependenciesFilePlugin", "classRoboClerk_1_1DependenciesFile_1_1DependenciesFilePlugin.html", null ],
+          [ "RoboClerk.SLMSPluginBase", "classRoboClerk_1_1SLMSPluginBase.html", [
+            [ "RoboClerk.AzureDevOps.AzureDevOpsSLMSPlugin", "classRoboClerk_1_1AzureDevOps_1_1AzureDevOpsSLMSPlugin.html", null ],
+            [ "RoboClerk.Redmine.RedmineSLMSPlugin", "classRoboClerk_1_1Redmine_1_1RedmineSLMSPlugin.html", null ]
+          ] ],
+          [ "RoboClerk.SourceCodeAnalysisPluginBase", "classRoboClerk_1_1SourceCodeAnalysisPluginBase.html", [
+            [ "RoboClerk.AnnotatedUnitTests.AnnotatedUnitTestsPlugin", "classRoboClerk_1_1AnnotatedUnitTests_1_1AnnotatedUnitTestsPlugin.html", null ],
+            [ "RoboClerk.UnitTestFNPlugin", "classRoboClerk_1_1UnitTestFNPlugin.html", null ]
+          ] ]
+        ] ]
+      ] ],
       [ "RoboClerk.PluginBase", "classRoboClerk_1_1PluginBase.html", [
-        [ "RoboClerk.FileAccessPluginBase", "classRoboClerk_1_1FileAccessPluginBase.html", [
-          [ "RoboClerk.AISystem.AISystemPluginBase", "classRoboClerk_1_1AISystem_1_1AISystemPluginBase.html", null ],
-          [ "RoboClerk.DataSourcePluginBase", "classRoboClerk_1_1DataSourcePluginBase.html", null ]
-        ] ],
-        [ "RoboClerk.FileProviderPluginBase", "classRoboClerk_1_1FileProviderPluginBase.html", null ]
+        [ "RoboClerk.AISystem.AISystemPluginBase", "classRoboClerk_1_1AISystem_1_1AISystemPluginBase.html", null ],
+        [ "RoboClerk.DataSourcePluginBase", "classRoboClerk_1_1DataSourcePluginBase.html", null ]
       ] ]
     ] ],
     [ "RoboClerk.IPluginLoader", "interfaceRoboClerk_1_1IPluginLoader.html", [
-      [ "RoboClerk.PluginLoader< T >", "classRoboClerk_1_1PluginLoader.html", null ]
+      [ "RoboClerk.PluginLoader", "classRoboClerk_1_1PluginLoader.html", null ]
     ] ],
     [ "RoboClerk.Redmine.IRedmineClient", "interfaceRoboClerk_1_1Redmine_1_1IRedmineClient.html", [
       [ "RoboClerk.Redmine.RestSharpRedmineClient", "classRoboClerk_1_1Redmine_1_1RestSharpRedmineClient.html", null ]
@@ -129,6 +120,7 @@ var hierarchy =
       [ "RoboClerk.TraceabilityAnalysis", "classRoboClerk_1_1TraceabilityAnalysis.html", null ]
     ] ],
     [ "RoboClerk.Redmine.Parent", "classRoboClerk_1_1Redmine_1_1Parent.html", null ],
+    [ "RoboClerk.PluginAssemblyLoader", "classRoboClerk_1_1PluginAssemblyLoader.html", null ],
     [ "RoboClerk.Redmine.PossibleValue", "classRoboClerk_1_1Redmine_1_1PossibleValue.html", null ],
     [ "RoboClerk.Redmine.Priority", "classRoboClerk_1_1Redmine_1_1Priority.html", null ],
     [ "RoboClerk.Program", "classRoboClerk_1_1Program.html", null ],

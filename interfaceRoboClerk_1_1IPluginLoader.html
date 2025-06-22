@@ -102,42 +102,42 @@ Inheritance diagram for RoboClerk.IPluginLoader:</div>
  <div class="center">
   <img src="interfaceRoboClerk_1_1IPluginLoader.png" usemap="#RoboClerk.IPluginLoader_map" alt=""/>
   <map id="RoboClerk.IPluginLoader_map" name="RoboClerk.IPluginLoader_map">
-<area href="classRoboClerk_1_1PluginLoader.html" alt="RoboClerk.PluginLoader&lt; T &gt;" shape="rect" coords="0,56,181,80"/>
+<area href="classRoboClerk_1_1PluginLoader.html" alt="RoboClerk.PluginLoader" shape="rect" coords="0,56,153,80"/>
   </map>
 </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:af274d7011ac3c5f053b4d8038841e00f"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceRoboClerk_1_1IPluginLoader.html#af274d7011ac3c5f053b4d8038841e00f">LoadPlugin&lt; T &gt;</a> (string name, string pluginDir, IFileSystem fileSystem)</td></tr>
-<tr class="separator:af274d7011ac3c5f053b4d8038841e00f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae85bf152c22fde5d3913c77a60c8511e"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceRoboClerk_1_1IPluginLoader.html#ae85bf152c22fde5d3913c77a60c8511e">LoadByName&lt; T &gt;</a> (string pluginDir, string typeName, Action&lt; IServiceCollection &gt; configureGlobals)</td></tr>
+<tr class="separator:ae85bf152c22fde5d3913c77a60c8511e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="IPluginLoader_8cs_source.html#l00005">5</a> of file <a class="el" href="IPluginLoader_8cs_source.html">IPluginLoader.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="IPluginLoader_8cs_source.html#l00007">7</a> of file <a class="el" href="IPluginLoader_8cs_source.html">IPluginLoader.cs</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="af274d7011ac3c5f053b4d8038841e00f" name="af274d7011ac3c5f053b4d8038841e00f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af274d7011ac3c5f053b4d8038841e00f">&#9670;&#160;</a></span>LoadPlugin&lt; T &gt;()</h2>
+<a id="ae85bf152c22fde5d3913c77a60c8511e" name="ae85bf152c22fde5d3913c77a60c8511e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae85bf152c22fde5d3913c77a60c8511e">&#9670;&#160;</a></span>LoadByName&lt; T &gt;()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">T RoboClerk.IPluginLoader.LoadPlugin&lt; T &gt; </td>
+          <td class="memname">T RoboClerk.IPluginLoader.LoadByName&lt; T &gt; </td>
           <td>(</td>
-          <td class="paramtype">string&#160;</td>
-          <td class="paramname"><em>name</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
           <td class="paramtype">string&#160;</td>
           <td class="paramname"><em>pluginDir</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">IFileSystem&#160;</td>
-          <td class="paramname"><em>fileSystem</em>&#160;</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>typeName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Action&lt; IServiceCollection &gt;&#160;</td>
+          <td class="paramname"><em>configureGlobals</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -146,12 +146,11 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Implemented in <a class="el" href="classRoboClerk_1_1PluginLoader.html#ac4c60103d21ab6fbbe79fc32335493b4">RoboClerk.PluginLoader&lt; T &gt;</a>.</p>
 <div class="typeconstraint">
 <dl><dt><b>Type Constraints</b></dt><dd>
 <table border="0" cellspacing="2" cellpadding="0">
 <tr><td valign="top"><em>T</em></td><td>&#160;:</td><td valign="top"><em>class</em></td><td>&#160;</td></tr>
+<tr><td valign="top"><em>T</em></td><td>&#160;:</td><td valign="top"><em>IPlugin</em></td><td>&#160;</td></tr>
 </table>
 </dd>
 </dl>
