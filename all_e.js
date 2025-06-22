@@ -6,7 +6,7 @@ var searchData=
   ['placeholderitem_3',['PlaceholderItem',['../classRoboClerk_1_1PlaceholderItem.html#ad3f9f4a42d8a582c656e8fbe10794bf0',1,'RoboClerk.PlaceholderItem.PlaceholderItem()'],['../classRoboClerk_1_1PlaceholderItem.html',1,'RoboClerk.PlaceholderItem']]],
   ['placeholderitem_2ecs_4',['PlaceholderItem.cs',['../PlaceholderItem_8cs.html',1,'']]],
   ['pluginassemblyloader_5',['PluginAssemblyLoader',['../classRoboClerk_1_1PluginAssemblyLoader.html#a6be57fda83c00491ff5e714e0d7cbf7b',1,'RoboClerk.PluginAssemblyLoader.PluginAssemblyLoader()'],['../classRoboClerk_1_1PluginAssemblyLoader.html',1,'RoboClerk.PluginAssemblyLoader']]],
-  ['pluginbase_6',['PluginBase',['../classRoboClerk_1_1PluginBase.html#a59673c91725a54cce4b130d92f3de4ce',1,'RoboClerk.PluginBase.PluginBase()'],['../classRoboClerk_1_1PluginBase.html',1,'RoboClerk.PluginBase']]],
+  ['pluginbase_6',['PluginBase',['../classRoboClerk_1_1PluginBase.html#a05fbff8e2cb26e6e98daba26d24afb32',1,'RoboClerk.PluginBase.PluginBase()'],['../classRoboClerk_1_1PluginBase.html',1,'RoboClerk.PluginBase']]],
   ['pluginbase_2ecs_7',['PluginBase.cs',['../PluginBase_8cs.html',1,'']]],
   ['pluginconfigdir_8',['PluginConfigDir',['../interfaceRoboClerk_1_1Configuration_1_1IConfiguration.html#ac0545a114c8c4453a6e2423220b34893',1,'RoboClerk.Configuration.IConfiguration.PluginConfigDir()'],['../classRoboClerk_1_1Configuration_1_1Configuration.html#a108f807377ea80301a32aafa46c2c343',1,'RoboClerk.Configuration.Configuration.PluginConfigDir()']]],
   ['plugindatasources_9',['PluginDataSources',['../classRoboClerk_1_1PluginDataSources.html#a0d089431272da8a253b2d707ea2aaf1f',1,'RoboClerk.PluginDataSources.PluginDataSources()'],['../classRoboClerk_1_1PluginDataSources.html',1,'RoboClerk.PluginDataSources']]],
