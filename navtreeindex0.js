@@ -233,10 +233,10 @@ var NAVTREEINDEX0 =
 "annotated.html":[1,0],
 "classRoboClerk_1_1AISystem_1_1AISystemPluginBase.html":[0,0,0,0,0],
 "classRoboClerk_1_1AISystem_1_1AISystemPluginBase.html":[1,0,0,0,0],
-"classRoboClerk_1_1AISystem_1_1AISystemPluginBase.html#a16e7e6934fdecf11f8c5a472e57e29b5":[0,0,0,0,0,2],
 "classRoboClerk_1_1AISystem_1_1AISystemPluginBase.html#a16e7e6934fdecf11f8c5a472e57e29b5":[1,0,0,0,0,2],
-"classRoboClerk_1_1AISystem_1_1AISystemPluginBase.html#a2a70d555fb270cf96c31cfe34cd83afa":[1,0,0,0,0,0],
+"classRoboClerk_1_1AISystem_1_1AISystemPluginBase.html#a16e7e6934fdecf11f8c5a472e57e29b5":[0,0,0,0,0,2],
 "classRoboClerk_1_1AISystem_1_1AISystemPluginBase.html#a2a70d555fb270cf96c31cfe34cd83afa":[0,0,0,0,0,0],
+"classRoboClerk_1_1AISystem_1_1AISystemPluginBase.html#a2a70d555fb270cf96c31cfe34cd83afa":[1,0,0,0,0,0],
 "classRoboClerk_1_1AISystem_1_1AISystemPluginBase.html#a3828f4dc337aadc032a27af424b93d4f":[0,0,0,0,0,1],
 "classRoboClerk_1_1AISystem_1_1AISystemPluginBase.html#a3828f4dc337aadc032a27af424b93d4f":[1,0,0,0,0,1],
 "classRoboClerk_1_1AISystem_1_1AISystemPluginBase.html#aaaf7b42706395ad039bf80dbccf108cb":[1,0,0,0,0,4],
@@ -245,9 +245,9 @@ var NAVTREEINDEX0 =
 "classRoboClerk_1_1AISystem_1_1AISystemPluginBase.html#aad5adad6429a47fefe75c1b544b85dce":[1,0,0,0,0,3],
 "classRoboClerk_1_1AISystem_1_1PromptTemplate.html":[0,0,0,0,2],
 "classRoboClerk_1_1AISystem_1_1PromptTemplate.html":[1,0,0,0,2],
-"classRoboClerk_1_1AISystem_1_1PromptTemplate.html#a7ecaeb51aee6e00700103d14b9ca745a":[1,0,0,0,2,2],
 "classRoboClerk_1_1AISystem_1_1PromptTemplate.html#a7ecaeb51aee6e00700103d14b9ca745a":[0,0,0,0,2,2],
+"classRoboClerk_1_1AISystem_1_1PromptTemplate.html#a7ecaeb51aee6e00700103d14b9ca745a":[1,0,0,0,2,2],
 "classRoboClerk_1_1AISystem_1_1PromptTemplate.html#acbe09fe9acd8b848e41ea656d88f69bf":[0,0,0,0,2,1],
 "classRoboClerk_1_1AISystem_1_1PromptTemplate.html#acbe09fe9acd8b848e41ea656d88f69bf":[1,0,0,0,2,1],
-"classRoboClerk_1_1AISystem_1_1PromptTemplate.html#ae4c955af30e17937748463b7f15bd0f7":[1,0,0,0,2,0]
+"classRoboClerk_1_1AISystem_1_1PromptTemplate.html#ae4c955af30e17937748463b7f15bd0f7":[0,0,0,0,2,0]
 };

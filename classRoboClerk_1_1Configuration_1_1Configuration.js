@@ -13,6 +13,7 @@ var classRoboClerk_1_1Configuration_1_1Configuration =
     [ "LogLevel", "classRoboClerk_1_1Configuration_1_1Configuration.html#a5a4c06388fb93c3b28ee81fb5faffd12", null ],
     [ "MediaDir", "classRoboClerk_1_1Configuration_1_1Configuration.html#a6121962efe9748b62c8c7dbb251d5b75", null ],
     [ "OutputDir", "classRoboClerk_1_1Configuration_1_1Configuration.html#a67a2e34ce9cf92d171534a372a5bb9ea", null ],
+    [ "OutputFormat", "classRoboClerk_1_1Configuration_1_1Configuration.html#abe41e7025e2035011a188c7de0145417", null ],
     [ "PluginConfigDir", "classRoboClerk_1_1Configuration_1_1Configuration.html#a108f807377ea80301a32aafa46c2c343", null ],
     [ "PluginDirs", "classRoboClerk_1_1Configuration_1_1Configuration.html#a4e854a647a9b277810cbaa3a6c5364d1", null ],
     [ "ProjectRoot", "classRoboClerk_1_1Configuration_1_1Configuration.html#ab782edeab7453beb3095d63fcd371295", null ],
