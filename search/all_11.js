@@ -70,7 +70,7 @@ var searchData=
   ['truthitemconfig_67',['TruthItemConfig',['../classRoboClerk_1_1Configuration_1_1TruthItemConfig.html',1,'RoboClerk.Configuration.TruthItemConfig'],['../classRoboClerk_1_1Configuration_1_1TruthItemConfig.html#a719f5ed133003cc25074a6af165a6d23',1,'RoboClerk.Configuration.TruthItemConfig.TruthItemConfig()'],['../classRoboClerk_1_1Configuration_1_1TruthItemConfig.html#a8c5f4ba61a282dd041960b6f4b0c8c31',1,'RoboClerk.Configuration.TruthItemConfig.TruthItemConfig(string name, bool filter)']]],
   ['truthitemconfig_2ecs_68',['TruthItemConfig.cs',['../TruthItemConfig_8cs.html',1,'']]],
   ['truthsource_69',['truthSource',['../classRoboClerk_1_1ContentCreators_1_1TraceabilityMatrixBase.html#aa45bc21f8744346f0fcab74500f7167b',1,'RoboClerk::ContentCreators::TraceabilityMatrixBase']]],
-  ['type_70',['type',['../classRoboClerk_1_1Item.html#a2c721f2b74b9d12a86b71a592fa1ad86',1,'RoboClerk::Item']]],
-  ['type_71',['Type',['../classRoboClerk_1_1TestResult.html#a465af53e666fe674d0307da07f35b783',1,'RoboClerk::TestResult']]],
+  ['type_70',['Type',['../classRoboClerk_1_1TestResult.html#a465af53e666fe674d0307da07f35b783',1,'RoboClerk::TestResult']]],
+  ['type_71',['type',['../classRoboClerk_1_1Item.html#a2c721f2b74b9d12a86b71a592fa1ad86',1,'RoboClerk::Item']]],
   ['typeofrequirement_72',['TypeOfRequirement',['../classRoboClerk_1_1RequirementItem.html#a560ad7fbc2c55ee0c15731c0db52737f',1,'RoboClerk::RequirementItem']]]
 ];

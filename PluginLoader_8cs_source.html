@@ -139,152 +139,153 @@ $(document).ready(function(){initNavTree('PluginLoader_8cs_source.html',''); ini
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="classRoboClerk_1_1PluginLoader.html">   45</a></span>    <span class="keyword">public</span> <span class="keyword">class </span><a class="code hl_class" href="classRoboClerk_1_1PluginLoader.html">PluginLoader</a> : <a class="code hl_interface" href="interfaceRoboClerk_1_1IPluginLoader.html">IPluginLoader</a></div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    {</div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>        <span class="keyword">private</span> readonly <a class="code hl_interface" href="interfaceRoboClerk_1_1IFileProviderPlugin.html">IFileProviderPlugin</a> _fileSystem;</div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>        <span class="keyword">private</span> readonly <a class="code hl_class" href="classRoboClerk_1_1PluginAssemblyLoader.html">PluginAssemblyLoader</a> _assemblyLoader;</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno"><a class="line" href="classRoboClerk_1_1PluginLoader.html#aaea3def2ed629d871cdc9f171dc04bbb">   50</a></span>        <span class="keyword">public</span> <a class="code hl_function" href="classRoboClerk_1_1PluginLoader.html#aaea3def2ed629d871cdc9f171dc04bbb">PluginLoader</a>(IFileSystem fileSystem)</div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>        {</div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>            _fileSystem = <span class="keyword">new</span> <a class="code hl_class" href="classRoboClerk_1_1LocalFileSystemPlugin.html">LocalFileSystemPlugin</a>(fileSystem);</div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>            _assemblyLoader = <span class="keyword">new</span> <a class="code hl_class" href="classRoboClerk_1_1PluginAssemblyLoader.html">PluginAssemblyLoader</a>(_fileSystem);</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>        }</div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span> </div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>        <span class="comment">// -------------------------</span></div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>        <span class="comment">// PUBLIC: load *all* plugins</span></div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>        <span class="keyword">private</span> readonly IFileSystem _fileSystem;</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>        <span class="keyword">private</span> readonly <a class="code hl_interface" href="interfaceRoboClerk_1_1IFileProviderPlugin.html">IFileProviderPlugin</a> _pluginFileProvider;</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>        <span class="keyword">private</span> readonly <a class="code hl_class" href="classRoboClerk_1_1PluginAssemblyLoader.html">PluginAssemblyLoader</a> _assemblyLoader;</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span> </div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno"><a class="line" href="classRoboClerk_1_1PluginLoader.html#ad7d934066b67e14dc4df331f5f894cb2">   51</a></span>        <span class="keyword">public</span> <a class="code hl_function" href="classRoboClerk_1_1PluginLoader.html#ad7d934066b67e14dc4df331f5f894cb2">PluginLoader</a>(IFileSystem fileSystem, <a class="code hl_interface" href="interfaceRoboClerk_1_1IFileProviderPlugin.html">IFileProviderPlugin</a> pluginFileProvider)</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>        {</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>            _fileSystem = fileSystem;</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>            _pluginFileProvider = pluginFileProvider;</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>            _assemblyLoader = <span class="keyword">new</span> <a class="code hl_class" href="classRoboClerk_1_1PluginAssemblyLoader.html">PluginAssemblyLoader</a>(_fileSystem);</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>        }</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span> </div>
 <div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>        <span class="comment">// -------------------------</span></div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno"><a class="line" href="classRoboClerk_1_1PluginLoader.html#a8c1cb86234889249d073acd1ce4104ef">   59</a></span>        <span class="keyword">public</span> IServiceProvider <a class="code hl_function" href="classRoboClerk_1_1PluginLoader.html#a8c1cb86234889249d073acd1ce4104ef">LoadAll&lt;TPluginInterface&gt;</a>(</div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>            <span class="keywordtype">string</span> pluginDir,</div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>            Action&lt;IServiceCollection&gt;? configureGlobals = <span class="keyword">null</span></div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>        ) where TPluginInterface : class, <a class="code hl_interface" href="interfaceRoboClerk_1_1IPlugin.html">IPlugin</a></div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>        {</div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>            var (services, _) = BuildContainer&lt;TPluginInterface&gt;(pluginDir, configureGlobals);</div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>            <span class="keywordflow">return</span> services.BuildServiceProvider();</div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>        }</div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span> </div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>        <span class="comment">// ----------------------------------------</span></div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>        <span class="comment">// PUBLIC: load one plugin by its class-name</span></div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>        <span class="comment">// PUBLIC: load *all* plugins</span></div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>        <span class="comment">// -------------------------</span></div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno"><a class="line" href="classRoboClerk_1_1PluginLoader.html#a8c1cb86234889249d073acd1ce4104ef">   61</a></span>        <span class="keyword">public</span> IServiceProvider <a class="code hl_function" href="classRoboClerk_1_1PluginLoader.html#a8c1cb86234889249d073acd1ce4104ef">LoadAll&lt;TPluginInterface&gt;</a>(</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>            <span class="keywordtype">string</span> pluginDir,</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>            Action&lt;IServiceCollection&gt;? configureGlobals = <span class="keyword">null</span></div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>        ) where TPluginInterface : class, <a class="code hl_interface" href="interfaceRoboClerk_1_1IPlugin.html">IPlugin</a></div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>        {</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>            var (services, _) = BuildContainer&lt;TPluginInterface&gt;(pluginDir, configureGlobals);</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>            <span class="keywordflow">return</span> services.BuildServiceProvider();</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>        }</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span> </div>
 <div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>        <span class="comment">// ----------------------------------------</span></div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno"><a class="line" href="classRoboClerk_1_1PluginLoader.html#a8faab55a4811c21badaea708a9927840">   71</a></span>        <span class="keyword">public</span> TPluginInterface? <a class="code hl_function" href="classRoboClerk_1_1PluginLoader.html#a8faab55a4811c21badaea708a9927840">LoadByName&lt;TPluginInterface&gt;</a>(</div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>            <span class="keywordtype">string</span> pluginDir,</div>
-<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>            <span class="keywordtype">string</span> typeName,</div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>            Action&lt;IServiceCollection&gt;? configureGlobals = <span class="keyword">null</span></div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>        ) where TPluginInterface : class, <a class="code hl_interface" href="interfaceRoboClerk_1_1IPlugin.html">IPlugin</a></div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>        {</div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>            <span class="comment">// 1) Build the container and capture the list of discovered impl types:</span></div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>            var (services, implTypes) = BuildContainer&lt;TPluginInterface&gt;(pluginDir, configureGlobals);</div>
-<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>            var provider = services.BuildServiceProvider();</div>
-<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span> </div>
-<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>            <span class="comment">// 2) Find the one whose class name matches</span></div>
-<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>            var match = implTypes</div>
-<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>                .FirstOrDefault(t =&gt; t.Name.Equals(typeName, StringComparison.Ordinal));</div>
-<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>            <span class="keywordflow">if</span> (match is <span class="keyword">null</span>)</div>
-<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>                <span class="keywordflow">return</span> <span class="keyword">null</span>;</div>
-<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span> </div>
-<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>            <span class="comment">// 3) Resolve via DI (honors ctor injection, modules� registrations, etc.)</span></div>
-<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>            <span class="keywordflow">return</span> provider.GetService(match) as TPluginInterface;</div>
-<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>        }</div>
-<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span> </div>
-<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>        <span class="comment">// -------------------------------------------------</span></div>
-<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>        <span class="comment">// INTERNAL: assemble IServiceCollection + impl types</span></div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>        <span class="comment">// PUBLIC: load one plugin by its class-name</span></div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>        <span class="comment">// ----------------------------------------</span></div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno"><a class="line" href="classRoboClerk_1_1PluginLoader.html#a8faab55a4811c21badaea708a9927840">   73</a></span>        <span class="keyword">public</span> TPluginInterface? <a class="code hl_function" href="classRoboClerk_1_1PluginLoader.html#a8faab55a4811c21badaea708a9927840">LoadByName&lt;TPluginInterface&gt;</a>(</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>            <span class="keywordtype">string</span> pluginDir,</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>            <span class="keywordtype">string</span> typeName,</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>            Action&lt;IServiceCollection&gt;? configureGlobals = <span class="keyword">null</span></div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>        ) where TPluginInterface : class, <a class="code hl_interface" href="interfaceRoboClerk_1_1IPlugin.html">IPlugin</a></div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>        {</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>            <span class="comment">// 1) Build the container and capture the list of discovered impl types:</span></div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>            var (services, implTypes) = BuildContainer&lt;TPluginInterface&gt;(pluginDir, configureGlobals);</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>            var provider = services.BuildServiceProvider();</div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span> </div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>            <span class="comment">// 2) Find the one whose class name matches</span></div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>            var match = implTypes</div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>                .FirstOrDefault(t =&gt; t.Name.Equals(typeName, StringComparison.Ordinal));</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>            <span class="keywordflow">if</span> (match is <span class="keyword">null</span>)</div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>                <span class="keywordflow">return</span> <span class="keyword">null</span>;</div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span> </div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>            <span class="comment">// 3) Resolve via DI (honors ctor injection, modules� registrations, etc.)</span></div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>            <span class="keywordflow">return</span> provider.GetService(match) as TPluginInterface;</div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>        }</div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span> </div>
 <div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>        <span class="comment">// -------------------------------------------------</span></div>
-<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>        <span class="keyword">private</span> (IServiceCollection services, List&lt;Type&gt; implTypes) BuildContainer&lt;TPluginInterface&gt;</div>
-<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>            (<span class="keywordtype">string</span> pluginDir,Action&lt;IServiceCollection&gt;? configureGlobals) where TPluginInterface : <span class="keyword">class</span>, <a class="code hl_interface" href="interfaceRoboClerk_1_1IPlugin.html">IPlugin</a></div>
-<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>        {</div>
-<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>            <span class="keywordflow">if</span> (!_fileSystem.DirectoryExists(pluginDir))</div>
-<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>                <span class="keywordflow">throw</span> <span class="keyword">new</span> DirectoryNotFoundException($<span class="stringliteral">&quot;Plugin directory not found: {pluginDir}&quot;</span>);</div>
-<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span> </div>
-<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>            var services = <span class="keyword">new</span> ServiceCollection();</div>
-<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>            var implTypes = <span class="keyword">new</span> List&lt;Type&gt;();</div>
-<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span> </div>
-<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>            <span class="comment">// 1) globals</span></div>
-<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>            services.AddSingleton&lt;<a class="code hl_interface" href="interfaceRoboClerk_1_1IFileProviderPlugin.html">IFileProviderPlugin</a>&gt;(_fileSystem);</div>
-<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>            configureGlobals?.Invoke(services);</div>
-<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span> </div>
-<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>            <span class="comment">// 2) per‐assembly scan</span></div>
-<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>            <span class="keywordflow">foreach</span> (var <span class="keyword">asm</span> <span class="keywordflow">in</span> _assemblyLoader.LoadFromDirectory(pluginDir))</div>
-<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>            {</div>
-<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>                var pluginTypes = <span class="keyword">asm</span></div>
-<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>                    .GetTypes()</div>
-<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>                    .Where(t =&gt; typeof(TPluginInterface).IsAssignableFrom(t)</div>
-<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>                             &amp;&amp; !t.IsAbstract</div>
-<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>                             &amp;&amp; t.GetConstructor(<span class="keyword">new</span>[] { typeof(<a class="code hl_interface" href="interfaceRoboClerk_1_1IFileProviderPlugin.html">IFileProviderPlugin</a>) }) != <span class="keyword">null</span>);</div>
-<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span> </div>
-<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>                <span class="keywordflow">foreach</span> (var type <span class="keywordflow">in</span> pluginTypes)</div>
-<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span>                {</div>
-<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>                    ConstructorInfo? ctor = <span class="keyword">null</span>;</div>
-<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>                    <span class="keywordtype">object</span>?[] args;</div>
-<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span> </div>
-<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>                    <span class="comment">// 3) find the single‐arg ctor</span></div>
-<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>                    ctor = type.GetConstructor(<span class="keyword">new</span>[] { typeof(IFileProviderPlugin) });</div>
-<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span> </div>
-<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>                    <span class="keywordflow">if</span> (ctor != <span class="keyword">null</span>)</div>
-<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span>                    {</div>
-<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span>                        args = <span class="keyword">new</span> <span class="keywordtype">object</span>[] { _fileSystem };</div>
-<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span>                    }</div>
-<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span>                    <span class="keywordflow">else</span></div>
-<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span>                    {</div>
-<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span>                        <span class="comment">// Fallback to parameterless constructor</span></div>
-<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span>                        ctor = type.GetConstructor(Type.EmptyTypes);</div>
-<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span>                        <span class="keywordflow">if</span> (ctor == <span class="keyword">null</span>)</div>
-<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span>                            <span class="keywordflow">throw</span> <span class="keyword">new</span> InvalidOperationException($<span class="stringliteral">&quot;Type {type.FullName} has no supported constructor.&quot;</span>);</div>
-<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span> </div>
-<div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span>                        args = Array.Empty&lt;<span class="keywordtype">object</span>&gt;();</div>
-<div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span>                    }</div>
-<div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span> </div>
-<div class="line"><a id="l00138" name="l00138"></a><span class="lineno">  138</span>                    implTypes.Add(type);</div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>        <span class="comment">// INTERNAL: assemble IServiceCollection + impl types</span></div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>        <span class="comment">// -------------------------------------------------</span></div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>        <span class="keyword">private</span> (IServiceCollection services, List&lt;Type&gt; implTypes) BuildContainer&lt;TPluginInterface&gt;</div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>            (<span class="keywordtype">string</span> pluginDir,Action&lt;IServiceCollection&gt;? configureGlobals) where TPluginInterface : <span class="keyword">class</span>, <a class="code hl_interface" href="interfaceRoboClerk_1_1IPlugin.html">IPlugin</a></div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>        {</div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>            <span class="keywordflow">if</span> (!_fileSystem.Directory.Exists(pluginDir))</div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>                <span class="keywordflow">throw</span> <span class="keyword">new</span> DirectoryNotFoundException($<span class="stringliteral">&quot;Plugin directory not found: {pluginDir}&quot;</span>);</div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span> </div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>            var services = <span class="keyword">new</span> ServiceCollection();</div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>            var implTypes = <span class="keyword">new</span> List&lt;Type&gt;();</div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span> </div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>            <span class="comment">// 1) globals</span></div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>            services.AddSingleton&lt;<a class="code hl_interface" href="interfaceRoboClerk_1_1IFileProviderPlugin.html">IFileProviderPlugin</a>&gt;(_pluginFileProvider);</div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>            configureGlobals?.Invoke(services);</div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span> </div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>            <span class="comment">// 2) per‐assembly scan</span></div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>            <span class="keywordflow">foreach</span> (var <span class="keyword">asm</span> <span class="keywordflow">in</span> _assemblyLoader.LoadFromDirectory(pluginDir))</div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>            {</div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>                var pluginTypes = <span class="keyword">asm</span></div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>                    .GetTypes()</div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>                    .Where(t =&gt; typeof(TPluginInterface).IsAssignableFrom(t)</div>
+<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>                             &amp;&amp; !t.IsAbstract</div>
+<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>                             &amp;&amp; t.GetConstructor(<span class="keyword">new</span>[] { typeof(<a class="code hl_interface" href="interfaceRoboClerk_1_1IFileProviderPlugin.html">IFileProviderPlugin</a>) }) != <span class="keyword">null</span>);</div>
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span> </div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>                <span class="keywordflow">foreach</span> (var type <span class="keywordflow">in</span> pluginTypes)</div>
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>                {</div>
+<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span>                    ConstructorInfo? ctor = <span class="keyword">null</span>;</div>
+<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>                    <span class="keywordtype">object</span>?[] args;</div>
+<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span> </div>
+<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>                    <span class="comment">// 3) find the single‐arg ctor</span></div>
+<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>                    ctor = type.GetConstructor(<span class="keyword">new</span>[] { typeof(IFileProviderPlugin) });</div>
+<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span> </div>
+<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span>                    <span class="keywordflow">if</span> (ctor != <span class="keyword">null</span>)</div>
+<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span>                    {</div>
+<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span>                        args = <span class="keyword">new</span> <span class="keywordtype">object</span>[] { _pluginFileProvider };</div>
+<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span>                    }</div>
+<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span>                    <span class="keywordflow">else</span></div>
+<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span>                    {</div>
+<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span>                        <span class="comment">// Fallback to parameterless constructor</span></div>
+<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span>                        ctor = type.GetConstructor(Type.EmptyTypes);</div>
+<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span>                        <span class="keywordflow">if</span> (ctor == <span class="keyword">null</span>)</div>
+<div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span>                            <span class="keywordflow">throw</span> <span class="keyword">new</span> InvalidOperationException($<span class="stringliteral">&quot;Type {type.FullName} has no supported constructor.&quot;</span>);</div>
+<div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span> </div>
+<div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span>                        args = Array.Empty&lt;<span class="keywordtype">object</span>&gt;();</div>
+<div class="line"><a id="l00138" name="l00138"></a><span class="lineno">  138</span>                    }</div>
 <div class="line"><a id="l00139" name="l00139"></a><span class="lineno">  139</span> </div>
-<div class="line"><a id="l00140" name="l00140"></a><span class="lineno">  140</span>                    <span class="comment">// 4) invoke it to get the PluginBase/IPluginRegistrar</span></div>
-<div class="line"><a id="l00141" name="l00141"></a><span class="lineno">  141</span>                    var metadataInstance = (TPluginInterface)ctor.Invoke(args);</div>
-<div class="line"><a id="l00142" name="l00142"></a><span class="lineno">  142</span> </div>
-<div class="line"><a id="l00143" name="l00143"></a><span class="lineno">  143</span>                    <span class="comment">// 5) let the plugin register everything it needs,</span></div>
-<div class="line"><a id="l00144" name="l00144"></a><span class="lineno">  144</span>                    metadataInstance.ConfigureServices(services);</div>
-<div class="line"><a id="l00145" name="l00145"></a><span class="lineno">  145</span>                }</div>
-<div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span>            }</div>
-<div class="line"><a id="l00147" name="l00147"></a><span class="lineno">  147</span> </div>
-<div class="line"><a id="l00148" name="l00148"></a><span class="lineno">  148</span>            <span class="keywordflow">return</span> (services, implTypes);</div>
-<div class="line"><a id="l00149" name="l00149"></a><span class="lineno">  149</span>        }</div>
-<div class="line"><a id="l00150" name="l00150"></a><span class="lineno">  150</span>    }</div>
-<div class="line"><a id="l00151" name="l00151"></a><span class="lineno">  151</span> </div>
-<div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span>    <span class="comment">// --- helper for loading raw assemblies ---</span></div>
-<div class="line"><a id="l00153" name="l00153"></a><span class="lineno"><a class="line" href="classRoboClerk_1_1PluginAssemblyLoader.html">  153</a></span>    <span class="keyword">public</span> <span class="keyword">class </span><a class="code hl_class" href="classRoboClerk_1_1PluginAssemblyLoader.html">PluginAssemblyLoader</a></div>
-<div class="line"><a id="l00154" name="l00154"></a><span class="lineno">  154</span>    {</div>
-<div class="line"><a id="l00155" name="l00155"></a><span class="lineno">  155</span>        <span class="keyword">private</span> readonly <a class="code hl_interface" href="interfaceRoboClerk_1_1IFileProviderPlugin.html">IFileProviderPlugin</a> _fs;</div>
-<div class="line"><a id="l00156" name="l00156"></a><span class="lineno">  156</span> </div>
-<div class="line"><a id="l00157" name="l00157"></a><span class="lineno"><a class="line" href="classRoboClerk_1_1PluginAssemblyLoader.html#adb24dc109f82b38838489f416fc7adfa">  157</a></span>        <span class="keyword">public</span> <a class="code hl_function" href="classRoboClerk_1_1PluginAssemblyLoader.html#adb24dc109f82b38838489f416fc7adfa">PluginAssemblyLoader</a>(<a class="code hl_interface" href="interfaceRoboClerk_1_1IFileProviderPlugin.html">IFileProviderPlugin</a> fs) =&gt; _fs = fs;</div>
+<div class="line"><a id="l00140" name="l00140"></a><span class="lineno">  140</span>                    implTypes.Add(type);</div>
+<div class="line"><a id="l00141" name="l00141"></a><span class="lineno">  141</span> </div>
+<div class="line"><a id="l00142" name="l00142"></a><span class="lineno">  142</span>                    <span class="comment">// 4) invoke it to get the PluginBase/IPluginRegistrar</span></div>
+<div class="line"><a id="l00143" name="l00143"></a><span class="lineno">  143</span>                    var metadataInstance = (TPluginInterface)ctor.Invoke(args);</div>
+<div class="line"><a id="l00144" name="l00144"></a><span class="lineno">  144</span> </div>
+<div class="line"><a id="l00145" name="l00145"></a><span class="lineno">  145</span>                    <span class="comment">// 5) let the plugin register everything it needs,</span></div>
+<div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span>                    metadataInstance.ConfigureServices(services);</div>
+<div class="line"><a id="l00147" name="l00147"></a><span class="lineno">  147</span>                }</div>
+<div class="line"><a id="l00148" name="l00148"></a><span class="lineno">  148</span>            }</div>
+<div class="line"><a id="l00149" name="l00149"></a><span class="lineno">  149</span> </div>
+<div class="line"><a id="l00150" name="l00150"></a><span class="lineno">  150</span>            <span class="keywordflow">return</span> (services, implTypes);</div>
+<div class="line"><a id="l00151" name="l00151"></a><span class="lineno">  151</span>        }</div>
+<div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span>    }</div>
+<div class="line"><a id="l00153" name="l00153"></a><span class="lineno">  153</span> </div>
+<div class="line"><a id="l00154" name="l00154"></a><span class="lineno">  154</span>    <span class="comment">// --- helper for loading raw assemblies ---</span></div>
+<div class="line"><a id="l00155" name="l00155"></a><span class="lineno"><a class="line" href="classRoboClerk_1_1PluginAssemblyLoader.html">  155</a></span>    <span class="keyword">public</span> <span class="keyword">class </span><a class="code hl_class" href="classRoboClerk_1_1PluginAssemblyLoader.html">PluginAssemblyLoader</a></div>
+<div class="line"><a id="l00156" name="l00156"></a><span class="lineno">  156</span>    {</div>
+<div class="line"><a id="l00157" name="l00157"></a><span class="lineno">  157</span>        <span class="keyword">private</span> readonly IFileSystem _fs;</div>
 <div class="line"><a id="l00158" name="l00158"></a><span class="lineno">  158</span> </div>
-<div class="line"><a id="l00159" name="l00159"></a><span class="lineno"><a class="line" href="classRoboClerk_1_1PluginAssemblyLoader.html#ab54e1d9de2313dab071252cf07ec3d7e">  159</a></span>        <span class="keyword">public</span> IEnumerable&lt;Assembly&gt; <a class="code hl_function" href="classRoboClerk_1_1PluginAssemblyLoader.html#ab54e1d9de2313dab071252cf07ec3d7e">LoadFromDirectory</a>(<span class="keywordtype">string</span> pluginDir)</div>
-<div class="line"><a id="l00160" name="l00160"></a><span class="lineno">  160</span>        {</div>
-<div class="line"><a id="l00161" name="l00161"></a><span class="lineno">  161</span>            var dlls = _fs.GetFiles(pluginDir, <span class="stringliteral">&quot;RoboClerk.*.dll&quot;</span>);</div>
-<div class="line"><a id="l00162" name="l00162"></a><span class="lineno">  162</span>            <span class="keywordflow">foreach</span> (var dll <span class="keywordflow">in</span> dlls)</div>
-<div class="line"><a id="l00163" name="l00163"></a><span class="lineno">  163</span>            {</div>
-<div class="line"><a id="l00164" name="l00164"></a><span class="lineno">  164</span>                var ctx = <span class="keyword">new</span> <a class="code hl_class" href="classRoboClerk_1_1PluginLoadContext.html">PluginLoadContext</a>(dll);</div>
-<div class="line"><a id="l00165" name="l00165"></a><span class="lineno">  165</span>                var asmName = <span class="keyword">new</span> AssemblyName(_fs.GetFileNameWithoutExtension(dll));</div>
-<div class="line"><a id="l00166" name="l00166"></a><span class="lineno">  166</span>                Assembly? <span class="keyword">asm</span> = <span class="keyword">null</span>;</div>
-<div class="line"><a id="l00167" name="l00167"></a><span class="lineno">  167</span>                <span class="keywordflow">try</span></div>
-<div class="line"><a id="l00168" name="l00168"></a><span class="lineno">  168</span>                {</div>
-<div class="line"><a id="l00169" name="l00169"></a><span class="lineno">  169</span>                    <span class="keyword">asm</span> = ctx.LoadFromAssemblyName(asmName);</div>
-<div class="line"><a id="l00170" name="l00170"></a><span class="lineno">  170</span>                }</div>
-<div class="line"><a id="l00171" name="l00171"></a><span class="lineno">  171</span>                <span class="keywordflow">catch</span> (Exception ex)</div>
-<div class="line"><a id="l00172" name="l00172"></a><span class="lineno">  172</span>                {</div>
-<div class="line"><a id="l00173" name="l00173"></a><span class="lineno">  173</span>                    Console.WriteLine($<span class="stringliteral">&quot;Skipping plugin {dll}: {ex.Message}&quot;</span>);</div>
-<div class="line"><a id="l00174" name="l00174"></a><span class="lineno">  174</span>                }</div>
-<div class="line"><a id="l00175" name="l00175"></a><span class="lineno">  175</span>                <span class="keywordflow">if</span> (<span class="keyword">asm</span> != <span class="keyword">null</span>)</div>
-<div class="line"><a id="l00176" name="l00176"></a><span class="lineno">  176</span>                    yield <span class="keywordflow">return</span> <span class="keyword">asm</span>;</div>
-<div class="line"><a id="l00177" name="l00177"></a><span class="lineno">  177</span>            }</div>
-<div class="line"><a id="l00178" name="l00178"></a><span class="lineno">  178</span>        }</div>
-<div class="line"><a id="l00179" name="l00179"></a><span class="lineno">  179</span>    }</div>
-<div class="line"><a id="l00180" name="l00180"></a><span class="lineno">  180</span>}</div>
-<div class="ttc" id="aclassRoboClerk_1_1LocalFileSystemPlugin_html"><div class="ttname"><a href="classRoboClerk_1_1LocalFileSystemPlugin.html">RoboClerk.LocalFileSystemPlugin</a></div><div class="ttdoc">Local filesystem implementation of the file provider plugin. This provides access to the local file s...</div><div class="ttdef"><b>Definition:</b> <a href="LocalFileSystemPlugin_8cs_source.html#l00016">LocalFileSystemPlugin.cs:17</a></div></div>
-<div class="ttc" id="aclassRoboClerk_1_1PluginAssemblyLoader_html"><div class="ttname"><a href="classRoboClerk_1_1PluginAssemblyLoader.html">RoboClerk.PluginAssemblyLoader</a></div><div class="ttdef"><b>Definition:</b> <a href="PluginLoader_8cs_source.html#l00153">PluginLoader.cs:154</a></div></div>
-<div class="ttc" id="aclassRoboClerk_1_1PluginAssemblyLoader_html_ab54e1d9de2313dab071252cf07ec3d7e"><div class="ttname"><a href="classRoboClerk_1_1PluginAssemblyLoader.html#ab54e1d9de2313dab071252cf07ec3d7e">RoboClerk.PluginAssemblyLoader.LoadFromDirectory</a></div><div class="ttdeci">IEnumerable&lt; Assembly &gt; LoadFromDirectory(string pluginDir)</div><div class="ttdef"><b>Definition:</b> <a href="PluginLoader_8cs_source.html#l00159">PluginLoader.cs:159</a></div></div>
-<div class="ttc" id="aclassRoboClerk_1_1PluginAssemblyLoader_html_adb24dc109f82b38838489f416fc7adfa"><div class="ttname"><a href="classRoboClerk_1_1PluginAssemblyLoader.html#adb24dc109f82b38838489f416fc7adfa">RoboClerk.PluginAssemblyLoader.PluginAssemblyLoader</a></div><div class="ttdeci">PluginAssemblyLoader(IFileProviderPlugin fs)</div></div>
+<div class="line"><a id="l00159" name="l00159"></a><span class="lineno"><a class="line" href="classRoboClerk_1_1PluginAssemblyLoader.html#a6be57fda83c00491ff5e714e0d7cbf7b">  159</a></span>        <span class="keyword">public</span> <a class="code hl_function" href="classRoboClerk_1_1PluginAssemblyLoader.html#a6be57fda83c00491ff5e714e0d7cbf7b">PluginAssemblyLoader</a>(IFileSystem fs) =&gt; _fs = fs;</div>
+<div class="line"><a id="l00160" name="l00160"></a><span class="lineno">  160</span> </div>
+<div class="line"><a id="l00161" name="l00161"></a><span class="lineno"><a class="line" href="classRoboClerk_1_1PluginAssemblyLoader.html#ab54e1d9de2313dab071252cf07ec3d7e">  161</a></span>        <span class="keyword">public</span> IEnumerable&lt;Assembly&gt; <a class="code hl_function" href="classRoboClerk_1_1PluginAssemblyLoader.html#ab54e1d9de2313dab071252cf07ec3d7e">LoadFromDirectory</a>(<span class="keywordtype">string</span> pluginDir)</div>
+<div class="line"><a id="l00162" name="l00162"></a><span class="lineno">  162</span>        {</div>
+<div class="line"><a id="l00163" name="l00163"></a><span class="lineno">  163</span>            var dlls = _fs.Directory.GetFiles(pluginDir, <span class="stringliteral">&quot;RoboClerk.*.dll&quot;</span>);</div>
+<div class="line"><a id="l00164" name="l00164"></a><span class="lineno">  164</span>            <span class="keywordflow">foreach</span> (var dll <span class="keywordflow">in</span> dlls)</div>
+<div class="line"><a id="l00165" name="l00165"></a><span class="lineno">  165</span>            {</div>
+<div class="line"><a id="l00166" name="l00166"></a><span class="lineno">  166</span>                var ctx = <span class="keyword">new</span> <a class="code hl_class" href="classRoboClerk_1_1PluginLoadContext.html">PluginLoadContext</a>(dll);</div>
+<div class="line"><a id="l00167" name="l00167"></a><span class="lineno">  167</span>                var asmName = <span class="keyword">new</span> AssemblyName(_fs.Path.GetFileNameWithoutExtension(dll));</div>
+<div class="line"><a id="l00168" name="l00168"></a><span class="lineno">  168</span>                Assembly? <span class="keyword">asm</span> = <span class="keyword">null</span>;</div>
+<div class="line"><a id="l00169" name="l00169"></a><span class="lineno">  169</span>                <span class="keywordflow">try</span></div>
+<div class="line"><a id="l00170" name="l00170"></a><span class="lineno">  170</span>                {</div>
+<div class="line"><a id="l00171" name="l00171"></a><span class="lineno">  171</span>                    <span class="keyword">asm</span> = ctx.LoadFromAssemblyName(asmName);</div>
+<div class="line"><a id="l00172" name="l00172"></a><span class="lineno">  172</span>                }</div>
+<div class="line"><a id="l00173" name="l00173"></a><span class="lineno">  173</span>                <span class="keywordflow">catch</span> (Exception ex)</div>
+<div class="line"><a id="l00174" name="l00174"></a><span class="lineno">  174</span>                {</div>
+<div class="line"><a id="l00175" name="l00175"></a><span class="lineno">  175</span>                    Console.WriteLine($<span class="stringliteral">&quot;Skipping plugin {dll}: {ex.Message}&quot;</span>);</div>
+<div class="line"><a id="l00176" name="l00176"></a><span class="lineno">  176</span>                }</div>
+<div class="line"><a id="l00177" name="l00177"></a><span class="lineno">  177</span>                <span class="keywordflow">if</span> (<span class="keyword">asm</span> != <span class="keyword">null</span>)</div>
+<div class="line"><a id="l00178" name="l00178"></a><span class="lineno">  178</span>                    yield <span class="keywordflow">return</span> <span class="keyword">asm</span>;</div>
+<div class="line"><a id="l00179" name="l00179"></a><span class="lineno">  179</span>            }</div>
+<div class="line"><a id="l00180" name="l00180"></a><span class="lineno">  180</span>        }</div>
+<div class="line"><a id="l00181" name="l00181"></a><span class="lineno">  181</span>    }</div>
+<div class="line"><a id="l00182" name="l00182"></a><span class="lineno">  182</span>}</div>
+<div class="ttc" id="aclassRoboClerk_1_1PluginAssemblyLoader_html"><div class="ttname"><a href="classRoboClerk_1_1PluginAssemblyLoader.html">RoboClerk.PluginAssemblyLoader</a></div><div class="ttdef"><b>Definition:</b> <a href="PluginLoader_8cs_source.html#l00155">PluginLoader.cs:156</a></div></div>
+<div class="ttc" id="aclassRoboClerk_1_1PluginAssemblyLoader_html_a6be57fda83c00491ff5e714e0d7cbf7b"><div class="ttname"><a href="classRoboClerk_1_1PluginAssemblyLoader.html#a6be57fda83c00491ff5e714e0d7cbf7b">RoboClerk.PluginAssemblyLoader.PluginAssemblyLoader</a></div><div class="ttdeci">PluginAssemblyLoader(IFileSystem fs)</div></div>
+<div class="ttc" id="aclassRoboClerk_1_1PluginAssemblyLoader_html_ab54e1d9de2313dab071252cf07ec3d7e"><div class="ttname"><a href="classRoboClerk_1_1PluginAssemblyLoader.html#ab54e1d9de2313dab071252cf07ec3d7e">RoboClerk.PluginAssemblyLoader.LoadFromDirectory</a></div><div class="ttdeci">IEnumerable&lt; Assembly &gt; LoadFromDirectory(string pluginDir)</div><div class="ttdef"><b>Definition:</b> <a href="PluginLoader_8cs_source.html#l00161">PluginLoader.cs:161</a></div></div>
 <div class="ttc" id="aclassRoboClerk_1_1PluginLoadContext_html"><div class="ttname"><a href="classRoboClerk_1_1PluginLoadContext.html">RoboClerk.PluginLoadContext</a></div><div class="ttdef"><b>Definition:</b> <a href="PluginLoader_8cs_source.html#l00013">PluginLoader.cs:14</a></div></div>
 <div class="ttc" id="aclassRoboClerk_1_1PluginLoadContext_html_a66eabb49874c22c0b54ec739bb020946"><div class="ttname"><a href="classRoboClerk_1_1PluginLoadContext.html#a66eabb49874c22c0b54ec739bb020946">RoboClerk.PluginLoadContext.Load</a></div><div class="ttdeci">override? Assembly Load(AssemblyName assemblyName)</div><div class="ttdef"><b>Definition:</b> <a href="PluginLoader_8cs_source.html#l00022">PluginLoader.cs:22</a></div></div>
 <div class="ttc" id="aclassRoboClerk_1_1PluginLoadContext_html_a6b34fda8b34fdbc038a118c3208c668d"><div class="ttname"><a href="classRoboClerk_1_1PluginLoadContext.html#a6b34fda8b34fdbc038a118c3208c668d">RoboClerk.PluginLoadContext.LoadUnmanagedDll</a></div><div class="ttdeci">override IntPtr LoadUnmanagedDll(string unmanagedDllName)</div><div class="ttdef"><b>Definition:</b> <a href="PluginLoader_8cs_source.html#l00033">PluginLoader.cs:33</a></div></div>
 <div class="ttc" id="aclassRoboClerk_1_1PluginLoadContext_html_a817126796b5107aa8a74cd264fd27631"><div class="ttname"><a href="classRoboClerk_1_1PluginLoadContext.html#a817126796b5107aa8a74cd264fd27631">RoboClerk.PluginLoadContext.PluginLoadContext</a></div><div class="ttdeci">PluginLoadContext(string pluginPath)</div><div class="ttdef"><b>Definition:</b> <a href="PluginLoader_8cs_source.html#l00017">PluginLoader.cs:17</a></div></div>
 <div class="ttc" id="aclassRoboClerk_1_1PluginLoader_html"><div class="ttname"><a href="classRoboClerk_1_1PluginLoader.html">RoboClerk.PluginLoader</a></div><div class="ttdef"><b>Definition:</b> <a href="PluginLoader_8cs_source.html#l00045">PluginLoader.cs:46</a></div></div>
-<div class="ttc" id="aclassRoboClerk_1_1PluginLoader_html_a8c1cb86234889249d073acd1ce4104ef"><div class="ttname"><a href="classRoboClerk_1_1PluginLoader.html#a8c1cb86234889249d073acd1ce4104ef">RoboClerk.PluginLoader.LoadAll&lt; TPluginInterface &gt;</a></div><div class="ttdeci">IServiceProvider LoadAll&lt; TPluginInterface &gt;(string pluginDir, Action&lt; IServiceCollection &gt;? configureGlobals=null)</div><div class="ttdef"><b>Definition:</b> <a href="PluginLoader_8cs_source.html#l00059">PluginLoader.cs:59</a></div></div>
-<div class="ttc" id="aclassRoboClerk_1_1PluginLoader_html_a8faab55a4811c21badaea708a9927840"><div class="ttname"><a href="classRoboClerk_1_1PluginLoader.html#a8faab55a4811c21badaea708a9927840">RoboClerk.PluginLoader.LoadByName&lt; TPluginInterface &gt;</a></div><div class="ttdeci">TPluginInterface? LoadByName&lt; TPluginInterface &gt;(string pluginDir, string typeName, Action&lt; IServiceCollection &gt;? configureGlobals=null)</div><div class="ttdef"><b>Definition:</b> <a href="PluginLoader_8cs_source.html#l00071">PluginLoader.cs:71</a></div></div>
-<div class="ttc" id="aclassRoboClerk_1_1PluginLoader_html_aaea3def2ed629d871cdc9f171dc04bbb"><div class="ttname"><a href="classRoboClerk_1_1PluginLoader.html#aaea3def2ed629d871cdc9f171dc04bbb">RoboClerk.PluginLoader.PluginLoader</a></div><div class="ttdeci">PluginLoader(IFileSystem fileSystem)</div><div class="ttdef"><b>Definition:</b> <a href="PluginLoader_8cs_source.html#l00050">PluginLoader.cs:50</a></div></div>
+<div class="ttc" id="aclassRoboClerk_1_1PluginLoader_html_a8c1cb86234889249d073acd1ce4104ef"><div class="ttname"><a href="classRoboClerk_1_1PluginLoader.html#a8c1cb86234889249d073acd1ce4104ef">RoboClerk.PluginLoader.LoadAll&lt; TPluginInterface &gt;</a></div><div class="ttdeci">IServiceProvider LoadAll&lt; TPluginInterface &gt;(string pluginDir, Action&lt; IServiceCollection &gt;? configureGlobals=null)</div><div class="ttdef"><b>Definition:</b> <a href="PluginLoader_8cs_source.html#l00061">PluginLoader.cs:61</a></div></div>
+<div class="ttc" id="aclassRoboClerk_1_1PluginLoader_html_a8faab55a4811c21badaea708a9927840"><div class="ttname"><a href="classRoboClerk_1_1PluginLoader.html#a8faab55a4811c21badaea708a9927840">RoboClerk.PluginLoader.LoadByName&lt; TPluginInterface &gt;</a></div><div class="ttdeci">TPluginInterface? LoadByName&lt; TPluginInterface &gt;(string pluginDir, string typeName, Action&lt; IServiceCollection &gt;? configureGlobals=null)</div><div class="ttdef"><b>Definition:</b> <a href="PluginLoader_8cs_source.html#l00073">PluginLoader.cs:73</a></div></div>
+<div class="ttc" id="aclassRoboClerk_1_1PluginLoader_html_ad7d934066b67e14dc4df331f5f894cb2"><div class="ttname"><a href="classRoboClerk_1_1PluginLoader.html#ad7d934066b67e14dc4df331f5f894cb2">RoboClerk.PluginLoader.PluginLoader</a></div><div class="ttdeci">PluginLoader(IFileSystem fileSystem, IFileProviderPlugin pluginFileProvider)</div><div class="ttdef"><b>Definition:</b> <a href="PluginLoader_8cs_source.html#l00051">PluginLoader.cs:51</a></div></div>
 <div class="ttc" id="ainterfaceRoboClerk_1_1IFileProviderPlugin_html"><div class="ttname"><a href="interfaceRoboClerk_1_1IFileProviderPlugin.html">RoboClerk.IFileProviderPlugin</a></div><div class="ttdoc">Interface for file provider plugins that abstract file storage operations. This allows RoboClerk to w...</div><div class="ttdef"><b>Definition:</b> <a href="IFileProviderPlugin_8cs_source.html#l00014">IFileProviderPlugin.cs:15</a></div></div>
 <div class="ttc" id="ainterfaceRoboClerk_1_1IPluginLoader_html"><div class="ttname"><a href="interfaceRoboClerk_1_1IPluginLoader.html">RoboClerk.IPluginLoader</a></div><div class="ttdef"><b>Definition:</b> <a href="IPluginLoader_8cs_source.html#l00007">IPluginLoader.cs:8</a></div></div>
 <div class="ttc" id="ainterfaceRoboClerk_1_1IPlugin_html"><div class="ttname"><a href="interfaceRoboClerk_1_1IPlugin.html">RoboClerk.IPlugin</a></div><div class="ttdef"><b>Definition:</b> <a href="IPlugin_8cs_source.html#l00008">IPlugin.cs:9</a></div></div>
