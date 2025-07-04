@@ -2,7 +2,7 @@ var searchData=
 [
   ['performanalysis_0',['PerformAnalysis',['../interfaceRoboClerk_1_1ITraceabilityAnalysis.html#a9ed4da9896beb571c2e7d14d654c295e',1,'RoboClerk.ITraceabilityAnalysis.PerformAnalysis()'],['../classRoboClerk_1_1TraceabilityAnalysis.html#aeea26d06b106ee447b08f59c86a61294',1,'RoboClerk.TraceabilityAnalysis.PerformAnalysis()']]],
   ['placeholderitem_1',['PlaceholderItem',['../classRoboClerk_1_1PlaceholderItem.html#ad3f9f4a42d8a582c656e8fbe10794bf0',1,'RoboClerk::PlaceholderItem']]],
-  ['pluginassemblyloader_2',['PluginAssemblyLoader',['../classRoboClerk_1_1PluginAssemblyLoader.html#a6be57fda83c00491ff5e714e0d7cbf7b',1,'RoboClerk::PluginAssemblyLoader']]],
+  ['pluginassemblyloader_2',['PluginAssemblyLoader',['../classRoboClerk_1_1PluginAssemblyLoader.html#adb24dc109f82b38838489f416fc7adfa',1,'RoboClerk::PluginAssemblyLoader']]],
   ['pluginbase_3',['PluginBase',['../classRoboClerk_1_1PluginBase.html#a05fbff8e2cb26e6e98daba26d24afb32',1,'RoboClerk::PluginBase']]],
   ['plugindatasources_4',['PluginDataSources',['../classRoboClerk_1_1PluginDataSources.html#ab0d788a3e979ba53969ca02f774e9186',1,'RoboClerk::PluginDataSources']]],
   ['pluginloadcontext_5',['PluginLoadContext',['../classRoboClerk_1_1PluginLoadContext.html#a817126796b5107aa8a74cd264fd27631',1,'RoboClerk::PluginLoadContext']]],
