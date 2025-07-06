@@ -8,7 +8,7 @@ var searchData=
   ['tojson_5',['ToJSON',['../classRoboClerk_1_1DataSourcesBase.html#a95adf5ce5879a09da3384b663492e5e9',1,'RoboClerk.DataSourcesBase.ToJSON()'],['../interfaceRoboClerk_1_1IDataSources.html#a9cae246d8eee74d9e0c00890e26a8d7e',1,'RoboClerk.IDataSources.ToJSON()']]],
   ['toplaintext_6',['ToPlainText',['../classRoboClerk_1_1AzureDevOps_1_1HtmlToTextConverter.html#adeb605c8fa7aff2cbf764f911ceb7e27',1,'RoboClerk::AzureDevOps::HtmlToTextConverter']]],
   ['totext_7',['ToText',['../classRoboClerk_1_1Document.html#ac4d3cddc2c5d07bf135e47c44219fc99',1,'RoboClerk::Document']]],
-  ['trace_8',['Trace',['../classRoboClerk_1_1ContentCreators_1_1Trace.html#a6bf61bae69abb87575bb83ec8469127c',1,'RoboClerk::ContentCreators::Trace']]],
+  ['trace_8',['Trace',['../classRoboClerk_1_1ContentCreators_1_1Trace.html#a3924cd6e53371bb2ddc50606c08f8ccf',1,'RoboClerk::ContentCreators::Trace']]],
   ['traceabilityanalysis_9',['TraceabilityAnalysis',['../classRoboClerk_1_1TraceabilityAnalysis.html#ac7155368a1326e3d64e18e90540ea2e6',1,'RoboClerk::TraceabilityAnalysis']]],
   ['traceabilitymatrixbase_10',['TraceabilityMatrixBase',['../classRoboClerk_1_1ContentCreators_1_1TraceabilityMatrixBase.html#a1b8461eda620c0e5d79cf3bb150b7da0',1,'RoboClerk::ContentCreators::TraceabilityMatrixBase']]],
   ['tracebase_11',['TraceBase',['../classRoboClerk_1_1TraceBase.html#a0217e92dd8abc480eabe15dcbc578898',1,'RoboClerk::TraceBase']]],

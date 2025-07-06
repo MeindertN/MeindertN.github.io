@@ -10,6 +10,7 @@ var dir_a5dc7c9e9b6bb77c13df23a63c985736 =
     [ "Eliminated.cs", "Eliminated_8cs.html", "Eliminated_8cs" ],
     [ "ExcelTable.cs", "ExcelTable_8cs.html", "ExcelTable_8cs" ],
     [ "IContentCreator.cs", "IContentCreator_8cs.html", "IContentCreator_8cs" ],
+    [ "KrokiDiagram.cs", "KrokiDiagram_8cs.html", null ],
     [ "MultiItemContentCreator.cs", "MultiItemContentCreator_8cs.html", "MultiItemContentCreator_8cs" ],
     [ "PostLayout.cs", "PostLayout_8cs.html", null ],
     [ "Reference.cs", "Reference_8cs.html", null ],

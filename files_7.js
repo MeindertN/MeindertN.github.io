@@ -13,5 +13,6 @@ var searchData=
   ['itemlink_2ecs_10',['ItemLink.cs',['../ItemLink_8cs.html',1,'']]],
   ['itemtemplateparser_2ecs_11',['ItemTemplateParser.cs',['../ItemTemplateParser_8cs.html',1,'']]],
   ['itemtemplaterenderer_2ecs_12',['ItemTemplateRenderer.cs',['../ItemTemplateRenderer_8cs.html',1,'']]],
-  ['itraceabilityanalysis_2ecs_13',['ITraceabilityAnalysis.cs',['../ITraceabilityAnalysis_8cs.html',1,'']]]
+  ['itextileconverter_2ecs_13',['ITextileConverter.cs',['../ITextileConverter_8cs.html',1,'']]],
+  ['itraceabilityanalysis_2ecs_14',['ITraceabilityAnalysis.cs',['../ITraceabilityAnalysis_8cs.html',1,'']]]
 ];
