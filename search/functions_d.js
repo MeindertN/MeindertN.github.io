@@ -26,7 +26,7 @@ var searchData=
   ['risk_23',['Risk',['../classRoboClerk_1_1ContentCreators_1_1Risk.html#a4a43376d63404f541903497c7f6a6325',1,'RoboClerk::ContentCreators::Risk']]],
   ['riskitem_24',['RiskItem',['../classRoboClerk_1_1RiskItem.html#abe780b9ea2a801092e77c3269011e33a',1,'RoboClerk::RiskItem']]],
   ['risktraceabilitymatrix_25',['RiskTraceabilityMatrix',['../classRoboClerk_1_1ContentCreators_1_1RiskTraceabilityMatrix.html#a1e59e37cdf80776d6911956481d07ddf',1,'RoboClerk::ContentCreators::RiskTraceabilityMatrix']]],
-  ['roboclerkcore_26',['RoboClerkCore',['../classRoboClerk_1_1RoboClerkCore.html#a4f71b23b8022ec600f741a46f78846ff',1,'RoboClerk::RoboClerkCore']]],
+  ['roboclerkcore_26',['RoboClerkCore',['../classRoboClerk_1_1RoboClerkCore.html#a441a3f3b73a033061ce930e9ca81637f',1,'RoboClerk::RoboClerkCore']]],
   ['roboclerkordereddictionary_27',['RoboClerkOrderedDictionary',['../classRoboClerk_1_1RoboClerkOrderedDictionary.html#a0ea85928be060d41e7f27ae8fa9b5bc1',1,'RoboClerk::RoboClerkOrderedDictionary']]],
   ['roboclerktag_28',['RoboClerkTag',['../classRoboClerk_1_1RoboClerkTag.html#a565ef9779c30f17a84c953a9ada378a1',1,'RoboClerk::RoboClerkTag']]],
   ['runcommands_29',['RunCommands',['../classRoboClerk_1_1Commands.html#adceec2ce4ffa1750f440358a79d2cae2',1,'RoboClerk::Commands']]]

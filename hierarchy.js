@@ -56,6 +56,9 @@ var hierarchy =
         [ "RoboClerk.ContentCreators.TraceMatrix", "classRoboClerk_1_1ContentCreators_1_1TraceMatrix.html", null ]
       ] ]
     ] ],
+    [ "RoboClerk.ContentCreators.IContentCreatorFactory", "interfaceRoboClerk_1_1ContentCreators_1_1IContentCreatorFactory.html", [
+      [ "RoboClerk.ContentCreators.ContentCreatorFactory", "classRoboClerk_1_1ContentCreators_1_1ContentCreatorFactory.html", null ]
+    ] ],
     [ "RoboClerk.IDataSources", "interfaceRoboClerk_1_1IDataSources.html", [
       [ "RoboClerk.DataSourcesBase", "classRoboClerk_1_1DataSourcesBase.html", [
         [ "RoboClerk.CheckpointDataSources", "classRoboClerk_1_1CheckpointDataSources.html", null ],

@@ -101,8 +101,8 @@ $(document).ready(function(){initNavTree('classRoboClerk_1_1RoboClerkCore.html',
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a4f71b23b8022ec600f741a46f78846ff"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRoboClerk_1_1RoboClerkCore.html#a4f71b23b8022ec600f741a46f78846ff">RoboClerkCore</a> (<a class="el" href="interfaceRoboClerk_1_1Configuration_1_1IConfiguration.html">IConfiguration</a> config, <a class="el" href="interfaceRoboClerk_1_1IDataSources.html">IDataSources</a> dataSources, <a class="el" href="interfaceRoboClerk_1_1ITraceabilityAnalysis.html">ITraceabilityAnalysis</a> traceAnalysis, IFileSystem fs, <a class="el" href="interfaceRoboClerk_1_1IPluginLoader.html">IPluginLoader</a> loader)</td></tr>
-<tr class="separator:a4f71b23b8022ec600f741a46f78846ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a441a3f3b73a033061ce930e9ca81637f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRoboClerk_1_1RoboClerkCore.html#a441a3f3b73a033061ce930e9ca81637f">RoboClerkCore</a> (<a class="el" href="interfaceRoboClerk_1_1Configuration_1_1IConfiguration.html">IConfiguration</a> config, <a class="el" href="interfaceRoboClerk_1_1IDataSources.html">IDataSources</a> dataSources, <a class="el" href="interfaceRoboClerk_1_1ITraceabilityAnalysis.html">ITraceabilityAnalysis</a> traceAnalysis, IFileSystem fs, <a class="el" href="interfaceRoboClerk_1_1IPluginLoader.html">IPluginLoader</a> loader, <a class="el" href="interfaceRoboClerk_1_1ContentCreators_1_1IContentCreatorFactory.html">IContentCreatorFactory</a> contentCreatorFactory, <a class="el" href="interfaceRoboClerk_1_1AISystem_1_1IAISystemPlugin.html">IAISystemPlugin</a> aiPlugin=null)</td></tr>
+<tr class="separator:a441a3f3b73a033061ce930e9ca81637f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9bb5f0c2a2d4eb8ad9c0cc0a1d973e96"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRoboClerk_1_1RoboClerkCore.html#a9bb5f0c2a2d4eb8ad9c0cc0a1d973e96">GenerateDocs</a> ()</td></tr>
 <tr class="separator:a9bb5f0c2a2d4eb8ad9c0cc0a1d973e96"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abf34c6e45bd423d3b38bb110b403805b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRoboClerk_1_1RoboClerkCore.html#abf34c6e45bd423d3b38bb110b403805b">SaveDocumentsToDisk</a> ()</td></tr>
@@ -112,8 +112,8 @@ Public Member Functions</h2></td></tr>
 <div class="textblock">
 <p class="definition">Definition at line <a class="el" href="RoboClerkCore_8cs_source.html#l00017">17</a> of file <a class="el" href="RoboClerkCore_8cs_source.html">RoboClerkCore.cs</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a4f71b23b8022ec600f741a46f78846ff" name="a4f71b23b8022ec600f741a46f78846ff"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4f71b23b8022ec600f741a46f78846ff">&#9670;&#160;</a></span>RoboClerkCore()</h2>
+<a id="a441a3f3b73a033061ce930e9ca81637f" name="a441a3f3b73a033061ce930e9ca81637f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a441a3f3b73a033061ce930e9ca81637f">&#9670;&#160;</a></span>RoboClerkCore()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -146,7 +146,19 @@ Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="interfaceRoboClerk_1_1IPluginLoader.html">IPluginLoader</a>&#160;</td>
-          <td class="paramname"><em>loader</em>&#160;</td>
+          <td class="paramname"><em>loader</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="interfaceRoboClerk_1_1ContentCreators_1_1IContentCreatorFactory.html">IContentCreatorFactory</a>&#160;</td>
+          <td class="paramname"><em>contentCreatorFactory</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="interfaceRoboClerk_1_1AISystem_1_1IAISystemPlugin.html">IAISystemPlugin</a>&#160;</td>
+          <td class="paramname"><em>aiPlugin</em> = <code>null</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -156,7 +168,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="RoboClerkCore_8cs_source.html#l00028">28</a> of file <a class="el" href="RoboClerkCore_8cs_source.html">RoboClerkCore.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="RoboClerkCore_8cs_source.html#l00029">29</a> of file <a class="el" href="RoboClerkCore_8cs_source.html">RoboClerkCore.cs</a>.</p>
 
 </div>
 </div>
@@ -176,7 +188,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="RoboClerkCore_8cs_source.html#l00038">38</a> of file <a class="el" href="RoboClerkCore_8cs_source.html">RoboClerkCore.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="RoboClerkCore_8cs_source.html#l00041">41</a> of file <a class="el" href="RoboClerkCore_8cs_source.html">RoboClerkCore.cs</a>.</p>
 
 </div>
 </div>
@@ -195,7 +207,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="RoboClerkCore_8cs_source.html#l00175">175</a> of file <a class="el" href="RoboClerkCore_8cs_source.html">RoboClerkCore.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="RoboClerkCore_8cs_source.html#l00138">138</a> of file <a class="el" href="RoboClerkCore_8cs_source.html">RoboClerkCore.cs</a>.</p>
 
 </div>
 </div>

@@ -1,5 +1,15 @@
 var NAVTREEINDEX6 =
 {
+"classRoboClerk_1_1Redmine_1_1RedmineIssue.html#a760f009bce4e448c68183b2a19096dfb":[1,0,0,6,12,13],
+"classRoboClerk_1_1Redmine_1_1RedmineIssue.html#a7b7a2fd6edbcb11c520827f38caf96bd":[1,0,0,6,12,0],
+"classRoboClerk_1_1Redmine_1_1RedmineIssue.html#a7b7a2fd6edbcb11c520827f38caf96bd":[0,0,0,6,12,0],
+"classRoboClerk_1_1Redmine_1_1RedmineIssue.html#a889c0998f7de80fcb382a2d172bd71ae":[0,0,0,6,12,17],
+"classRoboClerk_1_1Redmine_1_1RedmineIssue.html#a889c0998f7de80fcb382a2d172bd71ae":[1,0,0,6,12,17],
+"classRoboClerk_1_1Redmine_1_1RedmineIssue.html#a9195b6d029fb18a0f7622f0cfd249d05":[0,0,0,6,12,8],
+"classRoboClerk_1_1Redmine_1_1RedmineIssue.html#a9195b6d029fb18a0f7622f0cfd249d05":[1,0,0,6,12,8],
+"classRoboClerk_1_1Redmine_1_1RedmineIssue.html#aa052d615a760f7675d39940bf29b8a02":[0,0,0,6,12,1],
+"classRoboClerk_1_1Redmine_1_1RedmineIssue.html#aa052d615a760f7675d39940bf29b8a02":[1,0,0,6,12,1],
+"classRoboClerk_1_1Redmine_1_1RedmineIssue.html#aafe4f9e772176ae1857faf89dcea0458":[0,0,0,6,12,19],
 "classRoboClerk_1_1Redmine_1_1RedmineIssue.html#aafe4f9e772176ae1857faf89dcea0458":[1,0,0,6,12,19],
 "classRoboClerk_1_1Redmine_1_1RedmineIssue.html#ab2d700ae64e99a3edfd54de6b262f315":[0,0,0,6,12,11],
 "classRoboClerk_1_1Redmine_1_1RedmineIssue.html#ab2d700ae64e99a3edfd54de6b262f315":[1,0,0,6,12,11],
@@ -203,8 +213,8 @@ var NAVTREEINDEX6 =
 "classRoboClerk_1_1RiskItem.html#ae83fb8d591dbe8ff50fa1ad2af695c27":[0,0,0,45,8],
 "classRoboClerk_1_1RoboClerkCore.html":[0,0,0,46],
 "classRoboClerk_1_1RoboClerkCore.html":[1,0,0,46],
-"classRoboClerk_1_1RoboClerkCore.html#a4f71b23b8022ec600f741a46f78846ff":[1,0,0,46,0],
-"classRoboClerk_1_1RoboClerkCore.html#a4f71b23b8022ec600f741a46f78846ff":[0,0,0,46,0],
+"classRoboClerk_1_1RoboClerkCore.html#a441a3f3b73a033061ce930e9ca81637f":[1,0,0,46,0],
+"classRoboClerk_1_1RoboClerkCore.html#a441a3f3b73a033061ce930e9ca81637f":[0,0,0,46,0],
 "classRoboClerk_1_1RoboClerkCore.html#a9bb5f0c2a2d4eb8ad9c0cc0a1d973e96":[0,0,0,46,1],
 "classRoboClerk_1_1RoboClerkCore.html#a9bb5f0c2a2d4eb8ad9c0cc0a1d973e96":[1,0,0,46,1],
 "classRoboClerk_1_1RoboClerkCore.html#abf34c6e45bd423d3b38bb110b403805b":[1,0,0,46,2],
@@ -239,15 +249,5 @@ var NAVTREEINDEX6 =
 "classRoboClerk_1_1RoboClerkTag.html#a35700aec1b478a85fe9972a58f9693f9":[1,0,0,48,10],
 "classRoboClerk_1_1RoboClerkTag.html#a3ca9738c2151a70ea51da1b6d5f5c4a6":[1,0,0,48,2],
 "classRoboClerk_1_1RoboClerkTag.html#a3ca9738c2151a70ea51da1b6d5f5c4a6":[0,0,0,48,2],
-"classRoboClerk_1_1RoboClerkTag.html#a565ef9779c30f17a84c953a9ada378a1":[0,0,0,48,0],
-"classRoboClerk_1_1RoboClerkTag.html#a565ef9779c30f17a84c953a9ada378a1":[1,0,0,48,0],
-"classRoboClerk_1_1RoboClerkTag.html#a6abb8427fee341b921ff7fdb5d01dbc0":[0,0,0,48,8],
-"classRoboClerk_1_1RoboClerkTag.html#a6abb8427fee341b921ff7fdb5d01dbc0":[1,0,0,48,8],
-"classRoboClerk_1_1RoboClerkTag.html#a91e0970e7064bf9415f9561daba3bb51":[0,0,0,48,1],
-"classRoboClerk_1_1RoboClerkTag.html#a91e0970e7064bf9415f9561daba3bb51":[1,0,0,48,1],
-"classRoboClerk_1_1RoboClerkTag.html#a958e6b0b40038aadb447119d034f9d0b":[0,0,0,48,3],
-"classRoboClerk_1_1RoboClerkTag.html#a958e6b0b40038aadb447119d034f9d0b":[1,0,0,48,3],
-"classRoboClerk_1_1RoboClerkTag.html#a9ebd6c16d34e7bb7122c9648a0b3668b":[1,0,0,48,5],
-"classRoboClerk_1_1RoboClerkTag.html#a9ebd6c16d34e7bb7122c9648a0b3668b":[0,0,0,48,5],
-"classRoboClerk_1_1RoboClerkTag.html#ac8780d1463427b91e3f6b00b91c304d0":[0,0,0,48,11]
+"classRoboClerk_1_1RoboClerkTag.html#a565ef9779c30f17a84c953a9ada378a1":[0,0,0,48,0]
 };

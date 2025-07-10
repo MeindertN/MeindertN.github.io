@@ -1,5 +1,15 @@
 var NAVTREEINDEX5 =
 {
+"classRoboClerk_1_1LocalFileSystemPlugin.html#a1e16b79e804ac22086f7d117b76425f5":[0,0,0,36,15],
+"classRoboClerk_1_1LocalFileSystemPlugin.html#a1fccbc670e013bcab5fc39940cc3a47d":[1,0,0,36,9],
+"classRoboClerk_1_1LocalFileSystemPlugin.html#a1fccbc670e013bcab5fc39940cc3a47d":[0,0,0,36,9],
+"classRoboClerk_1_1LocalFileSystemPlugin.html#a2a775b72bf046a229028f6e4c81c3738":[1,0,0,36,2],
+"classRoboClerk_1_1LocalFileSystemPlugin.html#a2a775b72bf046a229028f6e4c81c3738":[0,0,0,36,2],
+"classRoboClerk_1_1LocalFileSystemPlugin.html#a2cdc8a8d46e6e6dc9a13daa182a7133d":[1,0,0,36,22],
+"classRoboClerk_1_1LocalFileSystemPlugin.html#a2cdc8a8d46e6e6dc9a13daa182a7133d":[0,0,0,36,22],
+"classRoboClerk_1_1LocalFileSystemPlugin.html#a30bd8b595fe14a4a4b1772176a82ee91":[0,0,0,36,4],
+"classRoboClerk_1_1LocalFileSystemPlugin.html#a30bd8b595fe14a4a4b1772176a82ee91":[1,0,0,36,4],
+"classRoboClerk_1_1LocalFileSystemPlugin.html#a379f61f368ef0ce9cf8afc3e188fb52b":[1,0,0,36,10],
 "classRoboClerk_1_1LocalFileSystemPlugin.html#a379f61f368ef0ce9cf8afc3e188fb52b":[0,0,0,36,10],
 "classRoboClerk_1_1LocalFileSystemPlugin.html#a51003af335878d354a41addbcd898332":[1,0,0,36,17],
 "classRoboClerk_1_1LocalFileSystemPlugin.html#a51003af335878d354a41addbcd898332":[0,0,0,36,17],
@@ -239,15 +249,5 @@ var NAVTREEINDEX5 =
 "classRoboClerk_1_1Redmine_1_1RedmineIssue.html#a350e57197460e2c1b1aef93beb85812d":[1,0,0,6,12,4],
 "classRoboClerk_1_1Redmine_1_1RedmineIssue.html#a5ecdebdb8dba701771af282209b7733b":[1,0,0,6,12,3],
 "classRoboClerk_1_1Redmine_1_1RedmineIssue.html#a5ecdebdb8dba701771af282209b7733b":[0,0,0,6,12,3],
-"classRoboClerk_1_1Redmine_1_1RedmineIssue.html#a760f009bce4e448c68183b2a19096dfb":[0,0,0,6,12,13],
-"classRoboClerk_1_1Redmine_1_1RedmineIssue.html#a760f009bce4e448c68183b2a19096dfb":[1,0,0,6,12,13],
-"classRoboClerk_1_1Redmine_1_1RedmineIssue.html#a7b7a2fd6edbcb11c520827f38caf96bd":[1,0,0,6,12,0],
-"classRoboClerk_1_1Redmine_1_1RedmineIssue.html#a7b7a2fd6edbcb11c520827f38caf96bd":[0,0,0,6,12,0],
-"classRoboClerk_1_1Redmine_1_1RedmineIssue.html#a889c0998f7de80fcb382a2d172bd71ae":[0,0,0,6,12,17],
-"classRoboClerk_1_1Redmine_1_1RedmineIssue.html#a889c0998f7de80fcb382a2d172bd71ae":[1,0,0,6,12,17],
-"classRoboClerk_1_1Redmine_1_1RedmineIssue.html#a9195b6d029fb18a0f7622f0cfd249d05":[0,0,0,6,12,8],
-"classRoboClerk_1_1Redmine_1_1RedmineIssue.html#a9195b6d029fb18a0f7622f0cfd249d05":[1,0,0,6,12,8],
-"classRoboClerk_1_1Redmine_1_1RedmineIssue.html#aa052d615a760f7675d39940bf29b8a02":[0,0,0,6,12,1],
-"classRoboClerk_1_1Redmine_1_1RedmineIssue.html#aa052d615a760f7675d39940bf29b8a02":[1,0,0,6,12,1],
-"classRoboClerk_1_1Redmine_1_1RedmineIssue.html#aafe4f9e772176ae1857faf89dcea0458":[0,0,0,6,12,19]
+"classRoboClerk_1_1Redmine_1_1RedmineIssue.html#a760f009bce4e448c68183b2a19096dfb":[0,0,0,6,12,13]
 };
