@@ -7,8 +7,7 @@ var searchData=
   ['configuration_4',['Configuration',['../classRoboClerk_1_1Configuration_1_1Configuration.html',1,'RoboClerk::Configuration']]],
   ['configurationvalues_5',['ConfigurationValues',['../classRoboClerk_1_1Configuration_1_1ConfigurationValues.html',1,'RoboClerk::Configuration']]],
   ['contentcreatorbase_6',['ContentCreatorBase',['../classRoboClerk_1_1ContentCreators_1_1ContentCreatorBase.html',1,'RoboClerk::ContentCreators']]],
-  ['contentcreatorfactory_7',['ContentCreatorFactory',['../classRoboClerk_1_1ContentCreators_1_1ContentCreatorFactory.html',1,'RoboClerk::ContentCreators']]],
-  ['customfield_8',['CustomField',['../classRoboClerk_1_1Redmine_1_1CustomField.html',1,'RoboClerk::Redmine']]],
-  ['customfieldlist_9',['CustomFieldList',['../classRoboClerk_1_1Redmine_1_1CustomFieldList.html',1,'RoboClerk::Redmine']]],
-  ['customredminefield_10',['CustomRedmineField',['../classRoboClerk_1_1Redmine_1_1CustomRedmineField.html',1,'RoboClerk::Redmine']]]
+  ['customfield_7',['CustomField',['../classRoboClerk_1_1Redmine_1_1CustomField.html',1,'RoboClerk::Redmine']]],
+  ['customfieldlist_8',['CustomFieldList',['../classRoboClerk_1_1Redmine_1_1CustomFieldList.html',1,'RoboClerk::Redmine']]],
+  ['customredminefield_9',['CustomRedmineField',['../classRoboClerk_1_1Redmine_1_1CustomRedmineField.html',1,'RoboClerk::Redmine']]]
 ];
