@@ -56,6 +56,9 @@ var hierarchy =
         [ "RoboClerk.ContentCreators.TraceMatrix", "classRoboClerk_1_1ContentCreators_1_1TraceMatrix.html", null ]
       ] ]
     ] ],
+    [ "RoboClerk.ContentCreators.IContentCreatorFactory", "interfaceRoboClerk_1_1ContentCreators_1_1IContentCreatorFactory.html", [
+      [ "RoboClerk.ContentCreators.ContentCreatorFactory", "classRoboClerk_1_1ContentCreators_1_1ContentCreatorFactory.html", null ]
+    ] ],
     [ "RoboClerk.IDataSources", "interfaceRoboClerk_1_1IDataSources.html", [
       [ "RoboClerk.DataSourcesBase", "classRoboClerk_1_1DataSourcesBase.html", [
         [ "RoboClerk.CheckpointDataSources", "classRoboClerk_1_1CheckpointDataSources.html", null ],
@@ -83,9 +86,18 @@ var hierarchy =
           ] ]
         ] ]
       ] ],
+      [ "RoboClerk.IFileProviderPlugin", "interfaceRoboClerk_1_1IFileProviderPlugin.html", [
+        [ "RoboClerk.FileProviderPluginBase", "classRoboClerk_1_1FileProviderPluginBase.html", [
+          [ "RoboClerk.LocalFileSystemPlugin", "classRoboClerk_1_1LocalFileSystemPlugin.html", null ]
+        ] ],
+        [ "RoboClerk.LocalFileSystemPlugin", "classRoboClerk_1_1LocalFileSystemPlugin.html", null ]
+      ] ],
       [ "RoboClerk.PluginBase", "classRoboClerk_1_1PluginBase.html", [
-        [ "RoboClerk.AISystem.AISystemPluginBase", "classRoboClerk_1_1AISystem_1_1AISystemPluginBase.html", null ],
-        [ "RoboClerk.DataSourcePluginBase", "classRoboClerk_1_1DataSourcePluginBase.html", null ]
+        [ "RoboClerk.FileAccessPluginBase", "classRoboClerk_1_1FileAccessPluginBase.html", [
+          [ "RoboClerk.AISystem.AISystemPluginBase", "classRoboClerk_1_1AISystem_1_1AISystemPluginBase.html", null ],
+          [ "RoboClerk.DataSourcePluginBase", "classRoboClerk_1_1DataSourcePluginBase.html", null ]
+        ] ],
+        [ "RoboClerk.FileProviderPluginBase", "classRoboClerk_1_1FileProviderPluginBase.html", null ]
       ] ]
     ] ],
     [ "RoboClerk.IPluginLoader", "interfaceRoboClerk_1_1IPluginLoader.html", [
