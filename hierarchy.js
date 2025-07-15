@@ -152,7 +152,10 @@ var hierarchy =
     [ "RoboClerk.Redmine.Status", "classRoboClerk_1_1Redmine_1_1Status.html", null ],
     [ "RoboClerk.TestResult", "classRoboClerk_1_1TestResult.html", null ],
     [ "RoboClerk.TestStep", "classRoboClerk_1_1TestStep.html", null ],
-    [ "RoboClerk.Redmine.TextileToAsciiDocConverter", "classRoboClerk_1_1Redmine_1_1TextileToAsciiDocConverter.html", null ],
+    [ "RoboClerk.Redmine.TextileConverterBase", "classRoboClerk_1_1Redmine_1_1TextileConverterBase.html", [
+      [ "RoboClerk.Redmine.TextileToAsciiDocConverter", "classRoboClerk_1_1Redmine_1_1TextileToAsciiDocConverter.html", null ],
+      [ "RoboClerk.Redmine.TextileToHTMLConverter", "classRoboClerk_1_1Redmine_1_1TextileToHTMLConverter.html", null ]
+    ] ],
     [ "RoboClerk.TraceBase", "classRoboClerk_1_1TraceBase.html", [
       [ "RoboClerk.TraceLink", "classRoboClerk_1_1TraceLink.html", [
         [ "RoboClerk.TraceIssue", "classRoboClerk_1_1TraceIssue.html", null ]

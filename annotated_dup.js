@@ -76,7 +76,9 @@ var annotated_dup =
         [ "Relation", "classRoboClerk_1_1Redmine_1_1Relation.html", "classRoboClerk_1_1Redmine_1_1Relation" ],
         [ "RestSharpRedmineClient", "classRoboClerk_1_1Redmine_1_1RestSharpRedmineClient.html", "classRoboClerk_1_1Redmine_1_1RestSharpRedmineClient" ],
         [ "Status", "classRoboClerk_1_1Redmine_1_1Status.html", "classRoboClerk_1_1Redmine_1_1Status" ],
+        [ "TextileConverterBase", "classRoboClerk_1_1Redmine_1_1TextileConverterBase.html", "classRoboClerk_1_1Redmine_1_1TextileConverterBase" ],
         [ "TextileToAsciiDocConverter", "classRoboClerk_1_1Redmine_1_1TextileToAsciiDocConverter.html", "classRoboClerk_1_1Redmine_1_1TextileToAsciiDocConverter" ],
+        [ "TextileToHTMLConverter", "classRoboClerk_1_1Redmine_1_1TextileToHTMLConverter.html", "classRoboClerk_1_1Redmine_1_1TextileToHTMLConverter" ],
         [ "Tracker", "classRoboClerk_1_1Redmine_1_1Tracker.html", "classRoboClerk_1_1Redmine_1_1Tracker" ],
         [ "Version", "classRoboClerk_1_1Redmine_1_1Version.html", "classRoboClerk_1_1Redmine_1_1Version" ],
         [ "VersionList", "classRoboClerk_1_1Redmine_1_1VersionList.html", "classRoboClerk_1_1Redmine_1_1VersionList" ]

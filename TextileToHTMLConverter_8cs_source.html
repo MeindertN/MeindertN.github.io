@@ -93,18 +93,24 @@ $(document).ready(function(){initNavTree('TextileToHTMLConverter_8cs_source.html
   <div class="headertitle"><div class="title">TextileToHTMLConverter.cs</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="TextileToHTMLConverter_8cs.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="keyword">using </span>Textile;</div>
-<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceRoboClerk_1_1Redmine.html">RoboClerk.Redmine</a></div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span>{</div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span>    <span class="keyword">internal</span> <span class="keyword">class </span>TextileToHTMLConverter : ITextileConverter</div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span>    {</div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span>        <span class="keyword">public</span> <span class="keywordtype">string</span> Convert(<span class="keywordtype">string</span> text)</div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span>        {</div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span>            <span class="keywordflow">return</span> TextileFormatter.FormatString(text);</div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>        }</div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>    }</div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>}</div>
+<a href="TextileToHTMLConverter_8cs.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="keyword">using </span>System;</div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="keyword">using </span>System.Collections.Generic;</div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="keyword">using </span>System.Text.RegularExpressions;</div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="keyword">using </span>Textile;</div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceRoboClerk_1_1Redmine.html">RoboClerk.Redmine</a></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span>{</div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno"><a class="line" href="classRoboClerk_1_1Redmine_1_1TextileToHTMLConverter.html">    8</a></span>    <span class="keyword">public</span> <span class="keyword">class </span><a class="code hl_class" href="classRoboClerk_1_1Redmine_1_1TextileToHTMLConverter.html">TextileToHTMLConverter</a> : <a class="code hl_class" href="classRoboClerk_1_1Redmine_1_1TextileConverterBase.html">TextileConverterBase</a></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span>    {</div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno"><a class="line" href="classRoboClerk_1_1Redmine_1_1TextileToHTMLConverter.html#a8ca1afa67421d3bf9b47e56f9d6bff85">   10</a></span>        <span class="keyword">protected</span> <span class="keyword">override</span> <span class="keywordtype">string</span> <a class="code hl_function" href="classRoboClerk_1_1Redmine_1_1TextileToHTMLConverter.html#a8ca1afa67421d3bf9b47e56f9d6bff85">ConvertTextile</a>(<span class="keywordtype">string</span> textile)</div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>        {</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>            <span class="keywordflow">return</span> TextileFormatter.FormatString(textile);</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>        }</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>    }</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>}</div>
+<div class="ttc" id="aclassRoboClerk_1_1Redmine_1_1TextileConverterBase_html"><div class="ttname"><a href="classRoboClerk_1_1Redmine_1_1TextileConverterBase.html">RoboClerk.Redmine.TextileConverterBase</a></div><div class="ttdoc">Base class for Textile converters that provides RoboClerk tag protection functionality.</div><div class="ttdef"><b>Definition:</b> <a href="TextileConverterBase_8cs_source.html#l00010">TextileConverterBase.cs:11</a></div></div>
+<div class="ttc" id="aclassRoboClerk_1_1Redmine_1_1TextileToHTMLConverter_html"><div class="ttname"><a href="classRoboClerk_1_1Redmine_1_1TextileToHTMLConverter.html">RoboClerk.Redmine.TextileToHTMLConverter</a></div><div class="ttdef"><b>Definition:</b> <a href="TextileToHTMLConverter_8cs_source.html#l00008">TextileToHTMLConverter.cs:9</a></div></div>
+<div class="ttc" id="aclassRoboClerk_1_1Redmine_1_1TextileToHTMLConverter_html_a8ca1afa67421d3bf9b47e56f9d6bff85"><div class="ttname"><a href="classRoboClerk_1_1Redmine_1_1TextileToHTMLConverter.html#a8ca1afa67421d3bf9b47e56f9d6bff85">RoboClerk.Redmine.TextileToHTMLConverter.ConvertTextile</a></div><div class="ttdeci">override string ConvertTextile(string textile)</div><div class="ttdoc">Performs the actual Textile conversion. This method must be implemented by derived classes.</div><div class="ttdef"><b>Definition:</b> <a href="TextileToHTMLConverter_8cs_source.html#l00010">TextileToHTMLConverter.cs:10</a></div></div>
 <div class="ttc" id="anamespaceRoboClerk_1_1Redmine_html"><div class="ttname"><a href="namespaceRoboClerk_1_1Redmine.html">RoboClerk.Redmine</a></div><div class="ttdef"><b>Definition:</b> <a href="CustomFieldsJSONObjects_8cs_source.html#l00005">CustomFieldsJSONObjects.cs:6</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
