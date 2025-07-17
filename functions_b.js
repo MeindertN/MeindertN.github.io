@@ -1,13 +1,5 @@
 var searchData=
 [
-  ['performanalysis_0',['PerformAnalysis',['../interfaceRoboClerk_1_1ITraceabilityAnalysis.html#a9ed4da9896beb571c2e7d14d654c295e',1,'RoboClerk.ITraceabilityAnalysis.PerformAnalysis()'],['../classRoboClerk_1_1TraceabilityAnalysis.html#aeea26d06b106ee447b08f59c86a61294',1,'RoboClerk.TraceabilityAnalysis.PerformAnalysis()']]],
-  ['placeholderitem_1',['PlaceholderItem',['../classRoboClerk_1_1PlaceholderItem.html#ad3f9f4a42d8a582c656e8fbe10794bf0',1,'RoboClerk::PlaceholderItem']]],
-  ['pluginassemblyloader_2',['PluginAssemblyLoader',['../classRoboClerk_1_1PluginAssemblyLoader.html#a6be57fda83c00491ff5e714e0d7cbf7b',1,'RoboClerk::PluginAssemblyLoader']]],
-  ['pluginbase_3',['PluginBase',['../classRoboClerk_1_1PluginBase.html#a59673c91725a54cce4b130d92f3de4ce',1,'RoboClerk::PluginBase']]],
-  ['plugindatasources_4',['PluginDataSources',['../classRoboClerk_1_1PluginDataSources.html#a0d089431272da8a253b2d707ea2aaf1f',1,'RoboClerk::PluginDataSources']]],
-  ['pluginloadcontext_5',['PluginLoadContext',['../classRoboClerk_1_1PluginLoadContext.html#a817126796b5107aa8a74cd264fd27631',1,'RoboClerk::PluginLoadContext']]],
-  ['pluginloader_6',['PluginLoader',['../classRoboClerk_1_1PluginLoader.html#aaea3def2ed629d871cdc9f171dc04bbb',1,'RoboClerk::PluginLoader']]],
-  ['processasciidocfortablecell_7',['ProcessAsciidocForTableCell',['../classRoboClerk_1_1ScriptingBridge.html#a02a4654449a465346661364223a26420',1,'RoboClerk::ScriptingBridge']]],
-  ['processtraces_8',['ProcessTraces',['../classRoboClerk_1_1ContentCreators_1_1ContentCreatorBase.html#aa9c11143413e18c22ba21811c0f11eb0',1,'RoboClerk::ContentCreators::ContentCreatorBase']]],
-  ['prompttemplate_9',['PromptTemplate',['../classRoboClerk_1_1AISystem_1_1PromptTemplate.html#ae4c955af30e17937748463b7f15bd0f7',1,'RoboClerk::AISystem::PromptTemplate']]]
+  ['openread_0',['OpenRead',['../classRoboClerk_1_1LocalFileSystemPlugin.html#a2cdc8a8d46e6e6dc9a13daa182a7133d',1,'RoboClerk.LocalFileSystemPlugin.OpenRead()'],['../classRoboClerk_1_1FileProviderPluginBase.html#a86c4ad311d265379f4c69ac4d5fda749',1,'RoboClerk.FileProviderPluginBase.OpenRead()'],['../interfaceRoboClerk_1_1IFileProviderPlugin.html#a42aab327d1e7d3690ddfccdf823c7af4',1,'RoboClerk.IFileProviderPlugin.OpenRead()']]],
+  ['openwrite_1',['OpenWrite',['../classRoboClerk_1_1LocalFileSystemPlugin.html#a019b2dacd34fa62ad9d858ced58c1e37',1,'RoboClerk.LocalFileSystemPlugin.OpenWrite()'],['../classRoboClerk_1_1FileProviderPluginBase.html#a13a0ce25ef9f94c6336018a3818b0136',1,'RoboClerk.FileProviderPluginBase.OpenWrite()'],['../interfaceRoboClerk_1_1IFileProviderPlugin.html#a7046aef3e40e45dfe4a0f7da2f9f89a0',1,'RoboClerk.IFileProviderPlugin.OpenWrite()']]]
 ];
