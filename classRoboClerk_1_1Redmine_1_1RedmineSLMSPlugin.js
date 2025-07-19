@@ -1,7 +1,7 @@
 var classRoboClerk_1_1Redmine_1_1RedmineSLMSPlugin =
 [
-    [ "RedmineSLMSPlugin", "classRoboClerk_1_1Redmine_1_1RedmineSLMSPlugin.html#a572bcda776d39c2bd9627db1a72f6f76", null ],
-    [ "RedmineSLMSPlugin", "classRoboClerk_1_1Redmine_1_1RedmineSLMSPlugin.html#ae4fb6169f66099d8ef972f4f764d064e", null ],
+    [ "RedmineSLMSPlugin", "classRoboClerk_1_1Redmine_1_1RedmineSLMSPlugin.html#aaebc3cf5ec67ac46df381de22eb7eed8", null ],
+    [ "RedmineSLMSPlugin", "classRoboClerk_1_1Redmine_1_1RedmineSLMSPlugin.html#a3597eba9acd822b68b12d2a52ad407df", null ],
     [ "ConfigureServices", "classRoboClerk_1_1Redmine_1_1RedmineSLMSPlugin.html#af305678dde2df811b1beaff256bd035c", null ],
     [ "CreateBug", "classRoboClerk_1_1Redmine_1_1RedmineSLMSPlugin.html#a78740e91b95ed87bda77c0bb23729351", null ],
     [ "CreateDocContent", "classRoboClerk_1_1Redmine_1_1RedmineSLMSPlugin.html#a691c78d923c2a47bc723fb9c4955d688", null ],

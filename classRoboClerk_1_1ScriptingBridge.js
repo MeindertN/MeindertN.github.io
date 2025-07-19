@@ -1,9 +1,9 @@
 var classRoboClerk_1_1ScriptingBridge =
 [
-    [ "ScriptingBridge", "classRoboClerk_1_1ScriptingBridge.html#ad017a8e1beaf13698864546650ffcea9", null ],
-    [ "ScriptingBridge", "classRoboClerk_1_1ScriptingBridge.html#ad017a8e1beaf13698864546650ffcea9", null ],
+    [ "ScriptingBridge", "classRoboClerk_1_1ScriptingBridge.html#a2bf456185184877c27b99b5c1967bf16", null ],
+    [ "ScriptingBridge", "classRoboClerk_1_1ScriptingBridge.html#a2bf456185184877c27b99b5c1967bf16", null ],
     [ "AddTrace", "classRoboClerk_1_1ScriptingBridge.html#aadbab6d11e3865cb1ba4fb07ff696bd9", null ],
-    [ "ConvertHeadingsForASCIIDOCTableCell", "classRoboClerk_1_1ScriptingBridge.html#ac9b2bd4fdb8755e1ebfd92e4de7f13b6", null ],
+    [ "ConvertHeadingsForTableCell", "classRoboClerk_1_1ScriptingBridge.html#a764cac503d3dbfb18662f12989c879ba", null ],
     [ "EmbedAsciidocTables", "classRoboClerk_1_1ScriptingBridge.html#a34d8057320d29106382159983b2da72a", null ],
     [ "GetItemLinkString", "classRoboClerk_1_1ScriptingBridge.html#a9cd282f3089454018168b8f1b656d074", null ],
     [ "GetLinkedField", "classRoboClerk_1_1ScriptingBridge.html#a896d3de7bf598b0f9a5ebcd73d218892", null ],
