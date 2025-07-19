@@ -108,8 +108,8 @@ Inheritance diagram for RoboClerk.ContentCreators.Trace:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a6bf61bae69abb87575bb83ec8469127c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRoboClerk_1_1ContentCreators_1_1Trace.html#a6bf61bae69abb87575bb83ec8469127c">Trace</a> (<a class="el" href="interfaceRoboClerk_1_1IDataSources.html">IDataSources</a> data, <a class="el" href="interfaceRoboClerk_1_1ITraceabilityAnalysis.html">ITraceabilityAnalysis</a> analysis)</td></tr>
-<tr class="separator:a6bf61bae69abb87575bb83ec8469127c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3924cd6e53371bb2ddc50606c08f8ccf"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRoboClerk_1_1ContentCreators_1_1Trace.html#a3924cd6e53371bb2ddc50606c08f8ccf">Trace</a> (<a class="el" href="interfaceRoboClerk_1_1IDataSources.html">IDataSources</a> data, <a class="el" href="interfaceRoboClerk_1_1ITraceabilityAnalysis.html">ITraceabilityAnalysis</a> analysis, <a class="el" href="interfaceRoboClerk_1_1Configuration_1_1IConfiguration.html">IConfiguration</a> config)</td></tr>
+<tr class="separator:a3924cd6e53371bb2ddc50606c08f8ccf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a516c6b78dcb2cb94c4d59e1b6107eb3a"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRoboClerk_1_1ContentCreators_1_1Trace.html#a516c6b78dcb2cb94c4d59e1b6107eb3a">GetContent</a> (<a class="el" href="classRoboClerk_1_1RoboClerkTag.html">RoboClerkTag</a> tag, <a class="el" href="classRoboClerk_1_1Configuration_1_1DocumentConfig.html">DocumentConfig</a> doc)</td></tr>
 <tr class="separator:a516c6b78dcb2cb94c4d59e1b6107eb3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a350affccef1003def58831ad30dab55c"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceRoboClerk_1_1ContentCreators_1_1IContentCreator.html#a350affccef1003def58831ad30dab55c">GetContent</a> (<a class="el" href="classRoboClerk_1_1RoboClerkTag.html">RoboClerkTag</a> tag, <a class="el" href="classRoboClerk_1_1Configuration_1_1DocumentConfig.html">DocumentConfig</a> doc)</td></tr>
@@ -119,8 +119,8 @@ Public Member Functions</h2></td></tr>
 <div class="textblock">
 <p class="definition">Definition at line <a class="el" href="Trace_8cs_source.html#l00005">5</a> of file <a class="el" href="Trace_8cs_source.html">Trace.cs</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a6bf61bae69abb87575bb83ec8469127c" name="a6bf61bae69abb87575bb83ec8469127c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6bf61bae69abb87575bb83ec8469127c">&#9670;&#160;</a></span>Trace()</h2>
+<a id="a3924cd6e53371bb2ddc50606c08f8ccf" name="a3924cd6e53371bb2ddc50606c08f8ccf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3924cd6e53371bb2ddc50606c08f8ccf">&#9670;&#160;</a></span>Trace()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -135,7 +135,13 @@ Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="interfaceRoboClerk_1_1ITraceabilityAnalysis.html">ITraceabilityAnalysis</a>&#160;</td>
-          <td class="paramname"><em>analysis</em>&#160;</td>
+          <td class="paramname"><em>analysis</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="interfaceRoboClerk_1_1Configuration_1_1IConfiguration.html">IConfiguration</a>&#160;</td>
+          <td class="paramname"><em>config</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -145,7 +151,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Trace_8cs_source.html#l00010">10</a> of file <a class="el" href="Trace_8cs_source.html">Trace.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Trace_8cs_source.html#l00011">11</a> of file <a class="el" href="Trace_8cs_source.html">Trace.cs</a>.</p>
 
 </div>
 </div>
@@ -178,7 +184,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Implements <a class="el" href="interfaceRoboClerk_1_1ContentCreators_1_1IContentCreator.html#a350affccef1003def58831ad30dab55c">RoboClerk.ContentCreators.IContentCreator</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="Trace_8cs_source.html#l00016">16</a> of file <a class="el" href="Trace_8cs_source.html">Trace.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Trace_8cs_source.html#l00018">18</a> of file <a class="el" href="Trace_8cs_source.html">Trace.cs</a>.</p>
 
 </div>
 </div>
