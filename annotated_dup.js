@@ -7,7 +7,7 @@ var annotated_dup =
         [ "PromptTemplate", "classRoboClerk_1_1AISystem_1_1PromptTemplate.html", "classRoboClerk_1_1AISystem_1_1PromptTemplate" ]
       ] ],
       [ "AnnotatedUnitTests", "namespaceRoboClerk_1_1AnnotatedUnitTests.html", [
-        [ "AnnotatedUnitTestsPlugin", "classRoboClerk_1_1AnnotatedUnitTests_1_1AnnotatedUnitTestsPlugin.html", "classRoboClerk_1_1AnnotatedUnitTests_1_1AnnotatedUnitTestsPlugin" ]
+        [ "AnnotatedUnitTestPlugin", "classRoboClerk_1_1AnnotatedUnitTests_1_1AnnotatedUnitTestPlugin.html", "classRoboClerk_1_1AnnotatedUnitTests_1_1AnnotatedUnitTestPlugin" ]
       ] ],
       [ "AzureDevOps", "namespaceRoboClerk_1_1AzureDevOps.html", [
         [ "AzureDevOpsSLMSPlugin", "classRoboClerk_1_1AzureDevOps_1_1AzureDevOpsSLMSPlugin.html", "classRoboClerk_1_1AzureDevOps_1_1AzureDevOpsSLMSPlugin" ],

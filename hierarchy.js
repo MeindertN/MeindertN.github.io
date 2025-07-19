@@ -78,7 +78,7 @@ var hierarchy =
             [ "RoboClerk.Redmine.RedmineSLMSPlugin", "classRoboClerk_1_1Redmine_1_1RedmineSLMSPlugin.html", null ]
           ] ],
           [ "RoboClerk.SourceCodeAnalysisPluginBase", "classRoboClerk_1_1SourceCodeAnalysisPluginBase.html", [
-            [ "RoboClerk.AnnotatedUnitTests.AnnotatedUnitTestsPlugin", "classRoboClerk_1_1AnnotatedUnitTests_1_1AnnotatedUnitTestsPlugin.html", null ],
+            [ "RoboClerk.AnnotatedUnitTests.AnnotatedUnitTestPlugin", "classRoboClerk_1_1AnnotatedUnitTests_1_1AnnotatedUnitTestPlugin.html", null ],
             [ "RoboClerk.UnitTestFNPlugin", "classRoboClerk_1_1UnitTestFNPlugin.html", null ]
           ] ]
         ] ]
