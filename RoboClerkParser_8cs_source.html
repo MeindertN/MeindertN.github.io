@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>RoboClerk: RoboClerk/RoboClerkAsciiDoc.cs Source File</title>
+<title>RoboClerk: RoboClerk/RoboClerkParser.cs Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -64,7 +64,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function(){initNavTree('RoboClerkAsciiDoc_8cs_source.html',''); initResizable(); });
+$(document).ready(function(){initNavTree('RoboClerkParser_8cs_source.html',''); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -90,29 +90,29 @@ $(document).ready(function(){initNavTree('RoboClerkAsciiDoc_8cs_source.html','')
 </div>
 
 <div class="header">
-  <div class="headertitle"><div class="title">RoboClerkAsciiDoc.cs</div></div>
+  <div class="headertitle"><div class="title">RoboClerkParser.cs</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="RoboClerkAsciiDoc_8cs.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="keyword">using </span>System;</div>
+<a href="RoboClerkParser_8cs.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="keyword">using </span>System;</div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="keyword">using </span>System.Collections.Generic;</div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="keyword">using </span>System.Linq;</div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceRoboClerk.html">RoboClerk</a></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span>{</div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span>    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">class </span>RoboClerkAsciiDoc</div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span>    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">class </span>RoboClerkParser</div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span>    {</div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span>        <span class="keyword">public</span> <span class="keyword">static</span> List&lt;RoboClerkTag&gt; ExtractRoboClerkTags(<span class="keywordtype">string</span> asciiDocText)</div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span>        <span class="keyword">public</span> <span class="keyword">static</span> List&lt;RoboClerkTag&gt; ExtractRoboClerkTags(<span class="keywordtype">string</span> docText)</div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>        {</div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>            <span class="keywordtype">int</span> index = 0;</div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>            List&lt;ProtoTag&gt; indices = <span class="keyword">new</span> List&lt;ProtoTag&gt;();</div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>            <span class="keywordflow">while</span> ((index = asciiDocText.IndexOf(<span class="stringliteral">&quot;@@&quot;</span>, index)) &gt;= 0)</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>            <span class="keywordflow">while</span> ((index = docText.IndexOf(<span class="stringliteral">&quot;@@&quot;</span>, index)) &gt;= 0)</div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>            {</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>                <span class="keywordflow">if</span> (index + 1 == asciiDocText.Length - 1)</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>                <span class="keywordflow">if</span> (index + 1 == docText.Length - 1)</div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>                {</div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>                    AddIndex(indices, index, <span class="keyword">false</span>);</div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>                    <span class="keywordflow">break</span>;</div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>                }</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>                <span class="keywordflow">if</span> (asciiDocText[index + 2] != <span class="charliteral">&#39;@&#39;</span>)</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>                <span class="keywordflow">if</span> (docText[index + 2] != <span class="charliteral">&#39;@&#39;</span>)</div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>                {</div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>                    AddIndex(indices, index, <span class="keyword">false</span>);</div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>                    index += 2;</div>
@@ -132,19 +132,19 @@ $(document).ready(function(){initNavTree('RoboClerkAsciiDoc_8cs_source.html','')
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>            {</div>
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>                <span class="keywordflow">if</span> (tag.ContainerTag)</div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>                {</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>                    tags.Add(<span class="keyword">new</span> RoboClerkTag(tag.StartIndex, tag.EndIndex, asciiDocText, <span class="keyword">false</span>));</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>                    tags.Add(<span class="keyword">new</span> RoboClerkTag(tag.StartIndex, tag.EndIndex, docText, <span class="keyword">false</span>));</div>
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>                }</div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>                <span class="keywordflow">else</span></div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>                {</div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>                    <span class="comment">//check for newlines in tag which is illegal</span></div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>                    <span class="keywordtype">int</span> idx = asciiDocText.IndexOf(<span class="charliteral">&#39;\n&#39;</span>, tag.StartIndex, tag.EndIndex - tag.StartIndex);</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>                    <span class="keywordtype">int</span> idx = docText.IndexOf(<span class="charliteral">&#39;\n&#39;</span>, tag.StartIndex, tag.EndIndex - tag.StartIndex);</div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>                    <span class="keywordflow">if</span> (idx &gt;= 0 &amp;&amp; idx &lt;= tag.EndIndex)</div>
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>                    {</div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>                        <span class="keywordflow">throw</span> <span class="keyword">new</span> Exception($<span class="stringliteral">&quot;Inline Roboclerk containers cannot have newline characters in them. Newline found in tag at {tag.StartIndex}.&quot;</span>);</div>
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>                    }</div>
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>                    <span class="comment">//check if this inline tag is within a container tag, if so, do not add the tag. The outer container tag will be resolved first</span></div>
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>                    <span class="keywordflow">if</span> (tags.Count(t =&gt; (!t.Inline &amp;&amp; t.ContentStart &lt; tag.StartIndex &amp;&amp; t.ContentEnd &gt; tag.EndIndex)) == 0)</div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>                        tags.Add(<span class="keyword">new</span> RoboClerkTag(tag.StartIndex, tag.EndIndex, asciiDocText, <span class="keyword">true</span>));</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>                        tags.Add(<span class="keyword">new</span> RoboClerkTag(tag.StartIndex, tag.EndIndex, docText, <span class="keyword">true</span>));</div>
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>                }</div>
 <div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>            }</div>
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span> </div>
@@ -225,7 +225,7 @@ $(document).ready(function(){initNavTree('RoboClerkAsciiDoc_8cs_source.html','')
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_eaa041a19c6688a540b628eca738f488.html">RoboClerk</a></li><li class="navelem"><a class="el" href="RoboClerkAsciiDoc_8cs.html">RoboClerkAsciiDoc.cs</a></li>
+    <li class="navelem"><a class="el" href="dir_eaa041a19c6688a540b628eca738f488.html">RoboClerk</a></li><li class="navelem"><a class="el" href="RoboClerkParser_8cs.html">RoboClerkParser.cs</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
