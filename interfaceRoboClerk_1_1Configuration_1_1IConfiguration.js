@@ -12,7 +12,6 @@ var interfaceRoboClerk_1_1Configuration_1_1IConfiguration =
     [ "LogLevel", "interfaceRoboClerk_1_1Configuration_1_1IConfiguration.html#ac5b8d9f385c94a2fab1743cbe5609e73", null ],
     [ "MediaDir", "interfaceRoboClerk_1_1Configuration_1_1IConfiguration.html#ae2b6e845b13205e253b2b70ce777d3a1", null ],
     [ "OutputDir", "interfaceRoboClerk_1_1Configuration_1_1IConfiguration.html#a7fe2af999afd63c0ef8b4e994cec2529", null ],
-    [ "OutputFormat", "interfaceRoboClerk_1_1Configuration_1_1IConfiguration.html#a95a3bb4b931fcdeb34d62c8bbb8a77cc", null ],
     [ "PluginConfigDir", "interfaceRoboClerk_1_1Configuration_1_1IConfiguration.html#ac0545a114c8c4453a6e2423220b34893", null ],
     [ "PluginDirs", "interfaceRoboClerk_1_1Configuration_1_1IConfiguration.html#adb1a0c41797a3425a251df0e8a47c176", null ],
     [ "ProjectRoot", "interfaceRoboClerk_1_1Configuration_1_1IConfiguration.html#ae28be4f8b62a124ad27e42b033204189", null ],
