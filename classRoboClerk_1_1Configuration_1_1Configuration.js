@@ -1,7 +1,6 @@
 var classRoboClerk_1_1Configuration_1_1Configuration =
 [
-    [ "Configuration", "classRoboClerk_1_1Configuration_1_1Configuration.html#a294e867da3bfeed5c76a627806f5d8b0", null ],
-    [ "AddProjectConfig", "classRoboClerk_1_1Configuration_1_1Configuration.html#a6870615bfea33d4768ad497db5363baa", null ],
+    [ "Configuration", "classRoboClerk_1_1Configuration_1_1Configuration.html#ac83073b6d935c616cdd6adf1e63fe2d5", null ],
     [ "CommandLineOptionOrDefault", "classRoboClerk_1_1Configuration_1_1Configuration.html#af2a07691a7ae69061a20b2df547429e3", null ],
     [ "AICheckTemplateContents", "classRoboClerk_1_1Configuration_1_1Configuration.html#abb244c4aa67260ff5bda88d9d59a2656", null ],
     [ "AICheckTraceEntities", "classRoboClerk_1_1Configuration_1_1Configuration.html#a5fd9528383734c6452c288f4eb2c4209", null ],
@@ -11,13 +10,12 @@ var classRoboClerk_1_1Configuration_1_1Configuration =
     [ "ConfigVals", "classRoboClerk_1_1Configuration_1_1Configuration.html#afd83da78b2fa4542e85e09e3c3e18184", null ],
     [ "DataSourcePlugins", "classRoboClerk_1_1Configuration_1_1Configuration.html#a145353725974657c4f34fbac5bd37fe7", null ],
     [ "Documents", "classRoboClerk_1_1Configuration_1_1Configuration.html#ab0680b931750da1f399a5bb1d87aebb5", null ],
-    [ "FileProviderPlugin", "classRoboClerk_1_1Configuration_1_1Configuration.html#ac3099bcfdcddc21679977e868fc81336", null ],
     [ "LogLevel", "classRoboClerk_1_1Configuration_1_1Configuration.html#a5a4c06388fb93c3b28ee81fb5faffd12", null ],
     [ "MediaDir", "classRoboClerk_1_1Configuration_1_1Configuration.html#a6121962efe9748b62c8c7dbb251d5b75", null ],
     [ "OutputDir", "classRoboClerk_1_1Configuration_1_1Configuration.html#a67a2e34ce9cf92d171534a372a5bb9ea", null ],
     [ "OutputFormat", "classRoboClerk_1_1Configuration_1_1Configuration.html#abe41e7025e2035011a188c7de0145417", null ],
     [ "PluginConfigDir", "classRoboClerk_1_1Configuration_1_1Configuration.html#a108f807377ea80301a32aafa46c2c343", null ],
-    [ "PluginDir", "classRoboClerk_1_1Configuration_1_1Configuration.html#aa4a0c1e219de14a3e363aab8694f96cf", null ],
+    [ "PluginDirs", "classRoboClerk_1_1Configuration_1_1Configuration.html#a4e854a647a9b277810cbaa3a6c5364d1", null ],
     [ "ProjectRoot", "classRoboClerk_1_1Configuration_1_1Configuration.html#ab782edeab7453beb3095d63fcd371295", null ],
     [ "TemplateDir", "classRoboClerk_1_1Configuration_1_1Configuration.html#a65c5613dedb307ddfae6d558d00fc4a4", null ],
     [ "TraceConfig", "classRoboClerk_1_1Configuration_1_1Configuration.html#a8be6c11a11c980276e75cb117b229739", null ],

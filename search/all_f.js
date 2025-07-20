@@ -70,8 +70,8 @@ var searchData=
   ['riskmodifiedoccscore_67',['RiskModifiedOccScore',['../classRoboClerk_1_1RiskItem.html#a880232fef69debcc01de1e030b0c2397',1,'RoboClerk::RiskItem']]],
   ['riskoccurencescore_68',['RiskOccurenceScore',['../classRoboClerk_1_1RiskItem.html#aa0c576635b4665eb96c87b8c9f458a30',1,'RoboClerk::RiskItem']]],
   ['riskprimaryhazard_69',['RiskPrimaryHazard',['../classRoboClerk_1_1RiskItem.html#ab239d5e0eafda1e94385e6f994263014',1,'RoboClerk::RiskItem']]],
-  ['risks_70',['Risks',['../classRoboClerk_1_1CheckpointDataStorage.html#a60e54774791e92e528f6f673a27b67f0',1,'RoboClerk::CheckpointDataStorage']]],
-  ['risks_71',['risks',['../classRoboClerk_1_1DataSourcePluginBase.html#a31df688ecc24a7fec9becd76d69e1aa9',1,'RoboClerk::DataSourcePluginBase']]],
+  ['risks_70',['risks',['../classRoboClerk_1_1DataSourcePluginBase.html#a31df688ecc24a7fec9becd76d69e1aa9',1,'RoboClerk::DataSourcePluginBase']]],
+  ['risks_71',['Risks',['../classRoboClerk_1_1CheckpointDataStorage.html#a60e54774791e92e528f6f673a27b67f0',1,'RoboClerk::CheckpointDataStorage']]],
   ['riskseverityscore_72',['RiskSeverityScore',['../classRoboClerk_1_1RiskItem.html#a686fc3a30a74b6daddc36f85a1870fe0',1,'RoboClerk::RiskItem']]],
   ['risktraceabilitymatrix_73',['RiskTraceabilityMatrix',['../classRoboClerk_1_1ContentCreators_1_1RiskTraceabilityMatrix.html#a1e59e37cdf80776d6911956481d07ddf',1,'RoboClerk.ContentCreators.RiskTraceabilityMatrix.RiskTraceabilityMatrix()'],['../classRoboClerk_1_1ContentCreators_1_1RiskTraceabilityMatrix.html',1,'RoboClerk.ContentCreators.RiskTraceabilityMatrix']]],
   ['risktraceabilitymatrix_2ecs_74',['RiskTraceabilityMatrix.cs',['../RiskTraceabilityMatrix_8cs.html',1,'']]],
@@ -85,8 +85,8 @@ var searchData=
   ['roboclerkparser_2ecs_82',['RoboClerkParser.cs',['../RoboClerkParser_8cs.html',1,'']]],
   ['roboclerktag_83',['RoboClerkTag',['../classRoboClerk_1_1RoboClerkTag.html',1,'RoboClerk.RoboClerkTag'],['../classRoboClerk_1_1RoboClerkTag.html#a565ef9779c30f17a84c953a9ada378a1',1,'RoboClerk.RoboClerkTag.RoboClerkTag()']]],
   ['roboclerktag_2ecs_84',['RoboClerkTag.cs',['../RoboClerkTag_8cs.html',1,'']]],
-  ['roboclerktags_85',['RoboClerkTags',['../classRoboClerk_1_1Document.html#a91220d8f947486f7a072f12c962bf4a1',1,'RoboClerk::Document']]],
-  ['roboclerktags_86',['roboclerkTags',['../classRoboClerk_1_1Document.html#a96e27d130bbd56357158739bf296bc0b',1,'RoboClerk::Document']]],
+  ['roboclerktags_85',['roboclerkTags',['../classRoboClerk_1_1Document.html#a96e27d130bbd56357158739bf296bc0b',1,'RoboClerk::Document']]],
+  ['roboclerktags_86',['RoboClerkTags',['../classRoboClerk_1_1Document.html#a91220d8f947486f7a072f12c962bf4a1',1,'RoboClerk::Document']]],
   ['roles_87',['Roles',['../classRoboClerk_1_1Redmine_1_1CustomRedmineField.html#af6f4a6940aa106bfcbc2dab427797d4e',1,'RoboClerk::Redmine::CustomRedmineField']]],
   ['runcommands_88',['RunCommands',['../classRoboClerk_1_1Commands.html#adceec2ce4ffa1750f440358a79d2cae2',1,'RoboClerk::Commands']]]
 ];
