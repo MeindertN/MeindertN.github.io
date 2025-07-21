@@ -1,9 +1,27 @@
 var searchData=
 [
-  ['occurencescore_0',['OccurenceScore',['../classRoboClerk_1_1EliminatedRiskItem.html#a879ca66b0c11e29aa4edc596edcd4437',1,'RoboClerk::EliminatedRiskItem']]],
-  ['offset_1',['Offset',['../classRoboClerk_1_1Redmine_1_1RedmineIssues.html#a4e8be36a3419b2af107bf8b833c72faf',1,'RoboClerk.Redmine.RedmineIssues.Offset()'],['../classRoboClerk_1_1Redmine_1_1RedmineProjects.html#a562bf728887af934d3f1e6a4e6023696',1,'RoboClerk.Redmine.RedmineProjects.Offset()']]],
-  ['openread_2',['OpenRead',['../classRoboClerk_1_1LocalFileSystemPlugin.html#a2cdc8a8d46e6e6dc9a13daa182a7133d',1,'RoboClerk.LocalFileSystemPlugin.OpenRead()'],['../classRoboClerk_1_1FileProviderPluginBase.html#a86c4ad311d265379f4c69ac4d5fda749',1,'RoboClerk.FileProviderPluginBase.OpenRead()'],['../interfaceRoboClerk_1_1IFileProviderPlugin.html#a42aab327d1e7d3690ddfccdf823c7af4',1,'RoboClerk.IFileProviderPlugin.OpenRead()']]],
-  ['openwrite_3',['OpenWrite',['../classRoboClerk_1_1LocalFileSystemPlugin.html#a019b2dacd34fa62ad9d858ced58c1e37',1,'RoboClerk.LocalFileSystemPlugin.OpenWrite()'],['../classRoboClerk_1_1FileProviderPluginBase.html#a13a0ce25ef9f94c6336018a3818b0136',1,'RoboClerk.FileProviderPluginBase.OpenWrite()'],['../interfaceRoboClerk_1_1IFileProviderPlugin.html#a7046aef3e40e45dfe4a0f7da2f9f89a0',1,'RoboClerk.IFileProviderPlugin.OpenWrite()']]],
-  ['outputdir_4',['OutputDir',['../classRoboClerk_1_1Configuration_1_1Configuration.html#a67a2e34ce9cf92d171534a372a5bb9ea',1,'RoboClerk.Configuration.Configuration.OutputDir()'],['../interfaceRoboClerk_1_1Configuration_1_1IConfiguration.html#a7fe2af999afd63c0ef8b4e994cec2529',1,'RoboClerk.Configuration.IConfiguration.OutputDir()']]],
-  ['outputformat_5',['OutputFormat',['../classRoboClerk_1_1Configuration_1_1Configuration.html#abe41e7025e2035011a188c7de0145417',1,'RoboClerk.Configuration.Configuration.OutputFormat()'],['../interfaceRoboClerk_1_1Configuration_1_1IConfiguration.html#a95a3bb4b931fcdeb34d62c8bbb8a77cc',1,'RoboClerk.Configuration.IConfiguration.OutputFormat()']]]
+  ['annotatedunittests_0',['AnnotatedUnitTests',['../namespaceRoboClerk_1_1AnnotatedUnitTests.html',1,'RoboClerk']]],
+  ['azuredevops_1',['AzureDevOps',['../namespaceRoboClerk_1_1AzureDevOps.html',1,'RoboClerk']]],
+  ['configuration_2',['Configuration',['../namespaceRoboClerk_1_1Configuration.html',1,'RoboClerk']]],
+  ['dependenciesfile_3',['DependenciesFile',['../namespaceRoboClerk_1_1DependenciesFile.html',1,'RoboClerk']]],
+  ['redmine_4',['Redmine',['../namespaceRoboClerk_1_1Redmine.html',1,'RoboClerk']]],
+  ['redmineissue_5',['RedmineIssue',['../classRoboClerk_1_1Redmine_1_1RedmineIssue.html',1,'RoboClerk::Redmine']]],
+  ['redmineissues_6',['RedmineIssues',['../classRoboClerk_1_1Redmine_1_1RedmineIssues.html',1,'RoboClerk::Redmine']]],
+  ['redminejsonobjects_2ecs_7',['RedmineJSONObjects.cs',['../RedmineJSONObjects_8cs.html',1,'']]],
+  ['redmineproject_8',['RedmineProject',['../classRoboClerk_1_1Redmine_1_1RedmineProject.html',1,'RoboClerk::Redmine']]],
+  ['redmineprojects_9',['RedmineProjects',['../classRoboClerk_1_1Redmine_1_1RedmineProjects.html',1,'RoboClerk::Redmine']]],
+  ['redmineslmsplugin_10',['RedmineSLMSPlugin',['../classRoboClerk_1_1Redmine_1_1RedmineSLMSPlugin.html#a572bcda776d39c2bd9627db1a72f6f76',1,'RoboClerk.Redmine.RedmineSLMSPlugin.RedmineSLMSPlugin(IFileProviderPlugin fileSystem, IRedmineClient client)'],['../classRoboClerk_1_1Redmine_1_1RedmineSLMSPlugin.html#ae4fb6169f66099d8ef972f4f764d064e',1,'RoboClerk.Redmine.RedmineSLMSPlugin.RedmineSLMSPlugin(IFileProviderPlugin fileSystem)'],['../classRoboClerk_1_1Redmine_1_1RedmineSLMSPlugin.html',1,'RoboClerk.Redmine.RedmineSLMSPlugin']]],
+  ['redmineslmsplugin_2ecs_11',['RedmineSLMSPlugin.cs',['../RedmineSLMSPlugin_8cs.html',1,'']]],
+  ['redminetracker_12',['RedmineTracker',['../classRoboClerk_1_1Redmine_1_1RedmineTracker.html',1,'RoboClerk::Redmine']]],
+  ['redminetrackers_13',['RedmineTrackers',['../classRoboClerk_1_1Redmine_1_1RedmineTrackers.html',1,'RoboClerk::Redmine']]],
+  ['refreshitems_14',['RefreshItems',['../classRoboClerk_1_1UnitTestFNPlugin.html#a0a0f6efa0f71dc487efd4634a75f3ee6',1,'RoboClerk.UnitTestFNPlugin.RefreshItems()'],['../classRoboClerk_1_1Redmine_1_1RedmineSLMSPlugin.html#a2719922d29b85cc77a7e42c881d26413',1,'RoboClerk.Redmine.RedmineSLMSPlugin.RefreshItems()'],['../classRoboClerk_1_1DependenciesFile_1_1DependenciesFilePlugin.html#a5e7755853cfda44521d3adfb2d9f906e',1,'RoboClerk.DependenciesFile.DependenciesFilePlugin.RefreshItems()'],['../classRoboClerk_1_1AzureDevOps_1_1AzureDevOpsSLMSPlugin.html#aa92c459007b9578c2eaf7da9b1ed9fae',1,'RoboClerk.AzureDevOps.AzureDevOpsSLMSPlugin.RefreshItems()'],['../classRoboClerk_1_1AnnotatedUnitTests_1_1AnnotatedUnitTestPlugin.html#a3f03e1da75f977b67ab383ce5fff2231',1,'RoboClerk.AnnotatedUnitTests.AnnotatedUnitTestPlugin.RefreshItems()']]],
+  ['regexp_15',['Regexp',['../classRoboClerk_1_1Redmine_1_1CustomRedmineField.html#ac499cb9654954103129f447f5e4dceea',1,'RoboClerk::Redmine::CustomRedmineField']]],
+  ['relation_16',['Relation',['../classRoboClerk_1_1Redmine_1_1Relation.html',1,'RoboClerk::Redmine']]],
+  ['relations_17',['Relations',['../classRoboClerk_1_1Redmine_1_1RedmineIssue.html#ac11d59c1caaede0a3bd6ea00752b4608',1,'RoboClerk::Redmine::RedmineIssue']]],
+  ['relationtype_18',['RelationType',['../classRoboClerk_1_1Redmine_1_1Relation.html#a3c4e3513a13add361e394c47bb4dfdcb',1,'RoboClerk::Redmine::Relation']]],
+  ['restsharpredmineclient_19',['RestSharpRedmineClient',['../classRoboClerk_1_1Redmine_1_1RestSharpRedmineClient.html#af6ff6779e61275fb605e3a7a07f8692b',1,'RoboClerk.Redmine.RestSharpRedmineClient.RestSharpRedmineClient()'],['../classRoboClerk_1_1Redmine_1_1RestSharpRedmineClient.html',1,'RoboClerk.Redmine.RestSharpRedmineClient']]],
+  ['roboclerk_20',['RoboClerk',['../namespaceRoboClerk.html',1,'']]],
+  ['roboclerktextcore_21',['RoboClerkTextCore',['../classRoboClerk_1_1RoboClerkTextCore.html',1,'RoboClerk.RoboClerkTextCore'],['../classRoboClerk_1_1RoboClerkTextCore.html#aa2ba7c5369f50b579a446fea6eb283c2',1,'RoboClerk.RoboClerkTextCore.RoboClerkTextCore()']]],
+  ['roboclerktextcore_2ecs_22',['RoboClerkTextCore.cs',['../RoboClerkTextCore_8cs.html',1,'']]],
+  ['roles_23',['Roles',['../classRoboClerk_1_1Redmine_1_1CustomRedmineField.html#af6f4a6940aa106bfcbc2dab427797d4e',1,'RoboClerk::Redmine::CustomRedmineField']]]
 ];

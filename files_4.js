@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['fileaccesspluginbase_2ecs_0',['FileAccessPluginBase.cs',['../FileAccessPluginBase_8cs.html',1,'']]],
-  ['fileproviderpluginbase_2ecs_1',['FileProviderPluginBase.cs',['../FileProviderPluginBase_8cs.html',1,'']]]
+  ['iroboclerkcore_2ecs_0',['IRoboClerkCore.cs',['../IRoboClerkCore_8cs.html',1,'']]],
+  ['itextileconverter_2ecs_1',['ITextileConverter.cs',['../ITextileConverter_8cs.html',1,'']]]
 ];

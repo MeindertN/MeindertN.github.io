@@ -26,21 +26,16 @@ var NAVTREE =
 [
   [ "RoboClerk", "index.html", [
     [ "Packages", "namespaces.html", [
-      [ "Package List", "namespaces.html", "namespaces_dup" ],
-      [ "Package Members", "namespacemembers.html", [
-        [ "All", "namespacemembers.html", null ],
-        [ "Enumerations", "namespacemembers_enum.html", null ]
-      ] ]
+      [ "Package List", "namespaces.html", "namespaces_dup" ]
     ] ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
       [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
       [ "Class Members", "functions.html", [
-        [ "All", "functions.html", "functions_dup" ],
-        [ "Functions", "functions_func.html", "functions_func" ],
-        [ "Variables", "functions_vars.html", null ],
-        [ "Properties", "functions_prop.html", "functions_prop" ]
+        [ "All", "functions.html", null ],
+        [ "Functions", "functions_func.html", null ],
+        [ "Properties", "functions_prop.html", null ]
       ] ]
     ] ],
     [ "Files", "files.html", [
@@ -55,16 +50,8 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"AIContentCreator_8cs.html",
-"classRoboClerk_1_1AISystem_1_1AISystemPluginBase.html#a3828f4dc337aadc032a27af424b93d4f",
-"classRoboClerk_1_1Configuration_1_1DocumentConfig.html#a2e1cfa505444fa1a7bd147b551e6063d",
-"classRoboClerk_1_1DataSourcePluginBase.html#a59741e1c98b19adc4a22f90ddaf542d1",
-"classRoboClerk_1_1EliminatedRiskItem.html#a45057aa4ecac5004279a30721530550c",
-"classRoboClerk_1_1LocalFileSystemPlugin.html#a1abbf4d9dfd00bb6a671015ee3c7493b",
-"classRoboClerk_1_1Redmine_1_1RedmineIssue.html#a5ecdebdb8dba701771af282209b7733b",
-"classRoboClerk_1_1RoboClerkTag.html",
-"classRoboClerk_1_1TraceLink.html#a7583078e98127913979da56186d4b779",
-"interfaceRoboClerk_1_1IDataSourcePlugin.html#a80dac300c64d457f402c170a0ea80f4c"
+"AnnotatedUnitTestsPlugin_8cs.html",
+"classRoboClerk_1_1Redmine_1_1RedmineIssue.html#adab067b679241b7fa6521bb3a46cfd24"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -1,25 +1,8 @@
 var dir_eaa041a19c6688a540b628eca738f488 =
 [
-    [ "AISystem", "dir_81befceac5f8ae4e3bcf6f3a47087ed2.html", "dir_81befceac5f8ae4e3bcf6f3a47087ed2" ],
     [ "Configuration", "dir_de570b57bcb4e0a834377877d20f3487.html", "dir_de570b57bcb4e0a834377877d20f3487" ],
-    [ "ContentCreators", "dir_a5dc7c9e9b6bb77c13df23a63c985736.html", "dir_a5dc7c9e9b6bb77c13df23a63c985736" ],
-    [ "DataSources", "dir_86e7caaf7c7f492029be55eca0affc3e.html", "dir_86e7caaf7c7f492029be55eca0affc3e" ],
-    [ "Items", "dir_6e3f47eabe569cc8d10b366e68b6d76b.html", "dir_6e3f47eabe569cc8d10b366e68b6d76b" ],
-    [ "ItemTemplateSupport", "dir_193bd7be5d30aa01bf0730fae2ed254c.html", "dir_193bd7be5d30aa01bf0730fae2ed254c" ],
-    [ "PluginSupport", "dir_4a32cb94a0bd474746a60996ada79e03.html", "dir_4a32cb94a0bd474746a60996ada79e03" ],
-    [ "Trace", "dir_465ddc2a53347b1d27bbc811363e433b.html", "dir_465ddc2a53347b1d27bbc811363e433b" ],
     [ "CommandlineOptions.cs", "CommandlineOptions_8cs.html", null ],
-    [ "Commands.cs", "Commands_8cs.html", "Commands_8cs" ],
-    [ "Document.cs", "Document_8cs.html", "Document_8cs" ],
-    [ "ExternalDependency.cs", "ExternalDependency_8cs.html", "ExternalDependency_8cs" ],
-    [ "GitRepository.cs", "GitRepository_8cs.html", "GitRepository_8cs" ],
     [ "IRoboClerkCore.cs", "IRoboClerkCore_8cs.html", null ],
-    [ "LocalFileSystemPlugin.cs", "LocalFileSystemPlugin_8cs.html", "LocalFileSystemPlugin_8cs" ],
     [ "Program.cs", "Program_8cs.html", "Program_8cs" ],
-    [ "ProtoTag.cs", "ProtoTag_8cs.html", null ],
-    [ "RoboClerkCore.cs", "RoboClerkCore_8cs.html", "RoboClerkCore_8cs" ],
-    [ "RoboClerkParser.cs", "RoboClerkParser_8cs.html", null ],
-    [ "RoboClerkTag.cs", "RoboClerkTag_8cs.html", "RoboClerkTag_8cs" ],
-    [ "TestResult.cs", "TestResult_8cs.html", "TestResult_8cs" ],
-    [ "UnitTestAttribute.cs", "UnitTestAttribute_8cs.html", "UnitTestAttribute_8cs" ]
+    [ "RoboClerkTextCore.cs", "RoboClerkTextCore_8cs.html", "RoboClerkTextCore_8cs" ]
 ];

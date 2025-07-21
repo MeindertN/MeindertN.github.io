@@ -1,9 +1,0 @@
-var searchData=
-[
-  ['wikipagetitle_0',['WikiPageTitle',['../classRoboClerk_1_1Redmine_1_1Version.html#a63ac7cab400d20020f8747b9cb9b2887',1,'RoboClerk::Redmine::Version']]],
-  ['workitem_1',['WorkItem',['../AzureDevOpsUtilities_8cs.html#ab07e967a2e17a858a5d2eb89b1d688e8',1,'AzureDevOpsUtilities.cs']]],
-  ['writeallbytes_2',['WriteAllBytes',['../classRoboClerk_1_1LocalFileSystemPlugin.html#a0336545ef8c41a756c1662175ef5b302',1,'RoboClerk.LocalFileSystemPlugin.WriteAllBytes()'],['../classRoboClerk_1_1FileProviderPluginBase.html#a43d51a4d44e6011a4ec31b6f7316449b',1,'RoboClerk.FileProviderPluginBase.WriteAllBytes()'],['../interfaceRoboClerk_1_1IFileProviderPlugin.html#a519803b5ad3b7b584861c16d81730a71',1,'RoboClerk.IFileProviderPlugin.WriteAllBytes()']]],
-  ['writeallbytesasync_3',['WriteAllBytesAsync',['../classRoboClerk_1_1FileProviderPluginBase.html#a970565a95590b415dbdf5a1994fdcc7a',1,'RoboClerk.FileProviderPluginBase.WriteAllBytesAsync()'],['../interfaceRoboClerk_1_1IFileProviderPlugin.html#aee7de961942b86d7d52b297a863ed39a',1,'RoboClerk.IFileProviderPlugin.WriteAllBytesAsync()']]],
-  ['writealltext_4',['WriteAllText',['../classRoboClerk_1_1LocalFileSystemPlugin.html#ae13e935fd0d30dfd875b937a6e173f79',1,'RoboClerk.LocalFileSystemPlugin.WriteAllText()'],['../classRoboClerk_1_1FileProviderPluginBase.html#a02f50c6a61bf4aedc978c6466855845b',1,'RoboClerk.FileProviderPluginBase.WriteAllText()'],['../interfaceRoboClerk_1_1IFileProviderPlugin.html#a44e13c1eaf3f924c92beb28872b7e938',1,'RoboClerk.IFileProviderPlugin.WriteAllText()']]],
-  ['writealltextasync_5',['WriteAllTextAsync',['../classRoboClerk_1_1FileProviderPluginBase.html#a3524fbaa9149fe660396a407831caaf3',1,'RoboClerk.FileProviderPluginBase.WriteAllTextAsync()'],['../interfaceRoboClerk_1_1IFileProviderPlugin.html#ab8d4532507f1e90a7d9a1d3c6a6d3dd2',1,'RoboClerk.IFileProviderPlugin.WriteAllTextAsync()']]]
-];
