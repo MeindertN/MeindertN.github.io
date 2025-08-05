@@ -113,7 +113,7 @@ $(document).ready(function(){initNavTree('RoboClerkTextCore_8cs_source.html','')
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>        <span class="keyword">private</span> readonly IAISystemPlugin aiPlugin = <span class="keyword">null</span>;</div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>        <span class="keyword">private</span> readonly IContentCreatorFactory contentCreatorFactory = <span class="keyword">null</span>;</div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>        <span class="keyword">private</span> <span class="keyword">static</span> NLog.Logger logger = NLog.LogManager.GetCurrentClassLogger();</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>        <span class="keyword">private</span> List&lt;Document&gt; documents = <span class="keyword">new</span> List&lt;Document&gt;();</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>        <span class="keyword">private</span> List&lt;TextDocument&gt; documents = <span class="keyword">new</span> List&lt;TextDocument&gt;();</div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>        <span class="keyword">private</span> IFileSystem fileSystem = <span class="keyword">null</span>;</div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>        <span class="keyword">private</span> IPluginLoader pluginLoader = <span class="keyword">null</span>;</div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
@@ -145,7 +145,7 @@ $(document).ready(function(){initNavTree('RoboClerkTextCore_8cs_source.html','')
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>            }</div>
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>            <span class="keywordflow">if</span>(aiPlugin != <span class="keyword">null</span>) </div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>            {</div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>                List&lt;Document&gt; docs = ProcessTemplates(aiPlugin.GetAIPromptTemplates());</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>                List&lt;TextDocument&gt; docs = ProcessTemplates(aiPlugin.GetAIPromptTemplates());</div>
 <div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>                aiPlugin.SetPrompts(docs);</div>
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>            }</div>
 <div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>            var configDocuments = configuration.Documents;</div>
@@ -153,15 +153,15 @@ $(document).ready(function(){initNavTree('RoboClerkTextCore_8cs_source.html','')
 <div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>            logger.Info(<span class="stringliteral">&quot;Finished creating documents.&quot;</span>);</div>
 <div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>        }</div>
 <div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span> </div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>        <span class="keyword">private</span> List&lt;Document&gt; ProcessTemplates(IEnumerable&lt;DocumentConfig&gt; configDocuments)</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>        <span class="keyword">private</span> List&lt;TextDocument&gt; ProcessTemplates(IEnumerable&lt;DocumentConfig&gt; configDocuments)</div>
 <div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>        {</div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>            List&lt;Document&gt; docs = <span class="keyword">new</span> List&lt;Document&gt;();</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>            List&lt;TextDocument&gt; docs = <span class="keyword">new</span> List&lt;TextDocument&gt;();</div>
 <div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>            <span class="keywordflow">foreach</span> (var doc <span class="keywordflow">in</span> configDocuments)</div>
 <div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>            {</div>
 <div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>                <span class="keywordflow">if</span> (doc.DocumentTemplate == <span class="keywordtype">string</span>.Empty)</div>
 <div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>                    <span class="keywordflow">continue</span>;  <span class="comment">//skip documents without template</span></div>
 <div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>                logger.Info($<span class="stringliteral">&quot;Reading document template: {doc.RoboClerkID}&quot;</span>);</div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>                Document document = <span class="keyword">new</span> Document(doc.DocumentTitle, doc.DocumentTemplate);</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>                TextDocument document = <span class="keyword">new</span> TextDocument(doc.DocumentTitle, doc.DocumentTemplate);</div>
 <div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>                document.FromStream(fileSystem.FileStream.New(fileSystem.Path.Join(configuration.TemplateDir, doc.DocumentTemplate), FileMode.Open));</div>
 <div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>                logger.Info($<span class="stringliteral">&quot;Generating document: {doc.RoboClerkID}&quot;</span>);</div>
 <div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>                <span class="keywordtype">int</span> nrOfLevels = 0;</div>
