@@ -60,10 +60,10 @@ var NAVTREEINDEX =
 "classRoboClerk_1_1Configuration_1_1TraceConfig.html#a9563374476f11da3398b2c4a7f73f41a",
 "classRoboClerk_1_1DataSourcePluginBase.html#aae31c22e5b0d47474fbd43ae4329a53d",
 "classRoboClerk_1_1EliminatedSOUPItem.html#a32b0b24333cda85a891f009d6cfd1970",
-"classRoboClerk_1_1Redmine_1_1CustomRedmineField.html#a365953d87524061fbff352f54889cd2b",
-"classRoboClerk_1_1Redmine_1_1VersionList.html#af1f369bcf74f105106b88719c8ea8585",
-"classRoboClerk_1_1TestResult.html#a465af53e666fe674d0307da07f35b783",
-"interfaceRoboClerk_1_1Configuration_1_1IConfiguration.html#a4961d26ed0895dbbf79293d67f19b7a7"
+"classRoboClerk_1_1Redmine_1_1CustomRedmineField.html#a0f034fd213cf55a0ee2193c975657e0e",
+"classRoboClerk_1_1Redmine_1_1VersionList.html",
+"classRoboClerk_1_1TestResult.html#a25be7dc4955e31a95c89f6f592f1402f",
+"interfaceRoboClerk_1_1Configuration_1_1IConfiguration.html#a159049db90840a1f631f997bf5480204"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

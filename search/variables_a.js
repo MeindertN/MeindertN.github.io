@@ -1,12 +1,9 @@
 var searchData=
 [
-  ['softwarerequirements_0',['softwareRequirements',['../classRoboClerk_1_1DataSourcePluginBase.html#aae31c22e5b0d47474fbd43ae4329a53d',1,'RoboClerk::DataSourcePluginBase']]],
-  ['soup_1',['soup',['../classRoboClerk_1_1DataSourcePluginBase.html#a547aa9994295305b754024239a8f2d6a',1,'RoboClerk::DataSourcePluginBase']]],
-  ['source_2',['source',['../classRoboClerk_1_1TraceBase.html#ab032ff86649911beed43733024d6b441',1,'RoboClerk::TraceBase']]],
-  ['sourcefiles_3',['sourceFiles',['../classRoboClerk_1_1SourceCodeAnalysisPluginBase.html#aa1209add10fcc186af4c5d173dfd64c6',1,'RoboClerk::SourceCodeAnalysisPluginBase']]],
-  ['sourceid_4',['sourceID',['../classRoboClerk_1_1TraceLink.html#a93fd423c7ae4af883f3dae62237245c0',1,'RoboClerk::TraceLink']]],
-  ['sourcetype_5',['sourceType',['../classRoboClerk_1_1ContentCreators_1_1RequirementBase.html#a4549c1eef1618d26e9b685d02645ead8',1,'RoboClerk::ContentCreators::RequirementBase']]],
-  ['status_6',['status',['../classRoboClerk_1_1Item.html#a4b6574e2cad3697563bf935771ea4262',1,'RoboClerk::Item']]],
-  ['subdir_7',['subDir',['../classRoboClerk_1_1SourceCodeAnalysisPluginBase.html#af8003d21160d563b7a4640a3072277e3',1,'RoboClerk::SourceCodeAnalysisPluginBase']]],
-  ['systemrequirements_8',['systemRequirements',['../classRoboClerk_1_1DataSourcePluginBase.html#a96edee620e39f8711d45163fe503244b',1,'RoboClerk::DataSourcePluginBase']]]
+  ['rawtext_0',['rawText',['../classRoboClerk_1_1Document.html#a2b50aa1743da3be83c60d1d0e2b86129',1,'RoboClerk::Document']]],
+  ['requirementname_1',['requirementName',['../classRoboClerk_1_1ContentCreators_1_1RequirementBase.html#a8ec6a013e27d4a00c9ecd9e152379def',1,'RoboClerk::ContentCreators::RequirementBase']]],
+  ['requirements_2',['requirements',['../classRoboClerk_1_1ContentCreators_1_1RequirementBase.html#a08f4d39836224d5b489edb6755d1c098',1,'RoboClerk::ContentCreators::RequirementBase']]],
+  ['revision_3',['revision',['../classRoboClerk_1_1Item.html#ab24a4c7f9cdb38bd693add0c2113acc4',1,'RoboClerk::Item']]],
+  ['risks_4',['risks',['../classRoboClerk_1_1DataSourcePluginBase.html#a31df688ecc24a7fec9becd76d69e1aa9',1,'RoboClerk::DataSourcePluginBase']]],
+  ['roboclerktags_5',['roboclerkTags',['../classRoboClerk_1_1Document.html#a96e27d130bbd56357158739bf296bc0b',1,'RoboClerk::Document']]]
 ];
