@@ -1,5 +1,7 @@
 var NAVTREEINDEX7 =
 {
+"classRoboClerk_1_1TestResult.html":[0,0,0,51],
+"classRoboClerk_1_1TestResult.html#a25be7dc4955e31a95c89f6f592f1402f":[1,0,0,51,1],
 "classRoboClerk_1_1TestResult.html#a25be7dc4955e31a95c89f6f592f1402f":[0,0,0,51,1],
 "classRoboClerk_1_1TestResult.html#a2b81182971654ea7156d4dca249111ce":[1,0,0,51,2],
 "classRoboClerk_1_1TestResult.html#a2b81182971654ea7156d4dca249111ce":[0,0,0,51,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX7 =
 "interfaceRoboClerk_1_1AISystem_1_1IAISystemPlugin.html#a512b603de6210599f2f9c935f8a3d657":[1,0,0,0,1,1],
 "interfaceRoboClerk_1_1AISystem_1_1IAISystemPlugin.html#aebd5f6abc0077cc0a121ee6d9b1fb40a":[0,0,0,0,1,0],
 "interfaceRoboClerk_1_1AISystem_1_1IAISystemPlugin.html#aebd5f6abc0077cc0a121ee6d9b1fb40a":[1,0,0,0,1,0],
-"interfaceRoboClerk_1_1Configuration_1_1IConfiguration.html":[0,0,0,3,4],
-"interfaceRoboClerk_1_1Configuration_1_1IConfiguration.html":[1,0,0,3,4],
-"interfaceRoboClerk_1_1Configuration_1_1IConfiguration.html#a159049db90840a1f631f997bf5480204":[0,0,0,3,4,7]
+"interfaceRoboClerk_1_1Configuration_1_1IConfiguration.html":[0,0,0,3,4]
 };

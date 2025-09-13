@@ -1,5 +1,7 @@
 var NAVTREEINDEX6 =
 {
+"classRoboClerk_1_1Redmine_1_1Version.html#af0d891359f0a499556610034fa0f3102":[1,0,0,6,24,2],
+"classRoboClerk_1_1Redmine_1_1VersionList.html":[0,0,0,6,25],
 "classRoboClerk_1_1Redmine_1_1VersionList.html":[1,0,0,6,25],
 "classRoboClerk_1_1Redmine_1_1VersionList.html#ac2caca8e56521bd7ae8a74bfc3cc7374":[1,0,0,6,25,1],
 "classRoboClerk_1_1Redmine_1_1VersionList.html#ac2caca8e56521bd7ae8a74bfc3cc7374":[0,0,0,6,25,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX6 =
 "classRoboClerk_1_1TagInvalidException.html#ad47e0787d1dc789e913fa297fe5c3e21":[1,0,0,50,0],
 "classRoboClerk_1_1TagInvalidException.html#af3e2e5508083213c3040a3c090142d87":[0,0,0,50,1],
 "classRoboClerk_1_1TagInvalidException.html#af3e2e5508083213c3040a3c090142d87":[1,0,0,50,1],
-"classRoboClerk_1_1TestResult.html":[1,0,0,51],
-"classRoboClerk_1_1TestResult.html":[0,0,0,51],
-"classRoboClerk_1_1TestResult.html#a25be7dc4955e31a95c89f6f592f1402f":[1,0,0,51,1]
+"classRoboClerk_1_1TestResult.html":[1,0,0,51]
 };

@@ -92,6 +92,7 @@ $(document).ready(function(){initNavTree('classRoboClerk_1_1ContentCreators_1_1T
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="classRoboClerk_1_1ContentCreators_1_1TraceabilityMatrixBase-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">RoboClerk.ContentCreators.TraceabilityMatrixBase Class Reference</div></div>
@@ -120,6 +121,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a350affccef1003def58831ad30dab55c"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceRoboClerk_1_1ContentCreators_1_1IContentCreator.html#a350affccef1003def58831ad30dab55c">GetContent</a> (<a class="el" href="classRoboClerk_1_1RoboClerkTag.html">RoboClerkTag</a> tag, <a class="el" href="classRoboClerk_1_1Configuration_1_1DocumentConfig.html">DocumentConfig</a> doc)</td></tr>
 <tr class="separator:a350affccef1003def58831ad30dab55c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:ae7f82b6a57afc717ac0cf42be028daef"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRoboClerk_1_1ContentCreators_1_1TraceabilityMatrixBase.html#ae7f82b6a57afc717ac0cf42be028daef">ShouldIncludeItem</a> (<a class="el" href="classRoboClerk_1_1Item.html">Item</a> item, string projectFilter)</td></tr>
+<tr class="separator:ae7f82b6a57afc717ac0cf42be028daef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
 <tr class="memitem:aa45bc21f8744346f0fcab74500f7167b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classRoboClerk_1_1TraceEntity.html">TraceEntity</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRoboClerk_1_1ContentCreators_1_1TraceabilityMatrixBase.html#aa45bc21f8744346f0fcab74500f7167b">truthSource</a> = null</td></tr>
@@ -133,7 +139,7 @@ Protected Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="TraceabilityMatrixBase_8cs_source.html#l00007">7</a> of file <a class="el" href="TraceabilityMatrixBase_8cs_source.html">TraceabilityMatrixBase.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="TraceabilityMatrixBase_8cs_source.html#l00008">8</a> of file <a class="el" href="TraceabilityMatrixBase_8cs_source.html">TraceabilityMatrixBase.cs</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a1b8461eda620c0e5d79cf3bb150b7da0" name="a1b8461eda620c0e5d79cf3bb150b7da0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1b8461eda620c0e5d79cf3bb150b7da0">&#9670;&#160;</a></span>TraceabilityMatrixBase()</h2>
@@ -167,7 +173,7 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="TraceabilityMatrixBase_8cs_source.html#l00014">14</a> of file <a class="el" href="TraceabilityMatrixBase_8cs_source.html">TraceabilityMatrixBase.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="TraceabilityMatrixBase_8cs_source.html#l00015">15</a> of file <a class="el" href="TraceabilityMatrixBase_8cs_source.html">TraceabilityMatrixBase.cs</a>.</p>
 
 </div>
 </div>
@@ -210,7 +216,45 @@ Protected Attributes</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="classRoboClerk_1_1ContentCreators_1_1RiskTraceabilityMatrix.html#aa15b3295b4e0d8da539bd67a0ec1ba0c">RoboClerk.ContentCreators.RiskTraceabilityMatrix</a>, <a class="el" href="classRoboClerk_1_1ContentCreators_1_1SoftwareLevelTraceabilityMatrix.html#abec68de5407aac871eddce3c8936b2ed">RoboClerk.ContentCreators.SoftwareLevelTraceabilityMatrix</a>, <a class="el" href="classRoboClerk_1_1ContentCreators_1_1SystemLevelTraceabilityMatrix.html#a964f169f9090dfc5d8d5e890038ce9c5">RoboClerk.ContentCreators.SystemLevelTraceabilityMatrix</a>, and <a class="el" href="classRoboClerk_1_1ContentCreators_1_1TraceMatrix.html#a81583d2b108616d37f898d47f070fe91">RoboClerk.ContentCreators.TraceMatrix</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="TraceabilityMatrixBase_8cs_source.html#l00021">21</a> of file <a class="el" href="TraceabilityMatrixBase_8cs_source.html">TraceabilityMatrixBase.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="TraceabilityMatrixBase_8cs_source.html#l00030">30</a> of file <a class="el" href="TraceabilityMatrixBase_8cs_source.html">TraceabilityMatrixBase.cs</a>.</p>
+
+</div>
+</div>
+<a id="ae7f82b6a57afc717ac0cf42be028daef" name="ae7f82b6a57afc717ac0cf42be028daef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae7f82b6a57afc717ac0cf42be028daef">&#9670;&#160;</a></span>ShouldIncludeItem()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool RoboClerk.ContentCreators.TraceabilityMatrixBase.ShouldIncludeItem </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classRoboClerk_1_1Item.html">Item</a>&#160;</td>
+          <td class="paramname"><em>item</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>projectFilter</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="TraceabilityMatrixBase_8cs_source.html#l00022">22</a> of file <a class="el" href="TraceabilityMatrixBase_8cs_source.html">TraceabilityMatrixBase.cs</a>.</p>
 
 </div>
 </div>
@@ -235,7 +279,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="TraceabilityMatrixBase_8cs_source.html#l00011">11</a> of file <a class="el" href="TraceabilityMatrixBase_8cs_source.html">TraceabilityMatrixBase.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="TraceabilityMatrixBase_8cs_source.html#l00012">12</a> of file <a class="el" href="TraceabilityMatrixBase_8cs_source.html">TraceabilityMatrixBase.cs</a>.</p>
 
 </div>
 </div>
@@ -259,7 +303,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="TraceabilityMatrixBase_8cs_source.html#l00012">12</a> of file <a class="el" href="TraceabilityMatrixBase_8cs_source.html">TraceabilityMatrixBase.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="TraceabilityMatrixBase_8cs_source.html#l00013">13</a> of file <a class="el" href="TraceabilityMatrixBase_8cs_source.html">TraceabilityMatrixBase.cs</a>.</p>
 
 </div>
 </div>
@@ -283,7 +327,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="TraceabilityMatrixBase_8cs_source.html#l00010">10</a> of file <a class="el" href="TraceabilityMatrixBase_8cs_source.html">TraceabilityMatrixBase.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="TraceabilityMatrixBase_8cs_source.html#l00011">11</a> of file <a class="el" href="TraceabilityMatrixBase_8cs_source.html">TraceabilityMatrixBase.cs</a>.</p>
 
 </div>
 </div>
@@ -307,7 +351,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="TraceabilityMatrixBase_8cs_source.html#l00009">9</a> of file <a class="el" href="TraceabilityMatrixBase_8cs_source.html">TraceabilityMatrixBase.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="TraceabilityMatrixBase_8cs_source.html#l00010">10</a> of file <a class="el" href="TraceabilityMatrixBase_8cs_source.html">TraceabilityMatrixBase.cs</a>.</p>
 
 </div>
 </div>
