@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['initializeplugin_0',['InitializePlugin',['../classRoboClerk_1_1AnnotatedUnitTests_1_1AnnotatedUnitTestPlugin.html#ae3dfbb54f20fb01ddd4a9b7625cc3dfb',1,'RoboClerk.AnnotatedUnitTests.AnnotatedUnitTestPlugin.InitializePlugin()'],['../classRoboClerk_1_1AzureDevOps_1_1AzureDevOpsSLMSPlugin.html#a7c04abe76d22a9cb8f233f46e0f4a189',1,'RoboClerk.AzureDevOps.AzureDevOpsSLMSPlugin.InitializePlugin()'],['../classRoboClerk_1_1DependenciesFile_1_1DependenciesFilePlugin.html#a10fc3117ee35ff755f465e0611115fb1',1,'RoboClerk.DependenciesFile.DependenciesFilePlugin.InitializePlugin()'],['../classRoboClerk_1_1Redmine_1_1RedmineSLMSPlugin.html#aa50b0faaac3a0c6d9443fc116705b481',1,'RoboClerk.Redmine.RedmineSLMSPlugin.InitializePlugin()'],['../classRoboClerk_1_1UnitTestFNPlugin.html#a80e61abfe4e5753244aacc39c59528b9',1,'RoboClerk.UnitTestFNPlugin.InitializePlugin()']]]
+  ['fromstream_0',['FromStream',['../classRoboClerk_1_1Document.html#a3643af7ec6844cbbbb21c858655a2d29',1,'RoboClerk::Document']]],
+  ['fromstring_1',['FromString',['../classRoboClerk_1_1Document.html#a3e337fbf21170bb784b003149c9ca525',1,'RoboClerk::Document']]],
+  ['fromtoml_2',['FromToml',['../classRoboClerk_1_1Configuration_1_1CheckpointConfig.html#a349f46b0cb421ae34a3666678247e852',1,'RoboClerk.Configuration.CheckpointConfig.FromToml()'],['../classRoboClerk_1_1Configuration_1_1ConfigurationValues.html#a8a755bc3d6cc5dd43ead9eef56242325',1,'RoboClerk.Configuration.ConfigurationValues.FromToml()']]]
 ];

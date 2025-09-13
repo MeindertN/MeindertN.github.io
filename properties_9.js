@@ -1,6 +1,11 @@
 var searchData=
 [
-  ['offset_0',['Offset',['../classRoboClerk_1_1Redmine_1_1RedmineIssues.html#a4e8be36a3419b2af107bf8b833c72faf',1,'RoboClerk.Redmine.RedmineIssues.Offset()'],['../classRoboClerk_1_1Redmine_1_1RedmineProjects.html#a562bf728887af934d3f1e6a4e6023696',1,'RoboClerk.Redmine.RedmineProjects.Offset()']]],
-  ['outputdir_1',['OutputDir',['../classRoboClerk_1_1Configuration_1_1Configuration.html#a67a2e34ce9cf92d171534a372a5bb9ea',1,'RoboClerk::Configuration::Configuration']]],
-  ['outputformat_2',['OutputFormat',['../classRoboClerk_1_1Configuration_1_1Configuration.html#abe41e7025e2035011a188c7de0145417',1,'RoboClerk::Configuration::Configuration']]]
+  ['maxlength_0',['MaxLength',['../classRoboClerk_1_1Redmine_1_1CustomRedmineField.html#ab1f8e7fb63eec5c2adc0cad41495e9d4',1,'RoboClerk::Redmine::CustomRedmineField']]],
+  ['mediadir_1',['MediaDir',['../classRoboClerk_1_1Configuration_1_1Configuration.html#a6121962efe9748b62c8c7dbb251d5b75',1,'RoboClerk.Configuration.Configuration.MediaDir()'],['../interfaceRoboClerk_1_1Configuration_1_1IConfiguration.html#ae2b6e845b13205e253b2b70ce777d3a1',1,'RoboClerk.Configuration.IConfiguration.MediaDir()']]],
+  ['message_2',['Message',['../classRoboClerk_1_1TagInvalidException.html#ac1d144c42dc88eebe00a5baeea7faf6a',1,'RoboClerk.TagInvalidException.Message()'],['../classRoboClerk_1_1TestResult.html#aaadc7a020a95a20e1754aa4a03cbf043',1,'RoboClerk.TestResult.Message()']]],
+  ['methodofdetection_3',['MethodOfDetection',['../classRoboClerk_1_1EliminatedRiskItem.html#a3806eb74cd26fd48b958ede3be4da309',1,'RoboClerk::EliminatedRiskItem']]],
+  ['minlength_4',['MinLength',['../classRoboClerk_1_1Redmine_1_1CustomRedmineField.html#af2d61182958e02c675597bc57e854948',1,'RoboClerk::Redmine::CustomRedmineField']]],
+  ['modifieddetscore_5',['ModifiedDetScore',['../classRoboClerk_1_1EliminatedRiskItem.html#a038e9e07489e0928d96cd60c79b84aee',1,'RoboClerk::EliminatedRiskItem']]],
+  ['modifiedoccscore_6',['ModifiedOccScore',['../classRoboClerk_1_1EliminatedRiskItem.html#a45057aa4ecac5004279a30721530550c',1,'RoboClerk::EliminatedRiskItem']]],
+  ['multiple_7',['Multiple',['../classRoboClerk_1_1Redmine_1_1CustomRedmineField.html#a3ad4c01142df7c49f4a1c26d726726ed',1,'RoboClerk.Redmine.CustomRedmineField.Multiple()'],['../classRoboClerk_1_1Redmine_1_1CustomField.html#ab0a8ccf784283467af1fd50fe6e20000',1,'RoboClerk.Redmine.CustomField.Multiple()']]]
 ];
