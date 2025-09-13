@@ -16,9 +16,10 @@ var searchData=
   ['softwaresystemtest_13',['SoftwareSystemTest',['../classRoboClerk_1_1ContentCreators_1_1SoftwareSystemTest.html#ae5ec4319f9dad55e07dbad1def1a75d6',1,'RoboClerk::ContentCreators::SoftwareSystemTest']]],
   ['softwaresystemtestitem_14',['SoftwareSystemTestItem',['../classRoboClerk_1_1SoftwareSystemTestItem.html#ac88f794bad3c62dfeae920cc9e803d79',1,'RoboClerk::SoftwareSystemTestItem']]],
   ['sort_15',['Sort',['../classRoboClerk_1_1RoboClerkOrderedDictionary.html#a67b1b9025b53472bd8f0b6d1f92da1e6',1,'RoboClerk::RoboClerkOrderedDictionary']]],
-  ['soup_16',['SOUP',['../classRoboClerk_1_1ContentCreators_1_1SOUP.html#ad2f970ac1f71714d0c5b28fab2523e06',1,'RoboClerk::ContentCreators::SOUP']]],
-  ['soupitem_17',['SOUPItem',['../classRoboClerk_1_1SOUPItem.html#ab61520739fd10382ce50cb752c583dee',1,'RoboClerk::SOUPItem']]],
-  ['sourcecodeanalysispluginbase_18',['SourceCodeAnalysisPluginBase',['../classRoboClerk_1_1SourceCodeAnalysisPluginBase.html#a709f6257161f29e6130923c50732f805',1,'RoboClerk::SourceCodeAnalysisPluginBase']]],
-  ['systemleveltraceabilitymatrix_19',['SystemLevelTraceabilityMatrix',['../classRoboClerk_1_1ContentCreators_1_1SystemLevelTraceabilityMatrix.html#ad3c96111d11a3e419ec56e44ef70230f',1,'RoboClerk::ContentCreators::SystemLevelTraceabilityMatrix']]],
-  ['systemrequirement_20',['SystemRequirement',['../classRoboClerk_1_1ContentCreators_1_1SystemRequirement.html#a4b78b6c124923fafba8d13a752a5aa07',1,'RoboClerk::ContentCreators::SystemRequirement']]]
+  ['sortitems_16',['SortItems',['../classRoboClerk_1_1ContentCreators_1_1MultiItemContentCreator.html#a33f557c718d6f6d0eebcfdc7afbb6555',1,'RoboClerk::ContentCreators::MultiItemContentCreator']]],
+  ['soup_17',['SOUP',['../classRoboClerk_1_1ContentCreators_1_1SOUP.html#ad2f970ac1f71714d0c5b28fab2523e06',1,'RoboClerk::ContentCreators::SOUP']]],
+  ['soupitem_18',['SOUPItem',['../classRoboClerk_1_1SOUPItem.html#ab61520739fd10382ce50cb752c583dee',1,'RoboClerk::SOUPItem']]],
+  ['sourcecodeanalysispluginbase_19',['SourceCodeAnalysisPluginBase',['../classRoboClerk_1_1SourceCodeAnalysisPluginBase.html#a709f6257161f29e6130923c50732f805',1,'RoboClerk::SourceCodeAnalysisPluginBase']]],
+  ['systemleveltraceabilitymatrix_20',['SystemLevelTraceabilityMatrix',['../classRoboClerk_1_1ContentCreators_1_1SystemLevelTraceabilityMatrix.html#ad3c96111d11a3e419ec56e44ef70230f',1,'RoboClerk::ContentCreators::SystemLevelTraceabilityMatrix']]],
+  ['systemrequirement_21',['SystemRequirement',['../classRoboClerk_1_1ContentCreators_1_1SystemRequirement.html#a4b78b6c124923fafba8d13a752a5aa07',1,'RoboClerk::ContentCreators::SystemRequirement']]]
 ];

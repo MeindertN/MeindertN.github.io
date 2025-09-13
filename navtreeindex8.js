@@ -1,5 +1,7 @@
 var NAVTREEINDEX8 =
 {
+"index.html":[],
+"interfaceRoboClerk_1_1AISystem_1_1IAISystemPlugin.html":[0,0,0,0,1],
 "interfaceRoboClerk_1_1AISystem_1_1IAISystemPlugin.html":[1,0,0,0,1],
 "interfaceRoboClerk_1_1AISystem_1_1IAISystemPlugin.html#a2e9f71b19b317e86fb771f7cdb4e3483":[1,0,0,0,1,2],
 "interfaceRoboClerk_1_1AISystem_1_1IAISystemPlugin.html#a2e9f71b19b317e86fb771f7cdb4e3483":[0,0,0,0,1,2],

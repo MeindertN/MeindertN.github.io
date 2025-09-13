@@ -1,5 +1,7 @@
 var NAVTREEINDEX4 =
 {
+"classRoboClerk_1_1EliminatedSOUPItem.html#a20ef2df9a6ce93b011cf32bc14556e8e":[1,0,0,21,14],
+"classRoboClerk_1_1EliminatedSOUPItem.html#a2b84b02bec7c1f1fe70bca257b9f5261":[0,0,0,21,2],
 "classRoboClerk_1_1EliminatedSOUPItem.html#a2b84b02bec7c1f1fe70bca257b9f5261":[1,0,0,21,2],
 "classRoboClerk_1_1EliminatedSOUPItem.html#a2f717183d8cfa47ae612e479a26ba73e":[0,0,0,21,0],
 "classRoboClerk_1_1EliminatedSOUPItem.html#a2f717183d8cfa47ae612e479a26ba73e":[1,0,0,21,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX4 =
 "classRoboClerk_1_1Redmine_1_1CustomField.html#a8317b415da5d6450a44ea44d86a4ca56":[1,0,0,6,2,3],
 "classRoboClerk_1_1Redmine_1_1CustomField.html#a9947b6f4cb07c66cba89abbdf49db70f":[1,0,0,6,2,2],
 "classRoboClerk_1_1Redmine_1_1CustomField.html#a9947b6f4cb07c66cba89abbdf49db70f":[0,0,0,6,2,2],
-"classRoboClerk_1_1Redmine_1_1CustomField.html#aaf0ee6bcc0301c1abba3aaecee930753":[0,0,0,6,2,0],
-"classRoboClerk_1_1Redmine_1_1CustomField.html#aaf0ee6bcc0301c1abba3aaecee930753":[1,0,0,6,2,0],
-"classRoboClerk_1_1Redmine_1_1CustomField.html#ab0a8ccf784283467af1fd50fe6e20000":[0,0,0,6,2,1]
+"classRoboClerk_1_1Redmine_1_1CustomField.html#aaf0ee6bcc0301c1abba3aaecee930753":[0,0,0,6,2,0]
 };

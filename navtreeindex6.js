@@ -1,5 +1,7 @@
 var NAVTREEINDEX6 =
 {
+"classRoboClerk_1_1Redmine_1_1Version.html#a63ac7cab400d20020f8747b9cb9b2887":[0,0,0,6,24,9],
+"classRoboClerk_1_1Redmine_1_1Version.html#a857b066ac5698898366fad0122634511":[1,0,0,6,24,1],
 "classRoboClerk_1_1Redmine_1_1Version.html#a857b066ac5698898366fad0122634511":[0,0,0,6,24,1],
 "classRoboClerk_1_1Redmine_1_1Version.html#a8fe275bbc49adb2982d61fcdbf8bfb7f":[0,0,0,6,24,3],
 "classRoboClerk_1_1Redmine_1_1Version.html#a8fe275bbc49adb2982d61fcdbf8bfb7f":[1,0,0,6,24,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX6 =
 "classRoboClerk_1_1TagInvalidException.html":[1,0,0,51],
 "classRoboClerk_1_1TagInvalidException.html#a0bff0f1bcdc65909eb390cd7e8efe7dc":[0,0,0,51,4],
 "classRoboClerk_1_1TagInvalidException.html#a0bff0f1bcdc65909eb390cd7e8efe7dc":[1,0,0,51,4],
-"classRoboClerk_1_1TagInvalidException.html#a2529d30b5c9ddfd017fd5efa585abe0b":[0,0,0,51,5],
-"classRoboClerk_1_1TagInvalidException.html#a2529d30b5c9ddfd017fd5efa585abe0b":[1,0,0,51,5],
-"classRoboClerk_1_1TagInvalidException.html#a5b8ced50bc67a599ac7ffaddb1900a06":[0,0,0,51,2]
+"classRoboClerk_1_1TagInvalidException.html#a2529d30b5c9ddfd017fd5efa585abe0b":[0,0,0,51,5]
 };
