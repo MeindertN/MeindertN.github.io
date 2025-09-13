@@ -102,6 +102,7 @@ var annotated_dup =
       [ "IPluginLoader", "interfaceRoboClerk_1_1IPluginLoader.html", "interfaceRoboClerk_1_1IPluginLoader" ],
       [ "Item", "classRoboClerk_1_1Item.html", "classRoboClerk_1_1Item" ],
       [ "ItemLink", "classRoboClerk_1_1ItemLink.html", "classRoboClerk_1_1ItemLink" ],
+      [ "ItemLinkUpdater", "classRoboClerk_1_1ItemLinkUpdater.html", "classRoboClerk_1_1ItemLinkUpdater" ],
       [ "ItemTemplateRenderer", "classRoboClerk_1_1ItemTemplateRenderer.html", "classRoboClerk_1_1ItemTemplateRenderer" ],
       [ "ITraceabilityAnalysis", "interfaceRoboClerk_1_1ITraceabilityAnalysis.html", "interfaceRoboClerk_1_1ITraceabilityAnalysis" ],
       [ "LinkedItem", "classRoboClerk_1_1LinkedItem.html", "classRoboClerk_1_1LinkedItem" ],

@@ -10,7 +10,8 @@ var searchData=
   ['iroboclerkcore_2ecs_7',['IRoboClerkCore.cs',['../IRoboClerkCore_8cs.html',1,'']]],
   ['item_2ecs_8',['Item.cs',['../Item_8cs.html',1,'']]],
   ['itemlink_2ecs_9',['ItemLink.cs',['../ItemLink_8cs.html',1,'']]],
-  ['itemtemplateparser_2ecs_10',['ItemTemplateParser.cs',['../ItemTemplateParser_8cs.html',1,'']]],
-  ['itemtemplaterenderer_2ecs_11',['ItemTemplateRenderer.cs',['../ItemTemplateRenderer_8cs.html',1,'']]],
-  ['itraceabilityanalysis_2ecs_12',['ITraceabilityAnalysis.cs',['../ITraceabilityAnalysis_8cs.html',1,'']]]
+  ['itemlinkupdater_2ecs_10',['ItemLinkUpdater.cs',['../ItemLinkUpdater_8cs.html',1,'']]],
+  ['itemtemplateparser_2ecs_11',['ItemTemplateParser.cs',['../ItemTemplateParser_8cs.html',1,'']]],
+  ['itemtemplaterenderer_2ecs_12',['ItemTemplateRenderer.cs',['../ItemTemplateRenderer_8cs.html',1,'']]],
+  ['itraceabilityanalysis_2ecs_13',['ITraceabilityAnalysis.cs',['../ITraceabilityAnalysis_8cs.html',1,'']]]
 ];

@@ -10,6 +10,7 @@ var searchData=
   ['iredmineclient_7',['IRedmineClient',['../interfaceRoboClerk_1_1Redmine_1_1IRedmineClient.html',1,'RoboClerk::Redmine']]],
   ['item_8',['Item',['../classRoboClerk_1_1Item.html',1,'RoboClerk']]],
   ['itemlink_9',['ItemLink',['../classRoboClerk_1_1ItemLink.html',1,'RoboClerk']]],
-  ['itemtemplaterenderer_10',['ItemTemplateRenderer',['../classRoboClerk_1_1ItemTemplateRenderer.html',1,'RoboClerk']]],
-  ['itraceabilityanalysis_11',['ITraceabilityAnalysis',['../interfaceRoboClerk_1_1ITraceabilityAnalysis.html',1,'RoboClerk']]]
+  ['itemlinkupdater_10',['ItemLinkUpdater',['../classRoboClerk_1_1ItemLinkUpdater.html',1,'RoboClerk']]],
+  ['itemtemplaterenderer_11',['ItemTemplateRenderer',['../classRoboClerk_1_1ItemTemplateRenderer.html',1,'RoboClerk']]],
+  ['itraceabilityanalysis_12',['ITraceabilityAnalysis',['../interfaceRoboClerk_1_1ITraceabilityAnalysis.html',1,'RoboClerk']]]
 ];

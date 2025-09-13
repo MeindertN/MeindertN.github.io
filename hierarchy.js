@@ -115,6 +115,7 @@ var hierarchy =
       [ "RoboClerk.PlaceholderItem", "classRoboClerk_1_1PlaceholderItem.html", null ]
     ] ],
     [ "RoboClerk.ItemLink", "classRoboClerk_1_1ItemLink.html", null ],
+    [ "RoboClerk.ItemLinkUpdater", "classRoboClerk_1_1ItemLinkUpdater.html", null ],
     [ "RoboClerk.ItemTemplateRenderer", "classRoboClerk_1_1ItemTemplateRenderer.html", null ],
     [ "RoboClerk.ITraceabilityAnalysis", "interfaceRoboClerk_1_1ITraceabilityAnalysis.html", [
       [ "RoboClerk.TraceabilityAnalysis", "classRoboClerk_1_1TraceabilityAnalysis.html", null ]
