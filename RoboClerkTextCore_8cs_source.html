@@ -187,7 +187,7 @@ $(document).ready(function(){initNavTree('RoboClerkTextCore_8cs_source.html','')
 <div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>            <span class="keywordflow">return</span> extension <span class="keywordflow">switch</span></div>
 <div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>            {</div>
 <div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>                <span class="stringliteral">&quot;.docx&quot;</span> =&gt; <span class="keyword">new</span> DocxDocument(doc.DocumentTitle, doc.DocumentTemplate, configuration),</div>
-<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>                <span class="stringliteral">&quot;.adoc&quot;</span> or <span class="stringliteral">&quot;.asciidoc&quot;</span> or <span class="stringliteral">&quot;.txt&quot;</span> or <span class="stringliteral">&quot;.htm&quot;</span> or <span class="stringliteral">&quot;.html&quot;</span> =&gt; <span class="keyword">new</span> TextDocument(doc.DocumentTitle, doc.DocumentTemplate),</div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>                <span class="stringliteral">&quot;.adoc&quot;</span> or <span class="stringliteral">&quot;.asciidoc&quot;</span> or <span class="stringliteral">&quot;.txt&quot;</span> or <span class="stringliteral">&quot;.htm&quot;</span> or <span class="stringliteral">&quot;.html&quot;</span> =&gt; <span class="keyword">new</span> TextDocument(doc.DocumentTitle, doc.DocumentTemplate, fileSystem),</div>
 <div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>                _ =&gt; <span class="keywordflow">throw</span> <span class="keyword">new</span> NotSupportedException($<span class="stringliteral">&quot;Document template format &#39;{extension}&#39; is not supported.&quot;</span>)</div>
 <div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>            };</div>
 <div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>        }</div>
@@ -350,53 +350,60 @@ $(document).ready(function(){initNavTree('RoboClerkTextCore_8cs_source.html','')
 <div class="line"><a id="l00255" name="l00255"></a><span class="lineno"><a class="line" href="classRoboClerk_1_1RoboClerkTextCore.html#a69cb18923a8d8ce04867dc24f31d88c6">  255</a></span>        <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classRoboClerk_1_1RoboClerkTextCore.html#a69cb18923a8d8ce04867dc24f31d88c6">SaveDocumentsToDisk</a>()</div>
 <div class="line"><a id="l00256" name="l00256"></a><span class="lineno">  256</span>        {</div>
 <div class="line"><a id="l00257" name="l00257"></a><span class="lineno">  257</span>            logger.Info($<span class="stringliteral">&quot;Saving documents to directory: {configuration.OutputDir}&quot;</span>);</div>
-<div class="line"><a id="l00258" name="l00258"></a><span class="lineno">  258</span>            <span class="keywordflow">foreach</span> (var doc <span class="keywordflow">in</span> documents)</div>
-<div class="line"><a id="l00259" name="l00259"></a><span class="lineno">  259</span>            {</div>
-<div class="line"><a id="l00260" name="l00260"></a><span class="lineno">  260</span>                logger.Debug($<span class="stringliteral">&quot;Writing document to disk: {fileSystem.Path.GetFileName(doc.TemplateFile)}&quot;</span>);</div>
-<div class="line"><a id="l00261" name="l00261"></a><span class="lineno">  261</span>                </div>
-<div class="line"><a id="l00262" name="l00262"></a><span class="lineno">  262</span>                <span class="keywordtype">string</span> outputPath = fileSystem.Path.Combine(configuration.OutputDir, fileSystem.Path.GetFileName(doc.TemplateFile));</div>
-<div class="line"><a id="l00263" name="l00263"></a><span class="lineno">  263</span>                doc.SaveToFile(outputPath);</div>
-<div class="line"><a id="l00264" name="l00264"></a><span class="lineno">  264</span>                </div>
-<div class="line"><a id="l00265" name="l00265"></a><span class="lineno">  265</span>                <span class="comment">//run the commands</span></div>
-<div class="line"><a id="l00266" name="l00266"></a><span class="lineno">  266</span>                logger.Info($<span class="stringliteral">&quot;Running commands associated with {doc.Title}&quot;</span>);</div>
-<div class="line"><a id="l00267" name="l00267"></a><span class="lineno">  267</span>                var configDoc = configuration.Documents.Find(x =&gt; x.DocumentTitle == doc.Title);</div>
-<div class="line"><a id="l00268" name="l00268"></a><span class="lineno">  268</span>                <span class="keywordflow">if</span> (configDoc != <span class="keyword">null</span> &amp;&amp; configDoc.Commands != <span class="keyword">null</span>)</div>
-<div class="line"><a id="l00269" name="l00269"></a><span class="lineno">  269</span>                {</div>
-<div class="line"><a id="l00270" name="l00270"></a><span class="lineno">  270</span>                    configDoc.Commands.RunCommands();</div>
-<div class="line"><a id="l00271" name="l00271"></a><span class="lineno">  271</span>                }</div>
-<div class="line"><a id="l00272" name="l00272"></a><span class="lineno">  272</span>                <span class="keywordflow">else</span></div>
-<div class="line"><a id="l00273" name="l00273"></a><span class="lineno">  273</span>                {</div>
-<div class="line"><a id="l00274" name="l00274"></a><span class="lineno">  274</span>                    logger.Warn($<span class="stringliteral">&quot;No commands found for {doc.Title}. Ensure this is intended.&quot;</span>);</div>
-<div class="line"><a id="l00275" name="l00275"></a><span class="lineno">  275</span>                }</div>
-<div class="line"><a id="l00276" name="l00276"></a><span class="lineno">  276</span>            }</div>
-<div class="line"><a id="l00277" name="l00277"></a><span class="lineno">  277</span>            </div>
-<div class="line"><a id="l00278" name="l00278"></a><span class="lineno">  278</span>            fileSystem.File.WriteAllText(fileSystem.Path.Combine(configuration.OutputDir, <span class="stringliteral">&quot;DataSourceData.json&quot;</span>), dataSources.ToJSON());</div>
-<div class="line"><a id="l00279" name="l00279"></a><span class="lineno">  279</span>        }</div>
-<div class="line"><a id="l00280" name="l00280"></a><span class="lineno">  280</span> </div>
-<div class="line"><a id="l00281" name="l00281"></a><span class="lineno">  281</span>        <span class="keyword">private</span> <span class="keywordtype">void</span> CleanAndCopyMediaDirectory()</div>
-<div class="line"><a id="l00282" name="l00282"></a><span class="lineno">  282</span>        {</div>
-<div class="line"><a id="l00283" name="l00283"></a><span class="lineno">  283</span>            logger.Info(<span class="stringliteral">&quot;Cleaning the media directory and copying the media files.&quot;</span>);</div>
-<div class="line"><a id="l00284" name="l00284"></a><span class="lineno">  284</span>            <span class="keywordtype">string</span> toplineDir = fileSystem.Path.GetFileName(configuration.MediaDir);</div>
-<div class="line"><a id="l00285" name="l00285"></a><span class="lineno">  285</span>            <span class="keywordtype">string</span> targetDir = fileSystem.Path.Combine(configuration.OutputDir, toplineDir);</div>
-<div class="line"><a id="l00286" name="l00286"></a><span class="lineno">  286</span>            <span class="keywordflow">if</span> (fileSystem.Directory.Exists(targetDir))</div>
-<div class="line"><a id="l00287" name="l00287"></a><span class="lineno">  287</span>            {</div>
-<div class="line"><a id="l00288" name="l00288"></a><span class="lineno">  288</span>                fileSystem.Directory.Delete(targetDir, <span class="keyword">true</span>);</div>
-<div class="line"><a id="l00289" name="l00289"></a><span class="lineno">  289</span>            }</div>
-<div class="line"><a id="l00290" name="l00290"></a><span class="lineno">  290</span>            fileSystem.Directory.CreateDirectory(targetDir);</div>
-<div class="line"><a id="l00291" name="l00291"></a><span class="lineno">  291</span>            <span class="keywordtype">string</span>[] files = fileSystem.Directory.GetFiles(configuration.MediaDir, <span class="stringliteral">&quot;*&quot;</span>, SearchOption.AllDirectories);</div>
-<div class="line"><a id="l00292" name="l00292"></a><span class="lineno">  292</span>            <span class="keywordflow">foreach</span> (<span class="keywordtype">string</span> file <span class="keywordflow">in</span> files)</div>
-<div class="line"><a id="l00293" name="l00293"></a><span class="lineno">  293</span>            {</div>
-<div class="line"><a id="l00294" name="l00294"></a><span class="lineno">  294</span>                <span class="keywordflow">if</span> (!file.Contains(<span class="stringliteral">&quot;.gitignore&quot;</span>))</div>
-<div class="line"><a id="l00295" name="l00295"></a><span class="lineno">  295</span>                {</div>
-<div class="line"><a id="l00296" name="l00296"></a><span class="lineno">  296</span>                    var relPath = fileSystem.Path.GetRelativePath(configuration.MediaDir, file);</div>
-<div class="line"><a id="l00297" name="l00297"></a><span class="lineno">  297</span>                    <span class="keywordtype">string</span> destPath = fileSystem.Path.Combine(targetDir, relPath);</div>
-<div class="line"><a id="l00298" name="l00298"></a><span class="lineno">  298</span>                    fileSystem.Directory.CreateDirectory(fileSystem.Path.GetDirectoryName(destPath));</div>
-<div class="line"><a id="l00299" name="l00299"></a><span class="lineno">  299</span>                    fileSystem.File.Copy(file, destPath);</div>
-<div class="line"><a id="l00300" name="l00300"></a><span class="lineno">  300</span>                }</div>
-<div class="line"><a id="l00301" name="l00301"></a><span class="lineno">  301</span>            }</div>
-<div class="line"><a id="l00302" name="l00302"></a><span class="lineno">  302</span>        }</div>
-<div class="line"><a id="l00303" name="l00303"></a><span class="lineno">  303</span>    }</div>
-<div class="line"><a id="l00304" name="l00304"></a><span class="lineno">  304</span>}</div>
+<div class="line"><a id="l00258" name="l00258"></a><span class="lineno">  258</span>            </div>
+<div class="line"><a id="l00259" name="l00259"></a><span class="lineno">  259</span>            <span class="comment">// Ensure the output directory exists</span></div>
+<div class="line"><a id="l00260" name="l00260"></a><span class="lineno">  260</span>            <span class="keywordflow">if</span> (!fileSystem.Directory.Exists(configuration.OutputDir))</div>
+<div class="line"><a id="l00261" name="l00261"></a><span class="lineno">  261</span>            {</div>
+<div class="line"><a id="l00262" name="l00262"></a><span class="lineno">  262</span>                fileSystem.Directory.CreateDirectory(configuration.OutputDir);</div>
+<div class="line"><a id="l00263" name="l00263"></a><span class="lineno">  263</span>            }</div>
+<div class="line"><a id="l00264" name="l00264"></a><span class="lineno">  264</span>            </div>
+<div class="line"><a id="l00265" name="l00265"></a><span class="lineno">  265</span>            <span class="keywordflow">foreach</span> (var doc <span class="keywordflow">in</span> documents)</div>
+<div class="line"><a id="l00266" name="l00266"></a><span class="lineno">  266</span>            {</div>
+<div class="line"><a id="l00267" name="l00267"></a><span class="lineno">  267</span>                logger.Debug($<span class="stringliteral">&quot;Writing document to disk: {fileSystem.Path.GetFileName(doc.TemplateFile)}&quot;</span>);</div>
+<div class="line"><a id="l00268" name="l00268"></a><span class="lineno">  268</span>                </div>
+<div class="line"><a id="l00269" name="l00269"></a><span class="lineno">  269</span>                <span class="keywordtype">string</span> outputPath = fileSystem.Path.Combine(configuration.OutputDir, fileSystem.Path.GetFileName(doc.TemplateFile));</div>
+<div class="line"><a id="l00270" name="l00270"></a><span class="lineno">  270</span>                doc.SaveToFile(outputPath);</div>
+<div class="line"><a id="l00271" name="l00271"></a><span class="lineno">  271</span>                </div>
+<div class="line"><a id="l00272" name="l00272"></a><span class="lineno">  272</span>                <span class="comment">//run the commands</span></div>
+<div class="line"><a id="l00273" name="l00273"></a><span class="lineno">  273</span>                logger.Info($<span class="stringliteral">&quot;Running commands associated with {doc.Title}&quot;</span>);</div>
+<div class="line"><a id="l00274" name="l00274"></a><span class="lineno">  274</span>                var configDoc = configuration.Documents.Find(x =&gt; x.DocumentTitle == doc.Title);</div>
+<div class="line"><a id="l00275" name="l00275"></a><span class="lineno">  275</span>                <span class="keywordflow">if</span> (configDoc != <span class="keyword">null</span> &amp;&amp; configDoc.Commands != <span class="keyword">null</span>)</div>
+<div class="line"><a id="l00276" name="l00276"></a><span class="lineno">  276</span>                {</div>
+<div class="line"><a id="l00277" name="l00277"></a><span class="lineno">  277</span>                    configDoc.Commands.RunCommands();</div>
+<div class="line"><a id="l00278" name="l00278"></a><span class="lineno">  278</span>                }</div>
+<div class="line"><a id="l00279" name="l00279"></a><span class="lineno">  279</span>                <span class="keywordflow">else</span></div>
+<div class="line"><a id="l00280" name="l00280"></a><span class="lineno">  280</span>                {</div>
+<div class="line"><a id="l00281" name="l00281"></a><span class="lineno">  281</span>                    logger.Warn($<span class="stringliteral">&quot;No commands found for {doc.Title}. Ensure this is intended.&quot;</span>);</div>
+<div class="line"><a id="l00282" name="l00282"></a><span class="lineno">  282</span>                }</div>
+<div class="line"><a id="l00283" name="l00283"></a><span class="lineno">  283</span>            }</div>
+<div class="line"><a id="l00284" name="l00284"></a><span class="lineno">  284</span>            </div>
+<div class="line"><a id="l00285" name="l00285"></a><span class="lineno">  285</span>            fileSystem.File.WriteAllText(fileSystem.Path.Combine(configuration.OutputDir, <span class="stringliteral">&quot;DataSourceData.json&quot;</span>), dataSources.ToJSON());</div>
+<div class="line"><a id="l00286" name="l00286"></a><span class="lineno">  286</span>        }</div>
+<div class="line"><a id="l00287" name="l00287"></a><span class="lineno">  287</span> </div>
+<div class="line"><a id="l00288" name="l00288"></a><span class="lineno">  288</span>        <span class="keyword">private</span> <span class="keywordtype">void</span> CleanAndCopyMediaDirectory()</div>
+<div class="line"><a id="l00289" name="l00289"></a><span class="lineno">  289</span>        {</div>
+<div class="line"><a id="l00290" name="l00290"></a><span class="lineno">  290</span>            logger.Info(<span class="stringliteral">&quot;Cleaning the media directory and copying the media files.&quot;</span>);</div>
+<div class="line"><a id="l00291" name="l00291"></a><span class="lineno">  291</span>            <span class="keywordtype">string</span> toplineDir = fileSystem.Path.GetFileName(configuration.MediaDir);</div>
+<div class="line"><a id="l00292" name="l00292"></a><span class="lineno">  292</span>            <span class="keywordtype">string</span> targetDir = fileSystem.Path.Combine(configuration.OutputDir, toplineDir);</div>
+<div class="line"><a id="l00293" name="l00293"></a><span class="lineno">  293</span>            <span class="keywordflow">if</span> (fileSystem.Directory.Exists(targetDir))</div>
+<div class="line"><a id="l00294" name="l00294"></a><span class="lineno">  294</span>            {</div>
+<div class="line"><a id="l00295" name="l00295"></a><span class="lineno">  295</span>                fileSystem.Directory.Delete(targetDir, <span class="keyword">true</span>);</div>
+<div class="line"><a id="l00296" name="l00296"></a><span class="lineno">  296</span>            }</div>
+<div class="line"><a id="l00297" name="l00297"></a><span class="lineno">  297</span>            fileSystem.Directory.CreateDirectory(targetDir);</div>
+<div class="line"><a id="l00298" name="l00298"></a><span class="lineno">  298</span>            <span class="keywordtype">string</span>[] files = fileSystem.Directory.GetFiles(configuration.MediaDir, <span class="stringliteral">&quot;*&quot;</span>, SearchOption.AllDirectories);</div>
+<div class="line"><a id="l00299" name="l00299"></a><span class="lineno">  299</span>            <span class="keywordflow">foreach</span> (<span class="keywordtype">string</span> file <span class="keywordflow">in</span> files)</div>
+<div class="line"><a id="l00300" name="l00300"></a><span class="lineno">  300</span>            {</div>
+<div class="line"><a id="l00301" name="l00301"></a><span class="lineno">  301</span>                <span class="keywordflow">if</span> (!file.Contains(<span class="stringliteral">&quot;.gitignore&quot;</span>))</div>
+<div class="line"><a id="l00302" name="l00302"></a><span class="lineno">  302</span>                {</div>
+<div class="line"><a id="l00303" name="l00303"></a><span class="lineno">  303</span>                    var relPath = fileSystem.Path.GetRelativePath(configuration.MediaDir, file);</div>
+<div class="line"><a id="l00304" name="l00304"></a><span class="lineno">  304</span>                    <span class="keywordtype">string</span> destPath = fileSystem.Path.Combine(targetDir, relPath);</div>
+<div class="line"><a id="l00305" name="l00305"></a><span class="lineno">  305</span>                    fileSystem.Directory.CreateDirectory(fileSystem.Path.GetDirectoryName(destPath));</div>
+<div class="line"><a id="l00306" name="l00306"></a><span class="lineno">  306</span>                    fileSystem.File.Copy(file, destPath);</div>
+<div class="line"><a id="l00307" name="l00307"></a><span class="lineno">  307</span>                }</div>
+<div class="line"><a id="l00308" name="l00308"></a><span class="lineno">  308</span>            }</div>
+<div class="line"><a id="l00309" name="l00309"></a><span class="lineno">  309</span>        }</div>
+<div class="line"><a id="l00310" name="l00310"></a><span class="lineno">  310</span>    }</div>
+<div class="line"><a id="l00311" name="l00311"></a><span class="lineno">  311</span>}</div>
 <div class="ttc" id="aRoboClerkTextCore_8cs_html_aabb8d0da9ec8bd3fe63513ef30085e94"><div class="ttname"><a href="RoboClerkTextCore_8cs.html#aabb8d0da9ec8bd3fe63513ef30085e94">IConfiguration</a></div><div class="ttdeci">RoboClerk.Core.Configuration.IConfiguration IConfiguration</div><div class="ttdef"><b>Definition:</b> <a href="RoboClerkTextCore_8cs_source.html#l00012">RoboClerkTextCore.cs:12</a></div></div>
 <div class="ttc" id="aclassRoboClerk_1_1RoboClerkTextCore_html"><div class="ttname"><a href="classRoboClerk_1_1RoboClerkTextCore.html">RoboClerk.RoboClerkTextCore</a></div><div class="ttdef"><b>Definition:</b> <a href="RoboClerkTextCore_8cs_source.html#l00016">RoboClerkTextCore.cs:17</a></div></div>
 <div class="ttc" id="aclassRoboClerk_1_1RoboClerkTextCore_html_a3360f5e2adbe13da40e466d60dbb2e00"><div class="ttname"><a href="classRoboClerk_1_1RoboClerkTextCore.html#a3360f5e2adbe13da40e466d60dbb2e00">RoboClerk.RoboClerkTextCore.GenerateDocs</a></div><div class="ttdeci">void GenerateDocs()</div><div class="ttdef"><b>Definition:</b> <a href="RoboClerkTextCore_8cs_source.html#l00040">RoboClerkTextCore.cs:40</a></div></div>
