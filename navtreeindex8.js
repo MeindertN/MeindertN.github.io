@@ -1,21 +1,5 @@
 var NAVTREEINDEX8 =
 {
-"functions_prop_r.html":[1,3,3,13],
-"functions_prop_s.html":[1,3,3,14],
-"functions_prop_t.html":[1,3,3,15],
-"functions_prop_u.html":[1,3,3,16],
-"functions_prop_v.html":[1,3,3,17],
-"functions_prop_w.html":[1,3,3,18],
-"functions_r.html":[1,3,0,15],
-"functions_s.html":[1,3,0,16],
-"functions_t.html":[1,3,0,17],
-"functions_u.html":[1,3,0,18],
-"functions_v.html":[1,3,0,19],
-"functions_vars.html":[1,3,2],
-"functions_w.html":[1,3,0,20],
-"globals.html":[2,1,0],
-"globals_type.html":[2,1,1],
-"hierarchy.html":[1,2],
 "index.html":[],
 "interfaceRoboClerk_1_1AISystem_1_1IAISystemPlugin.html":[0,0,0,0,1],
 "interfaceRoboClerk_1_1AISystem_1_1IAISystemPlugin.html":[1,0,0,0,1],
@@ -249,5 +233,10 @@ var NAVTREEINDEX8 =
 "namespaceRoboClerk_1_1AzureDevOps.html":[0,0,0,2],
 "namespaceRoboClerk_1_1Configuration.html":[0,0,0,3],
 "namespaceRoboClerk_1_1ContentCreators.html":[0,0,0,4],
-"namespaceRoboClerk_1_1DependenciesFile.html":[0,0,0,5]
+"namespaceRoboClerk_1_1DependenciesFile.html":[0,0,0,5],
+"namespaceRoboClerk_1_1Redmine.html":[0,0,0,6],
+"namespacemembers.html":[0,1,0],
+"namespacemembers_enum.html":[0,1,1],
+"namespaces.html":[0,0],
+"pages.html":[]
 };
