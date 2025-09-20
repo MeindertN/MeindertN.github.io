@@ -2,7 +2,7 @@ var searchData=
 [
   ['taginvalidexception_0',['TagInvalidException',['../classRoboClerk_1_1TagInvalidException.html',1,'RoboClerk']]],
   ['templatesection_1',['TemplateSection',['../classRoboClerk_1_1ContentCreators_1_1TemplateSection.html',1,'RoboClerk::ContentCreators']]],
-  ['testresult_2',['TestResult',['../classRoboClerk_1_1TestResult.html',1,'RoboClerk']]],
+  ['testresult_2',['TestResult',['../classRoboClerk_1_1Items_1_1TestResult.html',1,'RoboClerk::Items']]],
   ['teststep_3',['TestStep',['../classRoboClerk_1_1TestStep.html',1,'RoboClerk']]],
   ['textiletoasciidocconverter_4',['TextileToAsciiDocConverter',['../classRoboClerk_1_1Redmine_1_1TextileToAsciiDocConverter.html',1,'RoboClerk::Redmine']]],
   ['trace_5',['Trace',['../classRoboClerk_1_1ContentCreators_1_1Trace.html',1,'RoboClerk::ContentCreators']]],

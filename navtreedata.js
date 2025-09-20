@@ -60,9 +60,9 @@ var NAVTREEINDEX =
 "classRoboClerk_1_1Configuration_1_1TraceConfig.html#a8bede5fc26c978d74fae4087919d8537",
 "classRoboClerk_1_1DataSourcePluginBase.html#a96edee620e39f8711d45163fe503244b",
 "classRoboClerk_1_1EliminatedSOUPItem.html#a20ef2df9a6ce93b011cf32bc14556e8e",
-"classRoboClerk_1_1Redmine_1_1CustomField.html#aaf0ee6bcc0301c1abba3aaecee930753",
-"classRoboClerk_1_1Redmine_1_1Version.html#a63ac7cab400d20020f8747b9cb9b2887",
-"classRoboClerk_1_1TagInvalidException.html#a2529d30b5c9ddfd017fd5efa585abe0b",
+"classRoboClerk_1_1Redmine_1_1AssignedTo.html#a3d83bac23ac4577c1e4102d58e626cd6",
+"classRoboClerk_1_1Redmine_1_1Tracker.html",
+"classRoboClerk_1_1SourceCodeAnalysisPluginBase.html#a709f6257161f29e6130923c50732f805",
 "index.html"
 ];
 

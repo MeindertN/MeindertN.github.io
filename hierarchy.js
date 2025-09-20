@@ -106,6 +106,7 @@ var hierarchy =
           [ "RoboClerk.EliminatedSOUPItem", "classRoboClerk_1_1EliminatedSOUPItem.html", null ],
           [ "RoboClerk.EliminatedSoftwareSystemTestItem", "classRoboClerk_1_1EliminatedSoftwareSystemTestItem.html", null ]
         ] ],
+        [ "RoboClerk.Items.TestResult", "classRoboClerk_1_1Items_1_1TestResult.html", null ],
         [ "RoboClerk.RequirementItem", "classRoboClerk_1_1RequirementItem.html", null ],
         [ "RoboClerk.RiskItem", "classRoboClerk_1_1RiskItem.html", null ],
         [ "RoboClerk.SOUPItem", "classRoboClerk_1_1SOUPItem.html", null ],
@@ -139,7 +140,6 @@ var hierarchy =
     [ "RoboClerk.RoboClerkTag", "classRoboClerk_1_1RoboClerkTag.html", null ],
     [ "RoboClerk.ScriptingBridge< T >", "classRoboClerk_1_1ScriptingBridge.html", null ],
     [ "RoboClerk.Redmine.Status", "classRoboClerk_1_1Redmine_1_1Status.html", null ],
-    [ "RoboClerk.TestResult", "classRoboClerk_1_1TestResult.html", null ],
     [ "RoboClerk.TestStep", "classRoboClerk_1_1TestStep.html", null ],
     [ "RoboClerk.Redmine.TextileToAsciiDocConverter", "classRoboClerk_1_1Redmine_1_1TextileToAsciiDocConverter.html", null ],
     [ "RoboClerk.TraceBase", "classRoboClerk_1_1TraceBase.html", [
