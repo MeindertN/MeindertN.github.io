@@ -58,12 +58,13 @@ var NAVTREEINDEX =
 "AIContentCreator_8cs.html",
 "classRoboClerk_1_1AnnotatedUnitTests_1_1AnnotatedUnitTestPlugin.html#a4d19fd80b950555e5b1f816a0cdc8b12",
 "classRoboClerk_1_1Configuration_1_1TraceConfig.html#a8bede5fc26c978d74fae4087919d8537",
-"classRoboClerk_1_1DataSourcePluginBase.html#a96edee620e39f8711d45163fe503244b",
-"classRoboClerk_1_1EliminatedSOUPItem.html#a20ef2df9a6ce93b011cf32bc14556e8e",
-"classRoboClerk_1_1Redmine_1_1AssignedTo.html#a3d83bac23ac4577c1e4102d58e626cd6",
-"classRoboClerk_1_1Redmine_1_1Tracker.html",
-"classRoboClerk_1_1SourceCodeAnalysisPluginBase.html#a709f6257161f29e6130923c50732f805",
-"index.html"
+"classRoboClerk_1_1DataSourcePluginBase.html#a91a60f9c73b0487a54dae8bc08dd8cc8",
+"classRoboClerk_1_1EliminatedSOUPItem.html#a0b4a7869926e3aa41f97691b7120a68d",
+"classRoboClerk_1_1Redmine_1_1CustomField.html#a8317b415da5d6450a44ea44d86a4ca56",
+"classRoboClerk_1_1Redmine_1_1Version.html#a542e3c0ff76c0e006698068a2c1b592b",
+"classRoboClerk_1_1SourceCodeAnalysisPluginBase.html#aa1209add10fcc186af4c5d173dfd64c6",
+"functions_prop_v.html",
+"pages.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

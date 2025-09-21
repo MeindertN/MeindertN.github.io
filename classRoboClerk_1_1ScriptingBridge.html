@@ -105,6 +105,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aadbab6d11e3865cb1ba4fb07ff696bd9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRoboClerk_1_1ScriptingBridge.html#aadbab6d11e3865cb1ba4fb07ff696bd9">AddTrace</a> (string id)</td></tr>
 <tr class="memdesc:aadbab6d11e3865cb1ba4fb07ff696bd9"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function adds a trace link to the item who's ID is provided in the id parameter.   <a href="classRoboClerk_1_1ScriptingBridge.html#aadbab6d11e3865cb1ba4fb07ff696bd9">More...</a><br /></td></tr>
 <tr class="separator:aadbab6d11e3865cb1ba4fb07ff696bd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91bb6a168b8cd42a91e6259f7ad5f7dd"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRoboClerk_1_1ScriptingBridge.html#a91bb6a168b8cd42a91e6259f7ad5f7dd">GetTagParameter</a> (string parameterName, string defaultValue=&quot;&quot;)</td></tr>
+<tr class="memdesc:a91bb6a168b8cd42a91e6259f7ad5f7dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a parameter value from the current tag, returning the default value if the parameter doesn't exist.   <a href="classRoboClerk_1_1ScriptingBridge.html#a91bb6a168b8cd42a91e6259f7ad5f7dd">More...</a><br /></td></tr>
+<tr class="separator:a91bb6a168b8cd42a91e6259f7ad5f7dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea2346c30193c4a267ac872215757945"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRoboClerk_1_1ScriptingBridge.html#aea2346c30193c4a267ac872215757945">HasTagParameter</a> (string parameterName)</td></tr>
+<tr class="memdesc:aea2346c30193c4a267ac872215757945"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the current tag has a specific parameter.   <a href="classRoboClerk_1_1ScriptingBridge.html#aea2346c30193c4a267ac872215757945">More...</a><br /></td></tr>
+<tr class="separator:aea2346c30193c4a267ac872215757945"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad488297750501d37e6308826eb0943b4"><td class="memItemLeft" align="right" valign="top">IEnumerable&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRoboClerk_1_1ScriptingBridge.html#ad488297750501d37e6308826eb0943b4">GetAllTagParameterNames</a> ()</td></tr>
+<tr class="memdesc:ad488297750501d37e6308826eb0943b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets all parameter names from the current tag.   <a href="classRoboClerk_1_1ScriptingBridge.html#ad488297750501d37e6308826eb0943b4">More...</a><br /></td></tr>
+<tr class="separator:ad488297750501d37e6308826eb0943b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2af7abd507f9176cce1ba4c4b15f0c41"><td class="memItemLeft" align="right" valign="top">IEnumerable&lt; <a class="el" href="classRoboClerk_1_1LinkedItem.html">LinkedItem</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRoboClerk_1_1ScriptingBridge.html#a2af7abd507f9176cce1ba4c4b15f0c41">GetLinkedItems</a> (<a class="el" href="classRoboClerk_1_1LinkedItem.html">LinkedItem</a> li, <a class="el" href="namespaceRoboClerk.html#aaf465b8f1ecb6a95360d903c50e9fb83">ItemLinkType</a> linkType)</td></tr>
 <tr class="memdesc:a2af7abd507f9176cce1ba4c4b15f0c41"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns all linked items attached to li with a link type of linkType   <a href="classRoboClerk_1_1ScriptingBridge.html#a2af7abd507f9176cce1ba4c4b15f0c41">More...</a><br /></td></tr>
 <tr class="separator:a2af7abd507f9176cce1ba4c4b15f0c41"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -140,6 +149,9 @@ Properties</h2></td></tr>
 <tr class="memitem:add5698f48b5887a2f60d7c083a7108a0"><td class="memItemLeft" align="right" valign="top">IEnumerable&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRoboClerk_1_1ScriptingBridge.html#add5698f48b5887a2f60d7c083a7108a0">Items</a><code> [get, set]</code></td></tr>
 <tr class="memdesc:add5698f48b5887a2f60d7c083a7108a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">The items that need to be rendered in the documentation (empty if there is only a single item).   <a href="classRoboClerk_1_1ScriptingBridge.html#add5698f48b5887a2f60d7c083a7108a0">More...</a><br /></td></tr>
 <tr class="separator:add5698f48b5887a2f60d7c083a7108a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a144edae5495d013dfbfc011ab9d3c191"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classRoboClerk_1_1RoboClerkTag.html">RoboClerkTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRoboClerk_1_1ScriptingBridge.html#a144edae5495d013dfbfc011ab9d3c191">Tag</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a144edae5495d013dfbfc011ab9d3c191"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="namespaceRoboClerk.html">RoboClerk</a> tag that triggered the template rendering. Provides access to tag parameters.   <a href="classRoboClerk_1_1ScriptingBridge.html#a144edae5495d013dfbfc011ab9d3c191">More...</a><br /></td></tr>
+<tr class="separator:a144edae5495d013dfbfc011ab9d3c191"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3b5347306c6989bbc58f7193627a34db"><td class="memItemLeft" align="right" valign="top">IEnumerable&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRoboClerk_1_1ScriptingBridge.html#a3b5347306c6989bbc58f7193627a34db">Traces</a><code> [get]</code></td></tr>
 <tr class="memdesc:a3b5347306c6989bbc58f7193627a34db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns all the traces in the bridge.   <a href="classRoboClerk_1_1ScriptingBridge.html#a3b5347306c6989bbc58f7193627a34db">More...</a><br /></td></tr>
 <tr class="separator:a3b5347306c6989bbc58f7193627a34db"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -197,7 +209,7 @@ Properties</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ScriptingBridge_8cs_source.html#l00017">17</a> of file <a class="el" href="ScriptingBridge_8cs_source.html">ScriptingBridge.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ScriptingBridge_8cs_source.html#l00018">18</a> of file <a class="el" href="ScriptingBridge_8cs_source.html">ScriptingBridge.cs</a>.</p>
 
 </div>
 </div>
@@ -233,7 +245,7 @@ Properties</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ScriptingBridge_8cs_source.html#l00304">304</a> of file <a class="el" href="ScriptingBridge_8cs_source.html">ScriptingBridge.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ScriptingBridge_8cs_source.html#l00359">359</a> of file <a class="el" href="ScriptingBridge_8cs_source.html">ScriptingBridge.cs</a>.</p>
 
 </div>
 </div>
@@ -262,7 +274,7 @@ Properties</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="ScriptingBridge_8cs_source.html#l00042">42</a> of file <a class="el" href="ScriptingBridge_8cs_source.html">ScriptingBridge.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ScriptingBridge_8cs_source.html#l00052">52</a> of file <a class="el" href="ScriptingBridge_8cs_source.html">ScriptingBridge.cs</a>.</p>
 
 </div>
 </div>
@@ -291,7 +303,7 @@ Properties</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Modified AsciiDoc with headings converted to alternative markup</dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="ScriptingBridge_8cs_source.html#l00247">247</a> of file <a class="el" href="ScriptingBridge_8cs_source.html">ScriptingBridge.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ScriptingBridge_8cs_source.html#l00302">302</a> of file <a class="el" href="ScriptingBridge_8cs_source.html">ScriptingBridge.cs</a>.</p>
 
 </div>
 </div>
@@ -320,7 +332,29 @@ Properties</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd></dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="ScriptingBridge_8cs_source.html#l00194">194</a> of file <a class="el" href="ScriptingBridge_8cs_source.html">ScriptingBridge.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ScriptingBridge_8cs_source.html#l00249">249</a> of file <a class="el" href="ScriptingBridge_8cs_source.html">ScriptingBridge.cs</a>.</p>
+
+</div>
+</div>
+<a id="ad488297750501d37e6308826eb0943b4" name="ad488297750501d37e6308826eb0943b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad488297750501d37e6308826eb0943b4">&#9670;&#160;</a></span>GetAllTagParameterNames()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">IEnumerable&lt; string &gt; <a class="el" href="classRoboClerk_1_1ScriptingBridge.html">RoboClerk.ScriptingBridge</a>&lt; T &gt;.GetAllTagParameterNames </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets all parameter names from the current tag.  </p>
+<dl class="section return"><dt>Returns</dt><dd>Collection of all parameter names, or empty collection if no tag is set</dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="ScriptingBridge_8cs_source.html#l00117">117</a> of file <a class="el" href="ScriptingBridge_8cs_source.html">ScriptingBridge.cs</a>.</p>
 
 </div>
 </div>
@@ -349,7 +383,7 @@ Properties</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd></dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="ScriptingBridge_8cs_source.html#l00141">141</a> of file <a class="el" href="ScriptingBridge_8cs_source.html">ScriptingBridge.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ScriptingBridge_8cs_source.html#l00196">196</a> of file <a class="el" href="ScriptingBridge_8cs_source.html">ScriptingBridge.cs</a>.</p>
 
 </div>
 </div>
@@ -402,7 +436,7 @@ Properties</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="ScriptingBridge_8cs_source.html#l00103">103</a> of file <a class="el" href="ScriptingBridge_8cs_source.html">ScriptingBridge.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ScriptingBridge_8cs_source.html#l00158">158</a> of file <a class="el" href="ScriptingBridge_8cs_source.html">ScriptingBridge.cs</a>.</p>
 
 </div>
 </div>
@@ -442,7 +476,47 @@ Properties</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd></dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="ScriptingBridge_8cs_source.html#l00078">78</a> of file <a class="el" href="ScriptingBridge_8cs_source.html">ScriptingBridge.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ScriptingBridge_8cs_source.html#l00133">133</a> of file <a class="el" href="ScriptingBridge_8cs_source.html">ScriptingBridge.cs</a>.</p>
+
+</div>
+</div>
+<a id="a91bb6a168b8cd42a91e6259f7ad5f7dd" name="a91bb6a168b8cd42a91e6259f7ad5f7dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a91bb6a168b8cd42a91e6259f7ad5f7dd">&#9670;&#160;</a></span>GetTagParameter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string <a class="el" href="classRoboClerk_1_1ScriptingBridge.html">RoboClerk.ScriptingBridge</a>&lt; T &gt;.GetTagParameter </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>parameterName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>defaultValue</em> = <code>&quot;&quot;</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets a parameter value from the current tag, returning the default value if the parameter doesn't exist.  </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">parameterName</td><td>The name of the parameter to retrieve</td></tr>
+    <tr><td class="paramname">defaultValue</td><td>The default value to return if parameter doesn't exist</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The parameter value or default value</dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="ScriptingBridge_8cs_source.html#l00088">88</a> of file <a class="el" href="ScriptingBridge_8cs_source.html">ScriptingBridge.cs</a>.</p>
 
 </div>
 </div>
@@ -482,7 +556,36 @@ Properties</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd></dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="ScriptingBridge_8cs_source.html#l00153">153</a> of file <a class="el" href="ScriptingBridge_8cs_source.html">ScriptingBridge.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ScriptingBridge_8cs_source.html#l00208">208</a> of file <a class="el" href="ScriptingBridge_8cs_source.html">ScriptingBridge.cs</a>.</p>
+
+</div>
+</div>
+<a id="aea2346c30193c4a267ac872215757945" name="aea2346c30193c4a267ac872215757945"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea2346c30193c4a267ac872215757945">&#9670;&#160;</a></span>HasTagParameter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="classRoboClerk_1_1ScriptingBridge.html">RoboClerk.ScriptingBridge</a>&lt; T &gt;.HasTagParameter </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>parameterName</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Checks if the current tag has a specific parameter.  </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">parameterName</td><td>The name of the parameter to check for</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if the parameter exists, false otherwise</dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="ScriptingBridge_8cs_source.html#l00103">103</a> of file <a class="el" href="ScriptingBridge_8cs_source.html">ScriptingBridge.cs</a>.</p>
 
 </div>
 </div>
@@ -511,7 +614,7 @@ Properties</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>string representation</dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="ScriptingBridge_8cs_source.html#l00167">167</a> of file <a class="el" href="ScriptingBridge_8cs_source.html">ScriptingBridge.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ScriptingBridge_8cs_source.html#l00222">222</a> of file <a class="el" href="ScriptingBridge_8cs_source.html">ScriptingBridge.cs</a>.</p>
 
 </div>
 </div>
@@ -540,7 +643,7 @@ Properties</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Modified AsciiDoc that can be embedded in a table cell</dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="ScriptingBridge_8cs_source.html#l00182">182</a> of file <a class="el" href="ScriptingBridge_8cs_source.html">ScriptingBridge.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ScriptingBridge_8cs_source.html#l00237">237</a> of file <a class="el" href="ScriptingBridge_8cs_source.html">ScriptingBridge.cs</a>.</p>
 
 </div>
 </div>
@@ -567,7 +670,7 @@ Properties</h2></td></tr>
 
 <p>The item that needs to be rendered in the documentation.  </p>
 
-<p class="definition">Definition at line <a class="el" href="ScriptingBridge_8cs_source.html#l00027">27</a> of file <a class="el" href="ScriptingBridge_8cs_source.html">ScriptingBridge.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ScriptingBridge_8cs_source.html#l00028">28</a> of file <a class="el" href="ScriptingBridge_8cs_source.html">ScriptingBridge.cs</a>.</p>
 
 </div>
 </div>
@@ -593,7 +696,7 @@ Properties</h2></td></tr>
 
 <p>The items that need to be rendered in the documentation (empty if there is only a single item).  </p>
 
-<p class="definition">Definition at line <a class="el" href="ScriptingBridge_8cs_source.html#l00032">32</a> of file <a class="el" href="ScriptingBridge_8cs_source.html">ScriptingBridge.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ScriptingBridge_8cs_source.html#l00033">33</a> of file <a class="el" href="ScriptingBridge_8cs_source.html">ScriptingBridge.cs</a>.</p>
 
 </div>
 </div>
@@ -619,7 +722,7 @@ Properties</h2></td></tr>
 
 <p>Provides access to the <a class="el" href="namespaceRoboClerk.html">RoboClerk</a> datasources object. This can be used to search in all the information <a class="el" href="namespaceRoboClerk.html">RoboClerk</a> has.  </p>
 
-<p class="definition">Definition at line <a class="el" href="ScriptingBridge_8cs_source.html#l00064">64</a> of file <a class="el" href="ScriptingBridge_8cs_source.html">ScriptingBridge.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ScriptingBridge_8cs_source.html#l00074">74</a> of file <a class="el" href="ScriptingBridge_8cs_source.html">ScriptingBridge.cs</a>.</p>
 
 </div>
 </div>
@@ -645,7 +748,33 @@ Properties</h2></td></tr>
 
 <p>Returns the source trace entity, indicates what kind of trace item is being rendered.  </p>
 
-<p class="definition">Definition at line <a class="el" href="ScriptingBridge_8cs_source.html#l00058">58</a> of file <a class="el" href="ScriptingBridge_8cs_source.html">ScriptingBridge.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ScriptingBridge_8cs_source.html#l00068">68</a> of file <a class="el" href="ScriptingBridge_8cs_source.html">ScriptingBridge.cs</a>.</p>
+
+</div>
+</div>
+<a id="a144edae5495d013dfbfc011ab9d3c191" name="a144edae5495d013dfbfc011ab9d3c191"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a144edae5495d013dfbfc011ab9d3c191">&#9670;&#160;</a></span>Tag</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classRoboClerk_1_1RoboClerkTag.html">RoboClerkTag</a> <a class="el" href="classRoboClerk_1_1ScriptingBridge.html">RoboClerk.ScriptingBridge</a>&lt; T &gt;.Tag</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The <a class="el" href="namespaceRoboClerk.html">RoboClerk</a> tag that triggered the template rendering. Provides access to tag parameters.  </p>
+
+<p class="definition">Definition at line <a class="el" href="ScriptingBridge_8cs_source.html#l00042">42</a> of file <a class="el" href="ScriptingBridge_8cs_source.html">ScriptingBridge.cs</a>.</p>
 
 </div>
 </div>
@@ -671,7 +800,7 @@ Properties</h2></td></tr>
 
 <p>Provides access to the traceability analysis object. The object stores all traceability information in <a class="el" href="namespaceRoboClerk.html">RoboClerk</a>.  </p>
 
-<p class="definition">Definition at line <a class="el" href="ScriptingBridge_8cs_source.html#l00070">70</a> of file <a class="el" href="ScriptingBridge_8cs_source.html">ScriptingBridge.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ScriptingBridge_8cs_source.html#l00080">80</a> of file <a class="el" href="ScriptingBridge_8cs_source.html">ScriptingBridge.cs</a>.</p>
 
 </div>
 </div>
@@ -697,7 +826,7 @@ Properties</h2></td></tr>
 
 <p>Returns all the traces in the bridge.  </p>
 
-<p class="definition">Definition at line <a class="el" href="ScriptingBridge_8cs_source.html#l00050">50</a> of file <a class="el" href="ScriptingBridge_8cs_source.html">ScriptingBridge.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ScriptingBridge_8cs_source.html#l00060">60</a> of file <a class="el" href="ScriptingBridge_8cs_source.html">ScriptingBridge.cs</a>.</p>
 
 </div>
 </div>

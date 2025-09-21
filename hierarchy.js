@@ -106,11 +106,11 @@ var hierarchy =
           [ "RoboClerk.EliminatedSOUPItem", "classRoboClerk_1_1EliminatedSOUPItem.html", null ],
           [ "RoboClerk.EliminatedSoftwareSystemTestItem", "classRoboClerk_1_1EliminatedSoftwareSystemTestItem.html", null ]
         ] ],
-        [ "RoboClerk.Items.TestResult", "classRoboClerk_1_1Items_1_1TestResult.html", null ],
         [ "RoboClerk.RequirementItem", "classRoboClerk_1_1RequirementItem.html", null ],
         [ "RoboClerk.RiskItem", "classRoboClerk_1_1RiskItem.html", null ],
         [ "RoboClerk.SOUPItem", "classRoboClerk_1_1SOUPItem.html", null ],
         [ "RoboClerk.SoftwareSystemTestItem", "classRoboClerk_1_1SoftwareSystemTestItem.html", null ],
+        [ "RoboClerk.TestResult", "classRoboClerk_1_1TestResult.html", null ],
         [ "RoboClerk.UnitTestItem", "classRoboClerk_1_1UnitTestItem.html", null ]
       ] ],
       [ "RoboClerk.PlaceholderItem", "classRoboClerk_1_1PlaceholderItem.html", null ]

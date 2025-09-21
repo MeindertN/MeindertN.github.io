@@ -1,6 +1,6 @@
 var TestResult_8cs =
 [
-    [ "RoboClerk.Items.TestResult", "classRoboClerk_1_1Items_1_1TestResult.html", "classRoboClerk_1_1Items_1_1TestResult" ],
-    [ "TestResultStatus", "TestResult_8cs.html#a191fff67305016c390d77fcda00d5626", null ],
-    [ "TestResultType", "TestResult_8cs.html#a684f953f6ee3fed6426cf775c11f389e", null ]
+    [ "RoboClerk.TestResult", "classRoboClerk_1_1TestResult.html", "classRoboClerk_1_1TestResult" ],
+    [ "TestResultStatus", "TestResult_8cs.html#a9c10fabc049f5a81692427f7c681e8d4", null ],
+    [ "TestResultType", "TestResult_8cs.html#a57b031e48e6bbe73faaf495582a85eb3", null ]
 ];
