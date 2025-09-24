@@ -91,6 +91,7 @@ $(document).ready(function(){initNavTree('classRoboClerk_1_1GitRepository.html',
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="classRoboClerk_1_1GitRepository-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">RoboClerk.GitRepository Class Reference</div></div>
@@ -101,6 +102,9 @@ $(document).ready(function(){initNavTree('classRoboClerk_1_1GitRepository.html',
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a3d14ef25383075fdb8740439ba29896a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRoboClerk_1_1GitRepository.html#a3d14ef25383075fdb8740439ba29896a">GitRepository</a> (<a class="el" href="interfaceRoboClerk_1_1Configuration_1_1IConfiguration.html">IConfiguration</a> config)</td></tr>
 <tr class="separator:a3d14ef25383075fdb8740439ba29896a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91239b2e9cee39423e956ad31bc830cd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRoboClerk_1_1GitRepository.html#a91239b2e9cee39423e956ad31bc830cd">PreloadDirectoryInfo</a> (string directory)</td></tr>
+<tr class="memdesc:a91239b2e9cee39423e956ad31bc830cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pre-loads git information for all files in the specified directory and subdirectories. This significantly improves performance when processing many files.   <a href="classRoboClerk_1_1GitRepository.html#a91239b2e9cee39423e956ad31bc830cd">More...</a><br /></td></tr>
+<tr class="separator:a91239b2e9cee39423e956ad31bc830cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa900db685bddda99501dfe3db2392d8d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRoboClerk_1_1GitRepository.html#aa900db685bddda99501dfe3db2392d8d">GetFileLocallyUpdated</a> (string file)</td></tr>
 <tr class="separator:aa900db685bddda99501dfe3db2392d8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac594497396d493399349ba224dec66e8"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRoboClerk_1_1GitRepository.html#ac594497396d493399349ba224dec66e8">GetFileVersion</a> (string file)</td></tr>
@@ -110,7 +114,7 @@ Public Member Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="GitRepository_8cs_source.html#l00008">8</a> of file <a class="el" href="GitRepository_8cs_source.html">GitRepository.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="GitRepository_8cs_source.html#l00011">11</a> of file <a class="el" href="GitRepository_8cs_source.html">GitRepository.cs</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a3d14ef25383075fdb8740439ba29896a" name="a3d14ef25383075fdb8740439ba29896a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3d14ef25383075fdb8740439ba29896a">&#9670;&#160;</a></span>GitRepository()</h2>
@@ -128,7 +132,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="GitRepository_8cs_source.html#l00013">13</a> of file <a class="el" href="GitRepository_8cs_source.html">GitRepository.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="GitRepository_8cs_source.html#l00017">17</a> of file <a class="el" href="GitRepository_8cs_source.html">GitRepository.cs</a>.</p>
 
 </div>
 </div>
@@ -149,7 +153,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="GitRepository_8cs_source.html#l00045">45</a> of file <a class="el" href="GitRepository_8cs_source.html">GitRepository.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="GitRepository_8cs_source.html#l00126">126</a> of file <a class="el" href="GitRepository_8cs_source.html">GitRepository.cs</a>.</p>
 
 </div>
 </div>
@@ -169,7 +173,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="GitRepository_8cs_source.html#l00025">25</a> of file <a class="el" href="GitRepository_8cs_source.html">GitRepository.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="GitRepository_8cs_source.html#l00081">81</a> of file <a class="el" href="GitRepository_8cs_source.html">GitRepository.cs</a>.</p>
 
 </div>
 </div>
@@ -189,7 +193,35 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="GitRepository_8cs_source.html#l00031">31</a> of file <a class="el" href="GitRepository_8cs_source.html">GitRepository.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="GitRepository_8cs_source.html#l00101">101</a> of file <a class="el" href="GitRepository_8cs_source.html">GitRepository.cs</a>.</p>
+
+</div>
+</div>
+<a id="a91239b2e9cee39423e956ad31bc830cd" name="a91239b2e9cee39423e956ad31bc830cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a91239b2e9cee39423e956ad31bc830cd">&#9670;&#160;</a></span>PreloadDirectoryInfo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RoboClerk.GitRepository.PreloadDirectoryInfo </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>directory</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Pre-loads git information for all files in the specified directory and subdirectories. This significantly improves performance when processing many files.  </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">directory</td><td>Directory to scan for git file information</td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="GitRepository_8cs_source.html#l00034">34</a> of file <a class="el" href="GitRepository_8cs_source.html">GitRepository.cs</a>.</p>
 
 </div>
 </div>
