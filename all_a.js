@@ -1,21 +1,7 @@
 var searchData=
 [
-  ['label_0',['Label',['../classRoboClerk_1_1Redmine_1_1PossibleValue.html#a51cc8ef9aa3b902a5bd50bcc2b20ec4c',1,'RoboClerk::Redmine::PossibleValue']]],
-  ['lastupdated_1',['lastUpdated',['../classRoboClerk_1_1Item.html#ae21cfe210e59fa8ecbac2748ebf06db3',1,'RoboClerk::Item']]],
-  ['limit_2',['Limit',['../classRoboClerk_1_1Redmine_1_1RedmineIssues.html#a7fa120f03dffb34cad7056e7004eabd1',1,'RoboClerk.Redmine.RedmineIssues.Limit()'],['../classRoboClerk_1_1Redmine_1_1RedmineProjects.html#a05d3e4764c935492297c7e8e6d91769a',1,'RoboClerk.Redmine.RedmineProjects.Limit()']]],
-  ['link_3',['Link',['../classRoboClerk_1_1Item.html#affaf473223ece60a7806c0738fe5efb2',1,'RoboClerk::Item']]],
-  ['link_4',['link',['../classRoboClerk_1_1Item.html#a84ec221ef79eb7445dbf84b24a43ade7',1,'RoboClerk::Item']]],
-  ['linkeditem_5',['LinkedItem',['../classRoboClerk_1_1LinkedItem.html',1,'RoboClerk']]],
-  ['linkeditem_2ecs_6',['LinkedItem.cs',['../LinkedItem_8cs.html',1,'']]],
-  ['linkeditems_7',['LinkedItems',['../classRoboClerk_1_1LinkedItem.html#a14605db37deae0f3dd16ef339c37568c',1,'RoboClerk::LinkedItem']]],
-  ['linkeditems_8',['linkedItems',['../classRoboClerk_1_1LinkedItem.html#aa07b297795129846dae037ec8c7941c7',1,'RoboClerk::LinkedItem']]],
-  ['linktype_9',['LinkType',['../classRoboClerk_1_1ItemLink.html#aba506e4154255f56d98483272600cf44',1,'RoboClerk::ItemLink']]],
-  ['load_10',['Load',['../classRoboClerk_1_1PluginLoadContext.html#a0a192255e090bb2a3647829374e741ce',1,'RoboClerk::PluginLoadContext']]],
-  ['loadall_3c_20tplugininterface_20_3e_11',['LoadAll&lt; TPluginInterface &gt;',['../classRoboClerk_1_1PluginLoader.html#a8c1cb86234889249d073acd1ce4104ef',1,'RoboClerk::PluginLoader']]],
-  ['loadbyname_3c_20t_20_3e_12',['LoadByName&lt; T &gt;',['../interfaceRoboClerk_1_1IPluginLoader.html#ae85bf152c22fde5d3913c77a60c8511e',1,'RoboClerk::IPluginLoader']]],
-  ['loadbyname_3c_20tplugininterface_20_3e_13',['LoadByName&lt; TPluginInterface &gt;',['../classRoboClerk_1_1PluginLoader.html#a8faab55a4811c21badaea708a9927840',1,'RoboClerk::PluginLoader']]],
-  ['loadfromdirectory_14',['LoadFromDirectory',['../classRoboClerk_1_1PluginAssemblyLoader.html#ab54e1d9de2313dab071252cf07ec3d7e',1,'RoboClerk::PluginAssemblyLoader']]],
-  ['loadunmanageddll_15',['LoadUnmanagedDll',['../classRoboClerk_1_1PluginLoadContext.html#a6b34fda8b34fdbc038a118c3208c668d',1,'RoboClerk::PluginLoadContext']]],
-  ['logger_16',['logger',['../classRoboClerk_1_1Commands.html#a28e8db6844833e3b800ab312b2e5ab60',1,'RoboClerk.Commands.logger()'],['../classRoboClerk_1_1ContentCreators_1_1ContentCreatorBase.html#a5e8a521af9a7cc9c94dec6a4b348b53e',1,'RoboClerk.ContentCreators.ContentCreatorBase.logger()'],['../classRoboClerk_1_1DataSourcesBase.html#a5c0d590154c2630bffeccda5790b5705',1,'RoboClerk.DataSourcesBase.logger()'],['../classRoboClerk_1_1PluginBase.html#a58bae95a1d070a51bbc8a909cd17f27c',1,'RoboClerk.PluginBase.logger()']]],
-  ['loglevel_17',['LogLevel',['../classRoboClerk_1_1Configuration_1_1Configuration.html#a5a4c06388fb93c3b28ee81fb5faffd12',1,'RoboClerk.Configuration.Configuration.LogLevel()'],['../interfaceRoboClerk_1_1Configuration_1_1IConfiguration.html#ac5b8d9f385c94a2fab1743cbe5609e73',1,'RoboClerk.Configuration.IConfiguration.LogLevel()']]]
+  ['maxlength_0',['MaxLength',['../classRoboClerk_1_1Redmine_1_1CustomRedmineField.html#ab1f8e7fb63eec5c2adc0cad41495e9d4',1,'RoboClerk::Redmine::CustomRedmineField']]],
+  ['mediadir_1',['MediaDir',['../classRoboClerk_1_1Configuration_1_1Configuration.html#a6121962efe9748b62c8c7dbb251d5b75',1,'RoboClerk::Configuration::Configuration']]],
+  ['minlength_2',['MinLength',['../classRoboClerk_1_1Redmine_1_1CustomRedmineField.html#af2d61182958e02c675597bc57e854948',1,'RoboClerk::Redmine::CustomRedmineField']]],
+  ['multiple_3',['Multiple',['../classRoboClerk_1_1Redmine_1_1CustomRedmineField.html#a3ad4c01142df7c49f4a1c26d726726ed',1,'RoboClerk.Redmine.CustomRedmineField.Multiple()'],['../classRoboClerk_1_1Redmine_1_1CustomField.html#ab0a8ccf784283467af1fd50fe6e20000',1,'RoboClerk.Redmine.CustomField.Multiple()']]]
 ];

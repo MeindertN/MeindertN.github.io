@@ -1,6 +1,15 @@
 var searchData=
 [
-  ['occurencescore_0',['OccurenceScore',['../classRoboClerk_1_1EliminatedRiskItem.html#a879ca66b0c11e29aa4edc596edcd4437',1,'RoboClerk::EliminatedRiskItem']]],
-  ['offset_1',['Offset',['../classRoboClerk_1_1Redmine_1_1RedmineIssues.html#a4e8be36a3419b2af107bf8b833c72faf',1,'RoboClerk.Redmine.RedmineIssues.Offset()'],['../classRoboClerk_1_1Redmine_1_1RedmineProjects.html#a562bf728887af934d3f1e6a4e6023696',1,'RoboClerk.Redmine.RedmineProjects.Offset()']]],
-  ['outputdir_2',['OutputDir',['../classRoboClerk_1_1Configuration_1_1Configuration.html#a67a2e34ce9cf92d171534a372a5bb9ea',1,'RoboClerk.Configuration.Configuration.OutputDir()'],['../interfaceRoboClerk_1_1Configuration_1_1IConfiguration.html#a7fe2af999afd63c0ef8b4e994cec2529',1,'RoboClerk.Configuration.IConfiguration.OutputDir()']]]
+  ['parent_0',['Parent',['../classRoboClerk_1_1Redmine_1_1RedmineIssue.html#ab55fdd85f2ef2c809ca7cd166bd52faa',1,'RoboClerk.Redmine.RedmineIssue.Parent()'],['../classRoboClerk_1_1Redmine_1_1RedmineProject.html#a352c003becf04d0b0b8215ef5e411c25',1,'RoboClerk.Redmine.RedmineProject.Parent()'],['../classRoboClerk_1_1Redmine_1_1Parent.html',1,'RoboClerk.Redmine.Parent']]],
+  ['pluginconfigdir_1',['PluginConfigDir',['../classRoboClerk_1_1Configuration_1_1Configuration.html#a108f807377ea80301a32aafa46c2c343',1,'RoboClerk::Configuration::Configuration']]],
+  ['plugindirs_2',['PluginDirs',['../classRoboClerk_1_1Configuration_1_1Configuration.html#a4e854a647a9b277810cbaa3a6c5364d1',1,'RoboClerk::Configuration::Configuration']]],
+  ['possiblevalue_3',['PossibleValue',['../classRoboClerk_1_1Redmine_1_1PossibleValue.html',1,'RoboClerk::Redmine']]],
+  ['possiblevalues_4',['PossibleValues',['../classRoboClerk_1_1Redmine_1_1CustomRedmineField.html#a036498a772f1d6b22c84d04304f34204',1,'RoboClerk::Redmine::CustomRedmineField']]],
+  ['priority_5',['Priority',['../classRoboClerk_1_1Redmine_1_1RedmineIssue.html#a760f009bce4e448c68183b2a19096dfb',1,'RoboClerk.Redmine.RedmineIssue.Priority()'],['../classRoboClerk_1_1Redmine_1_1Priority.html',1,'RoboClerk.Redmine.Priority']]],
+  ['program_6',['Program',['../classRoboClerk_1_1Program.html',1,'RoboClerk']]],
+  ['program_2ecs_7',['Program.cs',['../Program_8cs.html',1,'']]],
+  ['project_8',['Project',['../classRoboClerk_1_1Redmine_1_1Version.html#a542e3c0ff76c0e006698068a2c1b592b',1,'RoboClerk.Redmine.Version.Project()'],['../classRoboClerk_1_1Redmine_1_1RedmineIssue.html#aed024a67e4103b71764fdae1d9e238e2',1,'RoboClerk.Redmine.RedmineIssue.Project()'],['../classRoboClerk_1_1Redmine_1_1Project.html',1,'RoboClerk.Redmine.Project']]],
+  ['projectroot_9',['ProjectRoot',['../classRoboClerk_1_1Configuration_1_1Configuration.html#ab782edeab7453beb3095d63fcd371295',1,'RoboClerk::Configuration::Configuration']]],
+  ['projects_10',['Projects',['../classRoboClerk_1_1Redmine_1_1RedmineProjects.html#a32f9d6829be41f30ceb8be1ea8408b79',1,'RoboClerk::Redmine::RedmineProjects']]],
+  ['projectversionsjsonobjects_2ecs_11',['ProjectVersionsJSONObjects.cs',['../ProjectVersionsJSONObjects_8cs.html',1,'']]]
 ];

@@ -26,21 +26,16 @@ var NAVTREE =
 [
   [ "RoboClerk", "index.html", [
     [ "Packages", "namespaces.html", [
-      [ "Package List", "namespaces.html", "namespaces_dup" ],
-      [ "Package Members", "namespacemembers.html", [
-        [ "All", "namespacemembers.html", null ],
-        [ "Enumerations", "namespacemembers_enum.html", null ]
-      ] ]
+      [ "Package List", "namespaces.html", "namespaces_dup" ]
     ] ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
       [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
       [ "Class Members", "functions.html", [
-        [ "All", "functions.html", "functions_dup" ],
-        [ "Functions", "functions_func.html", "functions_func" ],
-        [ "Variables", "functions_vars.html", null ],
-        [ "Properties", "functions_prop.html", "functions_prop" ]
+        [ "All", "functions.html", null ],
+        [ "Functions", "functions_func.html", null ],
+        [ "Properties", "functions_prop.html", null ]
       ] ]
     ] ],
     [ "Files", "files.html", [
@@ -55,16 +50,8 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"AIContentCreator_8cs.html",
-"classRoboClerk_1_1AnnotatedUnitTests_1_1AnnotatedUnitTestPlugin.html#a4d19fd80b950555e5b1f816a0cdc8b12",
-"classRoboClerk_1_1Configuration_1_1TraceConfig.html#a8bede5fc26c978d74fae4087919d8537",
-"classRoboClerk_1_1DataSourcePluginBase.html#a91a60f9c73b0487a54dae8bc08dd8cc8",
-"classRoboClerk_1_1EliminatedSOUPItem.html#a0b4a7869926e3aa41f97691b7120a68d",
-"classRoboClerk_1_1Redmine_1_1CustomField.html",
-"classRoboClerk_1_1Redmine_1_1Version.html#a51297a02d626fea8a940b33aa7605820",
-"classRoboClerk_1_1SourceCodeAnalysisPluginBase.html#a798647bb6b5b344da1c88319558dc96b",
-"functions_prop_t.html",
-"namespacemembers_enum.html"
+"AnnotatedUnitTestsPlugin_8cs.html",
+"classRoboClerk_1_1Redmine_1_1RedmineIssue.html#ab2d700ae64e99a3edfd54de6b262f315"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
