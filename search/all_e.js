@@ -21,7 +21,7 @@ var searchData=
   ['relationtype_18',['RelationType',['../classRoboClerk_1_1Redmine_1_1Relation.html#a3c4e3513a13add361e394c47bb4dfdcb',1,'RoboClerk::Redmine::Relation']]],
   ['restsharpredmineclient_19',['RestSharpRedmineClient',['../classRoboClerk_1_1Redmine_1_1RestSharpRedmineClient.html#af6ff6779e61275fb605e3a7a07f8692b',1,'RoboClerk.Redmine.RestSharpRedmineClient.RestSharpRedmineClient()'],['../classRoboClerk_1_1Redmine_1_1RestSharpRedmineClient.html',1,'RoboClerk.Redmine.RestSharpRedmineClient']]],
   ['roboclerk_20',['RoboClerk',['../namespaceRoboClerk.html',1,'']]],
-  ['roboclerktextcore_21',['RoboClerkTextCore',['../classRoboClerk_1_1RoboClerkTextCore.html',1,'RoboClerk.RoboClerkTextCore'],['../classRoboClerk_1_1RoboClerkTextCore.html#aa2ba7c5369f50b579a446fea6eb283c2',1,'RoboClerk.RoboClerkTextCore.RoboClerkTextCore()']]],
+  ['roboclerktextcore_21',['RoboClerkTextCore',['../classRoboClerk_1_1RoboClerkTextCore.html',1,'RoboClerk.RoboClerkTextCore'],['../classRoboClerk_1_1RoboClerkTextCore.html#a6e751b8e6dbaaf21bfff4c48caf543cc',1,'RoboClerk.RoboClerkTextCore.RoboClerkTextCore()']]],
   ['roboclerktextcore_2ecs_22',['RoboClerkTextCore.cs',['../RoboClerkTextCore_8cs.html',1,'']]],
   ['roles_23',['Roles',['../classRoboClerk_1_1Redmine_1_1CustomRedmineField.html#af6f4a6940aa106bfcbc2dab427797d4e',1,'RoboClerk::Redmine::CustomRedmineField']]]
 ];
