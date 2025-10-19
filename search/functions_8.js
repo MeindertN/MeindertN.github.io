@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['toplaintext_0',['ToPlainText',['../classRoboClerk_1_1AzureDevOps_1_1HtmlToTextConverter.html#adeb605c8fa7aff2cbf764f911ceb7e27',1,'RoboClerk::AzureDevOps::HtmlToTextConverter']]]
+  ['kicktounittest_0',['KickToUnitTest',['../classRoboClerk_1_1SoftwareSystemTestItem.html#adbca977cf94a2627a51a11b2b1cd7160',1,'RoboClerk::SoftwareSystemTestItem']]]
 ];

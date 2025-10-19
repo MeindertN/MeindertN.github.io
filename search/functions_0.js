@@ -1,5 +1,20 @@
 var searchData=
 [
-  ['annotatedunittestplugin_0',['AnnotatedUnitTestPlugin',['../classRoboClerk_1_1AnnotatedUnitTests_1_1AnnotatedUnitTestPlugin.html#ab8c1501dc1fd80ae65900891ff29e36c',1,'RoboClerk::AnnotatedUnitTests::AnnotatedUnitTestPlugin']]],
-  ['azuredevopsslmsplugin_1',['AzureDevOpsSLMSPlugin',['../classRoboClerk_1_1AzureDevOps_1_1AzureDevOpsSLMSPlugin.html#a9797c93376bbe8de81b5ebac57952d67',1,'RoboClerk::AzureDevOps::AzureDevOpsSLMSPlugin']]]
+  ['add_0',['Add',['../classRoboClerk_1_1RoboClerkOrderedDictionary.html#ab692a612f5b85c257c3dbb77a0104e7f',1,'RoboClerk::RoboClerkOrderedDictionary']]],
+  ['addaitagstocontent_1',['AddAITagsToContent',['../classRoboClerk_1_1ContentCreators_1_1ContentCreatorBase.html#acf64d6ec4a8b4c77a97ed49183028d9d',1,'RoboClerk::ContentCreators::ContentCreatorBase']]],
+  ['addbackwardfilterstring_2',['AddBackwardFilterString',['../classRoboClerk_1_1Configuration_1_1TraceConfigElement.html#a576232af3acdd125ecceda95f59c6566',1,'RoboClerk::Configuration::TraceConfigElement']]],
+  ['addcommands_3',['AddCommands',['../classRoboClerk_1_1Configuration_1_1DocumentConfig.html#ae3e6ecb3d1db9c775fa028d261e0db2c',1,'RoboClerk::Configuration::DocumentConfig']]],
+  ['addentitycount_4',['AddEntityCount',['../classRoboClerk_1_1Configuration_1_1DocumentConfig.html#a8b11d98894453b189ca851a05850d128',1,'RoboClerk::Configuration::DocumentConfig']]],
+  ['addforwardfilterstring_5',['AddForwardFilterString',['../classRoboClerk_1_1Configuration_1_1TraceConfigElement.html#ab84c50996f5869b8d00e7f75580f61c5',1,'RoboClerk::Configuration::TraceConfigElement']]],
+  ['addlinkeditem_6',['AddLinkedItem',['../classRoboClerk_1_1LinkedItem.html#afa8298bab2790b28f3db8f2d84c5381a',1,'RoboClerk::LinkedItem']]],
+  ['addtestcasestep_7',['AddTestCaseStep',['../classRoboClerk_1_1SoftwareSystemTestItem.html#a97057a1b451a12b909f162a185f96253',1,'RoboClerk::SoftwareSystemTestItem']]],
+  ['addtrace_8',['AddTrace',['../classRoboClerk_1_1TraceabilityAnalysis.html#a9876728c60847c1871ce90afa4e6ca4a',1,'RoboClerk.TraceabilityAnalysis.AddTrace()'],['../interfaceRoboClerk_1_1ITraceabilityAnalysis.html#a206172bd795872972e5c340a93dc9f40',1,'RoboClerk.ITraceabilityAnalysis.AddTrace()'],['../classRoboClerk_1_1ScriptingBridge.html#aadbab6d11e3865cb1ba4fb07ff696bd9',1,'RoboClerk.ScriptingBridge.AddTrace()']]],
+  ['addtraces_9',['AddTraces',['../classRoboClerk_1_1Configuration_1_1TraceConfig.html#ae4020e30d3dc3ad1a54a15db8e9bdf22',1,'RoboClerk::Configuration::TraceConfig']]],
+  ['addtracetag_10',['AddTraceTag',['../interfaceRoboClerk_1_1ITraceabilityAnalysis.html#a3d568481eb517b6ba502057b4aa76f11',1,'RoboClerk.ITraceabilityAnalysis.AddTraceTag()'],['../classRoboClerk_1_1TraceabilityAnalysis.html#a7895fde71d81d4b1fbbdb435ccf0745d',1,'RoboClerk.TraceabilityAnalysis.AddTraceTag()']]],
+  ['aicontentcreator_11',['AIContentCreator',['../classRoboClerk_1_1ContentCreators_1_1AIContentCreator.html#ad1d56738c775827b00817c9636cb921f',1,'RoboClerk::ContentCreators::AIContentCreator']]],
+  ['aisystempluginbase_12',['AISystemPluginBase',['../classRoboClerk_1_1AISystem_1_1AISystemPluginBase.html#a47a890756f82d9a6e5a96975da22cc1c',1,'RoboClerk::AISystem::AISystemPluginBase']]],
+  ['annotatedunittestplugin_13',['AnnotatedUnitTestPlugin',['../classRoboClerk_1_1AnnotatedUnitTests_1_1AnnotatedUnitTestPlugin.html#a4d19fd80b950555e5b1f816a0cdc8b12',1,'RoboClerk::AnnotatedUnitTests::AnnotatedUnitTestPlugin']]],
+  ['anomaly_14',['Anomaly',['../classRoboClerk_1_1ContentCreators_1_1Anomaly.html#acb14751f5bea70b15a791ae46d3bc20e',1,'RoboClerk::ContentCreators::Anomaly']]],
+  ['anomalyitem_15',['AnomalyItem',['../classRoboClerk_1_1AnomalyItem.html#a924736645f71ade9e994f4f80b8b16f3',1,'RoboClerk::AnomalyItem']]],
+  ['azuredevopsslmsplugin_16',['AzureDevOpsSLMSPlugin',['../classRoboClerk_1_1AzureDevOps_1_1AzureDevOpsSLMSPlugin.html#a6ea966fa0c6dd1c0a2a0d07be72fad57',1,'RoboClerk::AzureDevOps::AzureDevOpsSLMSPlugin']]]
 ];

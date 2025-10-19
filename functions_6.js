@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['redmineslmsplugin_0',['RedmineSLMSPlugin',['../classRoboClerk_1_1Redmine_1_1RedmineSLMSPlugin.html#a572bcda776d39c2bd9627db1a72f6f76',1,'RoboClerk.Redmine.RedmineSLMSPlugin.RedmineSLMSPlugin(IFileProviderPlugin fileSystem, IRedmineClient client)'],['../classRoboClerk_1_1Redmine_1_1RedmineSLMSPlugin.html#ae4fb6169f66099d8ef972f4f764d064e',1,'RoboClerk.Redmine.RedmineSLMSPlugin.RedmineSLMSPlugin(IFileProviderPlugin fileSystem)']]],
-  ['refreshitems_1',['RefreshItems',['../classRoboClerk_1_1AnnotatedUnitTests_1_1AnnotatedUnitTestPlugin.html#a3f03e1da75f977b67ab383ce5fff2231',1,'RoboClerk.AnnotatedUnitTests.AnnotatedUnitTestPlugin.RefreshItems()'],['../classRoboClerk_1_1AzureDevOps_1_1AzureDevOpsSLMSPlugin.html#aa92c459007b9578c2eaf7da9b1ed9fae',1,'RoboClerk.AzureDevOps.AzureDevOpsSLMSPlugin.RefreshItems()'],['../classRoboClerk_1_1DependenciesFile_1_1DependenciesFilePlugin.html#a5e7755853cfda44521d3adfb2d9f906e',1,'RoboClerk.DependenciesFile.DependenciesFilePlugin.RefreshItems()'],['../classRoboClerk_1_1Redmine_1_1RedmineSLMSPlugin.html#a2719922d29b85cc77a7e42c881d26413',1,'RoboClerk.Redmine.RedmineSLMSPlugin.RefreshItems()'],['../classRoboClerk_1_1UnitTestFNPlugin.html#a0a0f6efa0f71dc487efd4634a75f3ee6',1,'RoboClerk.UnitTestFNPlugin.RefreshItems()']]],
-  ['restsharpredmineclient_2',['RestSharpRedmineClient',['../classRoboClerk_1_1Redmine_1_1RestSharpRedmineClient.html#af6ff6779e61275fb605e3a7a07f8692b',1,'RoboClerk::Redmine::RestSharpRedmineClient']]],
-  ['roboclerktextcore_3',['RoboClerkTextCore',['../classRoboClerk_1_1RoboClerkTextCore.html#a6e751b8e6dbaaf21bfff4c48caf543cc',1,'RoboClerk::RoboClerkTextCore']]]
+  ['haskey_0',['HasKey',['../classRoboClerk_1_1Configuration_1_1ConfigurationValues.html#a93b4884d4d2cce7e4596b2a25198c21c',1,'RoboClerk::Configuration::ConfigurationValues']]],
+  ['hasparameter_1',['HasParameter',['../classRoboClerk_1_1RoboClerkTag.html#a3ca9738c2151a70ea51da1b6d5f5c4a6',1,'RoboClerk::RoboClerkTag']]],
+  ['hastagparameter_2',['HasTagParameter',['../classRoboClerk_1_1ScriptingBridge.html#aea2346c30193c4a267ac872215757945',1,'RoboClerk::ScriptingBridge']]]
 ];

@@ -26,16 +26,21 @@ var NAVTREE =
 [
   [ "RoboClerk", "index.html", [
     [ "Packages", "namespaces.html", [
-      [ "Package List", "namespaces.html", "namespaces_dup" ]
+      [ "Package List", "namespaces.html", "namespaces_dup" ],
+      [ "Package Members", "namespacemembers.html", [
+        [ "All", "namespacemembers.html", null ],
+        [ "Enumerations", "namespacemembers_enum.html", null ]
+      ] ]
     ] ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
       [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
       [ "Class Members", "functions.html", [
-        [ "All", "functions.html", null ],
-        [ "Functions", "functions_func.html", null ],
-        [ "Properties", "functions_prop.html", null ]
+        [ "All", "functions.html", "functions_dup" ],
+        [ "Functions", "functions_func.html", "functions_func" ],
+        [ "Variables", "functions_vars.html", null ],
+        [ "Properties", "functions_prop.html", "functions_prop" ]
       ] ]
     ] ],
     [ "Files", "files.html", [
@@ -50,8 +55,16 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"AnnotatedUnitTestsPlugin_8cs.html",
-"classRoboClerk_1_1Redmine_1_1RedmineIssue.html#aafe4f9e772176ae1857faf89dcea0458"
+"AIContentCreator_8cs.html",
+"classRoboClerk_1_1AnnotatedUnitTests_1_1AnnotatedUnitTestPlugin.html",
+"classRoboClerk_1_1Configuration_1_1DocumentConfig.html#ab3cba4238fecd05af89110d90edf0796",
+"classRoboClerk_1_1DataSourcePluginBase.html#a7a7729b0eb4a23ace577b67c8f0a48eb",
+"classRoboClerk_1_1EliminatedRiskItem.html#a27bda365407d815687877594ee24e035",
+"classRoboClerk_1_1PluginDataSources.html#a26832315cdfaaebc403281dcb377ecc9",
+"classRoboClerk_1_1Redmine_1_1RedmineSLMSPlugin.html#a810377b78cb8c1bab3767cb2e671e5cd",
+"classRoboClerk_1_1ScriptingBridge.html#a1133c2d10719df93f66f8ae23bfec951",
+"classRoboClerk_1_1UnitTestItem.html#afb78d4b60fe24ed102a1efadf9bdca4e",
+"interfaceRoboClerk_1_1IDataSources.html#ace16c1d5277eae09f5761f6d909fb305"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
