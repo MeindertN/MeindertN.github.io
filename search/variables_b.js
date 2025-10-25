@@ -7,6 +7,5 @@ var searchData=
   ['sourceid_4',['sourceID',['../classRoboClerk_1_1TraceLink.html#a93fd423c7ae4af883f3dae62237245c0',1,'RoboClerk::TraceLink']]],
   ['sourcetype_5',['sourceType',['../classRoboClerk_1_1ContentCreators_1_1RequirementBase.html#a4549c1eef1618d26e9b685d02645ead8',1,'RoboClerk::ContentCreators::RequirementBase']]],
   ['status_6',['status',['../classRoboClerk_1_1Item.html#a4b6574e2cad3697563bf935771ea4262',1,'RoboClerk::Item']]],
-  ['subdir_7',['subDir',['../classRoboClerk_1_1SourceCodeAnalysisPluginBase.html#af8003d21160d563b7a4640a3072277e3',1,'RoboClerk::SourceCodeAnalysisPluginBase']]],
-  ['systemrequirements_8',['systemRequirements',['../classRoboClerk_1_1DataSourcePluginBase.html#a96edee620e39f8711d45163fe503244b',1,'RoboClerk::DataSourcePluginBase']]]
+  ['systemrequirements_7',['systemRequirements',['../classRoboClerk_1_1DataSourcePluginBase.html#a96edee620e39f8711d45163fe503244b',1,'RoboClerk::DataSourcePluginBase']]]
 ];
