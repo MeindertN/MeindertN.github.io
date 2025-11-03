@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['iconfiguration_0',['IConfiguration',['../RoboClerkTextCore_8cs.html#aabb8d0da9ec8bd3fe63513ef30085e94',1,'RoboClerkTextCore.cs']]]
+  ['iconfiguration_0',['IConfiguration',['../DocContent_8cs.html#a5084bf2bd35f670d40148e2298d0128e',1,'IConfiguration():&#160;DocContent.cs'],['../SLMSPluginBase_8cs.html#a5084bf2bd35f670d40148e2298d0128e',1,'IConfiguration():&#160;SLMSPluginBase.cs'],['../RoboClerkCore_8cs.html#a5084bf2bd35f670d40148e2298d0128e',1,'IConfiguration():&#160;RoboClerkCore.cs']]]
 ];
