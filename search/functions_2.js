@@ -1,10 +1,16 @@
 var searchData=
 [
-  ['datasourcepluginbase_0',['DataSourcePluginBase',['../classRoboClerk_1_1DataSourcePluginBase.html#a62764595003f0eb33143db4ffef88da3',1,'RoboClerk::DataSourcePluginBase']]],
-  ['datasourcesbase_1',['DataSourcesBase',['../classRoboClerk_1_1DataSourcesBase.html#a0a32772f0cc91a6c5bc4cf9b93b00f50',1,'RoboClerk::DataSourcesBase']]],
-  ['dependenciesfileplugin_2',['DependenciesFilePlugin',['../classRoboClerk_1_1DependenciesFile_1_1DependenciesFilePlugin.html#a34513d9443d913513e7e2910c60ca472',1,'RoboClerk::DependenciesFile::DependenciesFilePlugin']]],
-  ['doccontentitem_3',['DocContentItem',['../classRoboClerk_1_1DocContentItem.html#a40667efd6ab75c0dfc625cfe869efcfe',1,'RoboClerk::DocContentItem']]],
-  ['document_4',['Document',['../classRoboClerk_1_1ContentCreators_1_1Document.html#abad58bfc030613227d38322e5935fbda',1,'RoboClerk.ContentCreators.Document.Document()'],['../classRoboClerk_1_1Document.html#a487f35e7f287518d0ac16c368216c035',1,'RoboClerk.Document.Document()']]],
-  ['documentationrequirement_5',['DocumentationRequirement',['../classRoboClerk_1_1ContentCreators_1_1DocumentationRequirement.html#ae4c304ffb995e448654cf585f30a22be',1,'RoboClerk::ContentCreators::DocumentationRequirement']]],
-  ['documentconfig_6',['DocumentConfig',['../classRoboClerk_1_1Configuration_1_1DocumentConfig.html#ab3cba4238fecd05af89110d90edf0796',1,'RoboClerk::Configuration::DocumentConfig']]]
+  ['clone_0',['Clone',['../classRoboClerk_1_1Configuration_1_1Configuration.html#a676760a2fcbf362665d2d4a7101987e5',1,'RoboClerk::Configuration::Configuration']]],
+  ['commandlineoptionordefault_1',['CommandLineOptionOrDefault',['../classRoboClerk_1_1Configuration_1_1Configuration.html#af2a07691a7ae69061a20b2df547429e3',1,'RoboClerk::Configuration::Configuration']]],
+  ['configureservices_2',['ConfigureServices',['../classRoboClerk_1_1Redmine_1_1RedmineSLMSPlugin.html#af305678dde2df811b1beaff256bd035c',1,'RoboClerk::Redmine::RedmineSLMSPlugin']]],
+  ['convert_3',['Convert',['../classRoboClerk_1_1Redmine_1_1TextileConverterBase.html#ade6bb1e96c19a61e7a099518edbd4f8a',1,'RoboClerk::Redmine::TextileConverterBase']]],
+  ['converttextile_4',['ConvertTextile',['../classRoboClerk_1_1Redmine_1_1TextileConverterBase.html#a8fc69fa01cf375ca4d003c6cd83d8fdc',1,'RoboClerk.Redmine.TextileConverterBase.ConvertTextile()'],['../classRoboClerk_1_1Redmine_1_1TextileToAsciiDocConverter.html#ad0d635b3afec11fd3600ebf022ccb2e4',1,'RoboClerk.Redmine.TextileToAsciiDocConverter.ConvertTextile()'],['../classRoboClerk_1_1Redmine_1_1TextileToHTMLConverter.html#a8ca1afa67421d3bf9b47e56f9d6bff85',1,'RoboClerk.Redmine.TextileToHTMLConverter.ConvertTextile()']]],
+  ['createbug_5',['CreateBug',['../classRoboClerk_1_1Redmine_1_1RedmineSLMSPlugin.html#a78740e91b95ed87bda77c0bb23729351',1,'RoboClerk::Redmine::RedmineSLMSPlugin']]],
+  ['createbuilder_6',['CreateBuilder',['../classRoboClerk_1_1Configuration_1_1Configuration.html#a52d4ac97e512f8e0f36bec322fbaf08b',1,'RoboClerk::Configuration::Configuration']]],
+  ['createdoccontent_7',['CreateDocContent',['../classRoboClerk_1_1Redmine_1_1RedmineSLMSPlugin.html#a691c78d923c2a47bc723fb9c4955d688',1,'RoboClerk::Redmine::RedmineSLMSPlugin']]],
+  ['createrequest_8',['CreateRequest',['../interfaceRoboClerk_1_1Redmine_1_1IRedmineClient.html#a99c022ef917df33a048f9722436ef77a',1,'RoboClerk.Redmine.IRedmineClient.CreateRequest()'],['../classRoboClerk_1_1Redmine_1_1RestSharpRedmineClient.html#a695a5cfbd2b3cbbe8c83d7553f78fc6a',1,'RoboClerk.Redmine.RestSharpRedmineClient.CreateRequest()']]],
+  ['createrequirement_9',['CreateRequirement',['../classRoboClerk_1_1Redmine_1_1RedmineSLMSPlugin.html#a810377b78cb8c1bab3767cb2e671e5cd',1,'RoboClerk::Redmine::RedmineSLMSPlugin']]],
+  ['createrisk_10',['CreateRisk',['../classRoboClerk_1_1Redmine_1_1RedmineSLMSPlugin.html#ac992a27429b961536c3469bb0cf4e8dd',1,'RoboClerk::Redmine::RedmineSLMSPlugin']]],
+  ['createsoup_11',['CreateSOUP',['../classRoboClerk_1_1Redmine_1_1RedmineSLMSPlugin.html#aedd8b24d1ce64512b1b5733fdf9780ab',1,'RoboClerk::Redmine::RedmineSLMSPlugin']]],
+  ['createtestcase_12',['CreateTestCase',['../classRoboClerk_1_1Redmine_1_1RedmineSLMSPlugin.html#a60d8d97dc5608a48b99622e064af13ed',1,'RoboClerk::Redmine::RedmineSLMSPlugin']]]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['htmltotextconverter_2ecs_0',['HtmlToTextConverter.cs',['../HtmlToTextConverter_8cs.html',1,'']]]
+  ['logging_2ecs_0',['Logging.cs',['../Logging_8cs.html',1,'']]]
 ];
