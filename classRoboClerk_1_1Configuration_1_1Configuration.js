@@ -20,6 +20,7 @@ var classRoboClerk_1_1Configuration_1_1Configuration =
     [ "OutputFormat", "classRoboClerk_1_1Configuration_1_1Configuration.html#abe41e7025e2035011a188c7de0145417", null ],
     [ "PluginConfigDir", "classRoboClerk_1_1Configuration_1_1Configuration.html#a108f807377ea80301a32aafa46c2c343", null ],
     [ "PluginDirs", "classRoboClerk_1_1Configuration_1_1Configuration.html#a4e854a647a9b277810cbaa3a6c5364d1", null ],
+    [ "ProjectID", "classRoboClerk_1_1Configuration_1_1Configuration.html#a4295061361b298002135730b4e7d1fc1", null ],
     [ "ProjectName", "classRoboClerk_1_1Configuration_1_1Configuration.html#ab1d899b118c17ab1aa18f7f1b6c2833f", null ],
     [ "ProjectRoot", "classRoboClerk_1_1Configuration_1_1Configuration.html#ab782edeab7453beb3095d63fcd371295", null ],
     [ "TemplateDir", "classRoboClerk_1_1Configuration_1_1Configuration.html#a65c5613dedb307ddfae6d558d00fc4a4", null ],
