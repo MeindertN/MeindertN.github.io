@@ -1,4 +1,26 @@
 var searchData=
 [
-  ['build_0',['Build',['../classRoboClerk_1_1Configuration_1_1ConfigurationBuilder.html#a7731f6aea60f694ccb964648433384a2',1,'RoboClerk::Configuration::ConfigurationBuilder']]]
+  ['checkpointdatasources_0',['CheckpointDataSources',['../classRoboClerk_1_1CheckpointDataSources.html#a5cc95e80036a300fb303138975b82c0e',1,'RoboClerk::CheckpointDataSources']]],
+  ['checkupdatedatetime_1',['CheckUpdateDateTime',['../classRoboClerk_1_1ContentCreators_1_1ContentCreatorBase.html#a6e682c5778b570a19221f57e5ca2c385',1,'RoboClerk::ContentCreators::ContentCreatorBase']]],
+  ['clear_2',['Clear',['../classRoboClerk_1_1RoboClerkOrderedDictionary.html#a5d09fb354933de246588d9afee137c82',1,'RoboClerk::RoboClerkOrderedDictionary']]],
+  ['clearallitems_3',['ClearAllItems',['../classRoboClerk_1_1DataSourcePluginBase.html#ae463413c5f144c3e553a6f98b4570afb',1,'RoboClerk::DataSourcePluginBase']]],
+  ['cleartestcasesteps_4',['ClearTestCaseSteps',['../classRoboClerk_1_1SoftwareSystemTestItem.html#a3ecfe63e55ff07e88841483d3cc81c60',1,'RoboClerk::SoftwareSystemTestItem']]],
+  ['commandlineoptionordefault_5',['CommandLineOptionOrDefault',['../classRoboClerk_1_1Configuration_1_1Configuration.html#af2a07691a7ae69061a20b2df547429e3',1,'RoboClerk.Configuration.Configuration.CommandLineOptionOrDefault()'],['../interfaceRoboClerk_1_1Configuration_1_1IConfiguration.html#ad8e6c4733e3818ae6327338f0e9d78b0',1,'RoboClerk.Configuration.IConfiguration.CommandLineOptionOrDefault()']]],
+  ['commands_6',['Commands',['../classRoboClerk_1_1Commands.html#ac2738adaad2b946b2a79b23453f6485a',1,'RoboClerk::Commands']]],
+  ['configuration_7',['Configuration',['../classRoboClerk_1_1Configuration_1_1Configuration.html#a5beea8af32bf0df3c62ef42fed6a9475',1,'RoboClerk::Configuration::Configuration']]],
+  ['configurationvalues_8',['ConfigurationValues',['../classRoboClerk_1_1Configuration_1_1ConfigurationValues.html#a101623b9a9e87344c4e41af6aff5ea5f',1,'RoboClerk::Configuration::ConfigurationValues']]],
+  ['configureservices_9',['ConfigureServices',['../interfaceRoboClerk_1_1IPlugin.html#a1522290541a2df631025024f71cf7d25',1,'RoboClerk.IPlugin.ConfigureServices()'],['../classRoboClerk_1_1PluginBase.html#aaa8bffa306e0227eb8b8bfd959fe5454',1,'RoboClerk.PluginBase.ConfigureServices()'],['../classRoboClerk_1_1Redmine_1_1RedmineSLMSPlugin.html#af305678dde2df811b1beaff256bd035c',1,'RoboClerk.Redmine.RedmineSLMSPlugin.ConfigureServices()']]],
+  ['containskey_10',['ContainsKey',['../classRoboClerk_1_1RoboClerkOrderedDictionary.html#ad85666033bd03ff4605a087caef2fabb',1,'RoboClerk::RoboClerkOrderedDictionary']]],
+  ['contentcreatorbase_11',['ContentCreatorBase',['../classRoboClerk_1_1ContentCreators_1_1ContentCreatorBase.html#a79c76be364326bd23948e010d077c685',1,'RoboClerk::ContentCreators::ContentCreatorBase']]],
+  ['convertheadingsfortablecell_12',['ConvertHeadingsForTableCell',['../classRoboClerk_1_1ScriptingBridge.html#a764cac503d3dbfb18662f12989c879ba',1,'RoboClerk::ScriptingBridge']]],
+  ['converttextile2asciidoc_13',['ConvertTextile2AsciiDoc',['../classRoboClerk_1_1Redmine_1_1TextileToAsciiDocConverter.html#a539d27623edf5de0deb8d8a4a249d271',1,'RoboClerk::Redmine::TextileToAsciiDocConverter']]],
+  ['createbug_14',['CreateBug',['../classRoboClerk_1_1Redmine_1_1RedmineSLMSPlugin.html#a78740e91b95ed87bda77c0bb23729351',1,'RoboClerk::Redmine::RedmineSLMSPlugin']]],
+  ['createdoccontent_15',['CreateDocContent',['../classRoboClerk_1_1Redmine_1_1RedmineSLMSPlugin.html#a691c78d923c2a47bc723fb9c4955d688',1,'RoboClerk::Redmine::RedmineSLMSPlugin']]],
+  ['createrequest_16',['CreateRequest',['../interfaceRoboClerk_1_1Redmine_1_1IRedmineClient.html#a99c022ef917df33a048f9722436ef77a',1,'RoboClerk.Redmine.IRedmineClient.CreateRequest()'],['../classRoboClerk_1_1Redmine_1_1RestSharpRedmineClient.html#a695a5cfbd2b3cbbe8c83d7553f78fc6a',1,'RoboClerk.Redmine.RestSharpRedmineClient.CreateRequest()']]],
+  ['createrequirement_17',['CreateRequirement',['../classRoboClerk_1_1Redmine_1_1RedmineSLMSPlugin.html#a810377b78cb8c1bab3767cb2e671e5cd',1,'RoboClerk::Redmine::RedmineSLMSPlugin']]],
+  ['createrisk_18',['CreateRisk',['../classRoboClerk_1_1Redmine_1_1RedmineSLMSPlugin.html#ac992a27429b961536c3469bb0cf4e8dd',1,'RoboClerk::Redmine::RedmineSLMSPlugin']]],
+  ['createscriptingbridge_19',['CreateScriptingBridge',['../classRoboClerk_1_1ContentCreators_1_1MultiItemContentCreator.html#a03fdc9baddf7e629e8d1b0f0cb516004',1,'RoboClerk::ContentCreators::MultiItemContentCreator']]],
+  ['createscriptingbridge_3c_20t_20_3e_20',['CreateScriptingBridge&lt; T &gt;',['../classRoboClerk_1_1ContentCreators_1_1MultiItemContentCreator.html#a3fcb7a169ddddaa3773d2ee3c0b4a120',1,'RoboClerk::ContentCreators::MultiItemContentCreator']]],
+  ['createsoup_21',['CreateSOUP',['../classRoboClerk_1_1Redmine_1_1RedmineSLMSPlugin.html#aedd8b24d1ce64512b1b5733fdf9780ab',1,'RoboClerk::Redmine::RedmineSLMSPlugin']]],
+  ['createtestcase_22',['CreateTestCase',['../classRoboClerk_1_1Redmine_1_1RedmineSLMSPlugin.html#a60d8d97dc5608a48b99622e064af13ed',1,'RoboClerk::Redmine::RedmineSLMSPlugin']]]
 ];
