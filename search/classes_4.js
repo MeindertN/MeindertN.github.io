@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['fixedversion_0',['FixedVersion',['../classRoboClerk_1_1Redmine_1_1FixedVersion.html',1,'RoboClerk::Redmine']]]
+  ['htmltotextconverter_0',['HtmlToTextConverter',['../classRoboClerk_1_1AzureDevOps_1_1HtmlToTextConverter.html',1,'RoboClerk::AzureDevOps']]]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['multiitemcontentcreator_0',['MultiItemContentCreator',['../classRoboClerk_1_1ContentCreators_1_1MultiItemContentCreator.html#ae8d8a2af3edaf164fae2731c6deb6fd6',1,'RoboClerk::ContentCreators::MultiItemContentCreator']]]
+  ['toplaintext_0',['ToPlainText',['../classRoboClerk_1_1AzureDevOps_1_1HtmlToTextConverter.html#adeb605c8fa7aff2cbf764f911ceb7e27',1,'RoboClerk::AzureDevOps::HtmlToTextConverter']]]
 ];
