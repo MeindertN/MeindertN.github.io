@@ -93,24 +93,26 @@ $(document).ready(function(){initNavTree('CommandlineOptions_8cs_source.html',''
   <div class="headertitle"><div class="title">CommandlineOptions.cs</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="CommandlineOptions_8cs.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="keyword">using </span>CommandLine;</div>
-<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="keyword">using </span>System.Collections.Generic;</div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno"><a class="line" href="namespaceRoboClerk.html">    4</a></span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceRoboClerk.html">RoboClerk</a></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span>{</div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span>    <span class="keyword">internal</span> <span class="keyword">class </span>CommandlineOptions</div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span>    {</div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span>        [Option(<span class="charliteral">&#39;c&#39;</span>, <span class="stringliteral">&quot;configurationFile&quot;</span>, Required = <span class="keyword">false</span>, HelpText = <span class="stringliteral">&quot;Indicate the location of the RoboClerk configuration file.&quot;</span>)]</div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span>        <span class="keyword">public</span> <span class="keywordtype">string</span> ConfigurationFile { <span class="keyword">get</span>; <span class="keyword">set</span>; }</div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>        [Option(<span class="charliteral">&#39;p&#39;</span>, <span class="stringliteral">&quot;projectFile&quot;</span>, Required = <span class="keyword">false</span>, HelpText = <span class="stringliteral">&quot;Indicate the location of the RoboClerk project configuration file.&quot;</span>)]</div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>        <span class="keyword">public</span> <span class="keywordtype">string</span> ProjectConfigurationFile { <span class="keyword">get</span>; <span class="keyword">set</span>; }</div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>        [Option(<span class="charliteral">&#39;o&#39;</span>, <span class="stringliteral">&quot;options&quot;</span>, Required = <span class="keyword">false</span>, HelpText = <span class="stringliteral">&quot;Various space seperated options, can be used to substitute configuration file values to plugins and RoboClerk. E.g. -o APIKey=1234fdsa magicWords=\&quot;one two three\&quot;&quot;</span>)]</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>        <span class="keyword">public</span> IEnumerable&lt;string&gt; ConfigurationOptions { <span class="keyword">get</span>; <span class="keyword">set</span>; }</div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    }</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>}</div>
-<div class="ttc" id="anamespaceRoboClerk_html"><div class="ttname"><a href="namespaceRoboClerk.html">RoboClerk</a></div><div class="ttdef"><b>Definition:</b> <a href="CommandlineOptions_8cs_source.html#l00004">CommandlineOptions.cs:5</a></div></div>
+<a href="CommandlineOptions_8cs.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="keyword">using </span>CommandLine;</div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="keyword">using </span>System.Collections.Generic;</div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceRoboClerk.html">RoboClerk</a></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span>{</div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span>    <span class="keyword">internal</span> <span class="keyword">class </span>CommandlineOptions</div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span>    {</div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>        [Option(<span class="charliteral">&#39;c&#39;</span>, <span class="stringliteral">&quot;configurationFile&quot;</span>, Required = <span class="keyword">false</span>, HelpText = <span class="stringliteral">&quot;Indicate the location of the RoboClerk configuration file.&quot;</span>)]</div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>        <span class="keyword">public</span> <span class="keywordtype">string</span> ConfigurationFile { <span class="keyword">get</span>; <span class="keyword">set</span>; }</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>        [Option(<span class="charliteral">&#39;p&#39;</span>, <span class="stringliteral">&quot;projectFile&quot;</span>, Required = <span class="keyword">false</span>, HelpText = <span class="stringliteral">&quot;Indicate the location of the RoboClerk project configuration file.&quot;</span>)]</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>        <span class="keyword">public</span> <span class="keywordtype">string</span> ProjectConfigurationFile { <span class="keyword">get</span>; <span class="keyword">set</span>; }</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>        [Option(<span class="charliteral">&#39;o&#39;</span>, <span class="stringliteral">&quot;options&quot;</span>, Required = <span class="keyword">false</span>, HelpText = <span class="stringliteral">&quot;Various space seperated options, can be used to substitute configuration file values to plugins and RoboClerk. E.g. -o APIKey=1234fdsa magicWords=\&quot;one two three\&quot;&quot;</span>)]</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>        <span class="keyword">public</span> IEnumerable&lt;string&gt; ConfigurationOptions { <span class="keyword">get</span>; <span class="keyword">set</span>; }</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    }</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>}</div>
+<div class="ttc" id="anamespaceRoboClerk_html"><div class="ttname"><a href="namespaceRoboClerk.html">RoboClerk</a></div><div class="ttdef"><b>Definition:</b> <a href="AISystemPluginBase_8cs_source.html#l00006">AISystemPluginBase.cs:7</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
