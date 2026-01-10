@@ -359,84 +359,85 @@ $(document).ready(function(){initNavTree('Program_8cs_source.html',''); initResi
 <div class="line"><a id="l00270" name="l00270"></a><span class="lineno">  270</span>                           serviceCollection.AddSingleton&lt;IPluginLoader, PluginLoader&gt;();</div>
 <div class="line"><a id="l00271" name="l00271"></a><span class="lineno">  271</span>                           serviceCollection.AddSingleton&lt;ITraceabilityAnalysis, TraceabilityAnalysis&gt;();</div>
 <div class="line"><a id="l00272" name="l00272"></a><span class="lineno">  272</span>                           serviceCollection.AddSingleton&lt;IRoboClerkCore, <a class="code hl_class" href="classRoboClerk_1_1RoboClerkTextCore.html">RoboClerkTextCore</a>&gt;();</div>
-<div class="line"><a id="l00273" name="l00273"></a><span class="lineno">  273</span> </div>
-<div class="line"><a id="l00274" name="l00274"></a><span class="lineno">  274</span>                           <span class="comment">// Build service provider first so we can access services for configuration</span></div>
-<div class="line"><a id="l00275" name="l00275"></a><span class="lineno">  275</span>                           var tempServiceProvider = serviceCollection.BuildServiceProvider();</div>
-<div class="line"><a id="l00276" name="l00276"></a><span class="lineno">  276</span> </div>
-<div class="line"><a id="l00277" name="l00277"></a><span class="lineno">  277</span>                           <span class="comment">// Create configuration using the new builder pattern</span></div>
-<div class="line"><a id="l00278" name="l00278"></a><span class="lineno">  278</span>                           var configuration = CreateConfiguration(</div>
-<div class="line"><a id="l00279" name="l00279"></a><span class="lineno">  279</span>                               roboClerkConfigFile, </div>
-<div class="line"><a id="l00280" name="l00280"></a><span class="lineno">  280</span>                               projectConfigFile, </div>
-<div class="line"><a id="l00281" name="l00281"></a><span class="lineno">  281</span>                               commandlineOptions, </div>
-<div class="line"><a id="l00282" name="l00282"></a><span class="lineno">  282</span>                               tempServiceProvider, </div>
-<div class="line"><a id="l00283" name="l00283"></a><span class="lineno">  283</span>                               logger);</div>
-<div class="line"><a id="l00284" name="l00284"></a><span class="lineno">  284</span> </div>
-<div class="line"><a id="l00285" name="l00285"></a><span class="lineno">  285</span>                           <span class="comment">// Register the configuration</span></div>
-<div class="line"><a id="l00286" name="l00286"></a><span class="lineno">  286</span>                           serviceCollection.AddSingleton&lt;<a class="code hl_typedef" href="RoboClerkTextCore_8cs.html#aabb8d0da9ec8bd3fe63513ef30085e94">IConfiguration</a>&gt;(configuration);</div>
-<div class="line"><a id="l00287" name="l00287"></a><span class="lineno">  287</span> </div>
-<div class="line"><a id="l00288" name="l00288"></a><span class="lineno">  288</span>                           <span class="comment">// Register all content creators</span></div>
-<div class="line"><a id="l00289" name="l00289"></a><span class="lineno">  289</span>                           RegisterContentCreators(serviceCollection);</div>
-<div class="line"><a id="l00290" name="l00290"></a><span class="lineno">  290</span> </div>
-<div class="line"><a id="l00291" name="l00291"></a><span class="lineno">  291</span>                           <span class="comment">// Register the content creator factory with service provider injection</span></div>
-<div class="line"><a id="l00292" name="l00292"></a><span class="lineno">  292</span>                           serviceCollection.AddSingleton&lt;IContentCreatorFactory&gt;(serviceProvider =&gt;</div>
-<div class="line"><a id="l00293" name="l00293"></a><span class="lineno">  293</span>                               <span class="keyword">new</span> ContentCreatorFactory(serviceProvider, serviceProvider.GetRequiredService&lt;ITraceabilityAnalysis&gt;()));</div>
-<div class="line"><a id="l00294" name="l00294"></a><span class="lineno">  294</span> </div>
-<div class="line"><a id="l00295" name="l00295"></a><span class="lineno">  295</span>                           <span class="keywordflow">if</span> (configuration.CheckpointConfig.CheckpointFile == <span class="keywordtype">string</span>.Empty) <span class="comment">//check if we are not using a checkpoint</span></div>
-<div class="line"><a id="l00296" name="l00296"></a><span class="lineno">  296</span>                           {</div>
-<div class="line"><a id="l00297" name="l00297"></a><span class="lineno">  297</span>                               serviceCollection.AddSingleton&lt;IDataSources, PluginDataSources&gt;();</div>
-<div class="line"><a id="l00298" name="l00298"></a><span class="lineno">  298</span>                           }</div>
-<div class="line"><a id="l00299" name="l00299"></a><span class="lineno">  299</span>                           <span class="keywordflow">else</span></div>
-<div class="line"><a id="l00300" name="l00300"></a><span class="lineno">  300</span>                           {</div>
-<div class="line"><a id="l00301" name="l00301"></a><span class="lineno">  301</span>                               serviceCollection.AddSingleton&lt;IDataSources&gt;(x =&gt; <span class="keyword">new</span> CheckpointDataSources(x.GetRequiredService&lt;<a class="code hl_typedef" href="RoboClerkTextCore_8cs.html#aabb8d0da9ec8bd3fe63513ef30085e94">IConfiguration</a>&gt;(), x.GetRequiredService&lt;IPluginLoader&gt;(), x.GetRequiredService&lt;IFileProviderPlugin&gt;(), configuration.CheckpointConfig.CheckpointFile));</div>
-<div class="line"><a id="l00302" name="l00302"></a><span class="lineno">  302</span>                           }</div>
-<div class="line"><a id="l00303" name="l00303"></a><span class="lineno">  303</span> </div>
-<div class="line"><a id="l00304" name="l00304"></a><span class="lineno">  304</span>                           <span class="comment">// Register AI plugin after service provider is built</span></div>
-<div class="line"><a id="l00305" name="l00305"></a><span class="lineno">  305</span>                           RegisterAIPlugin(serviceCollection, configuration, tempServiceProvider.GetService&lt;IPluginLoader&gt;());</div>
-<div class="line"><a id="l00306" name="l00306"></a><span class="lineno">  306</span> </div>
-<div class="line"><a id="l00307" name="l00307"></a><span class="lineno">  307</span>                           var serviceProvider = serviceCollection.BuildServiceProvider();</div>
-<div class="line"><a id="l00308" name="l00308"></a><span class="lineno">  308</span> </div>
-<div class="line"><a id="l00309" name="l00309"></a><span class="lineno">  309</span>                           <span class="comment">// Set log file destination now that we have configuration and file provider</span></div>
-<div class="line"><a id="l00310" name="l00310"></a><span class="lineno">  310</span>                           roboClerkLogger.SetLogDestination(serviceProvider.GetService&lt;IFileProviderPlugin&gt;(), configuration.OutputDir);</div>
-<div class="line"><a id="l00311" name="l00311"></a><span class="lineno">  311</span> </div>
-<div class="line"><a id="l00312" name="l00312"></a><span class="lineno">  312</span>                           <span class="comment">//clean the output directory before we start working</span></div>
-<div class="line"><a id="l00313" name="l00313"></a><span class="lineno">  313</span>                           <span class="keywordflow">if</span> (configuration.ClearOutputDir)</div>
-<div class="line"><a id="l00314" name="l00314"></a><span class="lineno">  314</span>                           {</div>
-<div class="line"><a id="l00315" name="l00315"></a><span class="lineno">  315</span>                               CleanOutputDirectory(serviceProvider.GetService&lt;IFileProviderPlugin&gt;(),configuration.OutputDir, logger);</div>
-<div class="line"><a id="l00316" name="l00316"></a><span class="lineno">  316</span>                           }</div>
-<div class="line"><a id="l00317" name="l00317"></a><span class="lineno">  317</span> </div>
-<div class="line"><a id="l00318" name="l00318"></a><span class="lineno">  318</span>                           var core = serviceProvider.GetService&lt;IRoboClerkCore&gt;();</div>
-<div class="line"><a id="l00319" name="l00319"></a><span class="lineno">  319</span>                           core.GenerateDocs();</div>
-<div class="line"><a id="l00320" name="l00320"></a><span class="lineno">  320</span>                           core.SaveDocumentsToDisk();</div>
-<div class="line"><a id="l00321" name="l00321"></a><span class="lineno">  321</span>                       }</div>
-<div class="line"><a id="l00322" name="l00322"></a><span class="lineno">  322</span>                       <span class="keywordflow">catch</span> (Exception e)</div>
-<div class="line"><a id="l00323" name="l00323"></a><span class="lineno">  323</span>                       {</div>
-<div class="line"><a id="l00324" name="l00324"></a><span class="lineno">  324</span>                           <span class="keywordflow">if</span> (roboClerkLogger.Configured)</div>
-<div class="line"><a id="l00325" name="l00325"></a><span class="lineno">  325</span>                           {</div>
-<div class="line"><a id="l00326" name="l00326"></a><span class="lineno">  326</span>                               var logger = NLog.LogManager.GetCurrentClassLogger();</div>
-<div class="line"><a id="l00327" name="l00327"></a><span class="lineno">  327</span>                               logger.Error(<span class="stringliteral">&quot;An unhandled exception has occurred. RoboClerk failed to complete:\n\n&quot;</span>);</div>
-<div class="line"><a id="l00328" name="l00328"></a><span class="lineno">  328</span>                               logger.Error(e);</div>
-<div class="line"><a id="l00329" name="l00329"></a><span class="lineno">  329</span>                           }</div>
-<div class="line"><a id="l00330" name="l00330"></a><span class="lineno">  330</span>                           <span class="keywordflow">else</span></div>
-<div class="line"><a id="l00331" name="l00331"></a><span class="lineno">  331</span>                           {</div>
-<div class="line"><a id="l00332" name="l00332"></a><span class="lineno">  332</span>                               Console.WriteLine($<span class="stringliteral">&quot;An unhandled exception has occurred. RoboClerk failed to complete:\n\n{e.Message}&quot;</span>);</div>
-<div class="line"><a id="l00333" name="l00333"></a><span class="lineno">  333</span>                           }</div>
-<div class="line"><a id="l00334" name="l00334"></a><span class="lineno">  334</span>                           <span class="keywordflow">throw</span>;</div>
-<div class="line"><a id="l00335" name="l00335"></a><span class="lineno">  335</span>                       }</div>
-<div class="line"><a id="l00336" name="l00336"></a><span class="lineno">  336</span>                   });</div>
-<div class="line"><a id="l00337" name="l00337"></a><span class="lineno">  337</span>            }</div>
-<div class="line"><a id="l00338" name="l00338"></a><span class="lineno">  338</span>            <span class="keywordflow">catch</span> (Exception e)</div>
-<div class="line"><a id="l00339" name="l00339"></a><span class="lineno">  339</span>            {</div>
-<div class="line"><a id="l00340" name="l00340"></a><span class="lineno">  340</span>                Console.WriteLine($<span class="stringliteral">&quot;An error occurred starting RoboClerk:\n{e.Message}&quot;</span>);</div>
-<div class="line"><a id="l00341" name="l00341"></a><span class="lineno">  341</span>                <span class="keywordflow">return</span> 1;</div>
-<div class="line"><a id="l00342" name="l00342"></a><span class="lineno">  342</span>            }</div>
-<div class="line"><a id="l00343" name="l00343"></a><span class="lineno">  343</span>            <span class="keywordflow">finally</span></div>
-<div class="line"><a id="l00344" name="l00344"></a><span class="lineno">  344</span>            {</div>
-<div class="line"><a id="l00345" name="l00345"></a><span class="lineno">  345</span>                roboClerkLogger.WriteLogToFile();</div>
-<div class="line"><a id="l00346" name="l00346"></a><span class="lineno">  346</span>            }</div>
-<div class="line"><a id="l00347" name="l00347"></a><span class="lineno">  347</span>            <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a id="l00348" name="l00348"></a><span class="lineno">  348</span>        }</div>
-<div class="line"><a id="l00349" name="l00349"></a><span class="lineno">  349</span>    }</div>
-<div class="line"><a id="l00350" name="l00350"></a><span class="lineno">  350</span>}</div>
+<div class="line"><a id="l00273" name="l00273"></a><span class="lineno">  273</span>                           serviceCollection.AddTransient&lt;IWebResources, WebResources&gt;();</div>
+<div class="line"><a id="l00274" name="l00274"></a><span class="lineno">  274</span> </div>
+<div class="line"><a id="l00275" name="l00275"></a><span class="lineno">  275</span>                           <span class="comment">// Build service provider first so we can access services for configuration</span></div>
+<div class="line"><a id="l00276" name="l00276"></a><span class="lineno">  276</span>                           var tempServiceProvider = serviceCollection.BuildServiceProvider();</div>
+<div class="line"><a id="l00277" name="l00277"></a><span class="lineno">  277</span> </div>
+<div class="line"><a id="l00278" name="l00278"></a><span class="lineno">  278</span>                           <span class="comment">// Create configuration using the new builder pattern</span></div>
+<div class="line"><a id="l00279" name="l00279"></a><span class="lineno">  279</span>                           var configuration = CreateConfiguration(</div>
+<div class="line"><a id="l00280" name="l00280"></a><span class="lineno">  280</span>                               roboClerkConfigFile, </div>
+<div class="line"><a id="l00281" name="l00281"></a><span class="lineno">  281</span>                               projectConfigFile, </div>
+<div class="line"><a id="l00282" name="l00282"></a><span class="lineno">  282</span>                               commandlineOptions, </div>
+<div class="line"><a id="l00283" name="l00283"></a><span class="lineno">  283</span>                               tempServiceProvider, </div>
+<div class="line"><a id="l00284" name="l00284"></a><span class="lineno">  284</span>                               logger);</div>
+<div class="line"><a id="l00285" name="l00285"></a><span class="lineno">  285</span> </div>
+<div class="line"><a id="l00286" name="l00286"></a><span class="lineno">  286</span>                           <span class="comment">// Register the configuration</span></div>
+<div class="line"><a id="l00287" name="l00287"></a><span class="lineno">  287</span>                           serviceCollection.AddSingleton&lt;<a class="code hl_typedef" href="RoboClerkTextCore_8cs.html#aabb8d0da9ec8bd3fe63513ef30085e94">IConfiguration</a>&gt;(configuration);</div>
+<div class="line"><a id="l00288" name="l00288"></a><span class="lineno">  288</span> </div>
+<div class="line"><a id="l00289" name="l00289"></a><span class="lineno">  289</span>                           <span class="comment">// Register all content creators</span></div>
+<div class="line"><a id="l00290" name="l00290"></a><span class="lineno">  290</span>                           RegisterContentCreators(serviceCollection);</div>
+<div class="line"><a id="l00291" name="l00291"></a><span class="lineno">  291</span> </div>
+<div class="line"><a id="l00292" name="l00292"></a><span class="lineno">  292</span>                           <span class="comment">// Register the content creator factory with service provider injection</span></div>
+<div class="line"><a id="l00293" name="l00293"></a><span class="lineno">  293</span>                           serviceCollection.AddSingleton&lt;IContentCreatorFactory&gt;(serviceProvider =&gt;</div>
+<div class="line"><a id="l00294" name="l00294"></a><span class="lineno">  294</span>                               <span class="keyword">new</span> ContentCreatorFactory(serviceProvider, serviceProvider.GetRequiredService&lt;ITraceabilityAnalysis&gt;()));</div>
+<div class="line"><a id="l00295" name="l00295"></a><span class="lineno">  295</span> </div>
+<div class="line"><a id="l00296" name="l00296"></a><span class="lineno">  296</span>                           <span class="keywordflow">if</span> (configuration.CheckpointConfig.CheckpointFile == <span class="keywordtype">string</span>.Empty) <span class="comment">//check if we are not using a checkpoint</span></div>
+<div class="line"><a id="l00297" name="l00297"></a><span class="lineno">  297</span>                           {</div>
+<div class="line"><a id="l00298" name="l00298"></a><span class="lineno">  298</span>                               serviceCollection.AddSingleton&lt;IDataSources, PluginDataSources&gt;();</div>
+<div class="line"><a id="l00299" name="l00299"></a><span class="lineno">  299</span>                           }</div>
+<div class="line"><a id="l00300" name="l00300"></a><span class="lineno">  300</span>                           <span class="keywordflow">else</span></div>
+<div class="line"><a id="l00301" name="l00301"></a><span class="lineno">  301</span>                           {</div>
+<div class="line"><a id="l00302" name="l00302"></a><span class="lineno">  302</span>                               serviceCollection.AddSingleton&lt;IDataSources&gt;(x =&gt; <span class="keyword">new</span> CheckpointDataSources(x.GetRequiredService&lt;<a class="code hl_typedef" href="RoboClerkTextCore_8cs.html#aabb8d0da9ec8bd3fe63513ef30085e94">IConfiguration</a>&gt;(), x.GetRequiredService&lt;IPluginLoader&gt;(), x.GetRequiredService&lt;IFileProviderPlugin&gt;(), configuration.CheckpointConfig.CheckpointFile));</div>
+<div class="line"><a id="l00303" name="l00303"></a><span class="lineno">  303</span>                           }</div>
+<div class="line"><a id="l00304" name="l00304"></a><span class="lineno">  304</span> </div>
+<div class="line"><a id="l00305" name="l00305"></a><span class="lineno">  305</span>                           <span class="comment">// Register AI plugin after service provider is built</span></div>
+<div class="line"><a id="l00306" name="l00306"></a><span class="lineno">  306</span>                           RegisterAIPlugin(serviceCollection, configuration, tempServiceProvider.GetService&lt;IPluginLoader&gt;());</div>
+<div class="line"><a id="l00307" name="l00307"></a><span class="lineno">  307</span> </div>
+<div class="line"><a id="l00308" name="l00308"></a><span class="lineno">  308</span>                           var serviceProvider = serviceCollection.BuildServiceProvider();</div>
+<div class="line"><a id="l00309" name="l00309"></a><span class="lineno">  309</span> </div>
+<div class="line"><a id="l00310" name="l00310"></a><span class="lineno">  310</span>                           <span class="comment">// Set log file destination now that we have configuration and file provider</span></div>
+<div class="line"><a id="l00311" name="l00311"></a><span class="lineno">  311</span>                           roboClerkLogger.SetLogDestination(serviceProvider.GetService&lt;IFileProviderPlugin&gt;(), configuration.OutputDir);</div>
+<div class="line"><a id="l00312" name="l00312"></a><span class="lineno">  312</span> </div>
+<div class="line"><a id="l00313" name="l00313"></a><span class="lineno">  313</span>                           <span class="comment">//clean the output directory before we start working</span></div>
+<div class="line"><a id="l00314" name="l00314"></a><span class="lineno">  314</span>                           <span class="keywordflow">if</span> (configuration.ClearOutputDir)</div>
+<div class="line"><a id="l00315" name="l00315"></a><span class="lineno">  315</span>                           {</div>
+<div class="line"><a id="l00316" name="l00316"></a><span class="lineno">  316</span>                               CleanOutputDirectory(serviceProvider.GetService&lt;IFileProviderPlugin&gt;(),configuration.OutputDir, logger);</div>
+<div class="line"><a id="l00317" name="l00317"></a><span class="lineno">  317</span>                           }</div>
+<div class="line"><a id="l00318" name="l00318"></a><span class="lineno">  318</span> </div>
+<div class="line"><a id="l00319" name="l00319"></a><span class="lineno">  319</span>                           var core = serviceProvider.GetService&lt;IRoboClerkCore&gt;();</div>
+<div class="line"><a id="l00320" name="l00320"></a><span class="lineno">  320</span>                           core.GenerateDocs();</div>
+<div class="line"><a id="l00321" name="l00321"></a><span class="lineno">  321</span>                           core.SaveDocumentsToDisk();</div>
+<div class="line"><a id="l00322" name="l00322"></a><span class="lineno">  322</span>                       }</div>
+<div class="line"><a id="l00323" name="l00323"></a><span class="lineno">  323</span>                       <span class="keywordflow">catch</span> (Exception e)</div>
+<div class="line"><a id="l00324" name="l00324"></a><span class="lineno">  324</span>                       {</div>
+<div class="line"><a id="l00325" name="l00325"></a><span class="lineno">  325</span>                           <span class="keywordflow">if</span> (roboClerkLogger.Configured)</div>
+<div class="line"><a id="l00326" name="l00326"></a><span class="lineno">  326</span>                           {</div>
+<div class="line"><a id="l00327" name="l00327"></a><span class="lineno">  327</span>                               var logger = NLog.LogManager.GetCurrentClassLogger();</div>
+<div class="line"><a id="l00328" name="l00328"></a><span class="lineno">  328</span>                               logger.Error(<span class="stringliteral">&quot;An unhandled exception has occurred. RoboClerk failed to complete:\n\n&quot;</span>);</div>
+<div class="line"><a id="l00329" name="l00329"></a><span class="lineno">  329</span>                               logger.Error(e);</div>
+<div class="line"><a id="l00330" name="l00330"></a><span class="lineno">  330</span>                           }</div>
+<div class="line"><a id="l00331" name="l00331"></a><span class="lineno">  331</span>                           <span class="keywordflow">else</span></div>
+<div class="line"><a id="l00332" name="l00332"></a><span class="lineno">  332</span>                           {</div>
+<div class="line"><a id="l00333" name="l00333"></a><span class="lineno">  333</span>                               Console.WriteLine($<span class="stringliteral">&quot;An unhandled exception has occurred. RoboClerk failed to complete:\n\n{e.Message}&quot;</span>);</div>
+<div class="line"><a id="l00334" name="l00334"></a><span class="lineno">  334</span>                           }</div>
+<div class="line"><a id="l00335" name="l00335"></a><span class="lineno">  335</span>                           <span class="keywordflow">throw</span>;</div>
+<div class="line"><a id="l00336" name="l00336"></a><span class="lineno">  336</span>                       }</div>
+<div class="line"><a id="l00337" name="l00337"></a><span class="lineno">  337</span>                   });</div>
+<div class="line"><a id="l00338" name="l00338"></a><span class="lineno">  338</span>            }</div>
+<div class="line"><a id="l00339" name="l00339"></a><span class="lineno">  339</span>            <span class="keywordflow">catch</span> (Exception e)</div>
+<div class="line"><a id="l00340" name="l00340"></a><span class="lineno">  340</span>            {</div>
+<div class="line"><a id="l00341" name="l00341"></a><span class="lineno">  341</span>                Console.WriteLine($<span class="stringliteral">&quot;An error occurred starting RoboClerk:\n{e.Message}&quot;</span>);</div>
+<div class="line"><a id="l00342" name="l00342"></a><span class="lineno">  342</span>                <span class="keywordflow">return</span> 1;</div>
+<div class="line"><a id="l00343" name="l00343"></a><span class="lineno">  343</span>            }</div>
+<div class="line"><a id="l00344" name="l00344"></a><span class="lineno">  344</span>            <span class="keywordflow">finally</span></div>
+<div class="line"><a id="l00345" name="l00345"></a><span class="lineno">  345</span>            {</div>
+<div class="line"><a id="l00346" name="l00346"></a><span class="lineno">  346</span>                roboClerkLogger.WriteLogToFile();</div>
+<div class="line"><a id="l00347" name="l00347"></a><span class="lineno">  347</span>            }</div>
+<div class="line"><a id="l00348" name="l00348"></a><span class="lineno">  348</span>            <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a id="l00349" name="l00349"></a><span class="lineno">  349</span>        }</div>
+<div class="line"><a id="l00350" name="l00350"></a><span class="lineno">  350</span>    }</div>
+<div class="line"><a id="l00351" name="l00351"></a><span class="lineno">  351</span>}</div>
 <div class="ttc" id="aRoboClerkTextCore_8cs_html_aabb8d0da9ec8bd3fe63513ef30085e94"><div class="ttname"><a href="RoboClerkTextCore_8cs.html#aabb8d0da9ec8bd3fe63513ef30085e94">IConfiguration</a></div><div class="ttdeci">RoboClerk.Core.Configuration.IConfiguration IConfiguration</div><div class="ttdef"><b>Definition:</b> <a href="RoboClerkTextCore_8cs_source.html#l00012">RoboClerkTextCore.cs:12</a></div></div>
 <div class="ttc" id="aclassRoboClerk_1_1Configuration_1_1ConfigurationBuilder_html_a7731f6aea60f694ccb964648433384a2"><div class="ttname"><a href="classRoboClerk_1_1Configuration_1_1ConfigurationBuilder.html#a7731f6aea60f694ccb964648433384a2">RoboClerk.Configuration.ConfigurationBuilder.Build</a></div><div class="ttdeci">Configuration Build()</div><div class="ttdoc">Builds and returns the final Configuration instance.</div><div class="ttdef"><b>Definition:</b> <a href="Configuration_8cs_source.html#l00555">Configuration.cs:555</a></div></div>
 <div class="ttc" id="aclassRoboClerk_1_1Configuration_1_1ConfigurationBuilder_html_a85a44fbc30bcc886fe68d9c9d53c27b6"><div class="ttname"><a href="classRoboClerk_1_1Configuration_1_1ConfigurationBuilder.html#a85a44fbc30bcc886fe68d9c9d53c27b6">RoboClerk.Configuration.ConfigurationBuilder.WithProjectConfig</a></div><div class="ttdeci">ConfigurationBuilder WithProjectConfig(IFileProviderPlugin fileProvider, string projectConfigPath)</div><div class="ttdoc">Loads the project configuration from the specified file provider and path. This should be called afte...</div><div class="ttdef"><b>Definition:</b> <a href="Configuration_8cs_source.html#l00489">Configuration.cs:489</a></div></div>
