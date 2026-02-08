@@ -1,10 +1,10 @@
 var classRoboClerk_1_1Configuration_1_1Configuration =
 [
-    [ "AddOrUpdateCommandLineOption", "classRoboClerk_1_1Configuration_1_1Configuration.html#ace098411e728e308efc90aba27c19245", null ],
+    [ "AddOrUpdateConfigOverride", "classRoboClerk_1_1Configuration_1_1Configuration.html#add36c3b5421b62390aefbdbd0af532c9", null ],
     [ "Clone", "classRoboClerk_1_1Configuration_1_1Configuration.html#a676760a2fcbf362665d2d4a7101987e5", null ],
-    [ "CommandLineOptionOrDefault", "classRoboClerk_1_1Configuration_1_1Configuration.html#af2a07691a7ae69061a20b2df547429e3", null ],
-    [ "GetCommandLineOption", "classRoboClerk_1_1Configuration_1_1Configuration.html#abde4da26dee144f21dc4e3fd32f42d6b", null ],
-    [ "HasCommandLineOption", "classRoboClerk_1_1Configuration_1_1Configuration.html#a8aefb3462a2610c99ec7b53bf473b370", null ],
+    [ "ConfigOverrideOrDefault", "classRoboClerk_1_1Configuration_1_1Configuration.html#a0ec97bf1871aeebd52bf5b0efea521ab", null ],
+    [ "GetConfigOverrideValue", "classRoboClerk_1_1Configuration_1_1Configuration.html#a3a67a4be0b3efc1083f8b6654b701b8a", null ],
+    [ "IsConfigOverridden", "classRoboClerk_1_1Configuration_1_1Configuration.html#a47381cc1de1b52b5ac0ccc1db61517ef", null ],
     [ "AICheckTemplateContents", "classRoboClerk_1_1Configuration_1_1Configuration.html#abb244c4aa67260ff5bda88d9d59a2656", null ],
     [ "AICheckTraceEntities", "classRoboClerk_1_1Configuration_1_1Configuration.html#a5fd9528383734c6452c288f4eb2c4209", null ],
     [ "AIPlugin", "classRoboClerk_1_1Configuration_1_1Configuration.html#af4a21f3bce16bfb58a444829aeb6cc89", null ],

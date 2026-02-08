@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['hascommandlineoption_0',['HasCommandLineOption',['../classRoboClerk_1_1Configuration_1_1Configuration.html#a8aefb3462a2610c99ec7b53bf473b370',1,'RoboClerk::Configuration::Configuration']]]
+  ['initializeplugin_0',['InitializePlugin',['../classRoboClerk_1_1AnnotatedUnitTests_1_1AnnotatedUnitTestPlugin.html#ae3dfbb54f20fb01ddd4a9b7625cc3dfb',1,'RoboClerk.AnnotatedUnitTests.AnnotatedUnitTestPlugin.InitializePlugin()'],['../classRoboClerk_1_1AzureDevOps_1_1AzureDevOpsSLMSPlugin.html#a7c04abe76d22a9cb8f233f46e0f4a189',1,'RoboClerk.AzureDevOps.AzureDevOpsSLMSPlugin.InitializePlugin()'],['../classRoboClerk_1_1DependenciesFile_1_1DependenciesFilePlugin.html#a10fc3117ee35ff755f465e0611115fb1',1,'RoboClerk.DependenciesFile.DependenciesFilePlugin.InitializePlugin()'],['../classRoboClerk_1_1Redmine_1_1RedmineSLMSPlugin.html#aa50b0faaac3a0c6d9443fc116705b481',1,'RoboClerk.Redmine.RedmineSLMSPlugin.InitializePlugin()'],['../classRoboClerk_1_1UnitTestFNPlugin.html#a80e61abfe4e5753244aacc39c59528b9',1,'RoboClerk.UnitTestFNPlugin.InitializePlugin()']]],
+  ['isconfigoverridden_1',['IsConfigOverridden',['../classRoboClerk_1_1Configuration_1_1Configuration.html#a47381cc1de1b52b5ac0ccc1db61517ef',1,'RoboClerk::Configuration::Configuration']]]
 ];

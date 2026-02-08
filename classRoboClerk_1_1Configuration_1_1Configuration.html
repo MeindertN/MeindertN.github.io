@@ -110,14 +110,14 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a676760a2fcbf362665d2d4a7101987e5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classRoboClerk_1_1Configuration_1_1Configuration.html">Configuration</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRoboClerk_1_1Configuration_1_1Configuration.html#a676760a2fcbf362665d2d4a7101987e5">Clone</a> ()</td></tr>
 <tr class="memdesc:a676760a2fcbf362665d2d4a7101987e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a deep clone of this configuration object   <a href="classRoboClerk_1_1Configuration_1_1Configuration.html#a676760a2fcbf362665d2d4a7101987e5">More...</a><br /></td></tr>
 <tr class="separator:a676760a2fcbf362665d2d4a7101987e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abde4da26dee144f21dc4e3fd32f42d6b"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRoboClerk_1_1Configuration_1_1Configuration.html#abde4da26dee144f21dc4e3fd32f42d6b">GetCommandLineOption</a> (string name)</td></tr>
-<tr class="separator:abde4da26dee144f21dc4e3fd32f42d6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8aefb3462a2610c99ec7b53bf473b370"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRoboClerk_1_1Configuration_1_1Configuration.html#a8aefb3462a2610c99ec7b53bf473b370">HasCommandLineOption</a> (string name)</td></tr>
-<tr class="separator:a8aefb3462a2610c99ec7b53bf473b370"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ace098411e728e308efc90aba27c19245"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRoboClerk_1_1Configuration_1_1Configuration.html#ace098411e728e308efc90aba27c19245">AddOrUpdateCommandLineOption</a> (string name, string value)</td></tr>
-<tr class="separator:ace098411e728e308efc90aba27c19245"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af2a07691a7ae69061a20b2df547429e3"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRoboClerk_1_1Configuration_1_1Configuration.html#af2a07691a7ae69061a20b2df547429e3">CommandLineOptionOrDefault</a> (string name, string defaultValue)</td></tr>
-<tr class="separator:af2a07691a7ae69061a20b2df547429e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a67a4be0b3efc1083f8b6654b701b8a"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRoboClerk_1_1Configuration_1_1Configuration.html#a3a67a4be0b3efc1083f8b6654b701b8a">GetConfigOverrideValue</a> (string name)</td></tr>
+<tr class="separator:a3a67a4be0b3efc1083f8b6654b701b8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47381cc1de1b52b5ac0ccc1db61517ef"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRoboClerk_1_1Configuration_1_1Configuration.html#a47381cc1de1b52b5ac0ccc1db61517ef">IsConfigOverridden</a> (string name)</td></tr>
+<tr class="separator:a47381cc1de1b52b5ac0ccc1db61517ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add36c3b5421b62390aefbdbd0af532c9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRoboClerk_1_1Configuration_1_1Configuration.html#add36c3b5421b62390aefbdbd0af532c9">AddOrUpdateConfigOverride</a> (string name, string value)</td></tr>
+<tr class="separator:add36c3b5421b62390aefbdbd0af532c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ec97bf1871aeebd52bf5b0efea521ab"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRoboClerk_1_1Configuration_1_1Configuration.html#a0ec97bf1871aeebd52bf5b0efea521ab">ConfigOverrideOrDefault</a> (string name, string defaultValue)</td></tr>
+<tr class="separator:a0ec97bf1871aeebd52bf5b0efea521ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -174,14 +174,14 @@ Properties</h2></td></tr>
 <div class="textblock">
 <p class="definition">Definition at line <a class="el" href="Configuration_8cs_source.html#l00013">13</a> of file <a class="el" href="Configuration_8cs_source.html">Configuration.cs</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="ace098411e728e308efc90aba27c19245" name="ace098411e728e308efc90aba27c19245"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ace098411e728e308efc90aba27c19245">&#9670;&#160;</a></span>AddOrUpdateCommandLineOption()</h2>
+<a id="add36c3b5421b62390aefbdbd0af532c9" name="add36c3b5421b62390aefbdbd0af532c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add36c3b5421b62390aefbdbd0af532c9">&#9670;&#160;</a></span>AddOrUpdateConfigOverride()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void RoboClerk.Configuration.Configuration.AddOrUpdateCommandLineOption </td>
+          <td class="memname">void RoboClerk.Configuration.Configuration.AddOrUpdateConfigOverride </td>
           <td>(</td>
           <td class="paramtype">string&#160;</td>
           <td class="paramname"><em>name</em>, </td>
@@ -226,14 +226,14 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="af2a07691a7ae69061a20b2df547429e3" name="af2a07691a7ae69061a20b2df547429e3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af2a07691a7ae69061a20b2df547429e3">&#9670;&#160;</a></span>CommandLineOptionOrDefault()</h2>
+<a id="a0ec97bf1871aeebd52bf5b0efea521ab" name="a0ec97bf1871aeebd52bf5b0efea521ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ec97bf1871aeebd52bf5b0efea521ab">&#9670;&#160;</a></span>ConfigOverrideOrDefault()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">string RoboClerk.Configuration.Configuration.CommandLineOptionOrDefault </td>
+          <td class="memname">string RoboClerk.Configuration.Configuration.ConfigOverrideOrDefault </td>
           <td>(</td>
           <td class="paramtype">string&#160;</td>
           <td class="paramname"><em>name</em>, </td>
@@ -286,14 +286,14 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="abde4da26dee144f21dc4e3fd32f42d6b" name="abde4da26dee144f21dc4e3fd32f42d6b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abde4da26dee144f21dc4e3fd32f42d6b">&#9670;&#160;</a></span>GetCommandLineOption()</h2>
+<a id="a3a67a4be0b3efc1083f8b6654b701b8a" name="a3a67a4be0b3efc1083f8b6654b701b8a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a67a4be0b3efc1083f8b6654b701b8a">&#9670;&#160;</a></span>GetConfigOverrideValue()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">string RoboClerk.Configuration.Configuration.GetCommandLineOption </td>
+          <td class="memname">string RoboClerk.Configuration.Configuration.GetConfigOverrideValue </td>
           <td>(</td>
           <td class="paramtype">string&#160;</td>
           <td class="paramname"><em>name</em></td><td>)</td>
@@ -306,14 +306,14 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="a8aefb3462a2610c99ec7b53bf473b370" name="a8aefb3462a2610c99ec7b53bf473b370"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8aefb3462a2610c99ec7b53bf473b370">&#9670;&#160;</a></span>HasCommandLineOption()</h2>
+<a id="a47381cc1de1b52b5ac0ccc1db61517ef" name="a47381cc1de1b52b5ac0ccc1db61517ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47381cc1de1b52b5ac0ccc1db61517ef">&#9670;&#160;</a></span>IsConfigOverridden()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool RoboClerk.Configuration.Configuration.HasCommandLineOption </td>
+          <td class="memname">bool RoboClerk.Configuration.Configuration.IsConfigOverridden </td>
           <td>(</td>
           <td class="paramtype">string&#160;</td>
           <td class="paramname"><em>name</em></td><td>)</td>

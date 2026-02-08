@@ -1,7 +1,7 @@
 var searchData=
 [
   ['clone_0',['Clone',['../classRoboClerk_1_1Configuration_1_1Configuration.html#a676760a2fcbf362665d2d4a7101987e5',1,'RoboClerk::Configuration::Configuration']]],
-  ['commandlineoptionordefault_1',['CommandLineOptionOrDefault',['../classRoboClerk_1_1Configuration_1_1Configuration.html#af2a07691a7ae69061a20b2df547429e3',1,'RoboClerk::Configuration::Configuration']]],
+  ['configoverrideordefault_1',['ConfigOverrideOrDefault',['../classRoboClerk_1_1Configuration_1_1Configuration.html#a0ec97bf1871aeebd52bf5b0efea521ab',1,'RoboClerk::Configuration::Configuration']]],
   ['configureservices_2',['ConfigureServices',['../classRoboClerk_1_1Redmine_1_1RedmineSLMSPlugin.html#af305678dde2df811b1beaff256bd035c',1,'RoboClerk::Redmine::RedmineSLMSPlugin']]],
   ['convert_3',['Convert',['../classRoboClerk_1_1Redmine_1_1TextileConverterBase.html#ade6bb1e96c19a61e7a099518edbd4f8a',1,'RoboClerk::Redmine::TextileConverterBase']]],
   ['converttextile_4',['ConvertTextile',['../classRoboClerk_1_1Redmine_1_1TextileConverterBase.html#a8fc69fa01cf375ca4d003c6cd83d8fdc',1,'RoboClerk.Redmine.TextileConverterBase.ConvertTextile()'],['../classRoboClerk_1_1Redmine_1_1TextileToAsciiDocConverter.html#ad0d635b3afec11fd3600ebf022ccb2e4',1,'RoboClerk.Redmine.TextileToAsciiDocConverter.ConvertTextile()'],['../classRoboClerk_1_1Redmine_1_1TextileToHTMLConverter.html#a8ca1afa67421d3bf9b47e56f9d6bff85',1,'RoboClerk.Redmine.TextileToHTMLConverter.ConvertTextile()']]],

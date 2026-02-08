@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['addorupdatecommandlineoption_0',['AddOrUpdateCommandLineOption',['../classRoboClerk_1_1Configuration_1_1Configuration.html#ace098411e728e308efc90aba27c19245',1,'RoboClerk::Configuration::Configuration']]],
+  ['addorupdateconfigoverride_0',['AddOrUpdateConfigOverride',['../classRoboClerk_1_1Configuration_1_1Configuration.html#add36c3b5421b62390aefbdbd0af532c9',1,'RoboClerk::Configuration::Configuration']]],
   ['aichecktemplatecontents_1',['AICheckTemplateContents',['../classRoboClerk_1_1Configuration_1_1Configuration.html#abb244c4aa67260ff5bda88d9d59a2656',1,'RoboClerk::Configuration::Configuration']]],
   ['aichecktraceentities_2',['AICheckTraceEntities',['../classRoboClerk_1_1Configuration_1_1Configuration.html#a5fd9528383734c6452c288f4eb2c4209',1,'RoboClerk::Configuration::Configuration']]],
   ['aiplugin_3',['AIPlugin',['../classRoboClerk_1_1Configuration_1_1Configuration.html#af4a21f3bce16bfb58a444829aeb6cc89',1,'RoboClerk::Configuration::Configuration']]],

@@ -7,12 +7,13 @@ var searchData=
   ['initializeplugin_4',['InitializePlugin',['../classRoboClerk_1_1AzureDevOps_1_1AzureDevOpsSLMSPlugin.html#a7c04abe76d22a9cb8f233f46e0f4a189',1,'RoboClerk.AzureDevOps.AzureDevOpsSLMSPlugin.InitializePlugin()'],['../classRoboClerk_1_1UnitTestFNPlugin.html#a80e61abfe4e5753244aacc39c59528b9',1,'RoboClerk.UnitTestFNPlugin.InitializePlugin()'],['../classRoboClerk_1_1Redmine_1_1RedmineSLMSPlugin.html#aa50b0faaac3a0c6d9443fc116705b481',1,'RoboClerk.Redmine.RedmineSLMSPlugin.InitializePlugin()'],['../classRoboClerk_1_1DependenciesFile_1_1DependenciesFilePlugin.html#a10fc3117ee35ff755f465e0611115fb1',1,'RoboClerk.DependenciesFile.DependenciesFilePlugin.InitializePlugin()'],['../classRoboClerk_1_1AnnotatedUnitTests_1_1AnnotatedUnitTestPlugin.html#ae3dfbb54f20fb01ddd4a9b7625cc3dfb',1,'RoboClerk.AnnotatedUnitTests.AnnotatedUnitTestPlugin.InitializePlugin()']]],
   ['iredmineclient_5',['IRedmineClient',['../interfaceRoboClerk_1_1Redmine_1_1IRedmineClient.html',1,'RoboClerk::Redmine']]],
   ['iroboclerkcore_2ecs_6',['IRoboClerkCore.cs',['../IRoboClerkCore_8cs.html',1,'']]],
-  ['isfilter_7',['IsFilter',['../classRoboClerk_1_1Redmine_1_1CustomRedmineField.html#a365953d87524061fbff352f54889cd2b',1,'RoboClerk::Redmine::CustomRedmineField']]],
-  ['isprivate_8',['IsPrivate',['../classRoboClerk_1_1Redmine_1_1RedmineIssue.html#ab2d700ae64e99a3edfd54de6b262f315',1,'RoboClerk::Redmine::RedmineIssue']]],
-  ['ispublic_9',['IsPublic',['../classRoboClerk_1_1Redmine_1_1RedmineProject.html#ae3baff3dc678e874eebb7df844e91d17',1,'RoboClerk::Redmine::RedmineProject']]],
-  ['isrequired_10',['IsRequired',['../classRoboClerk_1_1Redmine_1_1CustomRedmineField.html#a0f034fd213cf55a0ee2193c975657e0e',1,'RoboClerk::Redmine::CustomRedmineField']]],
-  ['issueid_11',['IssueId',['../classRoboClerk_1_1Redmine_1_1Relation.html#abaf6e91f2e0794288c04509e7710eeed',1,'RoboClerk::Redmine::Relation']]],
-  ['issues_12',['Issues',['../classRoboClerk_1_1Redmine_1_1RedmineIssues.html#a9294a4c1bd2ce9f4c2236d85b6b00b83',1,'RoboClerk::Redmine::RedmineIssues']]],
-  ['issuetoid_13',['IssueToId',['../classRoboClerk_1_1Redmine_1_1Relation.html#a203c818e6792a50bb606482421b95c0a',1,'RoboClerk::Redmine::Relation']]],
-  ['itextileconverter_2ecs_14',['ITextileConverter.cs',['../ITextileConverter_8cs.html',1,'']]]
+  ['isconfigoverridden_7',['IsConfigOverridden',['../classRoboClerk_1_1Configuration_1_1Configuration.html#a47381cc1de1b52b5ac0ccc1db61517ef',1,'RoboClerk::Configuration::Configuration']]],
+  ['isfilter_8',['IsFilter',['../classRoboClerk_1_1Redmine_1_1CustomRedmineField.html#a365953d87524061fbff352f54889cd2b',1,'RoboClerk::Redmine::CustomRedmineField']]],
+  ['isprivate_9',['IsPrivate',['../classRoboClerk_1_1Redmine_1_1RedmineIssue.html#ab2d700ae64e99a3edfd54de6b262f315',1,'RoboClerk::Redmine::RedmineIssue']]],
+  ['ispublic_10',['IsPublic',['../classRoboClerk_1_1Redmine_1_1RedmineProject.html#ae3baff3dc678e874eebb7df844e91d17',1,'RoboClerk::Redmine::RedmineProject']]],
+  ['isrequired_11',['IsRequired',['../classRoboClerk_1_1Redmine_1_1CustomRedmineField.html#a0f034fd213cf55a0ee2193c975657e0e',1,'RoboClerk::Redmine::CustomRedmineField']]],
+  ['issueid_12',['IssueId',['../classRoboClerk_1_1Redmine_1_1Relation.html#abaf6e91f2e0794288c04509e7710eeed',1,'RoboClerk::Redmine::Relation']]],
+  ['issues_13',['Issues',['../classRoboClerk_1_1Redmine_1_1RedmineIssues.html#a9294a4c1bd2ce9f4c2236d85b6b00b83',1,'RoboClerk::Redmine::RedmineIssues']]],
+  ['issuetoid_14',['IssueToId',['../classRoboClerk_1_1Redmine_1_1Relation.html#a203c818e6792a50bb606482421b95c0a',1,'RoboClerk::Redmine::Relation']]],
+  ['itextileconverter_2ecs_15',['ITextileConverter.cs',['../ITextileConverter_8cs.html',1,'']]]
 ];
